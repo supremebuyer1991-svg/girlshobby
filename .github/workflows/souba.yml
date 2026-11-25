@@ -1,0 +1,37 @@
+name: mercari-souba
+on:
+  schedule:
+    - cron: "17 20 * * *"   # 毎日 朝5:17（日本時間）に1回
+  workflow_dispatch: {}       # Actionsタブの「Run workflow」で手動実行もできる
+permissions:
+  contents: write
+jobs:
+  souba:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright==1.48.0 && python -m playwright install --with-deps chromium
+      - run: python bot/bandai_images.py
+      - run: python bot/seal_watch.py
+      - run: python bot/catalog.py
+        env:
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+          SITE_URL: ${{ vars.SITE_URL }}
+      - run: python bot/seal_images.py
+        env:
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+          SITE_URL: ${{ vars.SITE_URL }}
+      - run: python bot/mercari_souba.py
+      - name: 結果を保存
+        run: |
+          git config user.name "souba-bot"
+          git config user.email "souba-bot@users.noreply.github.com"
+          git add site/souba.json site/img site/catalog.json site/seal_news.json
+          git diff --cached --quiet || git commit -m "相場と商品画像を更新"
+          git push

@@ -1,0 +1,30 @@
+{
+ "_note": "シール（ボンドロなど）の抽選・新作・再販を集める監視先。競合サイト（ボンボンナビ・ボンドロニュース）が出典にしている公式先を2026-11-25に調べてまとめたもの。url が空のものは公式URLを確認してから埋める。一般の人の店舗目撃ポストは拾わない。",
+ "x_accounts": [
+  {"id": "bonbon_drop", "name": "ボンボンドロップシール公式（クーリア）", "why": "新作・再販・抽選の一次発表。最優先", "priority": 1},
+  {"id": "LOFT_NETSTORE", "name": "ロフトネットストア公式", "why": "ネット抽選の告知", "priority": 1},
+  {"id": "GOTOCHIKITTY_", "name": "ご当地キティ公式", "why": "ご当地限定ボンドロの発表", "priority": 2}
+ ],
+ "official_pages": [
+  {"name": "クーリア公式ストア", "url": "https://qlia.store/", "why": "公式通販・公式抽選（例：まじかるちいかわ4種セット）", "priority": 1},
+  {"name": "ロフトネットストア 抽選ページ", "url": "https://www.loft.co.jp/store/r/rlo000011/", "why": "ロフトの抽選一覧", "priority": 1},
+  {"name": "おさわり探偵 なめこ栽培キット公式ニュース", "url": "https://namepara.com/info/news/", "why": "コラボ新作の公式発表", "priority": 3},
+  {"name": "キデイランド", "url": "", "why": "店舗ごとの抽選（例：浦和美園店）", "priority": 1},
+  {"name": "パーティリコ", "url": "", "why": "抽選・販売の告知", "priority": 2},
+  {"name": "D'or 原宿竹下通り店", "url": "", "why": "店頭抽選の告知", "priority": 3},
+  {"name": "JRA（競馬場イベント）", "url": "", "why": "競馬場限定ボンドロのアプリ抽選", "priority": 3}
+ ],
+ "instagram": [
+  {"id": "fukuyama_sa_kudari", "name": "福山SA（下り）", "why": "広島限定ボンドロの販売案内", "priority": 3},
+  {"_note": "Instagramは自動で読むのが難しいので、最初は手動チェックか対象外"}
+ ],
+ "lottery_platforms": [
+  {"name": "LivePocket", "why": "店舗抽選の応募先として使われる。トレカ抽選ナビのボットにLIVE Pocketの仕組みがあるので流用できる", "priority": 1}
+ ],
+ "shopping_apis": [
+  {"name": "楽天市場 商品検索API", "why": "ボンドロニュースは楽天の約70店舗の新着出品を一覧にしている。トレカ抽選ナビと同じ楽天APIキーで、新着・再入荷の検知とアフィリンクが同時にできる", "keywords": ["ボンボンドロップシール", "ボンドロ たまごっち", "ボンドロ サンリオ"], "priority": 1}
+ ],
+ "news": [
+  {"name": "Googleニュース", "keywords": ["ボンボンドロップシール 抽選", "ボンボンドロップシール 再販", "ボンボンドロップシール 発売"], "priority": 2}
+ ]
+}

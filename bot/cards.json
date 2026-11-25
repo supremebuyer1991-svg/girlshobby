@@ -1,0 +1,919 @@
+[
+ {
+  "id": "TNGC03-02",
+  "set": "tama-gotchi3",
+  "name": "ちゃまめっち夏のハッピースタイル",
+  "q": "TNGC03-02",
+  "must": [
+   "TNGC03-02"
+  ]
+ },
+ {
+  "id": "TNGC03-03",
+  "set": "tama-gotchi3",
+  "name": "めめっち夏のハッピースタイル",
+  "q": "TNGC03-03",
+  "must": [
+   "TNGC03-03"
+  ]
+ },
+ {
+  "id": "TNGC03-05",
+  "set": "tama-gotchi3",
+  "name": "ゆにまるっち夏のハッピースタイル",
+  "q": "TNGC03-05",
+  "must": [
+   "TNGC03-05"
+  ]
+ },
+ {
+  "id": "TNGC03-06",
+  "set": "tama-gotchi3",
+  "name": "おやじっちスペーススタイル",
+  "q": "TNGC03-06",
+  "must": [
+   "TNGC03-06"
+  ]
+ },
+ {
+  "id": "TNGC03-08",
+  "set": "tama-gotchi3",
+  "name": "ゆめみっちスペーススタイル",
+  "q": "TNGC03-08",
+  "must": [
+   "TNGC03-08"
+  ]
+ },
+ {
+  "id": "TNGC03-09",
+  "set": "tama-gotchi3",
+  "name": "くるるっち・みらいっちスペーススタイル",
+  "q": "TNGC03-09",
+  "must": [
+   "TNGC03-09"
+  ]
+ },
+ {
+  "id": "TNGC03-10",
+  "set": "tama-gotchi3",
+  "name": "いちごっちスペーススタイル",
+  "q": "TNGC03-10",
+  "must": [
+   "TNGC03-10"
+  ]
+ },
+ {
+  "id": "TNGC03-12",
+  "set": "tama-gotchi3",
+  "name": "ぎんじろっちおさんぽ中",
+  "q": "TNGC03-12",
+  "must": [
+   "TNGC03-12"
+  ]
+ },
+ {
+  "id": "TNGC03-13",
+  "set": "tama-gotchi3",
+  "name": "ぱろろっちおさんぽ中",
+  "q": "TNGC03-13",
+  "must": [
+   "TNGC03-13"
+  ]
+ },
+ {
+  "id": "TNGC03-14",
+  "set": "tama-gotchi3",
+  "name": "ぽいずっちおさんぽ中",
+  "q": "TNGC03-14",
+  "must": [
+   "TNGC03-14"
+  ]
+ },
+ {
+  "id": "TNGC03-16",
+  "set": "tama-gotchi3",
+  "name": "まめっち夏のよそおい",
+  "q": "TNGC03-16",
+  "must": [
+   "TNGC03-16"
+  ]
+ },
+ {
+  "id": "TNGC03-17",
+  "set": "tama-gotchi3",
+  "name": "めめっち夏のよそおい",
+  "q": "TNGC03-17",
+  "must": [
+   "TNGC03-17"
+  ]
+ },
+ {
+  "id": "TNGC03-18",
+  "set": "tama-gotchi3",
+  "name": "クチパッチ夏のよそおい",
+  "q": "TNGC03-18",
+  "must": [
+   "TNGC03-18"
+  ]
+ },
+ {
+  "id": "TNGC03-19",
+  "set": "tama-gotchi3",
+  "name": "ふらわっち夏のよそおい",
+  "q": "TNGC03-19",
+  "must": [
+   "TNGC03-19"
+  ]
+ },
+ {
+  "id": "TNGC03-20",
+  "set": "tama-gotchi3",
+  "name": "やったっち夏のよそおい",
+  "q": "TNGC03-20",
+  "must": [
+   "TNGC03-20"
+  ]
+ },
+ {
+  "id": "TNGC03-21",
+  "set": "tama-gotchi3",
+  "name": "いちごっち夏のよそおい",
+  "q": "TNGC03-21",
+  "must": [
+   "TNGC03-21"
+  ]
+ },
+ {
+  "id": "TNGC03-22",
+  "set": "tama-gotchi3",
+  "name": "やんぐみみっち夏のよそおい",
+  "q": "TNGC03-22",
+  "must": [
+   "TNGC03-22"
+  ]
+ },
+ {
+  "id": "TNGC03-23",
+  "set": "tama-gotchi3",
+  "name": "いもっち夏のよそおい",
+  "q": "TNGC03-23",
+  "must": [
+   "TNGC03-23"
+  ]
+ },
+ {
+  "id": "TNGC03-24",
+  "set": "tama-gotchi3",
+  "name": "おじっち夏のよそおい",
+  "q": "TNGC03-24",
+  "must": [
+   "TNGC03-24"
+  ]
+ },
+ {
+  "id": "TNGC03-25",
+  "set": "tama-gotchi3",
+  "name": "おトキっち夏のよそおい",
+  "q": "TNGC03-25",
+  "must": [
+   "TNGC03-25"
+  ]
+ },
+ {
+  "id": "TNGC03-26",
+  "set": "tama-gotchi3",
+  "name": "コフレっち夏のよそおい",
+  "q": "TNGC03-26",
+  "must": [
+   "TNGC03-26"
+  ]
+ },
+ {
+  "id": "TNGC03-27",
+  "set": "tama-gotchi3",
+  "name": "ピアニっち夏のよそおい",
+  "q": "TNGC03-27",
+  "must": [
+   "TNGC03-27"
+  ]
+ },
+ {
+  "id": "TNGC03-28",
+  "set": "tama-gotchi3",
+  "name": "もりりっち夏のよそおい",
+  "q": "TNGC03-28",
+  "must": [
+   "TNGC03-28"
+  ]
+ },
+ {
+  "id": "TNGC03-29",
+  "set": "tama-gotchi3",
+  "name": "シャイクっち夏のよそおい",
+  "q": "TNGC03-29",
+  "must": [
+   "TNGC03-29"
+  ]
+ },
+ {
+  "id": "TNGC03-30",
+  "set": "tama-gotchi3",
+  "name": "くろまめっち夏のよそおい",
+  "q": "TNGC03-30",
+  "must": [
+   "TNGC03-30"
+  ]
+ },
+ {
+  "id": "TNGC03-31",
+  "set": "tama-gotchi3",
+  "name": "めめっちスペーススタイル",
+  "q": "TNGC03-31",
+  "must": [
+   "TNGC03-31"
+  ]
+ },
+ {
+  "id": "TNGC03-32",
+  "set": "tama-gotchi3",
+  "name": "まきこスペーススタイル",
+  "q": "TNGC03-32",
+  "must": [
+   "TNGC03-32"
+  ]
+ },
+ {
+  "id": "TNGC03-33",
+  "set": "tama-gotchi3",
+  "name": "ぴゅえるっちスペーススタイル",
+  "q": "TNGC03-33",
+  "must": [
+   "TNGC03-33"
+  ]
+ },
+ {
+  "id": "TNGC03-34",
+  "set": "tama-gotchi3",
+  "name": "ビッグスマイルスペーススタイル",
+  "q": "TNGC03-34",
+  "must": [
+   "TNGC03-34"
+  ]
+ },
+ {
+  "id": "TNGC03-35",
+  "set": "tama-gotchi3",
+  "name": "あほろぱっちスペーススタイル",
+  "q": "TNGC03-35",
+  "must": [
+   "TNGC03-35"
+  ]
+ },
+ {
+  "id": "TNGC03-36",
+  "set": "tama-gotchi3",
+  "name": "シロいるかっちを発見",
+  "q": "TNGC03-36",
+  "must": [
+   "TNGC03-36"
+  ]
+ },
+ {
+  "id": "TNGC03-37",
+  "set": "tama-gotchi3",
+  "name": "ネリネっちおさんぽ中",
+  "q": "TNGC03-37",
+  "must": [
+   "TNGC03-37"
+  ]
+ },
+ {
+  "id": "TNGC03-38",
+  "set": "tama-gotchi3",
+  "name": "ほっぺんっちおさんぽ中",
+  "q": "TNGC03-38",
+  "must": [
+   "TNGC03-38"
+  ]
+ },
+ {
+  "id": "TNGC03-39",
+  "set": "tama-gotchi3",
+  "name": "なんごくみゃおっちを発見",
+  "q": "TNGC03-39",
+  "must": [
+   "TNGC03-39"
+  ]
+ },
+ {
+  "id": "TNGC03-40",
+  "set": "tama-gotchi3",
+  "name": "なまけもっちおさんぽ中",
+  "q": "TNGC03-40",
+  "must": [
+   "TNGC03-40"
+  ]
+ },
+ {
+  "id": "TNGC03-41",
+  "set": "tama-gotchi3",
+  "name": "とうもろこし",
+  "q": "TNGC03-41",
+  "must": [
+   "TNGC03-41"
+  ]
+ },
+ {
+  "id": "TNGC03-42",
+  "set": "tama-gotchi3",
+  "name": "かきごおり",
+  "q": "TNGC03-42",
+  "must": [
+   "TNGC03-42"
+  ]
+ },
+ {
+  "id": "TNGC03-43",
+  "set": "tama-gotchi3",
+  "name": "ソフトクリーム",
+  "q": "TNGC03-43",
+  "must": [
+   "TNGC03-43"
+  ]
+ },
+ {
+  "id": "TNGC03-44",
+  "set": "tama-gotchi3",
+  "name": "スイカ",
+  "q": "TNGC03-44",
+  "must": [
+   "TNGC03-44"
+  ]
+ },
+ {
+  "id": "TNGC03-45",
+  "set": "tama-gotchi3",
+  "name": "スイ冠",
+  "q": "TNGC03-45",
+  "must": [
+   "TNGC03-45"
+  ]
+ },
+ {
+  "id": "TNGC02-02",
+  "set": "tama-gotchi2",
+  "name": "みみっち春のハッピースタイル",
+  "q": "TNGC02-02",
+  "must": [
+   "TNGC02-02"
+  ]
+ },
+ {
+  "id": "TNGC02-04",
+  "set": "tama-gotchi2",
+  "name": "いちごっち春のハッピースタイル",
+  "q": "TNGC02-04",
+  "must": [
+   "TNGC02-04"
+  ]
+ },
+ {
+  "id": "TNGC02-05",
+  "set": "tama-gotchi2",
+  "name": "ちょーちょっち春のハッピースタイル",
+  "q": "TNGC02-05",
+  "must": [
+   "TNGC02-05"
+  ]
+ },
+ {
+  "id": "TNGC02-06",
+  "set": "tama-gotchi2",
+  "name": "くちぱっちスペーススタイル",
+  "q": "TNGC02-06",
+  "must": [
+   "TNGC02-06"
+  ]
+ },
+ {
+  "id": "TNGC02-07",
+  "set": "tama-gotchi2",
+  "name": "くりてんスペーススタイル",
+  "q": "TNGC02-07",
+  "must": [
+   "TNGC02-07"
+  ]
+ },
+ {
+  "id": "TNGC02-08",
+  "set": "tama-gotchi2",
+  "name": "ちゃまめっちスペーススタイル",
+  "q": "TNGC02-08",
+  "must": [
+   "TNGC02-08"
+  ]
+ },
+ {
+  "id": "TNGC02-11",
+  "set": "tama-gotchi2",
+  "name": "くろまめっちスペーススタイル",
+  "q": "TNGC02-11",
+  "must": [
+   "TNGC02-11"
+  ]
+ },
+ {
+  "id": "TNGC02-12",
+  "set": "tama-gotchi2",
+  "name": "りくのフィールド探検!",
+  "q": "TNGC02-12",
+  "must": [
+   "TNGC02-12"
+  ]
+ },
+ {
+  "id": "TNGC02-13",
+  "set": "tama-gotchi2",
+  "name": "みずのフィールド探検!",
+  "q": "TNGC02-13",
+  "must": [
+   "TNGC02-13"
+  ]
+ },
+ {
+  "id": "TNGC02-14",
+  "set": "tama-gotchi2",
+  "name": "そらのフィールド探検!",
+  "q": "TNGC02-14",
+  "must": [
+   "TNGC02-14"
+  ]
+ },
+ {
+  "id": "TNGC02-15",
+  "set": "tama-gotchi2",
+  "name": "もりのフィールド探検!",
+  "q": "TNGC02-15",
+  "must": [
+   "TNGC02-15"
+  ]
+ },
+ {
+  "id": "TNGC02-16",
+  "set": "tama-gotchi2",
+  "name": "まめっち春のよそおい",
+  "q": "TNGC02-16",
+  "must": [
+   "TNGC02-16"
+  ]
+ },
+ {
+  "id": "TNGC02-17",
+  "set": "tama-gotchi2",
+  "name": "めめっち春のよそおい",
+  "q": "TNGC02-17",
+  "must": [
+   "TNGC02-17"
+  ]
+ },
+ {
+  "id": "TNGC02-18",
+  "set": "tama-gotchi2",
+  "name": "くちぱっち春のよそおい",
+  "q": "TNGC02-18",
+  "must": [
+   "TNGC02-18"
+  ]
+ },
+ {
+  "id": "TNGC02-19",
+  "set": "tama-gotchi2",
+  "name": "ふらわっち春のよそおい",
+  "q": "TNGC02-19",
+  "must": [
+   "TNGC02-19"
+  ]
+ },
+ {
+  "id": "TNGC02-20",
+  "set": "tama-gotchi2",
+  "name": "しましまっち春のよそおい",
+  "q": "TNGC02-20",
+  "must": [
+   "TNGC02-20"
+  ]
+ },
+ {
+  "id": "TNGC02-21",
+  "set": "tama-gotchi2",
+  "name": "わしきっち春のよそおい",
+  "q": "TNGC02-21",
+  "must": [
+   "TNGC02-21"
+  ]
+ },
+ {
+  "id": "TNGC02-22",
+  "set": "tama-gotchi2",
+  "name": "たらこっち春のよそおい",
+  "q": "TNGC02-22",
+  "must": [
+   "TNGC02-22"
+  ]
+ },
+ {
+  "id": "TNGC02-23",
+  "set": "tama-gotchi2",
+  "name": "ゆめみっち春のよそおい",
+  "q": "TNGC02-23",
+  "must": [
+   "TNGC02-23"
+  ]
+ },
+ {
+  "id": "TNGC02-24",
+  "set": "tama-gotchi2",
+  "name": "キラリっち春のよそおい",
+  "q": "TNGC02-24",
+  "must": [
+   "TNGC02-24"
+  ]
+ },
+ {
+  "id": "TNGC02-25",
+  "set": "tama-gotchi2",
+  "name": "キラもっち春のよそおい",
+  "q": "TNGC02-25",
+  "must": [
+   "TNGC02-25"
+  ]
+ },
+ {
+  "id": "TNGC02-26",
+  "set": "tama-gotchi2",
+  "name": "ぎんじろっちスペーススタイル",
+  "q": "TNGC02-26",
+  "must": [
+   "TNGC02-26"
+  ]
+ },
+ {
+  "id": "TNGC02-27",
+  "set": "tama-gotchi2",
+  "name": "ござるっちスペーススタイル",
+  "q": "TNGC02-27",
+  "must": [
+   "TNGC02-27"
+  ]
+ },
+ {
+  "id": "TNGC02-28",
+  "set": "tama-gotchi2",
+  "name": "ききっちスペーススタイル",
+  "q": "TNGC02-28",
+  "must": [
+   "TNGC02-28"
+  ]
+ },
+ {
+  "id": "TNGC02-29",
+  "set": "tama-gotchi2",
+  "name": "スペイシーっちスペーススタイル",
+  "q": "TNGC02-29",
+  "must": [
+   "TNGC02-29"
+  ]
+ },
+ {
+  "id": "TNGC02-30",
+  "set": "tama-gotchi2",
+  "name": "うーぱっちスペーススタイル",
+  "q": "TNGC02-30",
+  "must": [
+   "TNGC02-30"
+  ]
+ },
+ {
+  "id": "TNGC02-31",
+  "set": "tama-gotchi2",
+  "name": "まめっちカフェスタイル",
+  "q": "TNGC02-31",
+  "must": [
+   "TNGC02-31"
+  ]
+ },
+ {
+  "id": "TNGC02-32",
+  "set": "tama-gotchi2",
+  "name": "みみっちカフェスタイル",
+  "q": "TNGC02-32",
+  "must": [
+   "TNGC02-32"
+  ]
+ },
+ {
+  "id": "TNGC02-33",
+  "set": "tama-gotchi2",
+  "name": "ポチっちカフェスタイル",
+  "q": "TNGC02-33",
+  "must": [
+   "TNGC02-33"
+  ]
+ },
+ {
+  "id": "TNGC02-34",
+  "set": "tama-gotchi2",
+  "name": "まきこカフェスタイル",
+  "q": "TNGC02-34",
+  "must": [
+   "TNGC02-34"
+  ]
+ },
+ {
+  "id": "TNGC02-35",
+  "set": "tama-gotchi2",
+  "name": "パティっちカフェスタイル",
+  "q": "TNGC02-35",
+  "must": [
+   "TNGC02-35"
+  ]
+ },
+ {
+  "id": "TNGC02-36",
+  "set": "tama-gotchi2",
+  "name": "わたわたっちカフェスタイル",
+  "q": "TNGC02-36",
+  "must": [
+   "TNGC02-36"
+  ]
+ },
+ {
+  "id": "TNGC02-37",
+  "set": "tama-gotchi2",
+  "name": "たすたすっちを発見",
+  "q": "TNGC02-37",
+  "must": [
+   "TNGC02-37"
+  ]
+ },
+ {
+  "id": "TNGC02-38",
+  "set": "tama-gotchi2",
+  "name": "めんだこっちを発見",
+  "q": "TNGC02-38",
+  "must": [
+   "TNGC02-38"
+  ]
+ },
+ {
+  "id": "TNGC02-39",
+  "set": "tama-gotchi2",
+  "name": "もんがっちを発見",
+  "q": "TNGC02-39",
+  "must": [
+   "TNGC02-39"
+  ]
+ },
+ {
+  "id": "TNGC02-40",
+  "set": "tama-gotchi2",
+  "name": "もりのほーほっちを発見",
+  "q": "TNGC02-40",
+  "must": [
+   "TNGC02-40"
+  ]
+ },
+ {
+  "id": "TNGC02-41",
+  "set": "tama-gotchi2",
+  "name": "せびれっちを発見",
+  "q": "TNGC02-41",
+  "must": [
+   "TNGC02-41"
+  ]
+ },
+ {
+  "id": "TNGC02-42",
+  "set": "tama-gotchi2",
+  "name": "もくもくファンタジー",
+  "q": "TNGC02-42",
+  "must": [
+   "TNGC02-42"
+  ]
+ },
+ {
+  "id": "TNGC02-43",
+  "set": "tama-gotchi2",
+  "name": "あじさい日和",
+  "q": "TNGC02-43",
+  "must": [
+   "TNGC02-43"
+  ]
+ },
+ {
+  "id": "TNGC02-44",
+  "set": "tama-gotchi2",
+  "name": "こいっちのぼり",
+  "q": "TNGC02-44",
+  "must": [
+   "TNGC02-44"
+  ]
+ },
+ {
+  "id": "TNGC02-45",
+  "set": "tama-gotchi2",
+  "name": "エンたま赤ちゃん応援団",
+  "q": "TNGC02-45",
+  "must": [
+   "TNGC02-45"
+  ]
+ },
+ {
+  "id": "TNGC01-17",
+  "set": "tama-gotchi1",
+  "name": "みみっちじゅんび体操",
+  "q": "TNGC01-17",
+  "must": [
+   "TNGC01-17"
+  ]
+ },
+ {
+  "id": "TNGC01-21",
+  "set": "tama-gotchi1",
+  "name": "みるくっちじゅんび体操",
+  "q": "TNGC01-21",
+  "must": [
+   "TNGC01-21"
+  ]
+ },
+ {
+  "id": "pre-wafer13-No.25",
+  "set": "pre-wafer13",
+  "name": "No.25 キュアミスティック HR",
+  "q": "プリキュアカードウエハース13 No.25 キュアミスティック",
+  "must": [
+   "13",
+   "ミスティック"
+  ]
+ },
+ {
+  "id": "pre-wafer12-No.23",
+  "set": "pre-wafer12",
+  "name": "No.23 キュアキュンキュン HR",
+  "q": "プリキュアカードウエハース12 No.23 キュアキュンキュン",
+  "must": [
+   "12",
+   "キュンキュン"
+  ]
+ },
+ {
+  "id": "pre-wafer12-No.21",
+  "set": "pre-wafer12",
+  "name": "No.21 キュアアイドル HR",
+  "q": "プリキュアカードウエハース12 No.21 キュアアイドル",
+  "must": [
+   "12",
+   "アイドル"
+  ]
+ },
+ {
+  "id": "pre-wafer12-No.22",
+  "set": "pre-wafer12",
+  "name": "No.22 キュアウインク HR",
+  "q": "プリキュアカードウエハース12 No.22 キュアウインク",
+  "must": [
+   "12",
+   "ウインク"
+  ]
+ },
+ {
+  "id": "pre-wafer12-No.24",
+  "set": "pre-wafer12",
+  "name": "No.24 シャイニールミナス HR",
+  "q": "プリキュアカードウエハース12 No.24 シャイニールミナス",
+  "must": [
+   "12",
+   "シャイニールミナス"
+  ]
+ },
+ {
+  "id": "pre-wafer12-No.27",
+  "set": "pre-wafer12",
+  "name": "No.27 キュアホイップ HR",
+  "q": "プリキュアカードウエハース12 No.27 キュアホイップ",
+  "must": [
+   "12",
+   "ホイップ"
+  ]
+ },
+ {
+  "id": "pre-wafer12-No.18",
+  "set": "pre-wafer12",
+  "name": "No.18 Futari wa Precure Max Heart SSR",
+  "q": "プリキュアカードウエハース12 No.18 Futari",
+  "must": [
+   "12",
+   "Futari wa Precure Max Heart"
+  ]
+ },
+ {
+  "id": "pre-wafer12-No.09",
+  "set": "pre-wafer12",
+  "name": "No.09 シャイニールミナス/九条ひかり N",
+  "q": "プリキュアカードウエハース12 No.09 シャイニールミナス/九条ひかり",
+  "must": [
+   "12",
+   "シャイニールミナス"
+  ]
+ },
+ {
+  "id": "pre-wafer11-No.26",
+  "set": "pre-wafer11",
+  "name": "No.26 キュアニャミー HR",
+  "q": "プリキュアカードウエハース11 No.26 キュアニャミー",
+  "must": [
+   "11",
+   "ニャミー"
+  ]
+ },
+ {
+  "id": "pre-wafer11-No.27",
+  "set": "pre-wafer11",
+  "name": "No.27 キュアリリアン HR",
+  "q": "プリキュアカードウエハース11 No.27 キュアリリアン",
+  "must": [
+   "11",
+   "リリアン"
+  ]
+ },
+ {
+  "id": "pre-wafer11-No.22",
+  "set": "pre-wafer11",
+  "name": "No.22 キュアプリンセス HR",
+  "q": "プリキュアカードウエハース11 No.22 キュアプリンセス",
+  "must": [
+   "11",
+   "プリンセス"
+  ]
+ },
+ {
+  "id": "pre-wafer11-No.23",
+  "set": "pre-wafer11",
+  "name": "No.23 キュアミラクル HR",
+  "q": "プリキュアカードウエハース11 No.23 キュアミラクル",
+  "must": [
+   "11",
+   "ミラクル"
+  ]
+ },
+ {
+  "id": "pre-wafer11-No.24",
+  "set": "pre-wafer11",
+  "name": "No.24 キュアマジカル HR",
+  "q": "プリキュアカードウエハース11 No.24 キュアマジカル",
+  "must": [
+   "11",
+   "マジカル"
+  ]
+ },
+ {
+  "id": "pre-wafer11-No.21",
+  "set": "pre-wafer11",
+  "name": "No.21 キュアラブリー HR",
+  "q": "プリキュアカードウエハース11 No.21 キュアラブリー",
+  "must": [
+   "11",
+   "ラブリー"
+  ]
+ },
+ {
+  "id": "pre-wafer11-No.17",
+  "set": "pre-wafer11",
+  "name": "No.17 You and Idol Precure♪ SSR",
+  "q": "プリキュアカードウエハース11 No.17 You",
+  "must": [
+   "11",
+   "You and Idol Precure♪"
+  ]
+ },
+ {
+  "id": "pre-wafer11-No.14",
+  "set": "pre-wafer11",
+  "name": "No.14 キュアニャミー/猫屋敷ユキ R",
+  "q": "プリキュアカードウエハース11 No.14 キュアニャミー/猫屋敷ユキ",
+  "must": [
+   "11",
+   "ニャミー"
+  ]
+ },
+ {
+  "id": "pre-wafer11-No.02",
+  "set": "pre-wafer11",
+  "name": "No.02 キュアウインク N",
+  "q": "プリキュアカードウエハース11 No.02 キュアウインク",
+  "must": [
+   "11",
+   "ウインク"
+  ]
+ }
+]
