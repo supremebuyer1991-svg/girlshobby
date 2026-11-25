@@ -40,7 +40,7 @@ PAGES = {
     "sanrio-wafer11": "https://www.bandai.co.jp/candy/products/2025/4570117927096000.html",
     "sanrio-wafer12": "https://www.bandai.co.jp/candy/products/2026/4570117930065000.html",
     "sanrio-wafer13": "https://www.bandai.co.jp/candy/products/2027/4570117934155000.html",
-    # まだURLが確認できていない弾: tama-gotchi1, tama-gotchi1, tama-scratch, tama-gotchi2, tama-omisecchi, pre-wafer4/6/8, sanrio-wafer5/8
+    # まだURLが確認できていない弾: tama-gotchi1, tama-scratch, tama-gotchi2, tama-omisecchi, pre-wafer4/6/8, sanrio-wafer5/8
 }
 IMG_RE = re.compile(r"https://bandai-a\.akamaihd\.net/bc/img/model/xl/[0-9A-Za-z_]+\.(?:jpg|png)")
 # バンダイキャンディ公式の商品写真（"-product-main" は別商品のおすすめ欄なので除外）
