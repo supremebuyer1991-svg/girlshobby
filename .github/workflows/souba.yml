@@ -33,11 +33,11 @@ jobs:
           git config user.email "souba-bot@users.noreply.github.com"
           git add -A site
           git diff --cached --quiet || git commit -m "商品画像とシールニュースを更新"
-          git push
+          git pull --rebase -q origin main && git push
       - run: python bot/mercari_souba.py
         timeout-minutes: 60
       - name: 結果を保存
         run: |
           git add -A site
           git diff --cached --quiet || git commit -m "相場を更新"
-          git push
+          git pull --rebase -q origin main && git push
