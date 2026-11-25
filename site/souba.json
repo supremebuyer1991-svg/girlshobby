@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25 23:27",
+ "updated": "2026-11-26 02:14",
  "rule": "メルカリの売り切れ・新しい順から、1枚売りの直近3件の平均",
  "cards": [
   {
@@ -9,7 +9,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-02&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-03",
@@ -18,7 +18,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-03&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-05",
@@ -27,7 +27,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-05&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-06",
@@ -36,7 +36,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-06&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-08",
@@ -68,7 +68,7 @@
     }
    ],
    "avg": 980,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-12",
@@ -84,7 +84,7 @@
     }
    ],
    "avg": 880,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-13",
@@ -116,7 +116,7 @@
     }
    ],
    "avg": 780,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-17",
@@ -132,7 +132,7 @@
     }
    ],
    "avg": 580,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-18",
@@ -148,7 +148,7 @@
     }
    ],
    "avg": 780,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-19",
@@ -164,7 +164,7 @@
     }
    ],
    "avg": 580,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-20",
@@ -188,7 +188,7 @@
     }
    ],
    "avg": 580,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-22",
@@ -204,7 +204,7 @@
     }
    ],
    "avg": 680,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-23",
@@ -228,7 +228,7 @@
     }
    ],
    "avg": 580,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-25",
@@ -244,7 +244,7 @@
     }
    ],
    "avg": 580,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-26",
@@ -276,7 +276,7 @@
     }
    ],
    "avg": 580,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-29",
@@ -292,7 +292,7 @@
     }
    ],
    "avg": 580,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-30",
@@ -316,7 +316,7 @@
     }
    ],
    "avg": 580,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-32",
@@ -364,7 +364,7 @@
     }
    ],
    "avg": 580,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-37",
@@ -380,7 +380,7 @@
     }
    ],
    "avg": 580,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-38",
@@ -396,7 +396,7 @@
     }
    ],
    "avg": 680,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-39",
@@ -412,7 +412,7 @@
     }
    ],
    "avg": 680,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-40",
@@ -428,7 +428,7 @@
     }
    ],
    "avg": 580,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-41",
@@ -444,7 +444,7 @@
     }
    ],
    "avg": 580,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-42",
@@ -460,7 +460,7 @@
     }
    ],
    "avg": 580,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC03-43",
@@ -493,7 +493,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-02&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-04",
@@ -502,7 +502,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-04&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-05",
@@ -511,7 +511,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-05&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-06",
@@ -520,7 +520,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-06&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-07",
@@ -536,7 +536,7 @@
     }
    ],
    "avg": 880,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-08",
@@ -565,7 +565,7 @@
     }
    ],
    "avg": 640,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-12",
@@ -581,7 +581,7 @@
     }
    ],
    "avg": 880,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-13",
@@ -602,7 +602,7 @@
     }
    ],
    "avg": 590,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-14",
@@ -626,7 +626,7 @@
     }
    ],
    "avg": 880,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-16",
@@ -684,7 +684,7 @@
     }
    ],
    "avg": 393,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-21",
@@ -705,7 +705,7 @@
     }
    ],
    "avg": 440,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-22",
@@ -726,7 +726,7 @@
     }
    ],
    "avg": 440,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-23",
@@ -747,7 +747,7 @@
     }
    ],
    "avg": 490,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-24",
@@ -773,7 +773,7 @@
     }
    ],
    "avg": 413,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-25",
@@ -794,7 +794,7 @@
     }
    ],
    "avg": 450,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-26",
@@ -815,7 +815,7 @@
     }
    ],
    "avg": 440,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-27",
@@ -844,7 +844,7 @@
     }
    ],
    "avg": 440,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-29",
@@ -870,7 +870,7 @@
     }
    ],
    "avg": 393,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-30",
@@ -891,7 +891,7 @@
     }
    ],
    "avg": 440,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-31",
@@ -936,7 +936,7 @@
     }
    ],
    "avg": 500,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-35",
@@ -957,7 +957,7 @@
     }
    ],
    "avg": 440,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-36",
@@ -978,7 +978,7 @@
     }
    ],
    "avg": 440,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-37",
@@ -1007,7 +1007,7 @@
     }
    ],
    "avg": 510,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-39",
@@ -1028,7 +1028,7 @@
     }
    ],
    "avg": 510,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-40",
@@ -1057,7 +1057,7 @@
     }
    ],
    "avg": 440,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-42",
@@ -1105,7 +1105,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC01-21",
@@ -1126,7 +1126,7 @@
     }
    ],
    "avg": 590,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer13-No.25",
@@ -1152,7 +1152,7 @@
     }
    ],
    "avg": 1889,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer12-No.23",
@@ -1167,18 +1167,18 @@
      "url": "https://jp.mercari.com/item/m17517360535"
     },
     {
-     "title": "未開封 12弾 HR キュアキュンキュン プリキュア ウエハース カード",
-     "price": 2000,
-     "url": "https://jp.mercari.com/item/m59673405497"
-    },
-    {
      "title": "プリキュア　ウエハース12　キュアキュンキュン",
      "price": 1790,
      "url": "https://jp.mercari.com/item/m44265299735"
+    },
+    {
+     "title": "プリキュアカードウエハース12 キュアキュンキュンHR",
+     "price": 1777,
+     "url": "https://jp.mercari.com/item/m47576554763"
     }
    ],
-   "avg": 1830,
-   "checked": "2026-11-25"
+   "avg": 1755,
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer12-No.21",
@@ -1193,18 +1193,18 @@
      "url": "https://jp.mercari.com/item/m47828236378"
     },
     {
-     "title": "未開封 12,13弾 キュアアイドル キミとアイドル プリキュア ウエハース",
-     "price": 1500,
-     "url": "https://jp.mercari.com/item/m72708642625"
+     "title": "プリキュア　カードウエハース12　HR　No.21　キュアアイドル",
+     "price": 1499,
+     "url": "https://jp.mercari.com/item/m25538265527"
     },
     {
-     "title": "プリキュアウエハース11 12 キュアアイドル キミとアイドルプリキュア HR",
-     "price": 1000,
-     "url": "https://jp.mercari.com/item/m86285519700"
+     "title": "キミとアイドルプリキュア ウエハース12",
+     "price": 3333,
+     "url": "https://jp.mercari.com/item/m57626219938"
     }
    ],
-   "avg": 1333,
-   "checked": "2026-11-25"
+   "avg": 2111,
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer12-No.22",
@@ -1219,18 +1219,18 @@
      "url": "https://jp.mercari.com/item/m75754428715"
     },
     {
-     "title": "プリキュア カード ウエハース 12 弾 キュアウインク HR No.22",
-     "price": 1150,
-     "url": "https://jp.mercari.com/item/m82448433688"
-    },
-    {
      "title": "プリキュア　ウエハース12 キュアウインク HR No.22 未開封",
      "price": 830,
      "url": "https://jp.mercari.com/item/m58513633901"
+    },
+    {
+     "title": "プリキュアカードウエハース12 HR NO.22 キュアウインク",
+     "price": 900,
+     "url": "https://jp.mercari.com/item/m66253073990"
     }
    ],
-   "avg": 1160,
-   "checked": "2026-11-25"
+   "avg": 1076,
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer12-No.24",
@@ -1256,7 +1256,7 @@
     }
    ],
    "avg": 683,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer12-No.27",
@@ -1276,13 +1276,13 @@
      "url": "https://jp.mercari.com/item/m44584094201"
     },
     {
-     "title": "プリキュアウエハース 12 HR No.27 キュアホイップ",
-     "price": 699,
-     "url": "https://jp.mercari.com/item/m28098498198"
+     "title": "プリキュア　カード　ウエハース12 キュアホイップ HR",
+     "price": 599,
+     "url": "https://jp.mercari.com/item/m54729464274"
     }
    ],
-   "avg": 596,
-   "checked": "2026-11-25"
+   "avg": 563,
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer12-No.18",
@@ -1299,7 +1299,7 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B912%20No.09%20%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%83%AB%E3%83%9F%E3%83%8A%E3%82%B9/%E4%B9%9D%E6%9D%A1%E3%81%B2%E3%81%8B%E3%82%8A&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer11-No.26",
@@ -1325,7 +1325,7 @@
     }
    ],
    "avg": 1814,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer11-No.27",
@@ -1351,7 +1351,7 @@
     }
    ],
    "avg": 1459,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer11-No.22",
@@ -1361,23 +1361,23 @@
    "n": 3,
    "items": [
     {
-     "title": "ブ*き様 【未開封】プリキュア カード ウエハース 11 キュアプリンセス HR",
-     "price": 600,
-     "url": "https://jp.mercari.com/item/m86234553949"
-    },
-    {
-     "title": "【内袋未開封】プリキュア カード ウエハース 11 キュアプリンセス HR",
-     "price": 555,
-     "url": "https://jp.mercari.com/item/m11626295962"
-    },
-    {
      "title": "プリキュアカードウエハース11 ハピネスチャージプリキュア　キュアプリンセス",
      "price": 399,
      "url": "https://jp.mercari.com/item/m15300498965"
+    },
+    {
+     "title": "プリキュアカードウエハース11 キュアプリンセスHR",
+     "price": 499,
+     "url": "https://jp.mercari.com/item/m33456103666"
+    },
+    {
+     "title": "プリキュア カード ウエハース11 HR No.22 キュアプリンセス",
+     "price": 399,
+     "url": "https://jp.mercari.com/item/m58864927797"
     }
    ],
-   "avg": 518,
-   "checked": "2026-11-25"
+   "avg": 432,
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer11-No.23",
@@ -1403,7 +1403,7 @@
     }
    ],
    "avg": 855,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer11-No.24",
@@ -1423,20 +1423,20 @@
      "url": "https://jp.mercari.com/item/m99607149699"
     },
     {
-     "title": "プリキュア　ウエハース　11　まほプリ　HR キュアマジカル　キュアミラクル",
-     "price": 999,
-     "url": "https://jp.mercari.com/item/m77112165802"
+     "title": "キュアマジカル HR プリキュアカードウエハース11 No.24",
+     "price": 1222,
+     "url": "https://jp.mercari.com/item/m39351850815"
     }
    ],
-   "avg": 840,
-   "checked": "2026-11-25"
+   "avg": 914,
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer11-No.21",
    "set": "pre-wafer11",
    "name": "No.21 キュアラブリー HR",
    "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.21%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%A9%E3%83%96%E3%83%AA%E3%83%BC&status=sold_out&sort=created_time&order=desc",
-   "n": 3,
+   "n": 2,
    "items": [
     {
      "title": "プリキュアウエハース11弾 カード キュアラブリー　HR",
@@ -1444,18 +1444,13 @@
      "url": "https://jp.mercari.com/item/m24785137848"
     },
     {
-     "title": "プリキュア　ウエハース　11　HR　SR キュアプリンセス　キュアラブリー",
-     "price": 999,
-     "url": "https://jp.mercari.com/item/m61978370444"
-    },
-    {
-     "title": "11弾 No.21 HR キュアラブリー ハピネスチャージプリキュア！",
-     "price": 600,
-     "url": "https://jp.mercari.com/item/m65881507329"
+     "title": "プリキュア　カードウエハース11　HR　No.21　キュアラブリー",
+     "price": 1299,
+     "url": "https://jp.mercari.com/item/m27351670156"
     }
    ],
-   "avg": 666,
-   "checked": "2026-11-25"
+   "avg": 850,
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer11-No.17",
@@ -1464,7 +1459,7 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.17%20You&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "pre-wafer11-No.14",
@@ -1487,18 +1482,18 @@
      "url": "https://jp.mercari.com/item/m43451835764"
     },
     {
-     "title": "未開封 11,12,13弾 HR キュアウインク プリキュア ウエハース",
-     "price": 1400,
-     "url": "https://jp.mercari.com/item/m90710005065"
+     "title": "プリキュアカードウエハース11　キミプリSSR　アイドル　ウインク",
+     "price": 900,
+     "url": "https://jp.mercari.com/item/m26156412684"
     },
     {
-     "title": "プリキュアカード ウエハース 11 キュアウインク No.2",
+     "title": "プリキュア ウエハース11　キミプリ　No.02 SR キュアウインク　1枚",
      "price": 300,
-     "url": "https://jp.mercari.com/item/m18136651724"
+     "url": "https://jp.mercari.com/item/m20871164851"
     }
    ],
-   "avg": 900,
-   "checked": "2026-11-25"
+   "avg": 733,
+   "checked": "2026-11-26"
   }
  ],
  "seals": [
@@ -1509,7 +1504,7 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%83%9C%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B7%E3%83%BC%E3%83%AB%20%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%B3%E3%82%AF&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "perfectbook2",
@@ -1525,7 +1520,7 @@
     }
    ],
    "avg": 3780,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "jra",
@@ -1551,7 +1546,7 @@
     }
    ],
    "avg": 1186,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "magical-jewel",
@@ -1561,6 +1556,11 @@
    "n": 3,
    "items": [
     {
+     "title": "ちいかわ 超まじかるちいかわ ボンボンドロップシール ジュエル 正規品",
+     "price": 989,
+     "url": "https://jp.mercari.com/item/m30746605089"
+    },
+    {
      "title": "超まじかるちいかわ ボンボンドロップシール",
      "price": 950,
      "url": "https://jp.mercari.com/item/m48590217028"
@@ -1569,15 +1569,10 @@
      "title": "まじかるちいかわ ボンボンドロップシール　悪いバージョン",
      "price": 850,
      "url": "https://jp.mercari.com/item/m88742181031"
-    },
-    {
-     "title": "まじかるちいかわ ボンボンドロップシール",
-     "price": 850,
-     "url": "https://jp.mercari.com/item/m73233569911"
     }
    ],
-   "avg": 883,
-   "checked": "2026-11-25"
+   "avg": 930,
+   "checked": "2026-11-26"
   },
   {
    "id": "tamamori30",
@@ -1598,7 +1593,7 @@
     }
    ],
    "avg": 824,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   },
   {
    "id": "jumbo-sealdass",
@@ -1624,7 +1619,7 @@
     }
    ],
    "avg": 311,
-   "checked": "2026-11-25"
+   "checked": "2026-11-26"
   }
  ]
 }
