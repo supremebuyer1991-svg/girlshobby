@@ -662,7 +662,7 @@ function dan(sid){
  <h1>${esc(it.name)}${rows.length?" シングル相場ランキング":""}</h1>
  <p>${esc(it.label)}発売${pre?"予定":""}・全${esc(S.total||"？")}種${it.maker?"・"+esc(it.maker):""}${it.jan?"・JAN "+esc(it.jan):""}</p>
  <div class="jump"><button type="button" class="chip" data-go="shops">${ic("bag")}${pre?"予約できるお店":"買えるお店"}</button>${rows.length?`<button type="button" class="chip" data-go="sec-crank">${ic("crown")}カードの相場ランキング</button>`:""}</div></div>
- ${IMGS&&IMGS[sid]&&IMGS[sid].images.length?`<div class="gal">${IMGS[sid].images.map((u,k)=>`<img src="${esc(u)}" alt="${esc(it.name)} 商品画像${k+1}" loading="lazy">`).join("")}</div><p class="gal-cap">画像出典：<a href="${esc(IMGS[sid].source)}" rel="nofollow">バンダイ公式</a>　©BANDAI</p>`:""}
+ ${IMGS&&IMGS[sid]&&IMGS[sid].images.length?`<div class="gal">${IMGS[sid].images.map((u,k)=>`<img src="${esc(u)}" alt="${esc(it.name)} 商品画像${k+1}" loading="lazy">`).join("")}</div><p class="gal-cap">画像出典：<a href="${esc(IMGS[sid].source)}" rel="nofollow sponsored">${IMGS[sid].credit==="楽天市場"?"楽天市場":"バンダイ公式"}</a>　©BANDAI</p>`:""}
  <div class="memo"><dl>${it.price?`<dt>価格</dt><dd>${esc(it.price)}</dd>`:""}<dt>中身</dt><dd>${esc(it.pack)}</dd><dt>売り場</dt><dd>${esc(it.where)}</dd></dl><p class="note">${esc(it.note)}</p></div>
  ${shopbox(it)}
  <section class="sec" id="sec-crank"><h2 class="h"><span class="hi">${ic("crown")}</span><span class="tx">カードごとの相場ランキング</span></h2>

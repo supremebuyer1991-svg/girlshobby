@@ -16,6 +16,11 @@ jobs:
           python-version: "3.12"
       - run: pip install playwright==1.48.0 && python -m playwright install --with-deps chromium
       - run: python bot/bandai_images.py
+      - run: python bot/rakuten_card_images.py
+        env:
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+          SITE_URL: ${{ vars.SITE_URL }}
       - run: python bot/seal_watch.py
       - run: python bot/catalog.py
         env:
