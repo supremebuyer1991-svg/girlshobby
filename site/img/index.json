@@ -29,13 +29,279 @@
  "pre-wafer2": {
   "source": "https://www.bandai.co.jp/candy/products/2021/4549660550983000.html",
   "images": [
-   "img/pre-wafer2/product_1.jpg"
+   "img/pre-wafer2/product_1.jpg",
+   "img/pre-wafer2/product_2.jpg",
+   "img/pre-wafer2/product_3.jpg",
+   "img/pre-wafer2/product_4.jpg",
+   "img/pre-wafer2/product_5.jpg",
+   "img/pre-wafer2/product_6.jpg",
+   "img/pre-wafer2/product_7.jpg",
+   "img/pre-wafer2/product_8.jpg"
   ]
  },
  "pre-wafer3": {
   "source": "https://www.bandai.co.jp/candy/products/2021/4549660583882000.html",
   "images": [
-   "img/pre-wafer3/product_1.jpg"
+   "img/pre-wafer3/product_1.jpg",
+   "img/pre-wafer3/product_2.jpg",
+   "img/pre-wafer3/product_3.jpg",
+   "img/pre-wafer3/product_4.jpg",
+   "img/pre-wafer3/product_5.jpg",
+   "img/pre-wafer3/product_6.jpg",
+   "img/pre-wafer3/product_7.jpg",
+   "img/pre-wafer3/product_8.jpg",
+   "img/pre-wafer3/product_9.jpg"
+  ]
+ },
+ "pre-wafer1": {
+  "source": "https://www.bandai.co.jp/candy/products/2020/4549660504313000.html",
+  "images": [
+   "img/pre-wafer1/product_1.jpg",
+   "img/pre-wafer1/product_2.jpg",
+   "img/pre-wafer1/product_3.jpg",
+   "img/pre-wafer1/product_4.jpg",
+   "img/pre-wafer1/product_5.jpg",
+   "img/pre-wafer1/product_6.jpg",
+   "img/pre-wafer1/product_7.jpg",
+   "img/pre-wafer1/product_8.jpg"
+  ]
+ },
+ "pre-wafer5": {
+  "source": "https://www.bandai.co.jp/candy/products/2022/4549660701583000.html",
+  "images": [
+   "img/pre-wafer5/product_1.jpg",
+   "img/pre-wafer5/product_2.jpg",
+   "img/pre-wafer5/product_3.jpg",
+   "img/pre-wafer5/product_4.jpg",
+   "img/pre-wafer5/product_5.jpg",
+   "img/pre-wafer5/product_6.jpg",
+   "img/pre-wafer5/product_7.jpg",
+   "img/pre-wafer5/product_8.jpg",
+   "img/pre-wafer5/product_9.jpg"
+  ]
+ },
+ "pre-wafer7": {
+  "source": "https://www.bandai.co.jp/candy/products/2023/4549660876588000.html",
+  "images": [
+   "img/pre-wafer7/product_1.jpg",
+   "img/pre-wafer7/product_2.jpg",
+   "img/pre-wafer7/product_3.jpg",
+   "img/pre-wafer7/product_4.jpg",
+   "img/pre-wafer7/product_5.jpg",
+   "img/pre-wafer7/product_6.jpg",
+   "img/pre-wafer7/product_7.jpg",
+   "img/pre-wafer7/product_8.jpg",
+   "img/pre-wafer7/product_9.jpg",
+   "img/pre-wafer7/product_10.jpg"
+  ]
+ },
+ "pre-wafer9": {
+  "source": "https://www.bandai.co.jp/candy/products/2024/4570117913846000.html",
+  "images": [
+   "img/pre-wafer9/product_1.jpg",
+   "img/pre-wafer9/product_2.jpg",
+   "img/pre-wafer9/product_3.jpg",
+   "img/pre-wafer9/product_4.jpg",
+   "img/pre-wafer9/product_5.jpg",
+   "img/pre-wafer9/product_6.jpg",
+   "img/pre-wafer9/product_7.jpg",
+   "img/pre-wafer9/product_8.jpg",
+   "img/pre-wafer9/product_9.jpg",
+   "img/pre-wafer9/product_10.jpg"
+  ]
+ },
+ "pre-wafer10": {
+  "source": "https://www.bandai.co.jp/candy/products/2024/4570117917080000.html",
+  "images": [
+   "img/pre-wafer10/product_1.jpg",
+   "img/pre-wafer10/product_2.jpg",
+   "img/pre-wafer10/product_3.jpg",
+   "img/pre-wafer10/product_4.jpg",
+   "img/pre-wafer10/product_5.jpg",
+   "img/pre-wafer10/product_6.jpg",
+   "img/pre-wafer10/product_7.jpg",
+   "img/pre-wafer10/product_8.jpg",
+   "img/pre-wafer10/product_9.jpg",
+   "img/pre-wafer10/product_10.jpg"
+  ]
+ },
+ "pre-wafer11": {
+  "source": "https://www.bandai.co.jp/candy/products/2025/4570117920288000.html",
+  "images": [
+   "img/pre-wafer11/product_1.jpg",
+   "img/pre-wafer11/product_2.jpg",
+   "img/pre-wafer11/product_3.jpg",
+   "img/pre-wafer11/product_4.jpg",
+   "img/pre-wafer11/product_5.jpg",
+   "img/pre-wafer11/product_6.jpg",
+   "img/pre-wafer11/product_7.jpg",
+   "img/pre-wafer11/product_8.jpg",
+   "img/pre-wafer11/product_9.jpg",
+   "img/pre-wafer11/product_10.jpg"
+  ]
+ },
+ "pre-wafer12": {
+  "source": "https://www.bandai.co.jp/candy/products/2025/4570117924965000.html",
+  "images": [
+   "img/pre-wafer12/product_1.jpg",
+   "img/pre-wafer12/product_2.jpg",
+   "img/pre-wafer12/product_3.jpg",
+   "img/pre-wafer12/product_4.jpg",
+   "img/pre-wafer12/product_5.jpg",
+   "img/pre-wafer12/product_6.jpg",
+   "img/pre-wafer12/product_7.jpg",
+   "img/pre-wafer12/product_8.jpg",
+   "img/pre-wafer12/product_9.jpg",
+   "img/pre-wafer12/product_10.jpg"
+  ]
+ },
+ "pre-wafer13": {
+  "source": "https://www.bandai.co.jp/candy/products/2026/4570117930768000.html",
+  "images": [
+   "img/pre-wafer13/product_1.jpg",
+   "img/pre-wafer13/product_2.jpg",
+   "img/pre-wafer13/product_3.jpg",
+   "img/pre-wafer13/product_4.jpg",
+   "img/pre-wafer13/product_5.jpg",
+   "img/pre-wafer13/product_6.jpg",
+   "img/pre-wafer13/product_7.jpg",
+   "img/pre-wafer13/product_8.jpg",
+   "img/pre-wafer13/product_9.jpg",
+   "img/pre-wafer13/product_10.jpg"
+  ]
+ },
+ "pre-wafer14": {
+  "source": "https://www.bandai.co.jp/candy/products/2027/4570117934612000.html",
+  "images": [
+   "img/pre-wafer14/product_1.jpg",
+   "img/pre-wafer14/product_2.jpg"
+  ]
+ },
+ "sanrio-wafer1": {
+  "source": "https://www.bandai.co.jp/candy/products/2022/4549660738206000.html",
+  "images": [
+   "img/sanrio-wafer1/product_1.jpg",
+   "img/sanrio-wafer1/product_2.jpg",
+   "img/sanrio-wafer1/product_3.jpg",
+   "img/sanrio-wafer1/product_4.jpg",
+   "img/sanrio-wafer1/product_5.jpg",
+   "img/sanrio-wafer1/product_6.jpg",
+   "img/sanrio-wafer1/product_7.jpg",
+   "img/sanrio-wafer1/product_8.jpg"
+  ]
+ },
+ "sanrio-wafer2": {
+  "source": "https://www.bandai.co.jp/candy/products/2022/4549660820536000.html",
+  "images": [
+   "img/sanrio-wafer2/product_1.jpg",
+   "img/sanrio-wafer2/product_2.jpg",
+   "img/sanrio-wafer2/product_3.jpg",
+   "img/sanrio-wafer2/product_4.jpg",
+   "img/sanrio-wafer2/product_5.jpg",
+   "img/sanrio-wafer2/product_6.jpg",
+   "img/sanrio-wafer2/product_7.jpg",
+   "img/sanrio-wafer2/product_8.jpg",
+   "img/sanrio-wafer2/product_9.jpg"
+  ]
+ },
+ "sanrio-wafer3": {
+  "source": "https://www.bandai.co.jp/candy/products/2023/4549660876625000.html",
+  "images": [
+   "img/sanrio-wafer3/product_1.jpg",
+   "img/sanrio-wafer3/product_2.jpg",
+   "img/sanrio-wafer3/product_3.jpg",
+   "img/sanrio-wafer3/product_4.jpg",
+   "img/sanrio-wafer3/product_5.jpg",
+   "img/sanrio-wafer3/product_6.jpg",
+   "img/sanrio-wafer3/product_7.jpg",
+   "img/sanrio-wafer3/product_8.jpg"
+  ]
+ },
+ "sanrio-wafer4": {
+  "source": "https://www.bandai.co.jp/candy/products/2023/4570117911385000.html",
+  "images": [
+   "img/sanrio-wafer4/product_1.jpg",
+   "img/sanrio-wafer4/product_2.jpg",
+   "img/sanrio-wafer4/product_3.jpg",
+   "img/sanrio-wafer4/product_4.jpg",
+   "img/sanrio-wafer4/product_5.jpg",
+   "img/sanrio-wafer4/product_6.jpg",
+   "img/sanrio-wafer4/product_7.jpg",
+   "img/sanrio-wafer4/product_8.jpg"
+  ]
+ },
+ "sanrio-wafer6": {
+  "source": "https://www.bandai.co.jp/candy/products/2024/4570117915727000.html",
+  "images": [
+   "img/sanrio-wafer6/product_1.jpg",
+   "img/sanrio-wafer6/product_2.jpg",
+   "img/sanrio-wafer6/product_3.jpg",
+   "img/sanrio-wafer6/product_4.jpg",
+   "img/sanrio-wafer6/product_5.jpg",
+   "img/sanrio-wafer6/product_6.jpg",
+   "img/sanrio-wafer6/product_7.jpg",
+   "img/sanrio-wafer6/product_8.jpg"
+  ]
+ },
+ "sanrio-wafer7": {
+  "source": "https://www.bandai.co.jp/candy/products/2024/4570117917493000.html",
+  "images": [
+   "img/sanrio-wafer7/product_1.jpg",
+   "img/sanrio-wafer7/product_2.jpg",
+   "img/sanrio-wafer7/product_3.jpg",
+   "img/sanrio-wafer7/product_4.jpg",
+   "img/sanrio-wafer7/product_5.jpg",
+   "img/sanrio-wafer7/product_6.jpg",
+   "img/sanrio-wafer7/product_7.jpg",
+   "img/sanrio-wafer7/product_8.jpg"
+  ]
+ },
+ "sanrio-wafer9": {
+  "source": "https://www.bandai.co.jp/candy/products/2025/4570117921797000.html",
+  "images": [
+   "img/sanrio-wafer9/product_1.jpg",
+   "img/sanrio-wafer9/product_2.jpg",
+   "img/sanrio-wafer9/product_3.jpg",
+   "img/sanrio-wafer9/product_4.jpg",
+   "img/sanrio-wafer9/product_5.jpg",
+   "img/sanrio-wafer9/product_6.jpg",
+   "img/sanrio-wafer9/product_7.jpg",
+   "img/sanrio-wafer9/product_8.jpg",
+   "img/sanrio-wafer9/product_9.jpg"
+  ]
+ },
+ "sanrio-wafer11": {
+  "source": "https://www.bandai.co.jp/candy/products/2025/4570117927096000.html",
+  "images": [
+   "img/sanrio-wafer11/product_1.jpg",
+   "img/sanrio-wafer11/product_2.jpg",
+   "img/sanrio-wafer11/product_3.jpg",
+   "img/sanrio-wafer11/product_4.jpg",
+   "img/sanrio-wafer11/product_5.jpg",
+   "img/sanrio-wafer11/product_6.jpg",
+   "img/sanrio-wafer11/product_7.jpg",
+   "img/sanrio-wafer11/product_8.jpg",
+   "img/sanrio-wafer11/product_9.jpg"
+  ]
+ },
+ "sanrio-wafer12": {
+  "source": "https://www.bandai.co.jp/candy/products/2026/4570117930065000.html",
+  "images": [
+   "img/sanrio-wafer12/product_1.jpg",
+   "img/sanrio-wafer12/product_2.jpg",
+   "img/sanrio-wafer12/product_3.jpg",
+   "img/sanrio-wafer12/product_4.jpg",
+   "img/sanrio-wafer12/product_5.jpg",
+   "img/sanrio-wafer12/product_6.jpg",
+   "img/sanrio-wafer12/product_7.jpg"
+  ]
+ },
+ "sanrio-wafer13": {
+  "source": "https://www.bandai.co.jp/candy/products/2027/4570117934155000.html",
+  "images": [
+   "img/sanrio-wafer13/product_1.jpg",
+   "img/sanrio-wafer13/product_2.jpg",
+   "img/sanrio-wafer13/product_3.jpg"
   ]
  }
 }
