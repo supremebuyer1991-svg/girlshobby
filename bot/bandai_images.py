@@ -40,7 +40,7 @@ PAGES = {
     "sanrio-wafer11": "https://www.bandai.co.jp/candy/products/2025/4570117927096000.html",
     "sanrio-wafer12": "https://www.bandai.co.jp/candy/products/2026/4570117930065000.html",
     "sanrio-wafer13": "https://www.bandai.co.jp/candy/products/2027/4570117934155000.html",
-    # まだURLが確認できていない弾: tama-gotchi1, tama-scratch, tama-gotchi2, tama-omisecchi, pre-wafer4/6/8, sanrio-wafer5/8
+    # まだURLが確認できていない弾: tama-gotchi1, tama-gotchi1, tama-scratch, tama-gotchi2, tama-omisecchi, pre-wafer4/6/8, sanrio-wafer5/8
 }
 IMG_RE = re.compile(r"https://bandai-a\.akamaihd\.net/bc/img/model/xl/[0-9A-Za-z_]+\.(?:jpg|png)")
 # バンダイキャンディ公式の商品写真（"-product-main" は別商品のおすすめ欄なので除外）
@@ -68,6 +68,12 @@ def main() -> int:
             html = get(page).decode("utf-8", "replace")
         except Exception as e:
             print(f"[skip] {sid}: ページが開けない {e}", file=sys.stderr)
+            continue
+        title = re.search(r"<title>(.*?)</title>", html, re.S)
+        title = title.group(1) if title else ""
+        want = "ウエハース" if "wafer" in sid else ("たまごっち" if sid.startswith("tama") else "")
+        if want and want not in title:
+            print(f"[skip] {sid}: ページの商品名が違う（{title[:40]}）", file=sys.stderr)
             continue
         found = IMG_RE.findall(html) + [
             u if u.startswith("http") else "https://www.bandai.co.jp" + u for u in CANDY_RE.findall(html)]
