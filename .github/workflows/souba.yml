@@ -8,7 +8,7 @@ permissions:
 jobs:
   souba:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,11 +27,17 @@ jobs:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
           SITE_URL: ${{ vars.SITE_URL }}
-      - run: python bot/mercari_souba.py
-      - name: 結果を保存
+      - name: 画像とニュースを先に保存（相場で時間切れになっても消えないように）
         run: |
           git config user.name "souba-bot"
           git config user.email "souba-bot@users.noreply.github.com"
           git add -A site
-          git diff --cached --quiet || git commit -m "相場と商品画像を更新"
+          git diff --cached --quiet || git commit -m "商品画像とシールニュースを更新"
+          git push
+      - run: python bot/mercari_souba.py
+        timeout-minutes: 60
+      - name: 結果を保存
+        run: |
+          git add -A site
+          git diff --cached --quiet || git commit -m "相場を更新"
           git push
