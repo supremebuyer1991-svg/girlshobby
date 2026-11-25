@@ -20,12 +20,34 @@ PAGES = {
     "tama-gotchi3": "https://toy.bandai.co.jp/ja/item/01_6323/",
     "tama-gotchi1": "https://toy.bandai.co.jp/item/detail/15081/",          # たまごっち公式サイトが案内しているURL
     "tama-scratch": "https://toy.bandai.co.jp/ja/series/carddass/tamagotchi_scratch/",
-    "pre-wafer2": "https://www.bandai.co.jp/candy/products/2021/4549660550983000.html",   # バンダイキャンディ公式
+    # ↓バンダイキャンディ公式（お菓子売り場のウエハース）
+    "pre-wafer1": "https://www.bandai.co.jp/candy/products/2020/4549660504313000.html",
+    "pre-wafer2": "https://www.bandai.co.jp/candy/products/2021/4549660550983000.html",
     "pre-wafer3": "https://www.bandai.co.jp/candy/products/2021/4549660583882000.html",
-    # まだURLが確認できていない弾（見つけたら上と同じ形で足す）:
-    # "tama-gotchi2": "",  "tama-omisecchi": "",  "pre-wafer11": "",  "pre-wafer12": "",  "pre-wafer13": "",
+    "pre-wafer5": "https://www.bandai.co.jp/candy/products/2022/4549660701583000.html",
+    "pre-wafer7": "https://www.bandai.co.jp/candy/products/2023/4549660876588000.html",
+    "pre-wafer9": "https://www.bandai.co.jp/candy/products/2024/4570117913846000.html",
+    "pre-wafer10": "https://www.bandai.co.jp/candy/products/2024/4570117917080000.html",
+    "pre-wafer11": "https://www.bandai.co.jp/candy/products/2025/4570117920288000.html",
+    "pre-wafer12": "https://www.bandai.co.jp/candy/products/2025/4570117924965000.html",
+    "pre-wafer13": "https://www.bandai.co.jp/candy/products/2026/4570117930768000.html",
+    "pre-wafer14": "https://www.bandai.co.jp/candy/products/2027/4570117934612000.html",
+    "sanrio-wafer1": "https://www.bandai.co.jp/candy/products/2022/4549660738206000.html",
+    "sanrio-wafer2": "https://www.bandai.co.jp/candy/products/2022/4549660820536000.html",
+    "sanrio-wafer3": "https://www.bandai.co.jp/candy/products/2023/4549660876625000.html",
+    "sanrio-wafer4": "https://www.bandai.co.jp/candy/products/2023/4570117911385000.html",
+    "sanrio-wafer6": "https://www.bandai.co.jp/candy/products/2024/4570117915727000.html",
+    "sanrio-wafer7": "https://www.bandai.co.jp/candy/products/2024/4570117917493000.html",
+    "sanrio-wafer9": "https://www.bandai.co.jp/candy/products/2025/4570117921797000.html",
+    "sanrio-wafer11": "https://www.bandai.co.jp/candy/products/2025/4570117927096000.html",
+    "sanrio-wafer12": "https://www.bandai.co.jp/candy/products/2026/4570117930065000.html",
+    "sanrio-wafer13": "https://www.bandai.co.jp/candy/products/2027/4570117934155000.html",
+    # まだURLが確認できていない弾: tama-gotchi2, tama-omisecchi, pre-wafer4/6/8, sanrio-wafer5/8
 }
 IMG_RE = re.compile(r"https://bandai-a\.akamaihd\.net/bc/img/model/xl/[0-9A-Za-z_]+\.(?:jpg|png)")
+# バンダイキャンディ公式の商品写真（"-product-main" は別商品のおすすめ欄なので除外）
+CANDY_RE = re.compile(r'(?:https://www\.bandai\.co\.jp)?/candy/published/bnc_files/product/\w+/\w+\.(?:jpg|png)(?=["\'\s)])')
+MAX_IMAGES = 12
 # 商品画像が見つからないページでは、ページの代表画像（og:image）を1枚だけ使う
 OG_RE = re.compile(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', re.I)
 UA = {"User-Agent": "Mozilla/5.0 (girlshobby image bot)"}
@@ -48,7 +70,9 @@ def main() -> int:
         except Exception as e:
             print(f"[skip] {sid}: ページが開けない {e}", file=sys.stderr)
             continue
-        urls = list(dict.fromkeys(IMG_RE.findall(html)))   # 重複を消して順番そのまま
+        found = IMG_RE.findall(html) + [
+            u if u.startswith("http") else "https://www.bandai.co.jp" + u for u in CANDY_RE.findall(html)]
+        urls = list(dict.fromkeys(found))[:MAX_IMAGES]   # 重複を消して順番そのまま
         if not urls:
             urls = OG_RE.findall(html)[:1]
         folder = IMG / sid
