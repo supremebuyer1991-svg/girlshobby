@@ -18,8 +18,6 @@ IMG = ROOT / "site" / "img"
 # 公式の商品ページ。新しい弾が出たらここに1行足す
 PAGES = {
     "tama-gotchi3": "https://toy.bandai.co.jp/ja/item/01_6323/",
-    "tama-gotchi1": "https://toy.bandai.co.jp/item/detail/15081/",          # たまごっち公式サイトが案内しているURL
-    "tama-scratch": "https://toy.bandai.co.jp/ja/series/carddass/tamagotchi_scratch/",
     # ↓バンダイキャンディ公式（お菓子売り場のウエハース）
     "pre-wafer1": "https://www.bandai.co.jp/candy/products/2020/4549660504313000.html",
     "pre-wafer2": "https://www.bandai.co.jp/candy/products/2021/4549660550983000.html",
@@ -42,13 +40,12 @@ PAGES = {
     "sanrio-wafer11": "https://www.bandai.co.jp/candy/products/2025/4570117927096000.html",
     "sanrio-wafer12": "https://www.bandai.co.jp/candy/products/2026/4570117930065000.html",
     "sanrio-wafer13": "https://www.bandai.co.jp/candy/products/2027/4570117934155000.html",
-    # まだURLが確認できていない弾: tama-gotchi2, tama-omisecchi, pre-wafer4/6/8, sanrio-wafer5/8
+    # まだURLが確認できていない弾: tama-gotchi1, tama-scratch, tama-gotchi2, tama-omisecchi, pre-wafer4/6/8, sanrio-wafer5/8
 }
 IMG_RE = re.compile(r"https://bandai-a\.akamaihd\.net/bc/img/model/xl/[0-9A-Za-z_]+\.(?:jpg|png)")
 # バンダイキャンディ公式の商品写真（"-product-main" は別商品のおすすめ欄なので除外）
 CANDY_RE = re.compile(r'(?:https://www\.bandai\.co\.jp)?/candy/published/bnc_files/product/\w+/\w+\.(?:jpg|png)(?=["\'\s)])')
 MAX_IMAGES = 12
-# 商品画像が見つからないページでは、ページの代表画像（og:image）を1枚だけ使う
 OG_RE = re.compile(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', re.I)
 UA = {"User-Agent": "Mozilla/5.0 (girlshobby image bot)"}
 
@@ -64,6 +61,8 @@ def main() -> int:
     idx_file = IMG / "index.json"
     if idx_file.exists():
         index = json.loads(idx_file.read_text(encoding="utf-8"))
+    for old in [k for k in index if k not in PAGES]:   # 一覧から外した弾は写真も外す
+        index.pop(old)
     for sid, page in PAGES.items():
         try:
             html = get(page).decode("utf-8", "replace")
@@ -73,8 +72,9 @@ def main() -> int:
         found = IMG_RE.findall(html) + [
             u if u.startswith("http") else "https://www.bandai.co.jp" + u for u in CANDY_RE.findall(html)]
         urls = list(dict.fromkeys(found))[:MAX_IMAGES]   # 重複を消して順番そのまま
-        if not urls:
-            urls = OG_RE.findall(html)[:1]
+        if not urls:   # 代表画像（og:image）は別商品やロゴのことがあるので使わない
+            print(f"[skip] {sid}: 商品写真が見つからない", file=sys.stderr)
+            continue
         folder = IMG / sid
         folder.mkdir(parents=True, exist_ok=True)
         files = []
