@@ -99,7 +99,7 @@ def fetch_items(page, q: str) -> list[dict]:
     page.on("response", on_response)
     try:
         page.goto(search_url(q), wait_until="networkidle", timeout=45000)
-        for _ in range(20):          # 結果が届くまで最大10秒待つ
+        for _ in range(30):          # 結果が届くまで最大15秒待つ
             if got:
                 break
             page.wait_for_timeout(500)
@@ -132,6 +132,9 @@ def main() -> int:
         for c in cards + seals:
             try:
                 items = fetch_items(page, c["q"])
+                if not items:                       # 取れなかったら少し待って1回だけやり直す
+                    page.wait_for_timeout(5000)
+                    items = fetch_items(page, c["q"])
                 if not items:
                     raise RuntimeError("検索結果が取れなかった")
                 row = summarize(c, pick(items, c["must"]))

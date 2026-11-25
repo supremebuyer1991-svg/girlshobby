@@ -32,6 +32,6 @@ jobs:
         run: |
           git config user.name "souba-bot"
           git config user.email "souba-bot@users.noreply.github.com"
-          git add site/souba.json site/img site/catalog.json site/seal_news.json
+          git add -A site
           git diff --cached --quiet || git commit -m "相場と商品画像を更新"
           git push
