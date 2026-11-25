@@ -71,7 +71,7 @@ def bot_rows():
             else:
                 key=re.sub(r"\s*(HR|SSR|SR|R|N)$","",c["name"]).replace("キュア","").split("/")[0].strip()
                 rows.append({"id":f"{sid}-{c['code']}","set":sid,"name":f"{c['code']} {c['name']}",
-                             "q":f"{PRE_NAME[sid]} {c['code']} {c['name'].split(' ')[0]}","must":[PRE_NAME[sid][-2:], key]})
+                             "q":f"{PRE_NAME[sid]} {c['code']} {c['name'].split(' ')[0]}","must":["ウエハース"+PRE_NAME[sid][-2:], key]})
     return rows
 
 if __name__=="__main__":
