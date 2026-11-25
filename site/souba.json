@@ -1,0 +1,1630 @@
+{
+ "updated": "2026-11-25 23:27",
+ "rule": "メルカリの売り切れ・新しい順から、1枚売りの直近3件の平均",
+ "cards": [
+  {
+   "id": "TNGC03-02",
+   "set": "tama-gotchi3",
+   "name": "ちゃまめっち夏のハッピースタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-02&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": [],
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-03",
+   "set": "tama-gotchi3",
+   "name": "めめっち夏のハッピースタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-03&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": [],
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-05",
+   "set": "tama-gotchi3",
+   "name": "ゆにまるっち夏のハッピースタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-05&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": [],
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-06",
+   "set": "tama-gotchi3",
+   "name": "おやじっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-06&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": [],
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-08",
+   "set": "tama-gotchi3",
+   "name": "ゆめみっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-08&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-09",
+   "set": "tama-gotchi3",
+   "name": "くるるっち・みらいっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-09&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-10",
+   "set": "tama-gotchi3",
+   "name": "いちごっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-10&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-10 いちごっちスペーススタイル (R レア) 】たまごっち にゅー! ごっちカード3",
+     "price": 980,
+     "url": "https://jp.mercari.com/item/2JTmfFSsmmLBAV7CiFwUte"
+    }
+   ],
+   "avg": 980,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-12",
+   "set": "tama-gotchi3",
+   "name": "ぎんじろっちおさんぽ中",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-12&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-12 ぎんじろっちおさんぽ中 (R レア) 】たまごっち にゅー! ごっちカード3",
+     "price": 880,
+     "url": "https://jp.mercari.com/item/2JTmfFTLQQHMuhjUeLyyx2"
+    }
+   ],
+   "avg": 880,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-13",
+   "set": "tama-gotchi3",
+   "name": "ぱろろっちおさんぽ中",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-13&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-14",
+   "set": "tama-gotchi3",
+   "name": "ぽいずっちおさんぽ中",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-14&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-16",
+   "set": "tama-gotchi3",
+   "name": "まめっち夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-16&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-16 まめっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 780,
+     "url": "https://jp.mercari.com/item/2JTmfFWXboMLvJLEbPqTDR"
+    }
+   ],
+   "avg": 780,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-17",
+   "set": "tama-gotchi3",
+   "name": "めめっち夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-17&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-17 めめっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JTmfFWnAtnmxCouDFozdk"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-18",
+   "set": "tama-gotchi3",
+   "name": "クチパッチ夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-18&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-18 くちぱっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 780,
+     "url": "https://jp.mercari.com/item/2JTmfFWsDy9Uf4AtLQYmxS"
+    }
+   ],
+   "avg": 780,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-19",
+   "set": "tama-gotchi3",
+   "name": "ふらわっち夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-19&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-19 ふらわっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JTmfFYFfZ9AV9LfxziaTr"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-20",
+   "set": "tama-gotchi3",
+   "name": "やったっち夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-20&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-21",
+   "set": "tama-gotchi3",
+   "name": "いちごっち夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-21&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-21 いちごっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JTmfFZ3bTFLRGHbJMDf8h"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-22",
+   "set": "tama-gotchi3",
+   "name": "やんぐみみっち夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-22&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-22 やんぐみみっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 680,
+     "url": "https://jp.mercari.com/item/2JTmfFa5jdDJqBdtJHZNWe"
+    }
+   ],
+   "avg": 680,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-23",
+   "set": "tama-gotchi3",
+   "name": "いもっち夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-23&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-24",
+   "set": "tama-gotchi3",
+   "name": "おじっち夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-24&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-24 おじっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JTmfFaryTmFaHSELxMpAw"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-25",
+   "set": "tama-gotchi3",
+   "name": "おトキっち夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-25&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-25 おトキっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JTmfFc4gcFanbueKUPiHx"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-26",
+   "set": "tama-gotchi3",
+   "name": "コフレっち夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-26&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-27",
+   "set": "tama-gotchi3",
+   "name": "ピアニっち夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-27&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-28",
+   "set": "tama-gotchi3",
+   "name": "もりりっち夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-28&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-28 もりりっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JTmfFdzhmLg7FPUzUAC9P"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-29",
+   "set": "tama-gotchi3",
+   "name": "シャイクっち夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-29&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-29 シャイクっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JTmfFdqE5SzWJSXbUdS9h"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-30",
+   "set": "tama-gotchi3",
+   "name": "くろまめっち夏のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-30&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-31",
+   "set": "tama-gotchi3",
+   "name": "めめっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-31&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-31 めめっちスペーススタイル (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JTmfFfgsJkzHnrjnNgbzX"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-32",
+   "set": "tama-gotchi3",
+   "name": "まきこスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-32&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-33",
+   "set": "tama-gotchi3",
+   "name": "ぴゅえるっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-33&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-34",
+   "set": "tama-gotchi3",
+   "name": "ビッグスマイルスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-34&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-35",
+   "set": "tama-gotchi3",
+   "name": "あほろぱっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-35&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-36",
+   "set": "tama-gotchi3",
+   "name": "シロいるかっちを発見",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-36&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-36 シロいるかっちも発見 (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JTmfFiBcGXbcsAaRXSLKV"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-37",
+   "set": "tama-gotchi3",
+   "name": "ネリネっちおさんぽ中",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-37&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-37 ネリネっちおさんぽ中 (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JTmfFjZggNYnGRsL6y2Xz"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-38",
+   "set": "tama-gotchi3",
+   "name": "ほっぺんっちおさんぽ中",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-38&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-38 ほっぺんっちおさんぽ中 (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 680,
+     "url": "https://jp.mercari.com/item/2JTmfFjcrEaSxGZfrXTqmo"
+    }
+   ],
+   "avg": 680,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-39",
+   "set": "tama-gotchi3",
+   "name": "なんごくみゃおっちを発見",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-39&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-39 なんごくみゃおっちも発見 (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 680,
+     "url": "https://jp.mercari.com/item/2JTmfFk5ADtYv4z3JJ7dyQ"
+    }
+   ],
+   "avg": 680,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-40",
+   "set": "tama-gotchi3",
+   "name": "なまけもっちおさんぽ中",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-40&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-40 なまけもっちおさんぽ中 (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JTmfFmMYdEmGynxSq9y3f"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-41",
+   "set": "tama-gotchi3",
+   "name": "とうもろこし",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-41&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-41 とうもろこし (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JTmfFmW6QU9yrbREndpfj"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-42",
+   "set": "tama-gotchi3",
+   "name": "かきごおり",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-42&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-42 かきごおり (N ノーマル) 】たまごっち にゅー! ごっちカード3",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JTmfFmsbxxiW4LUN6J3fA"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC03-43",
+   "set": "tama-gotchi3",
+   "name": "ソフトクリーム",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-43&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-44",
+   "set": "tama-gotchi3",
+   "name": "スイカ",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-44&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC03-45",
+   "set": "tama-gotchi3",
+   "name": "スイ冠",
+   "search": "https://jp.mercari.com/search?keyword=TNGC03-45&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-02",
+   "set": "tama-gotchi2",
+   "name": "みみっち春のハッピースタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-02&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": [],
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-04",
+   "set": "tama-gotchi2",
+   "name": "いちごっち春のハッピースタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-04&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": [],
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-05",
+   "set": "tama-gotchi2",
+   "name": "ちょーちょっち春のハッピースタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-05&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": [],
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-06",
+   "set": "tama-gotchi2",
+   "name": "くちぱっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-06&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": [],
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-07",
+   "set": "tama-gotchi2",
+   "name": "くりてんスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-07&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC02-07 くりてんスペーススタイル (R レア)】たまごっち にゅー! ごっちカード2",
+     "price": 880,
+     "url": "https://jp.mercari.com/item/2JNorC38FADcMsm4cCqLuv"
+    }
+   ],
+   "avg": 880,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-08",
+   "set": "tama-gotchi2",
+   "name": "ちゃまめっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-08&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-11",
+   "set": "tama-gotchi2",
+   "name": "くろまめっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-11&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-11[R]：くろまめっちスペーススタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMKQJgzuagnjHv3r2oR"
+    },
+    {
+     "title": "【TNGC02-11 くろまめっちスペーススタイル (R レア)】たまごっち にゅー! ごっちカード2",
+     "price": 980,
+     "url": "https://jp.mercari.com/item/2JNorC5iazb6yo6myKhpWb"
+    }
+   ],
+   "avg": 640,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-12",
+   "set": "tama-gotchi2",
+   "name": "りくのフィールド探検!",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-12&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC02-12 りくのフィールド探検！ (R レア)】たまごっち にゅー! ごっちカード2",
+     "price": 880,
+     "url": "https://jp.mercari.com/item/2JNorC5YU5MNwJKmkU9sxv"
+    }
+   ],
+   "avg": 880,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-13",
+   "set": "tama-gotchi2",
+   "name": "みずのフィールド探検!",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-13&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-13[R]：みずのフィールド探検!",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JVR5GvrdgZ8XXi4xUA9JT"
+    },
+    {
+     "title": "【TNGC02-13 みずのフィールド探検！ (R レア)】たまごっち にゅー! ごっちカード2",
+     "price": 880,
+     "url": "https://jp.mercari.com/item/2JNorC86MmBs69me4N7ERk"
+    }
+   ],
+   "avg": 590,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-14",
+   "set": "tama-gotchi2",
+   "name": "そらのフィールド探検!",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-14&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-15",
+   "set": "tama-gotchi2",
+   "name": "もりのフィールド探検!",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-15&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC02-15 もりのフィールド探検！ (R レア)】たまごっち にゅー! ごっちカード2",
+     "price": 880,
+     "url": "https://jp.mercari.com/item/2JNorC8NnsYipfcGJnbNbn"
+    }
+   ],
+   "avg": 880,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-16",
+   "set": "tama-gotchi2",
+   "name": "まめっち春のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-16&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-17",
+   "set": "tama-gotchi2",
+   "name": "めめっち春のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-17&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-18",
+   "set": "tama-gotchi2",
+   "name": "くちぱっち春のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-18&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-19",
+   "set": "tama-gotchi2",
+   "name": "ふらわっち春のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-19&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-20",
+   "set": "tama-gotchi2",
+   "name": "しましまっち春のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-20&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "【たまごっち】にゅーごっちカード2　しましまっち　TNGC02-20N",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m85825233368"
+    },
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-20[N]：しましまっち春のよそおい",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMKFEnxg9uUxAeY7KsR"
+    },
+    {
+     "title": "【TNGC02-20 しましまっち春のよそおい (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JNorCC3uULDqAZNFTAWtn"
+    }
+   ],
+   "avg": 393,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-21",
+   "set": "tama-gotchi2",
+   "name": "わしきっち春のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-21&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-21[N]：わしきっち春のよそおい",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMKY4J9sR8xP6bsvDmm"
+    },
+    {
+     "title": "【TNGC02-21 わしきっち春のよそおい (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JNorCCdk7Cb5wC8hKeVWU"
+    }
+   ],
+   "avg": 440,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-22",
+   "set": "tama-gotchi2",
+   "name": "たらこっち春のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-22&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-22[N]：たらこっち春のよそおい",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMMha3sZTrPp6TVSi2J"
+    },
+    {
+     "title": "【TNGC02-22 たらこっち春のよそおい (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JNorCDUCq9TP7Twuwej5p"
+    }
+   ],
+   "avg": 440,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-23",
+   "set": "tama-gotchi2",
+   "name": "ゆめみっち春のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-23&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-23[N]：ゆめみっち春のよそおい",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMLSYc78XhLamc9wGSB"
+    },
+    {
+     "title": "【TNGC02-23 ゆめみっち春のよそおい (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 680,
+     "url": "https://jp.mercari.com/item/2JNorCDuWD5dKfKmXzNyP3"
+    }
+   ],
+   "avg": 490,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-24",
+   "set": "tama-gotchi2",
+   "name": "キラリっち春のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-24&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-24[N]：キラリっち春のよそおい",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMKXfnVQsQuuWmtmz8h"
+    },
+    {
+     "title": "【たまごっち】にゅーごっちカード2　キラリっち春よそおい　TNGC02-24N",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m24507913458"
+    },
+    {
+     "title": "【TNGC02-24 キラリっち春のよそおい (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 640,
+     "url": "https://jp.mercari.com/item/2JNorCGDnnoCiaJKRarwzn"
+    }
+   ],
+   "avg": 413,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-25",
+   "set": "tama-gotchi2",
+   "name": "キラもっち春のよそおい",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-25&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-25[N]：キラもっち春のよそおい",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMKKCeVfZGEKbCA4GrW"
+    },
+    {
+     "title": "【TNGC02-25 キラもっち春のよそおい (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 600,
+     "url": "https://jp.mercari.com/item/2JNorCG8QQdKZNjUj3GsrG"
+    }
+   ],
+   "avg": 450,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-26",
+   "set": "tama-gotchi2",
+   "name": "ぎんじろっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-26&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-26[N]：ぎんじろっちスペーススタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMKbwfvmRQgPbbwyvTJ"
+    },
+    {
+     "title": "【TNGC02-26 ぎんじろっちスペーススタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JNorCGGKeeozfH9exN3PA"
+    }
+   ],
+   "avg": 440,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-27",
+   "set": "tama-gotchi2",
+   "name": "ござるっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-27&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-28",
+   "set": "tama-gotchi2",
+   "name": "ききっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-28&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-28[N]：ききっちスペーススタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMLVe7ktKXRee9dCt2c"
+    },
+    {
+     "title": "【TNGC02-28 ききっちスペーススタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JNorCJk3TkTwuuwU9atu7"
+    }
+   ],
+   "avg": 440,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-29",
+   "set": "tama-gotchi2",
+   "name": "スペイシーっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-29&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-29[N]：スペイシーっちスペーススタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JU9bjjDHW3PirNfxsNMnV"
+    },
+    {
+     "title": "【たまごっち】にゅーごっちカード2　スペイシーっち　TNGC02-29N",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m57484493004"
+    },
+    {
+     "title": "【TNGC02-29 スペイシーっちスペーススタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JNorCJqjY7nHc9PrMNzBn"
+    }
+   ],
+   "avg": 393,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-30",
+   "set": "tama-gotchi2",
+   "name": "うーぱっちスペーススタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-30&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-30[N]：うーぱっちスペーススタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMKP4CxK8mSEKQB88rz"
+    },
+    {
+     "title": "【TNGC02-30 うーぱっちスペーススタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JNorCLDYUejjtY3s9Cniw"
+    }
+   ],
+   "avg": 440,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-31",
+   "set": "tama-gotchi2",
+   "name": "まめっちカフェスタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-31&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-32",
+   "set": "tama-gotchi2",
+   "name": "みみっちカフェスタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-32&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-33",
+   "set": "tama-gotchi2",
+   "name": "ポチっちカフェスタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-33&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-34",
+   "set": "tama-gotchi2",
+   "name": "まきこカフェスタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-34&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-34[N]：まきこカフェスタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMKcVMwLSd7Z5uuQ99H"
+    },
+    {
+     "title": "【TNGC02-34 まきこカフェスタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 700,
+     "url": "https://jp.mercari.com/item/2JNorCN9dbWVJgKvbYN4vt"
+    }
+   ],
+   "avg": 500,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-35",
+   "set": "tama-gotchi2",
+   "name": "パティっちカフェスタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-35&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-35[N]：パティっちカフェスタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMKT9eTWdFXzmkAgGkc"
+    },
+    {
+     "title": "【TNGC02-35 パティっちカフェスタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JNorCNCBT2stSjNpjiBXx"
+    }
+   ],
+   "avg": 440,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-36",
+   "set": "tama-gotchi2",
+   "name": "わたわたっちカフェスタイル",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-36&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-36[N]：わたわたっちカフェスタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMKfwksbkRUN3DbkxyC"
+    },
+    {
+     "title": "【TNGC02-36 わたわたっちカフェスタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JNorCPEwirPbscjVGxtK7"
+    }
+   ],
+   "avg": 440,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-37",
+   "set": "tama-gotchi2",
+   "name": "たすたすっちを発見",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-37&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-38",
+   "set": "tama-gotchi2",
+   "name": "めんだこっちを発見",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-38&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-38[N]：めんだこっちを発見",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMLby4iwc4JovneGSjb"
+    },
+    {
+     "title": "【TNGC02-38 めんだこっちを発見 (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 720,
+     "url": "https://jp.mercari.com/item/2JNorCSYW3ssmErVMEgP47"
+    }
+   ],
+   "avg": 510,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-39",
+   "set": "tama-gotchi2",
+   "name": "もんがっちを発見",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-39&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-39[N]：もんがっちを発見",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMKfkgS63DpLE7YyJx9"
+    },
+    {
+     "title": "【TNGC02-39 もんがっちを発見 (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 720,
+     "url": "https://jp.mercari.com/item/2JNorCSYVzXsYtpC94fMp9"
+    }
+   ],
+   "avg": 510,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-40",
+   "set": "tama-gotchi2",
+   "name": "もりのほーほっちを発見",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-40&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-41",
+   "set": "tama-gotchi2",
+   "name": "せびれっちを発見",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-41&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-41[N]：せびれっちを発見",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMKkaHFwQktjf6mXrhj"
+    },
+    {
+     "title": "【TNGC02-41 せびれっちを発見 (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JNorCXz9CAi6rkbXTjRZK"
+    }
+   ],
+   "avg": 440,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC02-42",
+   "set": "tama-gotchi2",
+   "name": "もくもくファンタジー",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-42&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-43",
+   "set": "tama-gotchi2",
+   "name": "あじさい日和",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-43&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-44",
+   "set": "tama-gotchi2",
+   "name": "こいっちのぼり",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-44&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC02-45",
+   "set": "tama-gotchi2",
+   "name": "エンたま赤ちゃん応援団",
+   "search": "https://jp.mercari.com/search?keyword=TNGC02-45&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "TNGC01-17",
+   "set": "tama-gotchi1",
+   "name": "みみっちじゅんび体操",
+   "search": "https://jp.mercari.com/search?keyword=TNGC01-17&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC01-17[N]：みみっちじゅんび体操",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JQHNQLAHxsvrrNboZzTJm"
+    }
+   ],
+   "avg": 300,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "TNGC01-21",
+   "set": "tama-gotchi1",
+   "name": "みるくっちじゅんび体操",
+   "search": "https://jp.mercari.com/search?keyword=TNGC01-21&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【STNGC01-21 ぴゅえるっちアイドル (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 880,
+     "url": "https://jp.mercari.com/item/2JZuKG2rp2gXRgwC5qCAXJ"
+    },
+    {
+     "title": "【中古】アニメ系トレカ TNGC01-21[N]：みるくっちじゅんび体操",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JM6vSfFH8fEPuJ9Tmami8"
+    }
+   ],
+   "avg": 590,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer13-No.25",
+   "set": "pre-wafer13",
+   "name": "No.25 キュアミスティック HR",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B913%20No.25%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%9F%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "プリキュアウエハース13 キュアミスティック HR カード",
+     "price": 2000,
+     "url": "https://jp.mercari.com/item/m48066881909"
+    },
+    {
+     "title": "プリキュアカードウエハース13 キュアミスティック HR",
+     "price": 1666,
+     "url": "https://jp.mercari.com/item/m16799531708"
+    },
+    {
+     "title": "プリキュアカードウエハース13 名探偵プリキュア キュアミスティック HR",
+     "price": 2000,
+     "url": "https://jp.mercari.com/item/m56856922078"
+    }
+   ],
+   "avg": 1889,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer12-No.23",
+   "set": "pre-wafer12",
+   "name": "No.23 キュアキュンキュン HR",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B912%20No.23%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AD%E3%83%A5%E3%83%B3%E3%82%AD%E3%83%A5%E3%83%B3&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "【新品未開封】プリキュアカードウエハース12 キュアキュンキュン HR",
+     "price": 1699,
+     "url": "https://jp.mercari.com/item/m17517360535"
+    },
+    {
+     "title": "未開封 12弾 HR キュアキュンキュン プリキュア ウエハース カード",
+     "price": 2000,
+     "url": "https://jp.mercari.com/item/m59673405497"
+    },
+    {
+     "title": "プリキュア　ウエハース12　キュアキュンキュン",
+     "price": 1790,
+     "url": "https://jp.mercari.com/item/m44265299735"
+    }
+   ],
+   "avg": 1830,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer12-No.21",
+   "set": "pre-wafer12",
+   "name": "No.21 キュアアイドル HR",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B912%20No.21%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "プリキュアウエハース12　キュアアイドル",
+     "price": 1500,
+     "url": "https://jp.mercari.com/item/m47828236378"
+    },
+    {
+     "title": "未開封 12,13弾 キュアアイドル キミとアイドル プリキュア ウエハース",
+     "price": 1500,
+     "url": "https://jp.mercari.com/item/m72708642625"
+    },
+    {
+     "title": "プリキュアウエハース11 12 キュアアイドル キミとアイドルプリキュア HR",
+     "price": 1000,
+     "url": "https://jp.mercari.com/item/m86285519700"
+    }
+   ],
+   "avg": 1333,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer12-No.22",
+   "set": "pre-wafer12",
+   "name": "No.22 キュアウインク HR",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B912%20No.22%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%A6%E3%82%A4%E3%83%B3%E3%82%AF&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "プリキュア　カードウエハース12　HR　No.22　キュアウインク",
+     "price": 1499,
+     "url": "https://jp.mercari.com/item/m75754428715"
+    },
+    {
+     "title": "プリキュア カード ウエハース 12 弾 キュアウインク HR No.22",
+     "price": 1150,
+     "url": "https://jp.mercari.com/item/m82448433688"
+    },
+    {
+     "title": "プリキュア　ウエハース12 キュアウインク HR No.22 未開封",
+     "price": 830,
+     "url": "https://jp.mercari.com/item/m58513633901"
+    }
+   ],
+   "avg": 1160,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer12-No.24",
+   "set": "pre-wafer12",
+   "name": "No.24 シャイニールミナス HR",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B912%20No.24%20%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%83%AB%E3%83%9F%E3%83%8A%E3%82%B9&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "プリキュアカードウエハース12 HR No.24 シャイニールミナス",
+     "price": 749,
+     "url": "https://jp.mercari.com/item/m23972520653"
+    },
+    {
+     "title": "【匿名配送】 シャイニールミナス　Ｎｏ．24 カード　新品 ウエハース12",
+     "price": 599,
+     "url": "https://jp.mercari.com/item/m89549464361"
+    },
+    {
+     "title": "プリキュアカードウエハース12 No.24 シャイニールミナス HR",
+     "price": 700,
+     "url": "https://jp.mercari.com/item/m71798582718"
+    }
+   ],
+   "avg": 683,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer12-No.27",
+   "set": "pre-wafer12",
+   "name": "No.27 キュアホイップ HR",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B912%20No.27%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%9B%E3%82%A4%E3%83%83%E3%83%97&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "プリキュア　カードウエハース12 キュアホイップ　HRプリキュア",
+     "price": 600,
+     "url": "https://jp.mercari.com/item/m35221791659"
+    },
+    {
+     "title": "プリキュア ウエハース12 HR キュアホイップ",
+     "price": 490,
+     "url": "https://jp.mercari.com/item/m44584094201"
+    },
+    {
+     "title": "プリキュアウエハース 12 HR No.27 キュアホイップ",
+     "price": 699,
+     "url": "https://jp.mercari.com/item/m28098498198"
+    }
+   ],
+   "avg": 596,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer12-No.18",
+   "set": "pre-wafer12",
+   "name": "No.18 Futari wa Precure Max Heart SSR",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B912%20No.18%20Futari&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "pre-wafer12-No.09",
+   "set": "pre-wafer12",
+   "name": "No.09 シャイニールミナス/九条ひかり N",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B912%20No.09%20%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%83%AB%E3%83%9F%E3%83%8A%E3%82%B9/%E4%B9%9D%E6%9D%A1%E3%81%B2%E3%81%8B%E3%82%8A&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": [],
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer11-No.26",
+   "set": "pre-wafer11",
+   "name": "No.26 キュアニャミー HR",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.26%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%8B%E3%83%A3%E3%83%9F%E3%83%BC&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "キュアニャミーHR プリキュアウエハース11　特別値下げ！",
+     "price": 2000,
+     "url": "https://jp.mercari.com/item/m59952759047"
+    },
+    {
+     "title": "プリキュアウエハース11　No.26 HR キュアニャミー　1枚",
+     "price": 1999,
+     "url": "https://jp.mercari.com/item/m65330401138"
+    },
+    {
+     "title": "プリキュアカードウエハース11　キュアニャミー",
+     "price": 1444,
+     "url": "https://jp.mercari.com/item/m94561744190"
+    }
+   ],
+   "avg": 1814,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer11-No.27",
+   "set": "pre-wafer11",
+   "name": "No.27 キュアリリアン HR",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.27%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%AA%E3%83%AA%E3%82%A2%E3%83%B3&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "プリキュアカードウエハース11 キュアリリアン",
+     "price": 1777,
+     "url": "https://jp.mercari.com/item/m76167842080"
+    },
+    {
+     "title": "プリキュアカードウエハース11 キュアリリアン",
+     "price": 1399,
+     "url": "https://jp.mercari.com/item/m84024080379"
+    },
+    {
+     "title": "プリキュアウエハース11 HR No.27 キュアリリアン 未開封",
+     "price": 1200,
+     "url": "https://jp.mercari.com/item/m77257286636"
+    }
+   ],
+   "avg": 1459,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer11-No.22",
+   "set": "pre-wafer11",
+   "name": "No.22 キュアプリンセス HR",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.22%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BB%E3%82%B9&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "ブ*き様 【未開封】プリキュア カード ウエハース 11 キュアプリンセス HR",
+     "price": 600,
+     "url": "https://jp.mercari.com/item/m86234553949"
+    },
+    {
+     "title": "【内袋未開封】プリキュア カード ウエハース 11 キュアプリンセス HR",
+     "price": 555,
+     "url": "https://jp.mercari.com/item/m11626295962"
+    },
+    {
+     "title": "プリキュアカードウエハース11 ハピネスチャージプリキュア　キュアプリンセス",
+     "price": 399,
+     "url": "https://jp.mercari.com/item/m15300498965"
+    }
+   ],
+   "avg": 518,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer11-No.23",
+   "set": "pre-wafer11",
+   "name": "No.23 キュアミラクル HR",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.23%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "キュアミラクル HR プリキュアカードウエハース11",
+     "price": 666,
+     "url": "https://jp.mercari.com/item/m49313092727"
+    },
+    {
+     "title": "キュアミラクル HR プリキュアカードウエハース11",
+     "price": 999,
+     "url": "https://jp.mercari.com/item/m25902252141"
+    },
+    {
+     "title": "キュアミラクル HR プリキュアカードウエハース11",
+     "price": 900,
+     "url": "https://jp.mercari.com/item/m79493019235"
+    }
+   ],
+   "avg": 855,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer11-No.24",
+   "set": "pre-wafer11",
+   "name": "No.24 キュアマジカル HR",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.24%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%9E%E3%82%B8%E3%82%AB%E3%83%AB&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "プリキュアカードウエハース11 キュアマジカル",
+     "price": 620,
+     "url": "https://jp.mercari.com/item/m93934436950"
+    },
+    {
+     "title": "プリキュアウエハース11　魔法つかいプリキュア　キュアマジカル　カード",
+     "price": 900,
+     "url": "https://jp.mercari.com/item/m99607149699"
+    },
+    {
+     "title": "プリキュア　ウエハース　11　まほプリ　HR キュアマジカル　キュアミラクル",
+     "price": 999,
+     "url": "https://jp.mercari.com/item/m77112165802"
+    }
+   ],
+   "avg": 840,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer11-No.21",
+   "set": "pre-wafer11",
+   "name": "No.21 キュアラブリー HR",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.21%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%A9%E3%83%96%E3%83%AA%E3%83%BC&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "プリキュアウエハース11弾 カード キュアラブリー　HR",
+     "price": 400,
+     "url": "https://jp.mercari.com/item/m24785137848"
+    },
+    {
+     "title": "プリキュア　ウエハース　11　HR　SR キュアプリンセス　キュアラブリー",
+     "price": 999,
+     "url": "https://jp.mercari.com/item/m61978370444"
+    },
+    {
+     "title": "11弾 No.21 HR キュアラブリー ハピネスチャージプリキュア！",
+     "price": 600,
+     "url": "https://jp.mercari.com/item/m65881507329"
+    }
+   ],
+   "avg": 666,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer11-No.17",
+   "set": "pre-wafer11",
+   "name": "No.17 You and Idol Precure♪ SSR",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.17%20You&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": [],
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "pre-wafer11-No.14",
+   "set": "pre-wafer11",
+   "name": "No.14 キュアニャミー/猫屋敷ユキ R",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.14%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%8B%E3%83%A3%E3%83%9F%E3%83%BC/%E7%8C%AB%E5%B1%8B%E6%95%B7%E3%83%A6%E3%82%AD&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "pre-wafer11-No.02",
+   "set": "pre-wafer11",
+   "name": "No.02 キュアウインク N",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.02%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%A6%E3%82%A4%E3%83%B3%E3%82%AF&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "プリキュアカードウエハース11　キミプリSSR　アイドル　ウインク　キュンキュン",
+     "price": 999,
+     "url": "https://jp.mercari.com/item/m43451835764"
+    },
+    {
+     "title": "未開封 11,12,13弾 HR キュアウインク プリキュア ウエハース",
+     "price": 1400,
+     "url": "https://jp.mercari.com/item/m90710005065"
+    },
+    {
+     "title": "プリキュアカード ウエハース 11 キュアウインク No.2",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m18136651724"
+    }
+   ],
+   "avg": 900,
+   "checked": "2026-11-25"
+  }
+ ],
+ "seals": [
+  {
+   "id": "disney-sparklink",
+   "set": "seal",
+   "name": "ボンボンドロップシール スパークリンク",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%9C%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B7%E3%83%BC%E3%83%AB%20%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%B3%E3%82%AF&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": [],
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "perfectbook2",
+   "set": "seal",
+   "name": "ボンボンドロップシール パーフェクトBOOK2",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%9C%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B7%E3%83%BC%E3%83%AB%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88BOOK2&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【12月発売 予約】 公式ファンブック　限定いちごチョコボンボン付き　ボンボンドロップシール　パーフェクトBOOK２",
+     "price": 3780,
+     "url": "https://jp.mercari.com/item/2JXx8wBHrZpGqTHJPBQagg"
+    }
+   ],
+   "avg": 3780,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "jra",
+   "set": "seal",
+   "name": "ボンボンドロップシール JRA",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%9C%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B7%E3%83%BC%E3%83%AB%20JRA&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "JRA オリジナル ボンボンドロップシール",
+     "price": 1199,
+     "url": "https://jp.mercari.com/item/m33825620273"
+    },
+    {
+     "title": "JRA ボンボンドロップシール 競馬場限定",
+     "price": 1160,
+     "url": "https://jp.mercari.com/item/m92157824297"
+    },
+    {
+     "title": "JRA ボンボンドロップシール ボンドロ 馬",
+     "price": 1199,
+     "url": "https://jp.mercari.com/item/m54697543399"
+    }
+   ],
+   "avg": 1186,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "magical-jewel",
+   "set": "seal",
+   "name": "ボンボンドロップシール まじかるちいかわ",
+   "search": "https://jp.mercari.com/search?keyword=%E3%83%9C%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B7%E3%83%BC%E3%83%AB%20%E3%81%BE%E3%81%98%E3%81%8B%E3%82%8B%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "超まじかるちいかわ ボンボンドロップシール",
+     "price": 950,
+     "url": "https://jp.mercari.com/item/m48590217028"
+    },
+    {
+     "title": "まじかるちいかわ ボンボンドロップシール　悪いバージョン",
+     "price": 850,
+     "url": "https://jp.mercari.com/item/m88742181031"
+    },
+    {
+     "title": "まじかるちいかわ ボンボンドロップシール",
+     "price": 850,
+     "url": "https://jp.mercari.com/item/m73233569911"
+    }
+   ],
+   "avg": 883,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "tamamori30",
+   "set": "seal",
+   "name": "たまもりしーるリフィル30th 初代たまごっちセット",
+   "search": "https://jp.mercari.com/search?keyword=%E3%81%9F%E3%81%BE%E3%82%82%E3%82%8A%E3%81%97%E3%83%BC%E3%82%8B%E3%83%AA%E3%83%95%E3%82%A3%E3%83%AB30th%20%E5%88%9D%E4%BB%A3%E3%81%9F%E3%81%BE%E3%81%94%E3%81%A3%E3%81%A1%E3%82%BB%E3%83%83%E3%83%88&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "たまごっち たまもりシールリフィル 30th グレイシア 初代",
+     "price": 899,
+     "url": "https://jp.mercari.com/item/m32184556473"
+    },
+    {
+     "title": "【新品未開封】たまもりしーるリフィル 30th",
+     "price": 750,
+     "url": "https://jp.mercari.com/item/m32756357897"
+    }
+   ],
+   "avg": 824,
+   "checked": "2026-11-25"
+  },
+  {
+   "id": "jumbo-sealdass",
+   "set": "seal",
+   "name": "たまごっち ジャンボシールダス",
+   "search": "https://jp.mercari.com/search?keyword=%E3%81%9F%E3%81%BE%E3%81%94%E3%81%A3%E3%81%A1%20%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%9C%E3%82%B7%E3%83%BC%E3%83%AB%E3%83%80%E3%82%B9&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "たまごっち ジャンボシールダス",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m20546646849"
+    },
+    {
+     "title": "たまごっち ジャンボシールダス てんしっち",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m94646883542"
+    },
+    {
+     "title": "たまごっち ジャンボシールダス デザイン:3 ガチャガチャ",
+     "price": 333,
+     "url": "https://jp.mercari.com/item/m21693854638"
+    }
+   ],
+   "avg": 311,
+   "checked": "2026-11-25"
+  }
+ ]
+}

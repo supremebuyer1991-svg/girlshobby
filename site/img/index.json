@@ -1,0 +1,41 @@
+{
+ "tama-gotchi3": {
+  "source": "https://toy.bandai.co.jp/ja/item/01_6323/",
+  "images": [
+   "img/tama-gotchi3/product_1.jpg",
+   "img/tama-gotchi3/product_2.jpg",
+   "img/tama-gotchi3/product_3.jpg",
+   "img/tama-gotchi3/product_4.jpg",
+   "img/tama-gotchi3/product_5.jpg",
+   "img/tama-gotchi3/product_6.jpg",
+   "img/tama-gotchi3/product_7.jpg",
+   "img/tama-gotchi3/product_8.jpg",
+   "img/tama-gotchi3/product_9.jpg",
+   "img/tama-gotchi3/product_10.jpg"
+  ]
+ },
+ "tama-gotchi1": {
+  "source": "https://toy.bandai.co.jp/item/detail/15081/",
+  "images": [
+   "img/tama-gotchi1/product_1.jpg"
+  ]
+ },
+ "tama-scratch": {
+  "source": "https://toy.bandai.co.jp/ja/series/carddass/tamagotchi_scratch/",
+  "images": [
+   "img/tama-scratch/product_1.jpg"
+  ]
+ },
+ "pre-wafer2": {
+  "source": "https://www.bandai.co.jp/candy/products/2021/4549660550983000.html",
+  "images": [
+   "img/pre-wafer2/product_1.jpg"
+  ]
+ },
+ "pre-wafer3": {
+  "source": "https://www.bandai.co.jp/candy/products/2021/4549660583882000.html",
+  "images": [
+   "img/pre-wafer3/product_1.jpg"
+  ]
+ }
+}
