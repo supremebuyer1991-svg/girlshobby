@@ -84,8 +84,9 @@ def main():
     refresh = os.environ.get("REFRESH") == "1"
     for it in items:
         sid = it["id"]
-        if sid in idx and (ROOT / "site" / idx[sid]["file"]).exists() and not refresh:
-            continue
+        cur = idx.get(sid) or {}
+        if cur.get("file") and not cur["file"].startswith("http") and (ROOT / "site" / cur["file"]).exists() and not refresh:
+            continue                     # 公式の写真を保存済み
         got, kind = None, ""
         for kind, fn in (("公式・告知ページ", lambda: from_page(it.get("page"))), ("楽天市場", lambda: from_rakuten(it))):
             try:
@@ -99,6 +100,10 @@ def main():
             print(f"{sid}: 写真なし")
             continue
         url, source = got
+        if kind == "楽天市場":           # 楽天の画像は保存せず、楽天のURLのまま表示する
+            idx[sid] = {"file": url, "source": source, "kind": kind}
+            print(f"{sid}: 楽天市場の画像を表示")
+            continue
         try:
             data, ctype = get(url)
         except Exception as e:
