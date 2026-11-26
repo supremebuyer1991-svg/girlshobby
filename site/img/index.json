@@ -291,5 +291,101 @@
    "img/sanrio-wafer13/product_2.jpg",
    "img/sanrio-wafer13/product_3.jpg"
   ]
+ },
+ "tama-omisecchi": {
+  "source": "https://item.rakuten.co.jp/premiumgarage/b-tmg-omise/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "images": [
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/premiumgarage/cabinet/13340078/imgrc0116004583.jpg?_ex=500x500"
+  ],
+  "credit": "楽天市場"
+ },
+ "tama-gotchi1": {
+  "source": "https://item.rakuten.co.jp/valhallastore/4582770022858/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "images": [
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/valhallastore/cabinet/13201076/13488870/imgrc0219695106.jpg?_ex=500x500",
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/valhallastore/cabinet/13201076/13488870/imgrc0219695120.jpg?_ex=500x500",
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/valhallastore/cabinet/13201076/13488870/imgrc0219695112.jpg?_ex=500x500"
+  ],
+  "credit": "楽天市場"
+ },
+ "pre-kirakira": {
+  "source": "https://item.rakuten.co.jp/realize-store/142602s38mqk19/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "images": [
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/realize-store/cabinet/gachapon2/kawano35/meiprqkrkrtrd0019.jpg?_ex=500x500"
+  ],
+  "credit": "楽天市場"
+ },
+ "pre-wafer4": {
+  "source": "https://item.rakuten.co.jp/fullahead/precure-w04-027/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "images": [
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/fullahead/cabinet/07766521/precure-w04-027.jpg?_ex=500x500"
+  ],
+  "credit": "楽天市場"
+ },
+ "pre-wafer6": {
+  "source": "https://item.rakuten.co.jp/fullahead/precure-w06-018/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "images": [
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/fullahead/cabinet/09180284/precure-w06-018.jpg?_ex=500x500"
+  ],
+  "credit": "楽天市場"
+ },
+ "pre-wafer8": {
+  "source": "https://item.rakuten.co.jp/fullahead/precure-w08-001/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "images": [
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/fullahead/cabinet/09180284/10149549/precure-w08-001.jpg?_ex=500x500"
+  ],
+  "credit": "楽天市場"
+ },
+ "sanrio-wafer5": {
+  "source": "https://item.rakuten.co.jp/realize-store-2/132401s98skk12/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "images": [
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/realize-store-2/cabinet/gachapon2/kawano17/sanrikyazue50012.jpg?_ex=500x500"
+  ],
+  "credit": "楽天市場"
+ },
+ "sanrio-wafer8": {
+  "source": "https://item.rakuten.co.jp/realize-store/072412s113szk06/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "images": [
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/realize-store/cabinet/gachapon2/kawano25/sanriokyarue80006.jpg?_ex=500x500"
+  ],
+  "credit": "楽天市場"
+ },
+ "sanrio-wafer14": {
+  "source": "https://item.rakuten.co.jp/niki/4570117935480/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "images": [
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/niki/cabinet/ftp19/4570117935480.jpg?_ex=500x500",
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/niki/cabinet/ftp19/4570117935480_1.jpg?_ex=500x500"
+  ],
+  "credit": "楽天市場"
+ },
+ "tama-scratch": {
+  "source": "https://www.amazon.co.jp/dp/B0H8WL24SC?tag=tcgchusen-22&linkCode=osi&th=1&psc=1",
+  "images": [
+   "https://m.media-amazon.com/images/I/51DEgRkeKRL._SL500_.jpg",
+   "https://m.media-amazon.com/images/I/51b04cVCG3L._SL500_.jpg",
+   "https://m.media-amazon.com/images/I/51z7WPDc65L._SL500_.jpg",
+   "https://m.media-amazon.com/images/I/51PBT1qYXpL._SL500_.jpg"
+  ],
+  "credit": "Amazon"
+ },
+ "tama-gotchi2": {
+  "source": "https://www.amazon.co.jp/dp/B0G6CGCH9M?tag=tcgchusen-22&linkCode=osi&th=1&psc=1",
+  "images": [
+   "https://m.media-amazon.com/images/I/61PEcOIXwML._SL500_.jpg",
+   "https://m.media-amazon.com/images/I/51bAF5mPh7L._SL500_.jpg",
+   "https://m.media-amazon.com/images/I/51F3WGHq4LL._SL500_.jpg",
+   "https://m.media-amazon.com/images/I/51-0KY89sML._SL500_.jpg"
+  ],
+  "credit": "Amazon"
+ },
+ "pre-cleargum": {
+  "source": "https://www.amazon.co.jp/dp/B0HHMZDN61?tag=tcgchusen-22&linkCode=osi&th=1&psc=1",
+  "images": [
+   "https://m.media-amazon.com/images/I/4161-zWw+bL._SL500_.jpg",
+   "https://m.media-amazon.com/images/I/51cxrbaW1YL._SL500_.jpg",
+   "https://m.media-amazon.com/images/I/51MpL9-obSL._SL500_.jpg",
+   "https://m.media-amazon.com/images/I/51ycBwNXuyL._SL500_.jpg"
+  ],
+  "credit": "Amazon"
  }
 }
