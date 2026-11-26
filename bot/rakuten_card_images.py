@@ -94,7 +94,7 @@ def main():
         except Exception as e:
             print(f"[skip] {sid}: {e}", file=sys.stderr)
             got = None
-        time.sleep(1.2)
+        time.sleep(2.5)            # 速すぎると楽天に断られる（429）
         if not got:
             print(f"{sid}: 楽天でも見つからず")
             continue
