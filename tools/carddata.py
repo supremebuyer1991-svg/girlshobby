@@ -103,7 +103,7 @@ def bot_rows():
                 must2=[who.split("・")[0]]+([key] if key else [])+season
                 w0=who.split("・")[0]
                 ng=[o for o in ALL_WHO if w0 in o and o!=w0]+([] if c["code"].startswith("S") else ["STNGC"])
-                ng+=[o for o in SET_WHO[sid] if o!=w0 and o not in w0 and w0 not in o]   # ほかのキャラ名入り＝何枚かまとめて売っている   # 「まめっち」で「くろまめっち」、スクラッチ版の型番を拾わない
+                ng+=[o for o in ALL_WHO if o!=w0 and o not in w0 and w0 not in o and len(o)>=3]   # ほかのキャラ名入り＝何枚かまとめて売っている   # 「まめっち」で「くろまめっち」、スクラッチ版の型番を拾わない
                 rows.append({"id":c["code"],"set":sid,"name":n,"q":c["code"],"must":[c["code"]],
                              "q2":(f"スクラッチ ごっちカード {who} {what}" if c["code"].startswith("S") else f"ごっちカード {who} {what}").strip(),"must2":["ごっち"]+must2+(["スクラッチ|STNGC"] if c["code"].startswith("S") else []),"ng":ng})
             else:
