@@ -55,7 +55,7 @@ def ok(name, cat, ng_common):
 def api(keyword, page, aff):
     app, key = os.environ.get("RAKUTEN_APP_ID", "").strip(), os.environ.get("RAKUTEN_ACCESS_KEY", "").strip()
     site = (os.environ.get("SITE_URL") or "https://tcg-chusen.com").rstrip("/")
-    q = {"applicationId": app, "keyword": keyword, "format": "json", "formatVersion": 2, "hits": 30, "page": page,
+    q = {"applicationId": app, "keyword": " ".join(w for w in re.split(r"[\s　]+", keyword) if len(w) >= 2), "format": "json", "formatVersion": 2, "hits": 30, "page": page,
          "imageFlag": 1, "sort": "standard", "affiliateId": aff}
     req = urllib.request.Request(ENDPOINT + "?" + urllib.parse.urlencode(q),
                                  headers={"accessKey": key, "Referer": site + "/", "Origin": site, "User-Agent": "girlshobby/1.0"})

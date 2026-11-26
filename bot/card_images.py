@@ -16,7 +16,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from rakuten_card_images import ENDPOINT, NG, SHIP_NG, norm, UA  # noqa: E402
+from rakuten_card_images import ENDPOINT, NG, SHIP_NG, norm, UA, rk_kw  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 CARDS = ROOT / "bot" / "cards.json"
@@ -81,7 +81,7 @@ def rakuten():
     for r in rows:
         if (d.get(r["id"]) or {}).get("credit") == "公式":
             continue
-        q = {"applicationId": app, "keyword": r["q"], "format": "json", "formatVersion": 2, "hits": 30, "imageFlag": 1}
+        q = {"applicationId": app, "keyword": rk_kw(r["q"]), "format": "json", "formatVersion": 2, "hits": 30, "imageFlag": 1}
         if aff:
             q["affiliateId"] = aff
         try:

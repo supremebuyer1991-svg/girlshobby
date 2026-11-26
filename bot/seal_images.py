@@ -52,7 +52,7 @@ def from_page(page):
 
 
 import sys as _s; from pathlib import Path as _P; _s.path.insert(0, str(_P(__file__).resolve().parent))
-from rakuten_card_images import SHIP_NG  # noqa: E402  前日発送・ポイントなどの文字入り出品を外す
+from rakuten_card_images import SHIP_NG, rk_kw  # noqa: E402  前日発送・ポイントなどの文字入り出品を外す
 
 
 def from_rakuten(it):
@@ -70,7 +70,7 @@ def _rakuten(it, shop):
     if not (app and key):
         return None
     site = (os.environ.get("SITE_URL") or "https://tcg-chusen.com").rstrip("/")
-    q = {"applicationId": app, "keyword": it["rk"], "format": "json", "formatVersion": 2,
+    q = {"applicationId": app, "keyword": rk_kw(it["rk"]), "format": "json", "formatVersion": 2,
          "hits": 20, "imageFlag": 1}
     if shop:
         q["shopCode"] = shop          # 楽天ブックスは在庫切れでも商品ページと写真はある

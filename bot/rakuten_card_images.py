@@ -34,6 +34,11 @@ def norm(s):
     return unicodedata.normalize("NFKC", s or "").lower()
 
 
+def rk_kw(s):
+    """楽天の検索は1文字だけの言葉（例「7」）があるとエラーになるので外す"""
+    return " ".join(w for w in re.split(r"[\s　]+", s) if len(w) >= 2)
+
+
 def compact(s):
     # 空白・記号・カッコの中身を消して比べやすくする
     s = re.sub(r"[（(][^）)]*[）)]", "", norm(s))
@@ -56,7 +61,7 @@ def search(name, shop=""):
     app, key = os.environ.get("RAKUTEN_APP_ID", "").strip(), os.environ.get("RAKUTEN_ACCESS_KEY", "").strip()
     site = (os.environ.get("SITE_URL") or "https://tcg-chusen.com").rstrip("/")
     keyword = re.sub(r"[（(][^）)]*[）)]", " ", name).strip()
-    q = {"applicationId": app, "keyword": keyword, "format": "json", "formatVersion": 2,
+    q = {"applicationId": app, "keyword": rk_kw(keyword), "format": "json", "formatVersion": 2,
          "hits": 30, "imageFlag": 1}
     if shop:
         q["shopCode"] = shop
