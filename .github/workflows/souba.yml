@@ -21,7 +21,6 @@ jobs:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
           SITE_URL: ${{ vars.SITE_URL }}
-      - run: python bot/seal_watch.py
       - run: python bot/catalog.py
         env:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}

@@ -783,7 +783,7 @@ function chrome(){
 function render(){dans();hot();list();rank();mc();cal();const ss=$("#sec-shop");if(ss)ss.innerHTML=shopSec("card",tab);route(false)}
 window.addEventListener("hashchange",()=>route(true));
 try{fetch("img/index.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j){IMGS=j;dans();route(false)}}).catch(()=>{})}catch(e){}
-try{fetch("seal_news.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j){SNEWS=j;route(false)}}).catch(()=>{})}catch(e){}
+// シールのニュース欄は使わない（2026-11-26 オーナー判断）
 try{fetch("catalog.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j){CAT=j;render()}}).catch(()=>{})}catch(e){}
 try{fetch("img/seal/index.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j){SIMGS=j;route(false)}}).catch(()=>{})}catch(e){}
 try{fetch("souba.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j){MC=j;mc();dans();route(false)}}).catch(()=>{})}catch(e){}
