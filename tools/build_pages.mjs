@@ -81,6 +81,7 @@ const SERIES = [
   { slug: "precure-wafer", key: "プリキュアカードウエハース", t: "pre", title: "プリキュアカードウエハース 歴代一覧" },
   { slug: "sanrio-wafer", key: "サンリオキャラクターズウエハース", t: "sanrio", title: "サンリオキャラクターズ ウエハース 歴代一覧" },
   { slug: "aikatsu-encore", key: "アイカツ！アンコール", t: "aikatsu", title: "アイカツ！アンコール 弾一覧・カードリスト・相場" },
+  { slug: "chiikawa-wafer", key: "ちいかわウエハースラッキーカードコレクション", t: "chiikawa", title: "ちいかわ ウエハース ラッキーカードコレクション 歴代一覧" },
   { slug: "gotchi-card", key: "たまごっちにゅー！ごっちカード", t: "tama", title: "たまごっち にゅー！ごっちカード 歴代一覧" },
 ];
 const skey = it => it.name.replace(/\s/g, "").replace(/（パック）$/, "").replace(/\d+弾?$/, "");

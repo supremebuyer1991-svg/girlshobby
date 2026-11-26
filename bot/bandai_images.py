@@ -46,6 +46,7 @@ PAGES = {
     "aikatsu-phone": "https://toy.bandai.co.jp/ja/item/01_21043/",
     "aikatsu-kuji": "https://1kuji.com/products/aikatsu8",
     "aikatsu-file": "https://www.bandai.co.jp/catalog/item.php?jan_cd=4582770134674000",
+    "chiikawa-wafer2": "https://www.bandai.co.jp/candy/products/2025/4570117926594000.html",
     # まだURLが確認できていない弾: tama-gotchi1, tama-scratch, tama-gotchi2, tama-omisecchi, pre-wafer4/6/8, sanrio-wafer5/8
 }
 IMG_RE = re.compile(r"https://bandai-a\.akamaihd\.net/bc/img/model/(?:xl|b)/[0-9A-Za-z_]+\.(?:jpg|png)")
