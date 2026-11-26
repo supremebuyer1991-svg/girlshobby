@@ -15,6 +15,7 @@ jobs:
           python-version: "3.12"
       - run: python bot/bandai_images.py
       - run: python bot/seal_images.py
+      - run: python bot/card_images.py --official
       - run: python bot/relay_images.py
       - name: 保存
         run: |

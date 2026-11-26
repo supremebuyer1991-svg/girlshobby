@@ -660,6 +660,8 @@ function mc(){
  if(!rows.length){$("#mc").innerHTML='<div class="empty">この作品のメルカリ相場はまだありません。</div>';return}
  $("#mc").innerHTML=rows.map((c,n)=>{const set=all.find(i=>i.id===c.set);return `<div class="rk-row${n<3?" top3":""}">${medal(n)}<div><p>${esc(c.id)} ${esc(c.name)}</p><small>${esc(set?set.name:"")}・直近${Number(c.n)}件：${(c.items||[]).map(x=>yen(Number(x.price))).join(" / ")}<br><a href="${esc(c.search)}" rel="nofollow">メルカリで見る</a></small></div><span class="p">${yen(Number(c.avg))}</span></div>`}).join("");
 }
+let CIMG={};try{fetch("img/cards.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j){CIMG=j;route(false)}}).catch(()=>{})}catch(e){}
+function cimgOf(sid,c){return CIMG[/^S?TNGC/.test(c.code)?c.code:sid+"-"+c.code]||null}
 function mcOf(sid,c){if(!MC||!MC.cards)return null;const id=/^S?TNGC/.test(c.code)?c.code:sid+"-"+c.code;return MC.cards.find(x=>x.id===id&&x.avg)||null}
 function shopbox(it){
  const pre=it.cls==="pre",q=it.jan||it.name;
@@ -689,7 +691,7 @@ function dan(sid){
  <div class="rank">${rows.map((c,n)=>{const q=/^S?TNGC/.test(c.code)?c.code:it.name+" "+c.code+" "+c.name.split(" ")[0];
   const main=c.m?`<b>${yen(c.m.avg)}</b><small><span class="kk メルカリ">メルカリ</span>直近${Number(c.m.n)}件平均</small>`:(c.shop?`<b>${yen(c.shop.p)}</b><small><span class="kk ${esc(c.shop.k)}">${esc(c.shop.k)}</span>${esc(c.shop.src)}</small>`:`<b>－</b>`);
   const sub=c.m&&c.shop?`<small><span class="kk ${esc(c.shop.k)}">${esc(c.shop.k)}</span>${yen(c.shop.p)}（${esc(c.shop.src)}）</small>`:"";
-  return `<div class="crow${n<3?" top3":""}">${medal(n)}<div class="ph">${ic("star")}<img src="img/${encodeURIComponent(sid)}/${encodeURIComponent(c.code)}.jpg" alt="${esc(c.code)} ${esc(c.name)}" loading="lazy" onerror="this.remove()"></div>
+  return `<div class="crow${n<3?" top3":""}">${medal(n)}<div class="ph">${ic("star")}${(ci=>ci?`<img src="${esc(ci.img)}" alt="${esc(c.code)} ${esc(c.name)}" loading="lazy" onerror="this.remove()">`:"")(cimgOf(sid,c))}</div>
   <div class="cb"><span class="code">${esc(c.code)}</span><p>${esc(c.name)}</p>${sub}</div><div class="pr">${main}</div><a class="ml" href="${merc(q)}" rel="nofollow">メルカリで売れた値段を見る${ic("go")}</a></div>`}).join("")}</div>
  ${rest>0&&rows.length?`<p class="miss">まだ載っていないカード：${rest}種${miss.length?"（"+miss.map(esc).join("、")+"）":""}。わかりしだい追加します。</p>`:""}
  <p class="sample">写真は手持ちのカードを撮影して img/${esc(sid)}/型番.jpg に置くと表示されます。</p>

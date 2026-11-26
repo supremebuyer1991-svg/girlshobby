@@ -18,6 +18,8 @@ let MC = {};
 try { MC = JSON.parse(fs.readFileSync(path.join(SITE, "souba.json"), "utf8")); } catch {}
 let CAT = { categories: [] };
 try { CAT = JSON.parse(fs.readFileSync(path.join(SITE, "catalog.json"), "utf8")); } catch {}
+let CIMG = {};
+try { CIMG = JSON.parse(fs.readFileSync(path.join(SITE, "img", "cards.json"), "utf8")); } catch {}
 let IMGS = {}, SIMGS = {};
 try { IMGS = JSON.parse(fs.readFileSync(path.join(SITE, "img/index.json"), "utf8")); } catch {}
 try { SIMGS = JSON.parse(fs.readFileSync(path.join(SITE, "img/seal/index.json"), "utf8")); } catch {}
@@ -125,11 +127,11 @@ ${im ? `<div class="gal">${im.images.map((u, k) => `<img src="../../${esc(u)}" a
 <div class="main"><a class="btn az" href="${amz(it.jan || it.name)}" rel="nofollow sponsored">${ic("bag")}Amazonで${pre ? "予約" : "買う"}</a><a class="btn rk" href="${rkb(it.name)}" rel="nofollow sponsored">${ic("bag")}楽天ブックスで${pre ? "予約" : "買う"}</a></div>
 <div class="sub-btns"><a class="btn rk" href="${rkm(it.name)}" rel="nofollow sponsored">楽天市場でさがす</a><a class="btn mc" href="${merc(it.name)}" rel="nofollow">メルカリで売れた値段</a></div></div>
 ${hasRank ? `<section class="sec"><h2 class="h"><span class="hi">${ic("crown")}</span><span class="tx">${esc(it.name)} シングル相場ランキング</span></h2>
-<p class="legend">メルカリで最近売れた1枚売りの平均（直近3件）があればそれを、なければお店の値段を使っています。値段の種類と出典はカードごとに書いています。</p>
+<p class="legend">メルカリで実際に売れた1枚売り（個人の出品）の直近3件の平均です。カードの写真は公式または楽天市場のお店の画像です。</p>
 <div class="rank">${rows.map((c, n) => {
     const q = /^S?TNGC/.test(c.code) ? c.code : it.name + " " + c.code + " " + c.name.split(" ")[0];
     const main = c.m ? `<b>${yen(c.m.avg)}</b><small><span class="kk メルカリ">メルカリ</span>直近${Number(c.m.n)}件平均</small>` : (c.shop ? `<b>${yen(c.shop.p)}</b><small><span class="kk ${esc(c.shop.k)}">${esc(c.shop.k)}</span>${esc(c.shop.src)}</small>` : "<b>－</b>");
-    return `<div class="crow${n < 3 ? " top3" : ""}">${medal(n)}<div class="ph">${ic("star")}<img src="../../img/${encodeURIComponent(it.id)}/${encodeURIComponent(c.code)}.jpg" alt="${esc(c.code)} ${esc(c.name)}" loading="lazy" onerror="this.remove()"></div><div class="cb"><span class="code">${esc(c.code)}</span><p>${esc(c.name)}</p></div><div class="pr">${main}</div><a class="ml" href="${merc(q)}" rel="nofollow">メルカリで売れた値段を見る${ic("go")}</a></div>`;
+    return `<div class="crow${n < 3 ? " top3" : ""}">${medal(n)}<div class="ph">${ic("star")}${(ci => ci ? `<img src="${ci.img.startsWith("http") ? esc(ci.img) : "../../" + esc(ci.img)}" alt="${esc(c.code)} ${esc(c.name)}" loading="lazy" onerror="this.remove()">` : "")(CIMG[/^S?TNGC/.test(c.code) ? c.code : it.id + "-" + c.code])}</div><div class="cb"><span class="code">${esc(c.code)}</span><p>${esc(c.name)}</p></div><div class="pr">${main}</div><a class="ml" href="${merc(q)}" rel="nofollow">メルカリで売れた値段を見る${ic("go")}</a></div>`;
   }).join("")}</div></section>` : ""}
 ${faqHtml(qa)}
 ${nav}

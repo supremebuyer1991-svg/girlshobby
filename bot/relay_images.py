@@ -47,6 +47,18 @@ def main():
               lambda c: bool(c.get("file")) and c.get("kind") not in SHOP)
     print(f"楽天・Amazonの写真を取り込み: カード{a}弾・シール{b}個")
     try:
+        rc = get("cards.json")
+        lp = ROOT / "site/img/cards.json"
+        mine = json.loads(lp.read_text(encoding="utf-8")) if lp.exists() else {}
+        for k, v in rc.items():
+            if v.get("credit") in SHOP and (mine.get(k) or {}).get("credit") != "公式":
+                mine[k] = v
+        lp.parent.mkdir(parents=True, exist_ok=True)
+        lp.write_text(json.dumps(mine, ensure_ascii=False, indent=1), encoding="utf-8")
+        print("シングルカードの写真を取り込み:", sum(1 for v in mine.values() if v.get("credit") in SHOP), "枚")
+    except Exception as e:
+        print(f"[skip] カード写真一覧が取れなかった: {e}", file=sys.stderr)
+    try:
         cat = get("catalog.json")
         if sum(len(c.get("items", [])) for c in cat.get("categories", [])) > 0:
             (ROOT / "site/catalog.json").write_text(json.dumps(cat, ensure_ascii=False, indent=1), encoding="utf-8")
