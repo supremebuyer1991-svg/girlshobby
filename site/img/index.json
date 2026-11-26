@@ -335,9 +335,9 @@
   "credit": "楽天市場"
  },
  "pre-wafer4": {
-  "source": "https://item.rakuten.co.jp/fullahead/precure-w04-027/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "source": "https://item.rakuten.co.jp/fullahead/precure-w04-014/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
   "images": [
-   "https://thumbnail.image.rakuten.co.jp/@0_mall/fullahead/cabinet/07766521/precure-w04-027.jpg?_ex=500x500"
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/fullahead/cabinet/07766521/precure-w04-014.jpg?_ex=500x500"
   ],
   "credit": "楽天市場"
  },
@@ -406,5 +406,14 @@
    "https://m.media-amazon.com/images/I/51ycBwNXuyL._SL500_.jpg"
   ],
   "credit": "Amazon"
+ },
+ "aikatsu-phone": {
+  "source": "https://item.rakuten.co.jp/baton-store/stoy-14164/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "images": [
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/baton-store/cabinet/ir-m-shopimages/ir-m-shopimages64/imgrc0202849095.jpg?_ex=500x500",
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/baton-store/cabinet/ir-m-shopimages/ir-m-shopimages64/imgrc0202849101.jpg?_ex=500x500",
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/baton-store/cabinet/ir-m-shopimages/ir-m-shopimages64/imgrc0202849104.jpg?_ex=500x500"
+  ],
+  "credit": "楽天市場"
  }
 }
