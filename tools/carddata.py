@@ -76,6 +76,11 @@ WHO_RE = r"(.*?(?:っち|まきこ|くりてん|ビッグスマイル|クチパ�
 ALL_WHO = sorted({(re.match(WHO_RE, re.sub(r"\s+(SGR|GR|R|N)$", "", c["name"])) or [None, c["name"]])[1].split("・")[0]
                   for sid, st in SETS.items() if sid.startswith("tama") for c in st["cards"]})
 
+SET_WHO = {sid: sorted({(re.match(WHO_RE, re.sub(r"\s+(SGR|GR|R|N)$", "", c["name"])) or [None, c["name"]])[1].split("・")[0]
+                       for c in st["cards"]} - {""}) for sid, st in SETS.items() if sid.startswith("tama")}
+
+AK_NAMES = sorted({c["name"].split(" ")[0] for c in AIKATSU1})
+
 def bot_rows():
     rows=[]
     for sid,s in SETS.items():
@@ -88,7 +93,7 @@ def bot_rows():
                 rows.append({"id":f"{sid}-{c['code']}","set":sid,"name":f"{c['code']} {c['name']}",
                              "q":f"アイカツ アンコール {nm}"+(" パラレル" if par else ""),
                              "must":["アンコール",nm]+(["パラレル|★"] if par else []),
-                             "ng":[] if par else ["パラレル","★"]})
+                             "ng":([] if par else ["パラレル","★"])+[o for o in AK_NAMES if o!=nm and o not in nm and nm not in o]})
             elif re.match(r"S?TNGC", c["code"]):
                 # 型番を書かない出品も多いので、名前でも探す（2回目の検索）
                 n=re.sub(r"\s+(SGR|GR|R|N)$","",c["name"]); m=re.match(WHO_RE,n)
@@ -97,7 +102,8 @@ def bot_rows():
                 season=[x for x in ("夏","春") if x in what]
                 must2=[who.split("・")[0]]+([key] if key else [])+season
                 w0=who.split("・")[0]
-                ng=[o for o in ALL_WHO if w0 in o and o!=w0]+([] if c["code"].startswith("S") else ["STNGC"])   # 「まめっち」で「くろまめっち」、スクラッチ版の型番を拾わない
+                ng=[o for o in ALL_WHO if w0 in o and o!=w0]+([] if c["code"].startswith("S") else ["STNGC"])
+                ng+=[o for o in SET_WHO[sid] if o!=w0 and o not in w0 and w0 not in o]   # ほかのキャラ名入り＝何枚かまとめて売っている   # 「まめっち」で「くろまめっち」、スクラッチ版の型番を拾わない
                 rows.append({"id":c["code"],"set":sid,"name":n,"q":c["code"],"must":[c["code"]],
                              "q2":(f"スクラッチ ごっちカード {who} {what}" if c["code"].startswith("S") else f"ごっちカード {who} {what}").strip(),"must2":["ごっち"]+must2+(["スクラッチ|STNGC"] if c["code"].startswith("S") else []),"ng":ng})
             else:

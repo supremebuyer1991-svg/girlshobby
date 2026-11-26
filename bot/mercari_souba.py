@@ -31,7 +31,7 @@ MAX_CARDS = 260     # 1回の実行で調べる上限（やりすぎ防止）
 
 # この言葉がタイトルにあれば「1枚売り」ではないとみなして捨てる
 NG_WORDS = [
-    "まとめ", "セット", "BOX", "ボックス", "box", "コンプ", "大量", "引退",
+    "まとめ", "セット", "PSA", "鑑定", "オリパ", "BOX", "ボックス", "box", "コンプ", "大量", "引退",
     "以上", "種", "パック", "未開封品多数", "おまけ", "ファイル", "セミコンプ", "+", "＋", "&", "＆",
 ]
 CODE_RE = re.compile(r"TNGC\d{2}-\d{2}|E1-\d{2}", re.I)
@@ -70,9 +70,15 @@ def pick(items: list[dict], must: list[str], ng: list[str] = ()) -> list[dict]:
             continue
         if price < 50:          # 送料にもならない値段は、ほぼ別物 or いたずら
             continue
+        iid = str(it.get("id", ""))
+        if not iid.startswith("m"):   # メルカリShops（お店の在庫出品）は個人の売買相場ではないので使わない
+            continue
+        st = str(it.get("status", ""))
+        if st and st not in ("ITEM_STATUS_SOLD_OUT", "ITEM_STATUS_TRADING"):   # 本当に売れたものだけ
+            continue
         if not is_single(title, must, ng):
             continue
-        out.append({"title": title, "price": price,
+        out.append({"title": title, "price": price, "status": st,
                     "url": "https://jp.mercari.com/item/" + str(it.get("id", ""))})
         if len(out) >= TAKE:
             break
