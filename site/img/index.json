@@ -311,6 +311,15 @@
    "img/aikatsu-encore1/product_8.webp"
   ]
  },
+ "aikatsu-phone": {
+  "source": "https://item.rakuten.co.jp/baton-store/stoy-14164/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "images": [
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/baton-store/cabinet/ir-m-shopimages/ir-m-shopimages64/imgrc0202849095.jpg?_ex=500x500",
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/baton-store/cabinet/ir-m-shopimages/ir-m-shopimages64/imgrc0202849101.jpg?_ex=500x500",
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/baton-store/cabinet/ir-m-shopimages/ir-m-shopimages64/imgrc0202849104.jpg?_ex=500x500"
+  ],
+  "credit": "楽天市場"
+ },
  "tama-omisecchi": {
   "source": "https://item.rakuten.co.jp/premiumgarage/b-tmg-omise/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
   "images": [
@@ -406,14 +415,5 @@
    "https://m.media-amazon.com/images/I/51ycBwNXuyL._SL500_.jpg"
   ],
   "credit": "Amazon"
- },
- "aikatsu-phone": {
-  "source": "https://item.rakuten.co.jp/baton-store/stoy-14164/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
-  "images": [
-   "https://thumbnail.image.rakuten.co.jp/@0_mall/baton-store/cabinet/ir-m-shopimages/ir-m-shopimages64/imgrc0202849095.jpg?_ex=500x500",
-   "https://thumbnail.image.rakuten.co.jp/@0_mall/baton-store/cabinet/ir-m-shopimages/ir-m-shopimages64/imgrc0202849101.jpg?_ex=500x500",
-   "https://thumbnail.image.rakuten.co.jp/@0_mall/baton-store/cabinet/ir-m-shopimages/ir-m-shopimages64/imgrc0202849104.jpg?_ex=500x500"
-  ],
-  "credit": "楽天市場"
  }
 }

@@ -40,13 +40,18 @@
   "kind": "楽天市場"
  },
  "chiikawa-sushi": {
-  "file": "https://m.media-amazon.com/images/I/41m6cKVAndL._SL500_.jpg",
-  "source": "https://www.amazon.co.jp/dp/B0HNMN4PN8?tag=tcgchusen-22&linkCode=osi&th=1&psc=1",
-  "kind": "Amazon"
+  "file": "https://thumbnail.image.rakuten.co.jp/@0_mall/lien0305/cabinet/12675253/compass1790311580.jpg?_ex=500x500",
+  "source": "https://item.rakuten.co.jp/lien0305/compass1790311795/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "kind": "楽天市場"
  },
  "crayon-shin": {
-  "file": "https://m.media-amazon.com/images/I/51pMgn7pUdL._SL500_.jpg",
-  "source": "https://www.amazon.co.jp/dp/B0HPRM6RWD?tag=tcgchusen-22&linkCode=osi&th=1&psc=1",
-  "kind": "Amazon"
+  "file": "https://thumbnail.image.rakuten.co.jp/@0_mall/bunbougu-shibuya/cabinet/108/bondrop-krs.jpg?_ex=500x500",
+  "source": "https://item.rakuten.co.jp/bunbougu-shibuya/bondrop-krs/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "kind": "楽天市場"
+ },
+ "sanrio-okinawa": {
+  "file": "https://thumbnail.image.rakuten.co.jp/@0_mall/bii-dama/cabinet/image0279/52994979_1.jpg?_ex=500x500",
+  "source": "https://item.rakuten.co.jp/bii-dama/52994979/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "kind": "楽天市場"
  }
 }
