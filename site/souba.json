@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 20:50",
+ "updated": "2026-11-26 22:18",
  "rule": "メルカリの売り切れ・新しい順から、1枚売りの直近3件の平均",
  "cards": [
   {
@@ -88,6 +88,11 @@
    "n": 3,
    "items": [
     {
+     "title": "【TNGC03-06 おやじっちスペーススタイル (R レア) 】たまごっち にゅー! ごっちカード3",
+     "price": 980,
+     "url": "https://jp.mercari.com/item/2JTmfFPPoS7zx6UnJUbs95"
+    },
+    {
      "title": "たまごっち にゅー！ごっちカード3 おやじっちスペーススタイル Rレア",
      "price": 300,
      "url": "https://jp.mercari.com/item/m11952973794"
@@ -96,14 +101,9 @@
      "title": "ごっちカード3 Rおやじっちスペーススタイル",
      "price": 300,
      "url": "https://jp.mercari.com/item/m39882704570"
-    },
-    {
-     "title": "たまごっち　ごっちカード3　R　レア　おこじょっち　おやじっちスペーススタイル",
-     "price": 399,
-     "url": "https://jp.mercari.com/item/m12748420683"
     }
    ],
-   "avg": 333,
+   "avg": 527,
    "checked": "2026-11-26"
   },
   {
@@ -1524,20 +1524,15 @@
    "set": "tama-gotchi1",
    "name": "みるくっちじゅんび体操",
    "search": "https://jp.mercari.com/search?keyword=TNGC01-21&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 1,
    "items": [
-    {
-     "title": "【STNGC01-21 ぴゅえるっちアイドル (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
-     "price": 880,
-     "url": "https://jp.mercari.com/item/2JZuKG2rp2gXRgwC5qCAXJ"
-    },
     {
      "title": "【中古】アニメ系トレカ TNGC01-21[N]：みるくっちじゅんび体操",
      "price": 300,
      "url": "https://jp.mercari.com/item/2JM6vSfFH8fEPuJ9Tmami8"
     }
    ],
-   "avg": 590,
+   "avg": 300,
    "checked": "2026-11-26"
   },
   {
@@ -1848,15 +1843,20 @@
    "set": "pre-wafer11",
    "name": "No.21 キュアラブリー HR",
    "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.21%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%A9%E3%83%96%E3%83%AA%E3%83%BC&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 2,
    "items": [
     {
      "title": "プリキュアウエハース11弾 カード キュアラブリー　HR",
      "price": 400,
      "url": "https://jp.mercari.com/item/m24785137848"
+    },
+    {
+     "title": "プリキュア　カードウエハース11　HR　No.21　キュアラブリー",
+     "price": 1299,
+     "url": "https://jp.mercari.com/item/m27351670156"
     }
    ],
-   "avg": 400,
+   "avg": 850,
    "checked": "2026-11-26"
   },
   {
@@ -1900,22 +1900,22 @@
    "n": 3,
    "items": [
     {
-     "title": "状態A オーロラキスキャミソール 星宮いちご E1-01 PR アイカツアンコール",
-     "price": 1520,
-     "url": "https://jp.mercari.com/item/2JZoggVxCuEEcnmNE2Yuz6"
+     "title": "アイカツ アンコール PR オーロラキスキャミソール 星宮いちご",
+     "price": 1299,
+     "url": "https://jp.mercari.com/item/m49892504585"
     },
     {
-     "title": "アイカツアンコール　オーロラキスキャミソール　星宮いちご",
-     "price": 1444,
-     "url": "https://jp.mercari.com/item/m98369472671"
+     "title": "アイカツ　アイカツアンコール PR　オーロラキスキャミソール　いちご",
+     "price": 1511,
+     "url": "https://jp.mercari.com/item/m42061695405"
     },
     {
-     "title": "アイカツアンコール 星宮いちご オーロラキスキャミソール",
-     "price": 1444,
-     "url": "https://jp.mercari.com/item/m10341107410"
+     "title": "オーロラキスキャミソール アイカツ！ アイカツアンコール 星宮いちご",
+     "price": 1499,
+     "url": "https://jp.mercari.com/item/m43684126091"
     }
    ],
-   "avg": 1469,
+   "avg": 1436,
    "checked": "2026-11-26"
   },
   {
@@ -1926,22 +1926,22 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツアンコールオーロラキスドレープスカート E1-02 PR",
-     "price": 1250,
-     "url": "https://jp.mercari.com/item/m17883981777"
-    },
-    {
-     "title": "アイカツ！アンコール オーロラキスドレープスカート",
-     "price": 1100,
-     "url": "https://jp.mercari.com/item/m31118898196"
-    },
-    {
      "title": "アイカツアンコール オーロラキスドレープスカート PR",
-     "price": 1255,
-     "url": "https://jp.mercari.com/item/m38781044454"
+     "price": 1190,
+     "url": "https://jp.mercari.com/item/m63021462110"
+    },
+    {
+     "title": "アイカツ！ アンコール オーロラキスドレープスカート プレミアム レア",
+     "price": 1399,
+     "url": "https://jp.mercari.com/item/m91632644918"
+    },
+    {
+     "title": "アイカツ アンコール オーロラキスドレープスカート",
+     "price": 1222,
+     "url": "https://jp.mercari.com/item/m21706907157"
     }
    ],
-   "avg": 1202,
+   "avg": 1270,
    "checked": "2026-11-26"
   },
   {
@@ -1957,17 +1957,17 @@
      "url": "https://jp.mercari.com/item/m59521178940"
     },
     {
+     "title": "アイカツアンコールオーロラキスバレエシューズ E1-03 PR",
+     "price": 1200,
+     "url": "https://jp.mercari.com/item/m62369973167"
+    },
+    {
      "title": "アイカツアンコール　オーロラキスバレエシューズ　星宮いちご",
      "price": 1111,
      "url": "https://jp.mercari.com/item/m74097724101"
-    },
-    {
-     "title": "アイカツアンコール オーロラキスバレエシューズ PR　星宮いちご",
-     "price": 1100,
-     "url": "https://jp.mercari.com/item/m54407303692"
     }
    ],
-   "avg": 1107,
+   "avg": 1141,
    "checked": "2026-11-26"
   },
   {
@@ -1978,22 +1978,22 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツ！アンコール オーロラキスリボン PR 星宮いちご",
+     "price": 1400,
+     "url": "https://jp.mercari.com/item/m56537806841"
+    },
+    {
+     "title": "アイカツ！アンコール オーロラキスリボン PR 星宮いちご",
+     "price": 1400,
+     "url": "https://jp.mercari.com/item/m42087701467"
+    },
+    {
      "title": "アイカツ アンコール オーロラキスリボン",
      "price": 1499,
      "url": "https://jp.mercari.com/item/m80644573746"
-    },
-    {
-     "title": "アイカツアンコール オーロラキスリボン E1-04 PR　星宮いちご",
-     "price": 1440,
-     "url": "https://jp.mercari.com/item/m87715982400"
-    },
-    {
-     "title": "アイカツアンコール オーロラキスリボン E1-04 PR　星宮いちご",
-     "price": 1430,
-     "url": "https://jp.mercari.com/item/m28253395940"
     }
    ],
-   "avg": 1456,
+   "avg": 1433,
    "checked": "2026-11-26"
   },
   {
@@ -2004,6 +2004,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツ　アンコール　オデットスワン　大空あかり ER",
+     "price": 555,
+     "url": "https://jp.mercari.com/item/m21484147952"
+    },
+    {
      "title": "アイカツ！ オデットスワン ER アンコールレア",
      "price": 300,
      "url": "https://jp.mercari.com/item/m57649785044"
@@ -2012,14 +2017,9 @@
      "title": "アイカツアンコール　大空あかり　オデットスワン",
      "price": 444,
      "url": "https://jp.mercari.com/item/m45422308893"
-    },
-    {
-     "title": "アイカツ アンコール 大空あかり オデットスワン ER",
-     "price": 444,
-     "url": "https://jp.mercari.com/item/m85096000878"
     }
    ],
-   "avg": 396,
+   "avg": 433,
    "checked": "2026-11-26"
   },
   {
@@ -2082,22 +2082,22 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツアンコール PR 天の川コズミックワンショルダー",
+     "price": 600,
+     "url": "https://jp.mercari.com/item/m68660109864"
+    },
+    {
+     "title": "アイカツアンコール 天の川コズミックワンショルダー PR",
+     "price": 700,
+     "url": "https://jp.mercari.com/item/m56498825751"
+    },
+    {
      "title": "天の川コズミックワンショルダー　霧矢あおい　アイカツアンコール",
      "price": 599,
      "url": "https://jp.mercari.com/item/m61361230053"
-    },
-    {
-     "title": "アイカツアンコール　霧矢あおい　天の川コズミックワンショルダー",
-     "price": 599,
-     "url": "https://jp.mercari.com/item/m62863777009"
-    },
-    {
-     "title": "アイカツ アンコール霧矢あおい天の川コズミックワンショルダー E1-33 PR",
-     "price": 720,
-     "url": "https://jp.mercari.com/item/m78255937374"
     }
    ],
-   "avg": 639,
+   "avg": 633,
    "checked": "2026-11-26"
   },
   {
@@ -2108,6 +2108,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツアンコール　PR 天の川コズミックスカート　霧矢あおい",
+     "price": 666,
+     "url": "https://jp.mercari.com/item/m84603095206"
+    },
+    {
      "title": "アイカツ！ アンコール 天の川コズミックスカート 天の川コズミックカチューシャ",
      "price": 1333,
      "url": "https://jp.mercari.com/item/m39014668067"
@@ -2116,14 +2121,9 @@
      "title": "アイカツ！ アンコール 天の川コズミックスカート 天の川コズミックカチューシャ",
      "price": 1222,
      "url": "https://jp.mercari.com/item/m90980137443"
-    },
-    {
-     "title": "ち*ー様 アイカツアンコール天の川コズミックスカート PR",
-     "price": 600,
-     "url": "https://jp.mercari.com/item/m51588100708"
     }
    ],
-   "avg": 1052,
+   "avg": 1074,
    "checked": "2026-11-26"
   },
   {
@@ -2134,6 +2134,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツアンコール　PR　天の川コズミックブーツ",
+     "price": 600,
+     "url": "https://jp.mercari.com/item/m46229622331"
+    },
+    {
      "title": "アイカツ アンコール 天の川コズミックブーツ",
      "price": 580,
      "url": "https://jp.mercari.com/item/m70208837091"
@@ -2142,11 +2147,6 @@
      "title": "アイカツ！アンコール 天の川コズミックブーツ",
      "price": 600,
      "url": "https://jp.mercari.com/item/m80009810475"
-    },
-    {
-     "title": "天の川コズミックブーツ　アイカツアンコール!",
-     "price": 599,
-     "url": "https://jp.mercari.com/item/m93895470043"
     }
    ],
    "avg": 593,
@@ -2264,6 +2264,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツ アイカツアンコール サンシャインスターウェイトップス カチューシャ",
+     "price": 1099,
+     "url": "https://jp.mercari.com/item/m64735380181"
+    },
+    {
      "title": "アイカツ アイカツアンコール サンシャインスターウェイトップス スカート",
      "price": 999,
      "url": "https://jp.mercari.com/item/m75796010776"
@@ -2272,14 +2277,9 @@
      "title": "アイカツ アンコール PR サンシャインスターウェイトップス 星宮いちご",
      "price": 549,
      "url": "https://jp.mercari.com/item/m43180808188"
-    },
-    {
-     "title": "アイカツアンコール サンシャインスターウェイトップス",
-     "price": 555,
-     "url": "https://jp.mercari.com/item/m85962323977"
     }
    ],
-   "avg": 701,
+   "avg": 882,
    "checked": "2026-11-26"
   },
   {
@@ -2352,12 +2352,12 @@
      "url": "https://jp.mercari.com/item/m96066727620"
     },
     {
-     "title": "アイカツアンコール サンシャインスターウェイカチューシャ スカート星宮いちご",
-     "price": 1000,
-     "url": "https://jp.mercari.com/item/m85097979557"
+     "title": "アイカツ！アンコール サンシャインスターウェイカチューシャ PR",
+     "price": 555,
+     "url": "https://jp.mercari.com/item/m93084407386"
     }
    ],
-   "avg": 666,
+   "avg": 518,
    "checked": "2026-11-26"
   },
   {
@@ -2368,6 +2368,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツ アイカツアンコール サンライズスターウェイトップス カチューシャ ②",
+     "price": 860,
+     "url": "https://jp.mercari.com/item/m84428053848"
+    },
+    {
      "title": "アイカツアンコール カード サンライズスターウェイトップス ソレイユ 霧矢あおい",
      "price": 499,
      "url": "https://jp.mercari.com/item/m50618450050"
@@ -2376,14 +2381,9 @@
      "title": "アイカツアンコール　サンライズスターウェイトップス",
      "price": 455,
      "url": "https://jp.mercari.com/item/m96782448532"
-    },
-    {
-     "title": "サンライズスターウェイトップス カチューシャ アイカツアンコール Soleil",
-     "price": 880,
-     "url": "https://jp.mercari.com/item/m16090358123"
     }
    ],
-   "avg": 611,
+   "avg": 605,
    "checked": "2026-11-26"
   },
   {
@@ -2446,6 +2446,11 @@
    "n": 3,
    "items": [
     {
+     "title": "サンライズスターウェイカチューシャ　アイカツ　アイカツカード　アイカツアンコール",
+     "price": 411,
+     "url": "https://jp.mercari.com/item/m35217184724"
+    },
+    {
      "title": "アイカツアンコール！サンライズスターウェイカチューシャ",
      "price": 333,
      "url": "https://jp.mercari.com/item/m58183731928"
@@ -2454,14 +2459,9 @@
      "title": "アイカツアンコール カード サンライズスターウェイカチューシャ",
      "price": 455,
      "url": "https://jp.mercari.com/item/m15100670944"
-    },
-    {
-     "title": "アイカツアンコール　霧矢あおい　サンライズスターウェイカチューシャ",
-     "price": 444,
-     "url": "https://jp.mercari.com/item/m25294580890"
     }
    ],
-   "avg": 411,
+   "avg": 400,
    "checked": "2026-11-26"
   },
   {
@@ -2638,22 +2638,22 @@
    "n": 3,
    "items": [
     {
+     "title": "天の川コズミックスカート　パラレル　霧矢あおい　アイカツアンコール",
+     "price": 4222,
+     "url": "https://jp.mercari.com/item/m26077464971"
+    },
+    {
+     "title": "アイカツアンコール　天の川コズミックスカート　パラレル",
+     "price": 4222,
+     "url": "https://jp.mercari.com/item/m31761431389"
+    },
+    {
      "title": "アイカツ アンコール 霧矢あおい パラレル 天の川コズミックスカート",
      "price": 4111,
      "url": "https://jp.mercari.com/item/m92702418355"
-    },
-    {
-     "title": "アイカツ アンコール 霧矢あおい 天の川コズミックスカート パラレルカード",
-     "price": 3999,
-     "url": "https://jp.mercari.com/item/m33429561989"
-    },
-    {
-     "title": "アイカツ アンコール 天の川コズミックスカート パラレル PR カード",
-     "price": 4099,
-     "url": "https://jp.mercari.com/item/m86636927964"
     }
    ],
-   "avg": 4070,
+   "avg": 4185,
    "checked": "2026-11-26"
   },
   {
@@ -2690,6 +2690,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツ アンコール パラレル 天の川コズミックカチューシャ 霧矢あおい カード",
+     "price": 4499,
+     "url": "https://jp.mercari.com/item/m87320760129"
+    },
+    {
      "title": "アイカツアンコール 天の川コズミックカチューシャ E1-36 PR パラレル",
      "price": 4299,
      "url": "https://jp.mercari.com/item/m39479309848"
@@ -2698,14 +2703,9 @@
      "title": "アイカツ！アンコール パラレル 天の川コズミックカチューシャ 霧矢あおい",
      "price": 4299,
      "url": "https://jp.mercari.com/item/m82448046265"
-    },
-    {
-     "title": "アイカツ アンコール 天の川コズミックカチューシャ パラレル",
-     "price": 4333,
-     "url": "https://jp.mercari.com/item/m69633485139"
     }
    ],
-   "avg": 4310,
+   "avg": 4366,
    "checked": "2026-11-26"
   },
   {
@@ -2811,6 +2811,1156 @@
    ],
    "avg": 8000,
    "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-01",
+   "set": "tama-scratch",
+   "name": "まめっち30thスタイル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-01&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "マ*場様 にゅー！ごっちカード スクラッチカードダス SGR まめっち30thス",
+     "price": 1111,
+     "url": "https://jp.mercari.com/item/m25276755620"
+    },
+    {
+     "title": "にゅー！ごっちカード スクラッチカードダス SGR まめっち30thスタイル",
+     "price": 1399,
+     "url": "https://jp.mercari.com/item/m76622650286"
+    },
+    {
+     "title": "スクラッチカードダス たまごっち にゅー! ごっちカード まめっち30th",
+     "price": 2980,
+     "url": "https://jp.mercari.com/item/m59613703564"
+    }
+   ],
+   "avg": 1830,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-06",
+   "set": "tama-scratch",
+   "name": "スーパーまめっち",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-06&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【[箔押し仕様] STNGC01-06 スーパーまめっち 正義の味方 (GR ごっちレア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 1980,
+     "url": "https://jp.mercari.com/item/2JZuKArCWfne3rFbAqFZ8G"
+    }
+   ],
+   "avg": 1980,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-07",
+   "set": "tama-scratch",
+   "name": "くちぱっちパティシエ",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-07&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【[箔押し仕様] STNGC01-07 くちぱっちパティシエ (GR ごっちレア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 1880,
+     "url": "https://jp.mercari.com/item/2JZuKArxBAeVhBSdrT2pTi"
+    },
+    {
+     "title": "たまごっち　にゅー！ごっちカード30th スクラッチ　GR くちぱっちパティシエ",
+     "price": 650,
+     "url": "https://jp.mercari.com/item/m69601379337"
+    }
+   ],
+   "avg": 1265,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-08",
+   "set": "tama-scratch",
+   "name": "ラブリっち動画配信やさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-08&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "【[箔押し仕様] STNGC01-08 ラブリっち動画配信やさん (GR ごっちレア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 1880,
+     "url": "https://jp.mercari.com/item/2JZuKAsD6pTDBTDVpchGDC"
+    },
+    {
+     "title": "スクラッチカードダス にゅー！ごっちカード ラブリっち動画配信やさん",
+     "price": 355,
+     "url": "https://jp.mercari.com/item/m60095466424"
+    },
+    {
+     "title": "スクラッチカードダス にゅー！ごっちカード ラブリっち動画配信やさん",
+     "price": 355,
+     "url": "https://jp.mercari.com/item/m46549945194"
+    }
+   ],
+   "avg": 863,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-09",
+   "set": "tama-scratch",
+   "name": "メロディっちスーパーモデル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-09&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【[箔押し仕様] STNGC01-09 メロディっちスーパーモデル (GR ごっちレア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 1680,
+     "url": "https://jp.mercari.com/item/2JZuKAshF22gxqWnuD9RiL"
+    },
+    {
+     "title": "スクラッチカードダス にゅー！ごっちカード メロディっちスーパーモデル GR",
+     "price": 444,
+     "url": "https://jp.mercari.com/item/m99552516423"
+    }
+   ],
+   "avg": 1062,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-10",
+   "set": "tama-scratch",
+   "name": "スクラっちカードけずるやさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-10&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "【[箔押し仕様] STNGC01-10 スクラっちカードけずるやさん (GR ごっちレア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 1780,
+     "url": "https://jp.mercari.com/item/2JZuKAtbocPsufKUiun5A5"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード スクラッチ GR スクラっちカードけずるやさん",
+     "price": 400,
+     "url": "https://jp.mercari.com/item/m81393425006"
+    },
+    {
+     "title": "スクラッチカードダス にゅー！ごっちカード GR スクラっちカードけずるやさん",
+     "price": 350,
+     "url": "https://jp.mercari.com/item/m64268658514"
+    }
+   ],
+   "avg": 843,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-11",
+   "set": "tama-scratch",
+   "name": "まめっちアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-11&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "【STNGC01-11 まめっちアイドル (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 1180,
+     "url": "https://jp.mercari.com/item/2JZuKAtjieDEfjsEm8wEST"
+    },
+    {
+     "title": "スクラッチカードダス にゅー！ごっちカード まめっちアイドル R",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m59047244863"
+    },
+    {
+     "title": "たまごっち　にゅー！ごっちカード　スクラッチ　レア　まめっち　めめっちアイドル",
+     "price": 1222,
+     "url": "https://jp.mercari.com/item/m72959898902"
+    }
+   ],
+   "avg": 901,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-12",
+   "set": "tama-scratch",
+   "name": "めめっちアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-12&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "【STNGC01-12 めめっちアイドル (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 980,
+     "url": "https://jp.mercari.com/item/2JZuKAuaVfzgrWEebfWD9b"
+    },
+    {
+     "title": "スクラッチカードダス にゅー！ごっちカード めめっちアイドル R",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m61429409150"
+    },
+    {
+     "title": "スクラッチカードダス にゅー！ごっちカード めめっちアイドル R",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m89320575468"
+    }
+   ],
+   "avg": 527,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-13",
+   "set": "tama-scratch",
+   "name": "ふらわっちアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-13&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "【STNGC01-13 ふわらっちアイドル (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 980,
+     "url": "https://jp.mercari.com/item/2JZuKAv3jSmuZGTT4G3iPr"
+    },
+    {
+     "title": "スクラッチカードダス たまごっち にゅー！ごっちカード R ふらわっちアイドル",
+     "price": 399,
+     "url": "https://jp.mercari.com/item/m86882722769"
+    },
+    {
+     "title": "スクラッチカードダス たまごっち にゅー！ごっちカード R ふらわっちアイドル",
+     "price": 500,
+     "url": "https://jp.mercari.com/item/m63359803335"
+    }
+   ],
+   "avg": 626,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-14",
+   "set": "tama-scratch",
+   "name": "くちぱっちアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-14&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【STNGC01-14 くちぱっちアイドル (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 980,
+     "url": "https://jp.mercari.com/item/2JZuKAvDsGYjpJCucg3RvQ"
+    },
+    {
+     "title": "スクラッチカードダス にゅー！ごっちカード くちぱっちアイドル R",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m56352745334"
+    }
+   ],
+   "avg": 640,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-15",
+   "set": "tama-scratch",
+   "name": "みみっちアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-15&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "【STNGC01-15 みみっちアイドル (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 880,
+     "url": "https://jp.mercari.com/item/2JZuKAwQFm3YmznBbixuC5"
+    },
+    {
+     "title": "たまごっち ごっちカード R みみっちアイドルGR スクラッチけずるやさん",
+     "price": 900,
+     "url": "https://jp.mercari.com/item/m43724202876"
+    },
+    {
+     "title": "スクラッチカードダス にゅー！ごっちカード みみっちアイドル R",
+     "price": 666,
+     "url": "https://jp.mercari.com/item/m84395264479"
+    }
+   ],
+   "avg": 815,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-16",
+   "set": "tama-scratch",
+   "name": "いちごっちアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-16&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-16 いちごっちアイドル (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 880,
+     "url": "https://jp.mercari.com/item/2JZuKAwoxnHWmVLyAZqMAz"
+    }
+   ],
+   "avg": 880,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-17",
+   "set": "tama-scratch",
+   "name": "しましまっちアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-17&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-18",
+   "set": "tama-scratch",
+   "name": "ポチっちアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-18&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-19",
+   "set": "tama-scratch",
+   "name": "ござるっちアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-19&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-20",
+   "set": "tama-scratch",
+   "name": "くろまめっちアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-20&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-20 くろまめっちアイドル (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 780,
+     "url": "https://jp.mercari.com/item/2JZuKFzG5L43pNGBLJrrBj"
+    }
+   ],
+   "avg": 780,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-21",
+   "set": "tama-scratch",
+   "name": "ぴゅえるっちアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-21&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "【STNGC01-21 ぴゅえるっちアイドル (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 880,
+     "url": "https://jp.mercari.com/item/2JZuKG2rp2gXRgwC5qCAXJ"
+    },
+    {
+     "title": "スクラッチカードダス たまごっち にゅー! ごっちカード　ぴゅえるっちアイドル",
+     "price": 499,
+     "url": "https://jp.mercari.com/item/m47888761785"
+    },
+    {
+     "title": "スクラッチカードダス たまごっち にゅー! ごっちカード ぴゅえるっちアイドル",
+     "price": 350,
+     "url": "https://jp.mercari.com/item/m22417646267"
+    }
+   ],
+   "avg": 576,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-22",
+   "set": "tama-scratch",
+   "name": "やんぐまめっち＆やんぐみみっちアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-22&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": [],
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-23",
+   "set": "tama-scratch",
+   "name": "ねりあっちアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-23&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "【STNGC01-23 ねりあっちアイドル (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 780,
+     "url": "https://jp.mercari.com/item/2JZuKG2puffhwwxeQwR5zA"
+    },
+    {
+     "title": "スクラッチカードダス たまごっち にゅー！ごっちカード R ねりあっち アイドル",
+     "price": 333,
+     "url": "https://jp.mercari.com/item/m52143585683"
+    },
+    {
+     "title": "スクラッチカードダス たまごっち にゅー！ごっちカード R ねりあっち アイドル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m75710357018"
+    }
+   ],
+   "avg": 471,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-24",
+   "set": "tama-scratch",
+   "name": "まきこアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-24&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【STNGC01-24 まきこアイドル (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 880,
+     "url": "https://jp.mercari.com/item/2JZuKG4RhtVTr9uDxy4W7e"
+    },
+    {
+     "title": "たまごっち ごっちカード まきこアイドル R スクラッチ　オシャレ薬",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m37832788110"
+    }
+   ],
+   "avg": 590,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-25",
+   "set": "tama-scratch",
+   "name": "みるくっちアイドル",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-25&status=sold_out&sort=created_time&order=desc",
+   "n": 3,
+   "items": [
+    {
+     "title": "【STNGC01-25 みるくっちアイドル (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 780,
+     "url": "https://jp.mercari.com/item/2JZuKG4Cj5njjQRVo4ty3n"
+    },
+    {
+     "title": "スクラッチカードダス たまごっち みるくっちアイドル R",
+     "price": 550,
+     "url": "https://jp.mercari.com/item/m69781865815"
+    },
+    {
+     "title": "スクラッチカードダス たまごっち にゅー! ごっちカード　みるくっちアイドルR",
+     "price": 400,
+     "url": "https://jp.mercari.com/item/m21494989420"
+    }
+   ],
+   "avg": 577,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-26",
+   "set": "tama-scratch",
+   "name": "りく・みず・そら・フィールドから集合",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-26&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-26 りく・みず・そら・フィールドから集合 (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 1080,
+     "url": "https://jp.mercari.com/item/2JZuKG4NEB8cV3p3ynL7eN"
+    }
+   ],
+   "avg": 1080,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-27",
+   "set": "tama-scratch",
+   "name": "もりフィールドから集合",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-27&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-27 もりフィールドから集合 (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 780,
+     "url": "https://jp.mercari.com/item/2JZuKG5b973peoPXFcHKRK"
+    }
+   ],
+   "avg": 780,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-28",
+   "set": "tama-scratch",
+   "name": "なんごく・こおりフィールドから集合",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-28&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【STNGC01-28 なんごく・こおりフィールドから集合 (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 980,
+     "url": "https://jp.mercari.com/item/2JZuKG5nX4o9YGGNwSSYkt"
+    },
+    {
+     "title": "スクラッチカードダス たまごっち なんごく・こおりフィールドから集合 R",
+     "price": 550,
+     "url": "https://jp.mercari.com/item/m28777781570"
+    }
+   ],
+   "avg": 765,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-29",
+   "set": "tama-scratch",
+   "name": "コズミック星から集合",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-29&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-30",
+   "set": "tama-scratch",
+   "name": "パラダイスから大集合！！",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-30&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-30 パラダイスから大集合！！ (R レア) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 780,
+     "url": "https://jp.mercari.com/item/2JZuKG6wLJMmNzsodA84L8"
+    }
+   ],
+   "avg": 780,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-31",
+   "set": "tama-scratch",
+   "name": "まめっちお天気やさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-31&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-31 まめっちお天気やさん (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JZuKG76YWEGrzTF9t7MP9"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-32",
+   "set": "tama-scratch",
+   "name": "まめっちアナウンサー",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-32&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-33",
+   "set": "tama-scratch",
+   "name": "まめっち銀行員",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-33&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【STNGC01-33 まめっち銀行員 (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JZuKG8CpRR3xM8AWyTqmu"
+    },
+    {
+     "title": "スクラッチカードダス　にゅー！ごっちカード　まめっち銀行員",
+     "price": 330,
+     "url": "https://jp.mercari.com/item/m35191867422"
+    }
+   ],
+   "avg": 455,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-34",
+   "set": "tama-scratch",
+   "name": "くちぱっちスーパーうんちくんやさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-34&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-34 くちぱっちスーパーうんちくんやさん (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 550,
+     "url": "https://jp.mercari.com/item/2JZuKG8axNWSgRTSeDpEFG"
+    }
+   ],
+   "avg": 550,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-35",
+   "set": "tama-scratch",
+   "name": "くちぱっちお風呂やさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-35&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-35 くちぱっちお風呂やさん (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 550,
+     "url": "https://jp.mercari.com/item/2JZuKG8dVKcZARgbrwpUjB"
+    }
+   ],
+   "avg": 550,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-36",
+   "set": "tama-scratch",
+   "name": "くちぱっちお医者さん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-36&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【STNGC01-36 くちぱっちお医者さん (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 550,
+     "url": "https://jp.mercari.com/item/2JZuKG9X6vc6A94zmqMBjX"
+    },
+    {
+     "title": "スクラッチカードダス　にゅー！ごっちカード　くちぱっちお医者さん",
+     "price": 333,
+     "url": "https://jp.mercari.com/item/m45506962403"
+    }
+   ],
+   "avg": 442,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-37",
+   "set": "tama-scratch",
+   "name": "めめっち時間やさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-37&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-38",
+   "set": "tama-scratch",
+   "name": "めめっち花やさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-38&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-38 めめっち花やさん (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 550,
+     "url": "https://jp.mercari.com/item/2JZuKGAkegGULurTMSF8ia"
+    }
+   ],
+   "avg": 550,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-39",
+   "set": "tama-scratch",
+   "name": "めめっちお風呂やさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-39&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-39 めめっちお風呂やさん (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 550,
+     "url": "https://jp.mercari.com/item/2JZuKGBV6msmUFtTmp3jR9"
+    }
+   ],
+   "avg": 550,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-40",
+   "set": "tama-scratch",
+   "name": "みみっちスタートやさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-40&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【STNGC01-40 みみっちスタートやさん (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 550,
+     "url": "https://jp.mercari.com/item/2JZuKGCGPL3pCYQ2x9DtFq"
+    },
+    {
+     "title": "スクラッチカードダス　にゅー！ごっちカード みみっちスタートやさん アナウンサー",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m28502035435"
+    }
+   ],
+   "avg": 425,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-41",
+   "set": "tama-scratch",
+   "name": "みみっちアナウンサー",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-41&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-42",
+   "set": "tama-scratch",
+   "name": "ふらわっち家来",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-42&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-43",
+   "set": "tama-scratch",
+   "name": "やったっち警察官",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-43&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-44",
+   "set": "tama-scratch",
+   "name": "ふらわっち幼稚園の先生",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-44&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-45",
+   "set": "tama-scratch",
+   "name": "しましまっち警察官",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-45&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-46",
+   "set": "tama-scratch",
+   "name": "おやじっち銀行員",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-46&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【STNGC01-46 おやじっち銀行員 (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 520,
+     "url": "https://jp.mercari.com/item/2JZuKGF5SULcDhziCWy6FY"
+    },
+    {
+     "title": "スクラッチカードダス　にゅー！ごっちカード　おやじっち銀行員",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m72294747723"
+    }
+   ],
+   "avg": 410,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-47",
+   "set": "tama-scratch",
+   "name": "りんごっちかしこクラス",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-47&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-47 りんごっちかしこクラス (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 520,
+     "url": "https://jp.mercari.com/item/2JZuKGFoCY7JBSUVrjViF8"
+    }
+   ],
+   "avg": 520,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-48",
+   "set": "tama-scratch",
+   "name": "いちごっちオシャレクラス",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-48&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-49",
+   "set": "tama-scratch",
+   "name": "ゆにまるっち修理やさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-49&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-50",
+   "set": "tama-scratch",
+   "name": "たらこっちヘアメイクやさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-50&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-50 たらこっちヘアメイクやさん (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 520,
+     "url": "https://jp.mercari.com/item/2JZuKGHakDhU6VDRAHVmin"
+    }
+   ],
+   "avg": 520,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-51",
+   "set": "tama-scratch",
+   "name": "たまご姫アナウンサー",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-51&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-51 たまご姫アナウンサー (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 520,
+     "url": "https://jp.mercari.com/item/2JZuKGHn8pK4u2RP4iDYmv"
+    }
+   ],
+   "avg": 520,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-52",
+   "set": "tama-scratch",
+   "name": "たまひこ王子花やさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-52&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【STNGC01-52 たまひこ王子花やさん (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 520,
+     "url": "https://jp.mercari.com/item/2JZuKGJHHqhr665FjJYDou"
+    },
+    {
+     "title": "スクラッチカードダス　にゅー！ごっちカード　たまひこ王子花やさん",
+     "price": 333,
+     "url": "https://jp.mercari.com/item/m72410010807"
+    }
+   ],
+   "avg": 426,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-53",
+   "set": "tama-scratch",
+   "name": "あしっち先生",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-53&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-54",
+   "set": "tama-scratch",
+   "name": "しりぷりっちお医者さん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-54&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-55",
+   "set": "tama-scratch",
+   "name": "わしきっちバンドマン",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-55&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-55 わしきっちバンドマン (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 520,
+     "url": "https://jp.mercari.com/item/2JZuKGKqBjjahSzPCh7YJZ"
+    }
+   ],
+   "avg": 520,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-56",
+   "set": "tama-scratch",
+   "name": "ぎんじろっちほうろうの旅人",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-56&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-56 ぎんじろっちほうろうの旅人 (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 520,
+     "url": "https://jp.mercari.com/item/2JZuKGLJRwQVyhgdbwnCTy"
+    }
+   ],
+   "avg": 520,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-57",
+   "set": "tama-scratch",
+   "name": "くりてんハートお届けやさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-57&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-57 くりてんハートお届けやさん (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 520,
+     "url": "https://jp.mercari.com/item/2JZuKGLZvEUocn3Z7kfD6Y"
+    }
+   ],
+   "avg": 520,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-58",
+   "set": "tama-scratch",
+   "name": "ますくっちサッカー選手",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-58&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-59",
+   "set": "tama-scratch",
+   "name": "ゴッチマン体育の先生",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-59&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-60",
+   "set": "tama-scratch",
+   "name": "ジュリエっち宝石やさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-60&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-61",
+   "set": "tama-scratch",
+   "name": "ゆめみっち幼稚園の先生",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-61&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-61 ゆめみっち幼稚園の先生 (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 520,
+     "url": "https://jp.mercari.com/item/2JZuKGNsXzYPcKGax5U2dY"
+    }
+   ],
+   "avg": 520,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-62",
+   "set": "tama-scratch",
+   "name": "もりりっちたまもりしーるやさん",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-62&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-63",
+   "set": "tama-scratch",
+   "name": "キラリっちデザイナー",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-63&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-64",
+   "set": "tama-scratch",
+   "name": "ハロー！みゃおっち",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-64&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-64 ハロー！みゃおっち (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 580,
+     "url": "https://jp.mercari.com/item/2JZuKGQXVMktGBYbFTPaZB"
+    }
+   ],
+   "avg": 580,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-65",
+   "set": "tama-scratch",
+   "name": "ハロー！いるかっち",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-65&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-66",
+   "set": "tama-scratch",
+   "name": "ハロー！ほーほっち",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-66&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【STNGC01-66 ハロー！ほーほっち (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 550,
+     "url": "https://jp.mercari.com/item/2JZuKGRVDkbBQe8vfg6L6X"
+    },
+    {
+     "title": "スクラッチカードダス　にゅー！ごっちカード　ハロー！ほーほっち",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m22987787659"
+    }
+   ],
+   "avg": 425,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-67",
+   "set": "tama-scratch",
+   "name": "ハロー！れさぱんっち",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-67&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-68",
+   "set": "tama-scratch",
+   "name": "ハロー！おこじょっち",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-68&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-69",
+   "set": "tama-scratch",
+   "name": "ハロー！ぱろろっち",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-69&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-70",
+   "set": "tama-scratch",
+   "name": "ハロー！コズミっち",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-70&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【STNGC01-70 ハロー！コズミっち (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 550,
+     "url": "https://jp.mercari.com/item/2JZuKGTruZiFkPfL5o5es3"
+    },
+    {
+     "title": "スクラッチカードダス たまごっち にゅー！ごっちカード N ハロー！コズミっち",
+     "price": 399,
+     "url": "https://jp.mercari.com/item/m51567871338"
+    }
+   ],
+   "avg": 474,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-71",
+   "set": "tama-scratch",
+   "name": "ドレッサー",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-71&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-72",
+   "set": "tama-scratch",
+   "name": "レインボーじょうろ",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-72&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-73",
+   "set": "tama-scratch",
+   "name": "オシャレ薬",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-73&status=sold_out&sort=created_time&order=desc",
+   "n": 2,
+   "items": [
+    {
+     "title": "【STNGC01-73 オシャレ薬 (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 520,
+     "url": "https://jp.mercari.com/item/2JZuKGVLSA2LPABneEWEt9"
+    },
+    {
+     "title": "たまごっち ごっちカード まきこアイドル R スクラッチ　オシャレ薬",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m37832788110"
+    }
+   ],
+   "avg": 410,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-74",
+   "set": "tama-scratch",
+   "name": "たいっち焼き",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-74&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-74 たいっち焼き (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 520,
+     "url": "https://jp.mercari.com/item/2JZuKGVe9jboUbjA66BJ2k"
+    }
+   ],
+   "avg": 520,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-75",
+   "set": "tama-scratch",
+   "name": "しょくぶつ",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-75&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-75 しょくぶつ (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 520,
+     "url": "https://jp.mercari.com/item/2JZuKGVwEkREz4WkcEB59F"
+    }
+   ],
+   "avg": 520,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-76",
+   "set": "tama-scratch",
+   "name": "三角フラスコ",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-76&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-77",
+   "set": "tama-scratch",
+   "name": "板チョコ",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-77&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-77 板チョコ (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 520,
+     "url": "https://jp.mercari.com/item/2JZuKGX3EAh7Ci5GdUyyzj"
+    }
+   ],
+   "avg": 520,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-78",
+   "set": "tama-scratch",
+   "name": "メロンパン",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-78&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-78 メロンパン (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 520,
+     "url": "https://jp.mercari.com/item/2JZuKGXQRVj5zkkBREiK8p"
+    }
+   ],
+   "avg": 520,
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "STNGC01-79",
+   "set": "tama-scratch",
+   "name": "地球儀",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-79&status=sold_out&sort=created_time&order=desc",
+   "n": 0,
+   "items": []
+  },
+  {
+   "id": "STNGC01-80",
+   "set": "tama-scratch",
+   "name": "30周年お祝いケーキ",
+   "search": "https://jp.mercari.com/search?keyword=STNGC01-80&status=sold_out&sort=created_time&order=desc",
+   "n": 1,
+   "items": [
+    {
+     "title": "【STNGC01-80 30周年お祝いケーキ (N ノーマル) 】 スクラッチカードダス たまごっち にゅー! ごっちカード",
+     "price": 550,
+     "url": "https://jp.mercari.com/item/2JZuKGYkvk7DWUxZFk2R2q"
+    }
+   ],
+   "avg": 550,
+   "checked": "2026-11-26"
   }
  ],
  "seals": [
@@ -2847,6 +3997,11 @@
    "n": 3,
    "items": [
     {
+     "title": "JRA ボンボンドロップシール",
+     "price": 1150,
+     "url": "https://jp.mercari.com/item/m35878611801"
+    },
+    {
      "title": "JRA オリジナル ボンボンドロップシール",
      "price": 1199,
      "url": "https://jp.mercari.com/item/m33825620273"
@@ -2855,14 +4010,9 @@
      "title": "JRA ボンボンドロップシール 競馬場限定",
      "price": 1160,
      "url": "https://jp.mercari.com/item/m92157824297"
-    },
-    {
-     "title": "JRA ボンボンドロップシール ボンドロ 馬",
-     "price": 1199,
-     "url": "https://jp.mercari.com/item/m54697543399"
     }
    ],
-   "avg": 1186,
+   "avg": 1170,
    "checked": "2026-11-26"
   },
   {
