@@ -46,6 +46,13 @@ def main():
     b = merge(ROOT / "site/img/seal/index.json", seals, lambda v: v.get("kind"),
               lambda c: bool(c.get("file")) and c.get("kind") not in SHOP)
     print(f"楽天・Amazonの写真を取り込み: カード{a}弾・シール{b}個")
+    try:
+        cat = get("catalog.json")
+        if sum(len(c.get("items", [])) for c in cat.get("categories", [])) > 0:
+            (ROOT / "site/catalog.json").write_text(json.dumps(cat, ensure_ascii=False, indent=1), encoding="utf-8")
+            print("通販カタログを取り込み:", {c["id"]: len(c["items"]) for c in cat["categories"]})
+    except Exception as e:
+        print(f"[skip] 通販カタログが取れなかった: {e}", file=sys.stderr)
     return 0
 
 

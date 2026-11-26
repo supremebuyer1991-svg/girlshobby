@@ -223,7 +223,7 @@ urls.push("/calendar/");
 // ===== 通販カタログ（楽天市場の商品をカテゴリ別に） =====
 const shopCats = (CAT.categories || []).filter(c => c.items && c.items.length);
 const pcard = x => `<a class="dcard pcard" href="${esc(x.url)}" rel="nofollow sponsored"><div class="dimg">${x.image ? `<img src="${esc(x.image)}" alt="${esc(x.name)}" loading="lazy">` : ""}${x.available ? "" : '<span class="tag st done">売り切れ</span>'}</div>
-<div class="dbody"><b class="pn">${esc(x.name)}</b><small>${esc(x.shop)}${x.shops > 1 ? `（ほか${x.shops - 1}店）` : ""}</small><span class="top">${x.price ? yen(x.price) : "価格はお店で"}</span><span class="more">楽天で見る${ic("go")}</span></div></a>`;
+<div class="dbody"><b class="pn">${esc(x.name)}</b><small>${esc(x.shop)}${x.shops > 1 ? `（ほか${x.shops - 1}店）` : ""}</small><span class="top">${x.price ? yen(x.price) : "価格はお店で"}</span><span class="more">${x.mall === "amazon" ? "Amazonで" : "楽天で"}見る${ic("go")}</span></div></a>`;
 const pcss = `.pcard .dimg img{object-fit:contain;background:#fff}.pn{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}`;
 for (const c of shopCats) {
   const url = `/shop/${c.id}/`;
@@ -233,7 +233,7 @@ for (const c of shopCats) {
     desc: `${c.name}を楽天市場からまとめて${c.items.length}商品掲載。${lowest ? `いちばん安いのは${yen(lowest.price)}から。` : ""}発売済みの商品も新作も、価格と売っているお店をチェックできます。`,
     url, depth: 2, theme: c.mode === "seal" ? "seal" : (c.group === "all" ? "all" : c.group),
     body: `<style>${pcss}</style><p class="crumb"><a href="../../">トップ</a> › <a href="../">通販で買える商品</a> › ${esc(c.name)}</p>
-<div class="dan-h"><h1>${esc(title)}</h1><p class="legend">楽天市場の商品を${esc(CAT.updated || ymd)}時点でまとめています。同じ商品を売っているお店が複数あるときは、いちばん安いお店を表示しています。価格・在庫はリンク先で確認してください。</p></div>
+<div class="dan-h"><h1>${esc(title)}</h1><p class="legend">楽天市場・Amazonの商品を${esc(CAT.updated || ymd)}時点でまとめています。同じ商品を売っているお店が複数あるときは、いちばん安いお店を表示しています。価格・在庫はリンク先で確認してください。</p></div>
 <div class="dgrid">${c.items.map(pcard).join("")}</div>
 <p class="legend" style="margin-top:18px">商品情報・画像の出典：楽天市場</p>` }));
   urls.push(url);

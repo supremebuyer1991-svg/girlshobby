@@ -25,7 +25,7 @@ OUT = ROOT / "site" / "catalog.json"
 ENDPOINT = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701"
 DEFAULT_AFF = "0f60e3a0.0ec21e9a.0f60e3a1.23a40abb"   # トレカ抽選ナビと同じ楽天アフィリエイトID（公開されるIDなのでここに書いてOK）
 JST = timezone(timedelta(hours=9))
-PAGES = 2          # 1つの検索ワードで何ページ（30件ずつ）見るか
+PAGES = int(os.environ.get("CATALOG_PAGES", "3"))   # 1つの検索ワードで何ページ（30件ずつ）見るか
 
 
 def norm(s):

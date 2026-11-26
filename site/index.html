@@ -719,7 +719,7 @@ function shopSec(md,grp){if(!CAT||!CAT.categories)return "";
  return `<h2 class="h"><span class="hi">${ic("bag")}</span><span class="tx">通販で買える${md==="seal"?"シール":"カード"}</span></h2>
  <div class="catlinks">${cats.map(c=>`<a href="shop/${esc(c.id)}/">${esc(c.name)}（${c.items.length}）</a>`).join("")}</div>
  <div class="pgrid">${items.map(x=>`<a class="dcard pcard" href="${esc(x.url)}" rel="nofollow sponsored"><div class="dimg">${x.image?`<img src="${esc(x.image)}" alt="${esc(x.name)}" loading="lazy">`:""}</div><div class="dbody"><b class="pn">${esc(x.name)}</b><small>${esc(x.shop)}</small><span class="top">${x.price?yen(Number(x.price)):"価格はお店で"}</span></div></a>`).join("")}</div>
- <p class="legend">楽天市場の商品（${esc(CAT.updated||"")}時点）。価格・在庫はリンク先で確認してください。</p>`}
+ <p class="legend">楽天市場・Amazonの商品（${esc(CAT.updated||"")}時点）。価格・在庫はリンク先で確認してください。</p>`}
 let stab=load("kira-stab")||"all";if(!STITLES.some(x=>x.id===stab))stab="all";
 const sall=SEALS.map(it=>({...it,...info(it)}));
 const sname=id=>(STITLES.find(x=>x.id===id)||{}).n||"";
@@ -755,7 +755,7 @@ function sealHome(){
  <div class="lots">${SNEWS.items.slice(0,8).map(x=>`<a class="lot t-seal" href="${esc(x.url)}" rel="nofollow"><div class="lt"><span class="tag st${x.kind==="抽選"?"":" done"}">${esc(x.kind)}</span>${(x.dates||[]).map(d=>`<span class="tag">${esc(d)}</span>`).join("")}</div><h3>${esc(x.title)}</h3><small>${esc(x.source)}・${esc(String(x.at||"").slice(5,10).replace("-","/"))}</small></a>`).join("")}</div></section>`:""}
  <section class="sec" id="sec-snew"><h2 class="h"><span class="hi">${ic("sparkle")}</span><span class="tx">${stab==="all"?"シールの新作・発売予定":esc(sname(stab))+"のシール"}（${pool.length}）</span></h2>
  <div class="dgrid">${pool.slice().sort((a,b)=>b.date-a.date).map(scard).join("")||'<div class="empty">この作品のシール情報はまだありません。</div>'}</div></section>
- <section class="sec" id="sec-sshop">${shopSec("seal",stab==="tama"||stab==="sanrio"?stab:"all")}</section>
+ <section class="sec" id="sec-sshop">${shopSec("seal",stab==="other"?"all":stab)}</section>
  <section class="sec" id="sec-scal"><h2 class="h"><span class="hi">${ic("cal")}</span><span class="tx">シールの発売カレンダー</span></h2>
  <div>${pool.filter(i=>i.d).sort((a,b)=>a.date-b.date).map(i=>`<div class="month"><b><small>${i.date.getFullYear()}年</small>${i.date.getMonth()+1}月</b><ul><li><a class="t-seal" href="#seal-${esc(i.id)}">${esc(i.name)}<small>${i.exact?Number(i.d.split("-")[2])+"日":"日にち未定"}・${esc(i.st)}</small></a></li></ul></div>`).join("")||'<div class="empty">発売日のわかるシールがまだありません。</div>'}</div></section>
  <section class="sec" id="sec-snote"><h2 class="h"><span class="hi">${ic("info")}</span><span class="tx">シールを買うときのおねがい</span></h2>
