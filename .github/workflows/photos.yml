@@ -1,0 +1,25 @@
+# 商品写真だけをすぐ更新したいとき用（相場は取らないので数分で終わる）
+name: photos-only
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python bot/bandai_images.py
+      - run: python bot/seal_images.py
+      - run: python bot/relay_images.py
+      - name: 保存
+        run: |
+          git config user.name "souba-bot"
+          git config user.email "souba-bot@users.noreply.github.com"
+          git add -A site
+          git diff --cached --quiet || git commit -m "商品写真を更新"
+          git pull --rebase -q origin main && git push
