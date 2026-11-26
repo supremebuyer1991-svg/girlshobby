@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 02:14",
+ "updated": "2026-11-26 12:31",
  "rule": "メルカリの売り切れ・新しい順から、1枚売りの直近3件の平均",
  "cards": [
   {
@@ -588,20 +588,8 @@
    "set": "tama-gotchi2",
    "name": "みずのフィールド探検!",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-13&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
-   "items": [
-    {
-     "title": "【中古】アニメ系トレカ TNGC02-13[R]：みずのフィールド探検!",
-     "price": 300,
-     "url": "https://jp.mercari.com/item/2JVR5GvrdgZ8XXi4xUA9JT"
-    },
-    {
-     "title": "【TNGC02-13 みずのフィールド探検！ (R レア)】たまごっち にゅー! ごっちカード2",
-     "price": 880,
-     "url": "https://jp.mercari.com/item/2JNorC86MmBs69me4N7ERk"
-    }
-   ],
-   "avg": 590,
+   "n": 0,
+   "items": [],
    "checked": "2026-11-26"
   },
   {
@@ -801,20 +789,15 @@
    "set": "tama-gotchi2",
    "name": "ぎんじろっちスペーススタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-26&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 1,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-26[N]：ぎんじろっちスペーススタイル",
      "price": 300,
      "url": "https://jp.mercari.com/item/2JPSMKbwfvmRQgPbbwyvTJ"
-    },
-    {
-     "title": "【TNGC02-26 ぎんじろっちスペーススタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
-     "price": 580,
-     "url": "https://jp.mercari.com/item/2JNorCGGKeeozfH9exN3PA"
     }
    ],
-   "avg": 440,
+   "avg": 300,
    "checked": "2026-11-26"
   },
   {
@@ -914,8 +897,21 @@
    "set": "tama-gotchi2",
    "name": "ポチっちカフェスタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-33&status=sold_out&sort=created_time&order=desc",
-   "n": 0,
-   "items": []
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-33[N]：ポチっちカフェスタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMLYWfChYVHvKCEEsz7"
+    },
+    {
+     "title": "【TNGC02-33 ポチっちカフェスタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 720,
+     "url": "https://jp.mercari.com/item/2JNorCMibBTK4ezWSgaQP6"
+    }
+   ],
+   "avg": 510,
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-34",
@@ -1064,8 +1060,26 @@
    "set": "tama-gotchi2",
    "name": "もくもくファンタジー",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-42&status=sold_out&sort=created_time&order=desc",
-   "n": 0,
-   "items": []
+   "n": 3,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-42[N]：もくもくファンタジー",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JPSMMv58QDEdtRfEwqUsh"
+    },
+    {
+     "title": "【たまごっち】にゅーごっちカード2　もくもくファンタジー　TNGC02-42N",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m16243839631"
+    },
+    {
+     "title": "【TNGC02-42 もくもくファンタジー (N ノーマル)】たまごっち にゅー! ごっちカード2",
+     "price": 600,
+     "url": "https://jp.mercari.com/item/2JNorCXxsk8k8QFFXiQUyt"
+    }
+   ],
+   "avg": 400,
+   "checked": "2026-11-26"
   },
   {
    "id": "TNGC02-43",
@@ -1410,7 +1424,7 @@
    "set": "pre-wafer11",
    "name": "No.24 キュアマジカル HR",
    "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.24%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%9E%E3%82%B8%E3%82%AB%E3%83%AB&status=sold_out&sort=created_time&order=desc",
-   "n": 3,
+   "n": 2,
    "items": [
     {
      "title": "プリキュアカードウエハース11 キュアマジカル",
@@ -1421,14 +1435,9 @@
      "title": "プリキュアウエハース11　魔法つかいプリキュア　キュアマジカル　カード",
      "price": 900,
      "url": "https://jp.mercari.com/item/m99607149699"
-    },
-    {
-     "title": "キュアマジカル HR プリキュアカードウエハース11 No.24",
-     "price": 1222,
-     "url": "https://jp.mercari.com/item/m39351850815"
     }
    ],
-   "avg": 914,
+   "avg": 760,
    "checked": "2026-11-26"
   },
   {
@@ -1556,22 +1565,22 @@
    "n": 3,
    "items": [
     {
-     "title": "ちいかわ 超まじかるちいかわ ボンボンドロップシール ジュエル 正規品",
-     "price": 989,
-     "url": "https://jp.mercari.com/item/m30746605089"
+     "title": "【まじかるちいかわ】ボンボンドロップシール ジュエル (悪いバージョン)",
+     "price": 750,
+     "url": "https://jp.mercari.com/item/m70590457761"
     },
     {
-     "title": "超まじかるちいかわ ボンボンドロップシール",
-     "price": 950,
-     "url": "https://jp.mercari.com/item/m48590217028"
+     "title": "ボンボンドロップシール まじかるちいかわ 正規品",
+     "price": 3222,
+     "url": "https://jp.mercari.com/item/m64331708738"
     },
     {
-     "title": "まじかるちいかわ ボンボンドロップシール　悪いバージョン",
-     "price": 850,
-     "url": "https://jp.mercari.com/item/m88742181031"
+     "title": "まじかるちいかわ　ジュエル　悪いバージョン　ボンボンドロップシール　正規品★",
+     "price": 1999,
+     "url": "https://jp.mercari.com/item/m57613166110"
     }
    ],
-   "avg": 930,
+   "avg": 1990,
    "checked": "2026-11-26"
   },
   {
