@@ -50,7 +50,11 @@ PAGES = {
 }
 IMG_RE = re.compile(r"https://bandai-a\.akamaihd\.net/bc/img/model/(?:xl|b)/[0-9A-Za-z_]+\.(?:jpg|png)")
 # 代表画像（og:image）を使ってよいページ（そのページ＝その商品だけの公式ページ）
-OG_OK = {"aikatsu-encore1", "aikatsu-kuji", "aikatsu-phone"}
+OG_OK = {"aikatsu-kuji"}
+# 公式のカード画像をそのまま使う弾（アイカツ！アンコール公式カードリストの当たりカード）
+AK = "https://dcd.aikatsu.com/encore/images/cardlist/card/"
+EXTRA = {"aikatsu-encore1": [AK + c + ".webp" for c in (
+    "E1-30_ER", "E1-50_ER", "E1-31_ER", "E1-32_ER", "E1-01_PR", "E1-02_PR", "E1-33_PR", "E1-51_PR")]}
 # バンダイキャンディ公式の商品写真（"-product-main" は別商品のおすすめ欄なので除外）
 CANDY_RE = re.compile(r'(?:https://www\.bandai\.co\.jp)?/candy/published/bnc_files/product/\w+/\w+\.(?:jpg|png)(?=["\'\s)])')
 MAX_IMAGES = 12
@@ -85,7 +89,7 @@ def main() -> int:
             continue
         found = IMG_RE.findall(html) + [
             u if u.startswith("http") else "https://www.bandai.co.jp" + u for u in CANDY_RE.findall(html)]
-        urls = list(dict.fromkeys(found))[:MAX_IMAGES]   # 重複を消して順番そのまま
+        urls = (EXTRA.get(sid) or list(dict.fromkeys(found)))[:MAX_IMAGES]   # 重複を消して順番そのまま
         if not urls and sid in OG_OK:
             m = OG_RE.search(html)
             if m:
@@ -97,7 +101,7 @@ def main() -> int:
         folder.mkdir(parents=True, exist_ok=True)
         files = []
         for n, u in enumerate(urls, 1):
-            ext = ".png" if u.lower().endswith(".png") else ".jpg"
+            ext = ".png" if u.lower().endswith(".png") else (".webp" if u.lower().endswith(".webp") else ".jpg")
             name = f"product_{n}{ext}"
             path = folder / name
             if not path.exists():
