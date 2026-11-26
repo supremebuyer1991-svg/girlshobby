@@ -9,6 +9,7 @@ import json
 import re
 import sys
 import time
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -47,7 +48,9 @@ PAGES = {
     "aikatsu-file": "https://www.bandai.co.jp/catalog/item.php?jan_cd=4582770134674000",
     # まだURLが確認できていない弾: tama-gotchi1, tama-scratch, tama-gotchi2, tama-omisecchi, pre-wafer4/6/8, sanrio-wafer5/8
 }
-IMG_RE = re.compile(r"https://bandai-a\.akamaihd\.net/bc/img/model/xl/[0-9A-Za-z_]+\.(?:jpg|png)")
+IMG_RE = re.compile(r"https://bandai-a\.akamaihd\.net/bc/img/model/(?:xl|b)/[0-9A-Za-z_]+\.(?:jpg|png)")
+# 代表画像（og:image）を使ってよいページ（そのページ＝その商品だけの公式ページ）
+OG_OK = {"aikatsu-encore1", "aikatsu-kuji", "aikatsu-phone"}
 # バンダイキャンディ公式の商品写真（"-product-main" は別商品のおすすめ欄なので除外）
 CANDY_RE = re.compile(r'(?:https://www\.bandai\.co\.jp)?/candy/published/bnc_files/product/\w+/\w+\.(?:jpg|png)(?=["\'\s)])')
 MAX_IMAGES = 12
@@ -83,6 +86,10 @@ def main() -> int:
         found = IMG_RE.findall(html) + [
             u if u.startswith("http") else "https://www.bandai.co.jp" + u for u in CANDY_RE.findall(html)]
         urls = list(dict.fromkeys(found))[:MAX_IMAGES]   # 重複を消して順番そのまま
+        if not urls and sid in OG_OK:
+            m = OG_RE.search(html)
+            if m:
+                urls = [urllib.parse.urljoin(page, m.group(1))]
         if not urls:   # 代表画像（og:image）は別商品やロゴのことがあるので使わない
             print(f"[skip] {sid}: 商品写真が見つからない", file=sys.stderr)
             continue
