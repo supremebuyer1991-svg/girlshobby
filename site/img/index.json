@@ -319,6 +319,18 @@
   ],
   "credit": "楽天市場"
  },
+ "chiikawa-wafer2": {
+  "source": "https://www.bandai.co.jp/candy/products/2025/4570117926594000.html",
+  "images": [
+   "img/chiikawa-wafer2/product_1.jpg",
+   "img/chiikawa-wafer2/product_2.jpg",
+   "img/chiikawa-wafer2/product_3.jpg",
+   "img/chiikawa-wafer2/product_4.jpg",
+   "img/chiikawa-wafer2/product_5.jpg",
+   "img/chiikawa-wafer2/product_6.jpg",
+   "img/chiikawa-wafer2/product_7.jpg"
+  ]
+ },
  "tama-omisecchi": {
   "source": "https://item.rakuten.co.jp/premiumgarage/b-tmg-omise/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
   "images": [
@@ -423,9 +435,42 @@
   "credit": "Amazon"
  },
  "niji-sd": {
-  "source": "https://www.amazon.co.jp/dp/B0HPRL76W2?tag=tcgchusen-22&linkCode=osi&th=1&psc=1",
+  "source": "https://www.amazon.co.jp/dp/B0HS9R4Z7W?tag=tcgchusen-22&linkCode=osi&th=1&psc=1",
   "images": [
-   "https://m.media-amazon.com/images/I/41OYSMC8UlL._SL500_.jpg"
+   "https://m.media-amazon.com/images/I/41MjC3pvAeL._SL500_.jpg",
+   "https://m.media-amazon.com/images/I/41Rpro09VmL._SL500_.jpg"
+  ],
+  "credit": "Amazon"
+ },
+ "chiikawa-cleargum": {
+  "source": "https://item.rakuten.co.jp/rinrindou/cya9399d7407/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "images": [
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/rinrindou/cabinet/onesell096/cya9399d7407_0.jpg?_ex=500x500",
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/rinrindou/cabinet/onesell096/cya9399d7407_1.jpg?_ex=500x500",
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/rinrindou/cabinet/onesell096/cya9399d7407_2.jpg?_ex=500x500"
+  ],
+  "credit": "楽天市場"
+ },
+ "chiikawa-movie-wafer": {
+  "source": "https://item.rakuten.co.jp/risingsunhobby/ecn/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "images": [
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/risingsunhobby/cabinet/12327258/imgrc0126823337.jpg?_ex=500x500",
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/risingsunhobby/cabinet/12327258/imgrc0126823343.jpg?_ex=500x500",
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/risingsunhobby/cabinet/12327258/imgrc0126823348.jpg?_ex=500x500"
+  ],
+  "credit": "楽天市場"
+ },
+ "chiikawa-wafer1": {
+  "source": "https://item.rakuten.co.jp/realize-store-2/072506s113cuk08/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "images": [
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/realize-store-2/cabinet/gachapon2/kawano29/chikwuerlucky0008.jpg?_ex=500x500"
+  ],
+  "credit": "楽天市場"
+ },
+ "aipri-onegai4": {
+  "source": "https://www.amazon.co.jp/dp/B0HJDTJ3GQ?tag=tcgchusen-22&linkCode=osi&th=1&psc=1",
+  "images": [
+   "https://m.media-amazon.com/images/I/516sKV8wqGL._SL500_.jpg"
   ],
   "credit": "Amazon"
  }
