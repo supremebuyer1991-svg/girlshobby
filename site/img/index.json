@@ -292,6 +292,24 @@
    "img/sanrio-wafer13/product_3.jpg"
   ]
  },
+ "aikatsu-encore1": {
+  "source": "https://dcd.aikatsu.com/encore/",
+  "images": [
+   "img/aikatsu-encore1/product_1.jpg"
+  ]
+ },
+ "aikatsu-phone": {
+  "source": "https://toy.bandai.co.jp/ja/item/01_21043/",
+  "images": [
+   "img/aikatsu-phone/product_1.jpg"
+  ]
+ },
+ "aikatsu-file": {
+  "source": "https://www.bandai.co.jp/catalog/item.php?jan_cd=4582770134674000",
+  "images": [
+   "img/aikatsu-file/product_1.jpg"
+  ]
+ },
  "tama-omisecchi": {
   "source": "https://item.rakuten.co.jp/premiumgarage/b-tmg-omise/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
   "images": [
