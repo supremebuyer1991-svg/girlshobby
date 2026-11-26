@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 19:47",
+ "updated": "2026-11-26 20:50",
  "rule": "メルカリの売り切れ・新しい順から、1枚売りの直近3件の平均",
  "cards": [
   {
@@ -7,8 +7,25 @@
    "set": "tama-gotchi3",
    "name": "ちゃまめっち夏のハッピースタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-02&status=sold_out&sort=created_time&order=desc",
-   "n": 0,
-   "items": [],
+   "n": 3,
+   "items": [
+    {
+     "title": "m*n様 にゅー！ごっちカード3 レアGR 　ちゃまめっち夏のハッピースタイル",
+     "price": 400,
+     "url": "https://jp.mercari.com/item/m90396537477"
+    },
+    {
+     "title": "たまごっち ごっちカード GR ちゃまめっち夏のハッピースタイル",
+     "price": 450,
+     "url": "https://jp.mercari.com/item/m20613674301"
+    },
+    {
+     "title": "たまごっち ごっちカード ちゃまめっち 夏のハッピースタイル",
+     "price": 477,
+     "url": "https://jp.mercari.com/item/m76514237502"
+    }
+   ],
+   "avg": 442,
    "checked": "2026-11-26"
   },
   {
@@ -16,8 +33,25 @@
    "set": "tama-gotchi3",
    "name": "めめっち夏のハッピースタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-03&status=sold_out&sort=created_time&order=desc",
-   "n": 0,
-   "items": [],
+   "n": 3,
+   "items": [
+    {
+     "title": "たまごっち ごっちカード GR めめっち 夏のハッピースタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m32332706331"
+    },
+    {
+     "title": "たまごっち ごっちカード めめっち夏のハッピースタイル",
+     "price": 400,
+     "url": "https://jp.mercari.com/item/m41331589469"
+    },
+    {
+     "title": "たまごっち ごっちカード めめっち夏のハッピースタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m39038690064"
+    }
+   ],
+   "avg": 333,
    "checked": "2026-11-26"
   },
   {
@@ -25,8 +59,25 @@
    "set": "tama-gotchi3",
    "name": "ゆにまるっち夏のハッピースタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-05&status=sold_out&sort=created_time&order=desc",
-   "n": 0,
-   "items": [],
+   "n": 3,
+   "items": [
+    {
+     "title": "たまごっちにゅー！ごっちカード3ゆにまるっち夏のハッピースタイルGR たまごっち",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m13067121024"
+    },
+    {
+     "title": "たまごっち ごっちカード ゆにまるっち夏のハッピースタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m96313640949"
+    },
+    {
+     "title": "たまごっち　にゅー！ごっちカード3　GR　ゆにまるっち夏のハッピースタイル",
+     "price": 999,
+     "url": "https://jp.mercari.com/item/m33002922541"
+    }
+   ],
+   "avg": 533,
    "checked": "2026-11-26"
   },
   {
@@ -34,15 +85,25 @@
    "set": "tama-gotchi3",
    "name": "おやじっちスペーススタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-06&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
-     "title": "【TNGC03-06 おやじっちスペーススタイル (R レア) 】たまごっち にゅー! ごっちカード3",
-     "price": 980,
-     "url": "https://jp.mercari.com/item/2JTmfFPPoS7zx6UnJUbs95"
+     "title": "たまごっち にゅー！ごっちカード3 おやじっちスペーススタイル Rレア",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m11952973794"
+    },
+    {
+     "title": "ごっちカード3 Rおやじっちスペーススタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m39882704570"
+    },
+    {
+     "title": "たまごっち　ごっちカード3　R　レア　おこじょっち　おやじっちスペーススタイル",
+     "price": 399,
+     "url": "https://jp.mercari.com/item/m12748420683"
     }
    ],
-   "avg": 980,
+   "avg": 333,
    "checked": "2026-11-26"
   },
   {
@@ -66,15 +127,25 @@
    "set": "tama-gotchi3",
    "name": "いちごっちスペーススタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-10&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC03-10 いちごっちスペーススタイル (R レア) 】たまごっち にゅー! ごっちカード3",
      "price": 980,
      "url": "https://jp.mercari.com/item/2JTmfFSsmmLBAV7CiFwUte"
+    },
+    {
+     "title": "たまごっち　にゅー！ごっちカード3　R　レア　いちごっちスペーススタイル",
+     "price": 666,
+     "url": "https://jp.mercari.com/item/m43420875625"
+    },
+    {
+     "title": "ごっちカード いちごっちスペーススタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m45127213728"
     }
    ],
-   "avg": 980,
+   "avg": 649,
    "checked": "2026-11-26"
   },
   {
@@ -82,15 +153,25 @@
    "set": "tama-gotchi3",
    "name": "ぎんじろっちおさんぽ中",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-12&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC03-12 ぎんじろっちおさんぽ中 (R レア) 】たまごっち にゅー! ごっちカード3",
      "price": 880,
      "url": "https://jp.mercari.com/item/2JTmfFTLQQHMuhjUeLyyx2"
+    },
+    {
+     "title": "【即購入可能】 ごっちカード ぎんじろっちおさんぽ中",
+     "price": 320,
+     "url": "https://jp.mercari.com/item/m83011048217"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード ぎんじろっちおさんぽ中",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m54201252689"
     }
    ],
-   "avg": 880,
+   "avg": 500,
    "checked": "2026-11-26"
   },
   {
@@ -114,15 +195,25 @@
    "set": "tama-gotchi3",
    "name": "まめっち夏のよそおい",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-16&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC03-16 まめっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
      "price": 780,
      "url": "https://jp.mercari.com/item/2JTmfFWXboMLvJLEbPqTDR"
+    },
+    {
+     "title": "【匿名配送】にゅー！ごっちカード3｜GRみみっち　Nまめっち夏のよそおい",
+     "price": 600,
+     "url": "https://jp.mercari.com/item/m53247220021"
+    },
+    {
+     "title": "にゅー！ごっちカード3 まめっち夏のよそおい N",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m73556687020"
     }
    ],
-   "avg": 780,
+   "avg": 560,
    "checked": "2026-11-26"
   },
   {
@@ -162,15 +253,25 @@
    "set": "tama-gotchi3",
    "name": "ふらわっち夏のよそおい",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-19&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC03-19 ふらわっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JTmfFYFfZ9AV9LfxziaTr"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード3 ノーマルカード ふらわっち夏のよそおい",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m88301606024"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード ふらわっち夏のよそおい",
+     "price": 333,
+     "url": "https://jp.mercari.com/item/m67029859666"
     }
    ],
-   "avg": 580,
+   "avg": 404,
    "checked": "2026-11-26"
   },
   {
@@ -186,15 +287,25 @@
    "set": "tama-gotchi3",
    "name": "いちごっち夏のよそおい",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-21&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC03-21 いちごっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JTmfFZ3bTFLRGHbJMDf8h"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード3 ノーマルカード いちごっち夏のよそおい",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m12218075276"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード3 いちごっち夏のよそおい N",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m32194819980"
     }
    ],
-   "avg": 580,
+   "avg": 393,
    "checked": "2026-11-26"
   },
   {
@@ -202,15 +313,25 @@
    "set": "tama-gotchi3",
    "name": "やんぐみみっち夏のよそおい",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-22&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC03-22 やんぐみみっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
      "price": 680,
      "url": "https://jp.mercari.com/item/2JTmfFa5jdDJqBdtJHZNWe"
+    },
+    {
+     "title": "たまごっち　にゅー！ごっちカード3 やんぐみみっち夏のよそおい",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m57426802939"
+    },
+    {
+     "title": "にゅー！ごっちカード3 やんぐみみっち夏のよそおい",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m48553240007"
     }
    ],
-   "avg": 680,
+   "avg": 427,
    "checked": "2026-11-26"
   },
   {
@@ -226,15 +347,25 @@
    "set": "tama-gotchi3",
    "name": "おじっち夏のよそおい",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-24&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC03-24 おじっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JTmfFaryTmFaHSELxMpAw"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード おじっち夏のよそおい",
+     "price": 333,
+     "url": "https://jp.mercari.com/item/m76349868540"
+    },
+    {
+     "title": "たまごっちにゅー！ごっちカード　おトキっち夏のよそおい　おじっち夏のよそおい",
+     "price": 380,
+     "url": "https://jp.mercari.com/item/m47701366040"
     }
    ],
-   "avg": 580,
+   "avg": 431,
    "checked": "2026-11-26"
   },
   {
@@ -242,15 +373,25 @@
    "set": "tama-gotchi3",
    "name": "おトキっち夏のよそおい",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-25&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC03-25 おトキっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JTmfFc4gcFanbueKUPiHx"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード おトキっち夏のよそおい",
+     "price": 333,
+     "url": "https://jp.mercari.com/item/m72208769513"
+    },
+    {
+     "title": "たまごっちにゅー！ごっちカード　おトキっち夏のよそおい　おじっち夏のよそおい",
+     "price": 380,
+     "url": "https://jp.mercari.com/item/m47701366040"
     }
    ],
-   "avg": 580,
+   "avg": 431,
    "checked": "2026-11-26"
   },
   {
@@ -274,15 +415,25 @@
    "set": "tama-gotchi3",
    "name": "もりりっち夏のよそおい",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-28&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC03-28 もりりっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JTmfFdzhmLg7FPUzUAC9P"
+    },
+    {
+     "title": "ごっちカード3 ピアニっち もりりっち コフレっち 夏のよそおい たまごっち",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m79411413217"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード もりりっち夏のよそおい",
+     "price": 333,
+     "url": "https://jp.mercari.com/item/m44011259593"
     }
    ],
-   "avg": 580,
+   "avg": 404,
    "checked": "2026-11-26"
   },
   {
@@ -290,15 +441,25 @@
    "set": "tama-gotchi3",
    "name": "シャイクっち夏のよそおい",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-29&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC03-29 シャイクっち夏のよそおい (N ノーマル) 】たまごっち にゅー! ごっちカード3",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JTmfFdqE5SzWJSXbUdS9h"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード3 シャイクっち夏のよそおい N",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m47490564545"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード3N シャイクっち夏のよそおい",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m98007654914"
     }
    ],
-   "avg": 580,
+   "avg": 393,
    "checked": "2026-11-26"
   },
   {
@@ -362,15 +523,25 @@
    "set": "tama-gotchi3",
    "name": "シロいるかっちを発見",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-36&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC03-36 シロいるかっちも発見 (N ノーマル) 】たまごっち にゅー! ごっちカード3",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JTmfFiBcGXbcsAaRXSLKV"
+    },
+    {
+     "title": "たまごっち　にゅー！ごっちカード3 シロいるかっちを発見",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m16031256195"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード3 ネリネっち　シロいるかっち　発見",
+     "price": 600,
+     "url": "https://jp.mercari.com/item/m56991082875"
     }
    ],
-   "avg": 580,
+   "avg": 493,
    "checked": "2026-11-26"
   },
   {
@@ -410,15 +581,25 @@
    "set": "tama-gotchi3",
    "name": "なんごくみゃおっちを発見",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-39&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC03-39 なんごくみゃおっちも発見 (N ノーマル) 】たまごっち にゅー! ごっちカード3",
      "price": 680,
      "url": "https://jp.mercari.com/item/2JTmfFk5ADtYv4z3JJ7dyQ"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード3 ノーマルカード なんごくみゃおっちを発見",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m68798985023"
+    },
+    {
+     "title": "たまごっち　にゅー！ごっちカード3 なんごくみゃおっちを発見",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m92658447268"
     }
    ],
-   "avg": 680,
+   "avg": 427,
    "checked": "2026-11-26"
   },
   {
@@ -442,15 +623,25 @@
    "set": "tama-gotchi3",
    "name": "とうもろこし",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-41&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC03-41 とうもろこし (N ノーマル) 】たまごっち にゅー! ごっちカード3",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JTmfFmW6QU9yrbREndpfj"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード とうもろこし　おやじっち",
+     "price": 399,
+     "url": "https://jp.mercari.com/item/m44358701166"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード3 とうもろこし N",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m71038284726"
     }
    ],
-   "avg": 580,
+   "avg": 426,
    "checked": "2026-11-26"
   },
   {
@@ -458,15 +649,25 @@
    "set": "tama-gotchi3",
    "name": "かきごおり",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-42&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC03-42 かきごおり (N ノーマル) 】たまごっち にゅー! ごっちカード3",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JTmfFmsbxxiW4LUN6J3fA"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード かきごおり",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m33667860282"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード3 アイテムカード かきごおり",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m18115430330"
     }
    ],
-   "avg": 580,
+   "avg": 393,
    "checked": "2026-11-26"
   },
   {
@@ -498,8 +699,25 @@
    "set": "tama-gotchi2",
    "name": "みみっち春のハッピースタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-02&status=sold_out&sort=created_time&order=desc",
-   "n": 0,
-   "items": [],
+   "n": 3,
+   "items": [
+    {
+     "title": "たまごっち ごっちカード GR みみっち春のハッピースタイル",
+     "price": 888,
+     "url": "https://jp.mercari.com/item/m20657915365"
+    },
+    {
+     "title": "たまごっち にゅー！ ごっちカード GR みみっち 春のハッピースタイル",
+     "price": 899,
+     "url": "https://jp.mercari.com/item/m65561232934"
+    },
+    {
+     "title": "たまごっち ごっちカード みみっち春のハッピースタイル　レアカード",
+     "price": 450,
+     "url": "https://jp.mercari.com/item/m26066401291"
+    }
+   ],
+   "avg": 746,
    "checked": "2026-11-26"
   },
   {
@@ -507,8 +725,25 @@
    "set": "tama-gotchi2",
    "name": "いちごっち春のハッピースタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-04&status=sold_out&sort=created_time&order=desc",
-   "n": 0,
-   "items": [],
+   "n": 3,
+   "items": [
+    {
+     "title": "たまごっち にゅー！ ごっちカード GR いちごっち 春のハッピースタイル",
+     "price": 399,
+     "url": "https://jp.mercari.com/item/m18694012461"
+    },
+    {
+     "title": "ごっちカード いちごっち春のハッピースタイル GR",
+     "price": 630,
+     "url": "https://jp.mercari.com/item/m89560134874"
+    },
+    {
+     "title": "ごっちカード GR いちごっち ちょーちょっち 春のハッピースタイル",
+     "price": 799,
+     "url": "https://jp.mercari.com/item/m99005103447"
+    }
+   ],
+   "avg": 609,
    "checked": "2026-11-26"
   },
   {
@@ -516,8 +751,25 @@
    "set": "tama-gotchi2",
    "name": "ちょーちょっち春のハッピースタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-05&status=sold_out&sort=created_time&order=desc",
-   "n": 0,
-   "items": [],
+   "n": 3,
+   "items": [
+    {
+     "title": "ごっちカード GR いちごっち ちょーちょっち 春のハッピースタイル",
+     "price": 799,
+     "url": "https://jp.mercari.com/item/m99005103447"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード 2 ちょーちょっち春のハッピースタイル GR",
+     "price": 333,
+     "url": "https://jp.mercari.com/item/m98879756216"
+    },
+    {
+     "title": "にゅー！ごっちカード 2 GR ちょーちょっち春のハッピースタイル　ふらわっち",
+     "price": 999,
+     "url": "https://jp.mercari.com/item/m33004351689"
+    }
+   ],
+   "avg": 710,
    "checked": "2026-11-26"
   },
   {
@@ -525,8 +777,25 @@
    "set": "tama-gotchi2",
    "name": "くちぱっちスペーススタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-06&status=sold_out&sort=created_time&order=desc",
-   "n": 0,
-   "items": [],
+   "n": 3,
+   "items": [
+    {
+     "title": "たまごっち　にゅー！ごっちカード2　R レア　くちぱっちスペーススタイル",
+     "price": 444,
+     "url": "https://jp.mercari.com/item/m66974289489"
+    },
+    {
+     "title": "にゅー！ごっちカード2　くちぱっちスペーススタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m67585040965"
+    },
+    {
+     "title": "にゅーごっちカード ２　くちぱっちスペーススタイル",
+     "price": 350,
+     "url": "https://jp.mercari.com/item/m53537378356"
+    }
+   ],
+   "avg": 365,
    "checked": "2026-11-26"
   },
   {
@@ -534,15 +803,25 @@
    "set": "tama-gotchi2",
    "name": "くりてんスペーススタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-07&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC02-07 くりてんスペーススタイル (R レア)】たまごっち にゅー! ごっちカード2",
      "price": 880,
      "url": "https://jp.mercari.com/item/2JNorC38FADcMsm4cCqLuv"
+    },
+    {
+     "title": "ごっちカード R くりてん スペーススタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m48093779574"
+    },
+    {
+     "title": "ごっちカード R くりてん スペーススタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m52401358347"
     }
    ],
-   "avg": 880,
+   "avg": 493,
    "checked": "2026-11-26"
   },
   {
@@ -558,7 +837,7 @@
    "set": "tama-gotchi2",
    "name": "くろまめっちスペーススタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-11&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-11[R]：くろまめっちスペーススタイル",
@@ -569,9 +848,14 @@
      "title": "【TNGC02-11 くろまめっちスペーススタイル (R レア)】たまごっち にゅー! ごっちカード2",
      "price": 980,
      "url": "https://jp.mercari.com/item/2JNorC5iazb6yo6myKhpWb"
+    },
+    {
+     "title": "たまごっち ごっちカード くろまめっちスペーススタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m33028857821"
     }
    ],
-   "avg": 640,
+   "avg": 527,
    "checked": "2026-11-26"
   },
   {
@@ -579,15 +863,25 @@
    "set": "tama-gotchi2",
    "name": "りくのフィールド探検!",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-12&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【TNGC02-12 りくのフィールド探検！ (R レア)】たまごっち にゅー! ごっちカード2",
      "price": 880,
      "url": "https://jp.mercari.com/item/2JNorC5YU5MNwJKmkU9sxv"
+    },
+    {
+     "title": "たまごっち　にゅー!ごっちカード2　りくのフィールド探検!",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m89975815584"
+    },
+    {
+     "title": "たまごっち　にゅー!ごっちカード2　りくのフィールド探検!",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m48625498639"
     }
    ],
-   "avg": 880,
+   "avg": 493,
    "checked": "2026-11-26"
   },
   {
@@ -595,7 +889,7 @@
    "set": "tama-gotchi2",
    "name": "みずのフィールド探検!",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-13&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-13[R]：みずのフィールド探検!",
@@ -606,9 +900,14 @@
      "title": "【TNGC02-13 みずのフィールド探検！ (R レア)】たまごっち にゅー! ごっちカード2",
      "price": 880,
      "url": "https://jp.mercari.com/item/2JNorC86MmBs69me4N7ERk"
+    },
+    {
+     "title": "たまごっち　にゅー!ごっちカード2　いるかっち　みずのフィールド探検!",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m24472610630"
     }
    ],
-   "avg": 590,
+   "avg": 493,
    "checked": "2026-11-26"
   },
   {
@@ -698,7 +997,7 @@
    "set": "tama-gotchi2",
    "name": "わしきっち春のよそおい",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-21&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-21[N]：わしきっち春のよそおい",
@@ -709,9 +1008,14 @@
      "title": "【TNGC02-21 わしきっち春のよそおい (N ノーマル)】たまごっち にゅー! ごっちカード2",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JNorCCdk7Cb5wC8hKeVWU"
+    },
+    {
+     "title": "たまごっち ごっちカード わしきっち春のよそおい",
+     "price": 330,
+     "url": "https://jp.mercari.com/item/m59010142687"
     }
    ],
-   "avg": 440,
+   "avg": 403,
    "checked": "2026-11-26"
   },
   {
@@ -719,7 +1023,7 @@
    "set": "tama-gotchi2",
    "name": "たらこっち春のよそおい",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-22&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-22[N]：たらこっち春のよそおい",
@@ -730,9 +1034,14 @@
      "title": "【TNGC02-22 たらこっち春のよそおい (N ノーマル)】たまごっち にゅー! ごっちカード2",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JNorCDUCq9TP7Twuwej5p"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード2 ノーマルカード たらこっち春のよそおい ①",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m55943551507"
     }
    ],
-   "avg": 440,
+   "avg": 393,
    "checked": "2026-11-26"
   },
   {
@@ -740,7 +1049,7 @@
    "set": "tama-gotchi2",
    "name": "ゆめみっち春のよそおい",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-23&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-23[N]：ゆめみっち春のよそおい",
@@ -751,9 +1060,14 @@
      "title": "【TNGC02-23 ゆめみっち春のよそおい (N ノーマル)】たまごっち にゅー! ごっちカード2",
      "price": 680,
      "url": "https://jp.mercari.com/item/2JNorCDuWD5dKfKmXzNyP3"
+    },
+    {
+     "title": "たまごっち　ごっちカード　ゆめみっち春のよそおい　ゆめみっち　わしきっち",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m51881271626"
     }
    ],
-   "avg": 490,
+   "avg": 427,
    "checked": "2026-11-26"
   },
   {
@@ -787,7 +1101,7 @@
    "set": "tama-gotchi2",
    "name": "キラもっち春のよそおい",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-25&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-25[N]：キラもっち春のよそおい",
@@ -798,9 +1112,14 @@
      "title": "【TNGC02-25 キラもっち春のよそおい (N ノーマル)】たまごっち にゅー! ごっちカード2",
      "price": 600,
      "url": "https://jp.mercari.com/item/2JNorCG8QQdKZNjUj3GsrG"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード キラもっち春のよそおい",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m44470197778"
     }
    ],
-   "avg": 450,
+   "avg": 400,
    "checked": "2026-11-26"
   },
   {
@@ -808,12 +1127,22 @@
    "set": "tama-gotchi2",
    "name": "ぎんじろっちスペーススタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-26&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-26[N]：ぎんじろっちスペーススタイル",
      "price": 300,
      "url": "https://jp.mercari.com/item/2JPSMKbwfvmRQgPbbwyvTJ"
+    },
+    {
+     "title": "たまごっち　ぎんじろっちスペーススタイル　ごっちカード　⑥",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m46878933028"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード2 ノーマルカード ぎんじろっちスペーススタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m97960416400"
     }
    ],
    "avg": 300,
@@ -832,7 +1161,7 @@
    "set": "tama-gotchi2",
    "name": "ききっちスペーススタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-28&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-28[N]：ききっちスペーススタイル",
@@ -843,9 +1172,14 @@
      "title": "【TNGC02-28 ききっちスペーススタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JNorCJk3TkTwuuwU9atu7"
+    },
+    {
+     "title": "ききっちスペーススタイル　にゅー！ごっちカード2",
+     "price": 333,
+     "url": "https://jp.mercari.com/item/m75565753098"
     }
    ],
-   "avg": 440,
+   "avg": 404,
    "checked": "2026-11-26"
   },
   {
@@ -879,7 +1213,7 @@
    "set": "tama-gotchi2",
    "name": "うーぱっちスペーススタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-30&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-30[N]：うーぱっちスペーススタイル",
@@ -890,9 +1224,14 @@
      "title": "【TNGC02-30 うーぱっちスペーススタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JNorCLDYUejjtY3s9Cniw"
+    },
+    {
+     "title": "たまごっち　にゅー！ごっちカード　うーぱっちスペーススタイル　うーぱっち",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m29571121311"
     }
    ],
-   "avg": 440,
+   "avg": 393,
    "checked": "2026-11-26"
   },
   {
@@ -916,7 +1255,7 @@
    "set": "tama-gotchi2",
    "name": "ポチっちカフェスタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-33&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-33[N]：ポチっちカフェスタイル",
@@ -927,9 +1266,14 @@
      "title": "【TNGC02-33 ポチっちカフェスタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
      "price": 720,
      "url": "https://jp.mercari.com/item/2JNorCMibBTK4ezWSgaQP6"
+    },
+    {
+     "title": "たまごっち　にゅー！ごっちカード2 カフェスタイル　ポチっちカフェスタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m22488230617"
     }
    ],
-   "avg": 510,
+   "avg": 440,
    "checked": "2026-11-26"
   },
   {
@@ -937,7 +1281,7 @@
    "set": "tama-gotchi2",
    "name": "まきこカフェスタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-34&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-34[N]：まきこカフェスタイル",
@@ -948,9 +1292,14 @@
      "title": "【TNGC02-34 まきこカフェスタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
      "price": 700,
      "url": "https://jp.mercari.com/item/2JNorCN9dbWVJgKvbYN4vt"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード2 まきこカフェスタイル N",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m77046139485"
     }
    ],
-   "avg": 500,
+   "avg": 433,
    "checked": "2026-11-26"
   },
   {
@@ -958,7 +1307,7 @@
    "set": "tama-gotchi2",
    "name": "パティっちカフェスタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-35&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-35[N]：パティっちカフェスタイル",
@@ -969,9 +1318,14 @@
      "title": "【TNGC02-35 パティっちカフェスタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JNorCNCBT2stSjNpjiBXx"
+    },
+    {
+     "title": "たまごっち　パティっちカフェスタイル　ごっちカード　④",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m52552150498"
     }
    ],
-   "avg": 440,
+   "avg": 393,
    "checked": "2026-11-26"
   },
   {
@@ -979,7 +1333,7 @@
    "set": "tama-gotchi2",
    "name": "わたわたっちカフェスタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-36&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-36[N]：わたわたっちカフェスタイル",
@@ -990,9 +1344,14 @@
      "title": "【TNGC02-36 わたわたっちカフェスタイル (N ノーマル)】たまごっち にゅー! ごっちカード2",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JNorCPEwirPbscjVGxtK7"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード2 ノーマルカード わたわたっちカフェスタイル",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m22539621920"
     }
    ],
-   "avg": 440,
+   "avg": 393,
    "checked": "2026-11-26"
   },
   {
@@ -1008,7 +1367,7 @@
    "set": "tama-gotchi2",
    "name": "めんだこっちを発見",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-38&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-38[N]：めんだこっちを発見",
@@ -1019,9 +1378,14 @@
      "title": "【TNGC02-38 めんだこっちを発見 (N ノーマル)】たまごっち にゅー! ごっちカード2",
      "price": 720,
      "url": "https://jp.mercari.com/item/2JNorCSYW3ssmErVMEgP47"
+    },
+    {
+     "title": "たまごっち　めんだこっちを発見　ごっちカード　③",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m87675829167"
     }
    ],
-   "avg": 510,
+   "avg": 440,
    "checked": "2026-11-26"
   },
   {
@@ -1058,7 +1422,7 @@
    "set": "tama-gotchi2",
    "name": "せびれっちを発見",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-41&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC02-41[N]：せびれっちを発見",
@@ -1069,9 +1433,14 @@
      "title": "【TNGC02-41 せびれっちを発見 (N ノーマル)】たまごっち にゅー! ごっちカード2",
      "price": 580,
      "url": "https://jp.mercari.com/item/2JNorCXz9CAi6rkbXTjRZK"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード2 N ぎんじろっち せびれっちを発見 カード",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m33449450061"
     }
    ],
-   "avg": 440,
+   "avg": 393,
    "checked": "2026-11-26"
   },
   {
@@ -1129,12 +1498,22 @@
    "set": "tama-gotchi1",
    "name": "みみっちじゅんび体操",
    "search": "https://jp.mercari.com/search?keyword=TNGC01-17&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
      "title": "【中古】アニメ系トレカ TNGC01-17[N]：みみっちじゅんび体操",
      "price": 300,
      "url": "https://jp.mercari.com/item/2JQHNQLAHxsvrrNboZzTJm"
+    },
+    {
+     "title": "たまごっちコンテスト　みみっちじゅんび体操",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m66740389258"
+    },
+    {
+     "title": "たまごっち にゅー！ごっちカード みみっち じゅんび体操 N カード 自販機",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m44697174729"
     }
    ],
    "avg": 300,
@@ -1443,7 +1822,7 @@
    "set": "pre-wafer11",
    "name": "No.24 キュアマジカル HR",
    "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.24%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%9E%E3%82%B8%E3%82%AB%E3%83%AB&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "プリキュアカードウエハース11 キュアマジカル",
@@ -1454,9 +1833,14 @@
      "title": "プリキュアウエハース11　魔法つかいプリキュア　キュアマジカル　カード",
      "price": 900,
      "url": "https://jp.mercari.com/item/m99607149699"
+    },
+    {
+     "title": "キュアマジカル HR プリキュアカードウエハース11 No.24",
+     "price": 1222,
+     "url": "https://jp.mercari.com/item/m39351850815"
     }
    ],
-   "avg": 760,
+   "avg": 914,
    "checked": "2026-11-26"
   },
   {
@@ -1464,20 +1848,15 @@
    "set": "pre-wafer11",
    "name": "No.21 キュアラブリー HR",
    "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.21%20%E3%82%AD%E3%83%A5%E3%82%A2%E3%83%A9%E3%83%96%E3%83%AA%E3%83%BC&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 1,
    "items": [
     {
      "title": "プリキュアウエハース11弾 カード キュアラブリー　HR",
      "price": 400,
      "url": "https://jp.mercari.com/item/m24785137848"
-    },
-    {
-     "title": "プリキュア　カードウエハース11　HR　No.21　キュアラブリー",
-     "price": 1299,
-     "url": "https://jp.mercari.com/item/m27351670156"
     }
    ],
-   "avg": 850,
+   "avg": 400,
    "checked": "2026-11-26"
   },
   {
@@ -1521,22 +1900,22 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツ アンコール カード オーロラキスキャミソール",
-     "price": 1333,
-     "url": "https://jp.mercari.com/item/m21539829721"
+     "title": "状態A オーロラキスキャミソール 星宮いちご E1-01 PR アイカツアンコール",
+     "price": 1520,
+     "url": "https://jp.mercari.com/item/2JZoggVxCuEEcnmNE2Yuz6"
     },
     {
-     "title": "アイカツ アイカツアンコール オーロラキスキャミソール バレエシューズ",
-     "price": 2760,
-     "url": "https://jp.mercari.com/item/m51440970835"
+     "title": "アイカツアンコール　オーロラキスキャミソール　星宮いちご",
+     "price": 1444,
+     "url": "https://jp.mercari.com/item/m98369472671"
     },
     {
-     "title": "アイカツアンコール プレミアムレア オーロラキスキャミソール 星宮いちご PR",
-     "price": 1499,
-     "url": "https://jp.mercari.com/item/m33925263181"
+     "title": "アイカツアンコール 星宮いちご オーロラキスキャミソール",
+     "price": 1444,
+     "url": "https://jp.mercari.com/item/m10341107410"
     }
    ],
-   "avg": 1864,
+   "avg": 1469,
    "checked": "2026-11-26"
   },
   {
@@ -1547,6 +1926,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツアンコールオーロラキスドレープスカート E1-02 PR",
+     "price": 1250,
+     "url": "https://jp.mercari.com/item/m17883981777"
+    },
+    {
      "title": "アイカツ！アンコール オーロラキスドレープスカート",
      "price": 1100,
      "url": "https://jp.mercari.com/item/m31118898196"
@@ -1555,14 +1939,9 @@
      "title": "アイカツアンコール オーロラキスドレープスカート PR",
      "price": 1255,
      "url": "https://jp.mercari.com/item/m38781044454"
-    },
-    {
-     "title": "アイカツアンコール オーロラキスドレープスカート",
-     "price": 1200,
-     "url": "https://jp.mercari.com/item/m55053277898"
     }
    ],
-   "avg": 1185,
+   "avg": 1202,
    "checked": "2026-11-26"
   },
   {
@@ -1573,22 +1952,22 @@
    "n": 3,
    "items": [
     {
+     "title": "オーロラキスバレエシューズ　星宮いちご　アイカツアンコール",
+     "price": 1111,
+     "url": "https://jp.mercari.com/item/m59521178940"
+    },
+    {
+     "title": "アイカツアンコール　オーロラキスバレエシューズ　星宮いちご",
+     "price": 1111,
+     "url": "https://jp.mercari.com/item/m74097724101"
+    },
+    {
      "title": "アイカツアンコール オーロラキスバレエシューズ PR　星宮いちご",
      "price": 1100,
      "url": "https://jp.mercari.com/item/m54407303692"
-    },
-    {
-     "title": "アイカツアンコール！オーロラキスバレエシューズ",
-     "price": 400,
-     "url": "https://jp.mercari.com/item/m21109554409"
-    },
-    {
-     "title": "アイカツアンコール オーロラキスバレエシューズ ※簡易包装発送",
-     "price": 1199,
-     "url": "https://jp.mercari.com/item/m22478984007"
     }
    ],
-   "avg": 900,
+   "avg": 1107,
    "checked": "2026-11-26"
   },
   {
@@ -1599,22 +1978,22 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツ アンコール オーロラキスリボン",
+     "price": 1499,
+     "url": "https://jp.mercari.com/item/m80644573746"
+    },
+    {
+     "title": "アイカツアンコール オーロラキスリボン E1-04 PR　星宮いちご",
+     "price": 1440,
+     "url": "https://jp.mercari.com/item/m87715982400"
+    },
+    {
      "title": "アイカツアンコール オーロラキスリボン E1-04 PR　星宮いちご",
      "price": 1430,
      "url": "https://jp.mercari.com/item/m28253395940"
-    },
-    {
-     "title": "アイカツアンコール オーロラキスリボン PR 星宮いちご",
-     "price": 1600,
-     "url": "https://jp.mercari.com/item/m97463814862"
-    },
-    {
-     "title": "アイカツアンコール　オーロラキスリボン　天の川コズミックカチューシャ",
-     "price": 2399,
-     "url": "https://jp.mercari.com/item/m66277003250"
     }
    ],
-   "avg": 1810,
+   "avg": 1456,
    "checked": "2026-11-26"
   },
   {
@@ -1625,22 +2004,22 @@
    "n": 3,
    "items": [
     {
-     "title": "【ER】アイカツ　アンコール　オデットスワン",
-     "price": 400,
-     "url": "https://jp.mercari.com/item/m91803482558"
+     "title": "アイカツ！ オデットスワン ER アンコールレア",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m57649785044"
     },
     {
-     "title": "アイカツアンコール オデットスワン 大空あかり ER",
-     "price": 450,
-     "url": "https://jp.mercari.com/item/m19946035099"
+     "title": "アイカツアンコール　大空あかり　オデットスワン",
+     "price": 444,
+     "url": "https://jp.mercari.com/item/m45422308893"
     },
     {
-     "title": "アイカツ アンコール オデットスワン 大空あかり",
-     "price": 433,
-     "url": "https://jp.mercari.com/item/m25268647314"
+     "title": "アイカツ アンコール 大空あかり オデットスワン ER",
+     "price": 444,
+     "url": "https://jp.mercari.com/item/m85096000878"
     }
    ],
-   "avg": 428,
+   "avg": 396,
    "checked": "2026-11-26"
   },
   {
@@ -1651,6 +2030,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツアンコール アイカツカード リルリボンストーリー",
+     "price": 1199,
+     "url": "https://jp.mercari.com/item/m96124590443"
+    },
+    {
      "title": "アイカツアンコール カード リルリボンストーリー 天の川コズミックカチューシャ",
      "price": 622,
      "url": "https://jp.mercari.com/item/m11214217615"
@@ -1659,14 +2043,9 @@
      "title": "アイカツアンコール ER オデットスワン リルリボンストーリー",
      "price": 400,
      "url": "https://jp.mercari.com/item/m72552807047"
-    },
-    {
-     "title": "アイカツ！アンコール ER リルリボンストーリー",
-     "price": 300,
-     "url": "https://jp.mercari.com/item/m76474089450"
     }
    ],
-   "avg": 441,
+   "avg": 740,
    "checked": "2026-11-26"
   },
   {
@@ -1677,6 +2056,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツ アンコール ハナ オーロラペガサス ER",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/m19901021177"
+    },
+    {
      "title": "アイカツアンコール　オーロラペガサス ER",
      "price": 300,
      "url": "https://jp.mercari.com/item/m64797136142"
@@ -1685,14 +2069,9 @@
      "title": "アイカツ！アンコール ER オーロラペガサス ドリームエミネンス",
      "price": 388,
      "url": "https://jp.mercari.com/item/m59947161345"
-    },
-    {
-     "title": "アイカツアンコール オデットスワン オーロラペガサス アンコールレア",
-     "price": 500,
-     "url": "https://jp.mercari.com/item/m58591000939"
     }
    ],
-   "avg": 396,
+   "avg": 329,
    "checked": "2026-11-26"
   },
   {
@@ -1703,22 +2082,22 @@
    "n": 3,
    "items": [
     {
+     "title": "天の川コズミックワンショルダー　霧矢あおい　アイカツアンコール",
+     "price": 599,
+     "url": "https://jp.mercari.com/item/m61361230053"
+    },
+    {
      "title": "アイカツアンコール　霧矢あおい　天の川コズミックワンショルダー",
      "price": 599,
      "url": "https://jp.mercari.com/item/m62863777009"
     },
     {
-     "title": "アイカツアンコール　天の川コズミックワンショルダー",
-     "price": 599,
-     "url": "https://jp.mercari.com/item/m77987235849"
-    },
-    {
-     "title": "アイカツアンコール　天の川コズミックワンショルダー",
-     "price": 555,
-     "url": "https://jp.mercari.com/item/m18317259215"
+     "title": "アイカツ アンコール霧矢あおい天の川コズミックワンショルダー E1-33 PR",
+     "price": 720,
+     "url": "https://jp.mercari.com/item/m78255937374"
     }
    ],
-   "avg": 584,
+   "avg": 639,
    "checked": "2026-11-26"
   },
   {
@@ -1729,22 +2108,22 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツアンコール 天の川コズミックスカート",
-     "price": 644,
-     "url": "https://jp.mercari.com/item/m97255234781"
+     "title": "アイカツ！ アンコール 天の川コズミックスカート 天の川コズミックカチューシャ",
+     "price": 1333,
+     "url": "https://jp.mercari.com/item/m39014668067"
     },
     {
-     "title": "アイカツ！ アンコール 天の川コズミックスカート PR ①",
-     "price": 666,
-     "url": "https://jp.mercari.com/item/m65305620023"
+     "title": "アイカツ！ アンコール 天の川コズミックスカート 天の川コズミックカチューシャ",
+     "price": 1222,
+     "url": "https://jp.mercari.com/item/m90980137443"
     },
     {
-     "title": "アイカツ！ アンコール 天の川コズミックスカート PR ②",
-     "price": 666,
-     "url": "https://jp.mercari.com/item/m76374712077"
+     "title": "ち*ー様 アイカツアンコール天の川コズミックスカート PR",
+     "price": 600,
+     "url": "https://jp.mercari.com/item/m51588100708"
     }
    ],
-   "avg": 659,
+   "avg": 1052,
    "checked": "2026-11-26"
   },
   {
@@ -1760,17 +2139,17 @@
      "url": "https://jp.mercari.com/item/m70208837091"
     },
     {
+     "title": "アイカツ！アンコール 天の川コズミックブーツ",
+     "price": 600,
+     "url": "https://jp.mercari.com/item/m80009810475"
+    },
+    {
      "title": "天の川コズミックブーツ　アイカツアンコール!",
      "price": 599,
      "url": "https://jp.mercari.com/item/m93895470043"
-    },
-    {
-     "title": "アイカツアンコール 天の川コズミックブーツ PR プレミアムレア",
-     "price": 588,
-     "url": "https://jp.mercari.com/item/m44530240564"
     }
    ],
-   "avg": 589,
+   "avg": 593,
    "checked": "2026-11-26"
   },
   {
@@ -1781,22 +2160,22 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツアンコール 天の川コズミックカチューシャ PR　霧矢あおい",
-     "price": 630,
-     "url": "https://jp.mercari.com/item/m75058550461"
+     "title": "アイカツ！ アンコール 天の川コズミックスカート 天の川コズミックカチューシャ",
+     "price": 1333,
+     "url": "https://jp.mercari.com/item/m39014668067"
     },
     {
-     "title": "アイカツアンコール！天の川コズミックカチューシャ",
-     "price": 400,
-     "url": "https://jp.mercari.com/item/m79061822442"
+     "title": "アイカツ！ アンコール 天の川コズミックスカート 天の川コズミックカチューシャ",
+     "price": 1222,
+     "url": "https://jp.mercari.com/item/m90980137443"
     },
     {
-     "title": "アイカツアンコール カード リルリボンストーリー 天の川コズミックカチューシャ",
-     "price": 622,
-     "url": "https://jp.mercari.com/item/m11214217615"
+     "title": "アイカツアンコール　天の川コズミックカチューシャ　霧矢あおい",
+     "price": 599,
+     "url": "https://jp.mercari.com/item/m28949365047"
     }
    ],
-   "avg": 551,
+   "avg": 1051,
    "checked": "2026-11-26"
   },
   {
@@ -1804,7 +2183,7 @@
    "set": "aikatsu-encore1",
    "name": "E1-50 ドリームエミネンス ER",
    "search": "https://jp.mercari.com/search?keyword=%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84%20%E3%82%A2%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%AB%20%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%A8%E3%83%9F%E3%83%8D%E3%83%B3%E3%82%B9&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
     {
      "title": "アイカツ！アンコール ER オーロラペガサス ドリームエミネンス",
@@ -1812,12 +2191,17 @@
      "url": "https://jp.mercari.com/item/m59947161345"
     },
     {
+     "title": "アイカツアンコール　オーロラペガサス　リルリボンストーリー　ドリームエミネンス",
+     "price": 650,
+     "url": "https://jp.mercari.com/item/m44943932141"
+    },
+    {
      "title": "アイカツ アンコール　ER ドリームエミネンス　オーロラペガサス",
      "price": 499,
      "url": "https://jp.mercari.com/item/m85566890946"
     }
    ],
-   "avg": 444,
+   "avg": 512,
    "checked": "2026-11-26"
   },
   {
@@ -1828,22 +2212,22 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツアンコール　レジェンダリールージュドレス　橋本環奈",
+     "price": 333,
+     "url": "https://jp.mercari.com/item/m71954789226"
+    },
+    {
+     "title": "アイカツ アンコール　レジェンダリールージュドレス　橋本環奈　PR",
+     "price": 400,
+     "url": "https://jp.mercari.com/item/m77155367117"
+    },
+    {
      "title": "アイカツアンコール レジェンダリールージュドレス E1-51 PR",
      "price": 399,
      "url": "https://jp.mercari.com/item/m64748264661"
-    },
-    {
-     "title": "アイカツ！ アンコールレジェンダリールージュドレス PR カード",
-     "price": 390,
-     "url": "https://jp.mercari.com/item/m14181517222"
-    },
-    {
-     "title": "アイカツ!アンコール レジェンダリールージュドレス",
-     "price": 400,
-     "url": "https://jp.mercari.com/item/m92872986651"
     }
    ],
-   "avg": 396,
+   "avg": 377,
    "checked": "2026-11-26"
   },
   {
@@ -1880,6 +2264,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツ アイカツアンコール サンシャインスターウェイトップス スカート",
+     "price": 999,
+     "url": "https://jp.mercari.com/item/m75796010776"
+    },
+    {
      "title": "アイカツ アンコール PR サンシャインスターウェイトップス 星宮いちご",
      "price": 549,
      "url": "https://jp.mercari.com/item/m43180808188"
@@ -1888,14 +2277,9 @@
      "title": "アイカツアンコール サンシャインスターウェイトップス",
      "price": 555,
      "url": "https://jp.mercari.com/item/m85962323977"
-    },
-    {
-     "title": "アイカツアンコール　サンシャインスターウェイトップス PR",
-     "price": 450,
-     "url": "https://jp.mercari.com/item/m76069197740"
     }
    ],
-   "avg": 518,
+   "avg": 701,
    "checked": "2026-11-26"
   },
   {
@@ -2124,22 +2508,22 @@
    "n": 3,
    "items": [
     {
+     "title": "め*ぃ様 アイカツ アンコール パラレル 星宮いちご オーロラキスキャミソール",
+     "price": 11000,
+     "url": "https://jp.mercari.com/item/m71027892365"
+    },
+    {
+     "title": "アイカツ！アンコール オーロラキスキャミソール 星宮いちご パラレル",
+     "price": 11000,
+     "url": "https://jp.mercari.com/item/m52595821327"
+    },
+    {
      "title": "アイカツ！アンコール パラレル オーロラキスキャミソール 星宮いちご",
      "price": 9999,
      "url": "https://jp.mercari.com/item/m21196244722"
-    },
-    {
-     "title": "アイカツアンコール オーロラキスキャミソール パラレル E1-01 PR",
-     "price": 10999,
-     "url": "https://jp.mercari.com/item/m11789118845"
-    },
-    {
-     "title": "アイカツアンコール オーロラキスキャミソール PR パラレル",
-     "price": 10333,
-     "url": "https://jp.mercari.com/item/m31583267130"
     }
    ],
-   "avg": 10444,
+   "avg": 10666,
    "checked": "2026-11-26"
   },
   {
@@ -2150,6 +2534,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツ アンコール オーロラキスドレープスカート パラレル",
+     "price": 9000,
+     "url": "https://jp.mercari.com/item/m53869298326"
+    },
+    {
      "title": "アイカツアンコール オーロラキスドレープスカート パラレル 星宮いちご",
      "price": 8999,
      "url": "https://jp.mercari.com/item/m89638810633"
@@ -2158,14 +2547,9 @@
      "title": "アイカツアンコール オーロラキスドレープスカート パラレル 星宮いちご",
      "price": 8566,
      "url": "https://jp.mercari.com/item/m52825147767"
-    },
-    {
-     "title": "k*a様 オーロラキスドレープスカート　パラレル　アイカツ　アンコール　星宮いち",
-     "price": 8300,
-     "url": "https://jp.mercari.com/item/m35735898251"
     }
    ],
-   "avg": 8622,
+   "avg": 8855,
    "checked": "2026-11-26"
   },
   {
@@ -2176,22 +2560,22 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツ！ アンコール オーロラキスバレエシューズ PR パラレル 星宮いちご",
-     "price": 7999,
-     "url": "https://jp.mercari.com/item/m44383543625"
+     "title": "アイカツアンコール　オーロラキスバレエシューズ 星宮いちご　パラレル",
+     "price": 8850,
+     "url": "https://jp.mercari.com/item/m58228887315"
     },
     {
-     "title": "アイカツアンコール オーロラキスバレエシューズ パラレル",
-     "price": 7500,
-     "url": "https://jp.mercari.com/item/m20456994585"
+     "title": "アイカツアンコール　星宮いちご　オーロラキスバレエシューズ　パラレル",
+     "price": 8888,
+     "url": "https://jp.mercari.com/item/m60875858195"
     },
     {
-     "title": "アイカツ！アンコール PR★ パラレル オーロラキスバレエシューズ",
-     "price": 8300,
-     "url": "https://jp.mercari.com/item/m36347567199"
+     "title": "アイカツ アンコール 星宮いちご PR オーロラキスバレエシューズ パラレルレア",
+     "price": 8999,
+     "url": "https://jp.mercari.com/item/m71786510339"
     }
    ],
-   "avg": 7933,
+   "avg": 8912,
    "checked": "2026-11-26"
   },
   {
@@ -2228,6 +2612,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツアンコール　天の川コズミックワンショルダー　パラレルレア　霧矢あおい",
+     "price": 5100,
+     "url": "https://jp.mercari.com/item/m44204666493"
+    },
+    {
      "title": "アイカツアンコール 天の川コズミックワンショルダー パラレル",
      "price": 4200,
      "url": "https://jp.mercari.com/item/m63064774414"
@@ -2236,14 +2625,9 @@
      "title": "アイカツアンコール　霧矢あおい　PR　パラレル　天の川コズミックワンショルダー",
      "price": 4200,
      "url": "https://jp.mercari.com/item/m83304255607"
-    },
-    {
-     "title": "パラレル　天の川コズミックワンショルダー　アイカツ！アンコール　PR　あおい",
-     "price": 4200,
-     "url": "https://jp.mercari.com/item/m77832965522"
     }
    ],
-   "avg": 4200,
+   "avg": 4500,
    "checked": "2026-11-26"
   },
   {
@@ -2280,6 +2664,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツアンコール　霧矢あおい　天の川コズミックブーツ　パラレル",
+     "price": 4222,
+     "url": "https://jp.mercari.com/item/m77129576757"
+    },
+    {
      "title": "天の川コズミックブーツ パラレル アイカツアンコール 霧矢あおい",
      "price": 4222,
      "url": "https://jp.mercari.com/item/m45423782455"
@@ -2288,14 +2677,9 @@
      "title": "アイカツ！アンコール 天の川コズミックブーツ PR パラレル 霧矢あおい",
      "price": 4222,
      "url": "https://jp.mercari.com/item/m48272123381"
-    },
-    {
-     "title": "アイカツ！アンコール 天の川コズミックブーツ PR パラレル 霧矢あおい",
-     "price": 3999,
-     "url": "https://jp.mercari.com/item/m47129849380"
     }
    ],
-   "avg": 4148,
+   "avg": 4222,
    "checked": "2026-11-26"
   },
   {
@@ -2306,6 +2690,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツアンコール 天の川コズミックカチューシャ E1-36 PR パラレル",
+     "price": 4299,
+     "url": "https://jp.mercari.com/item/m39479309848"
+    },
+    {
      "title": "アイカツ！アンコール パラレル 天の川コズミックカチューシャ 霧矢あおい",
      "price": 4299,
      "url": "https://jp.mercari.com/item/m82448046265"
@@ -2314,14 +2703,9 @@
      "title": "アイカツ アンコール 天の川コズミックカチューシャ パラレル",
      "price": 4333,
      "url": "https://jp.mercari.com/item/m69633485139"
-    },
-    {
-     "title": "アイカツ！アンコール PR★ 天の川コズミックカチューシャ",
-     "price": 4300,
-     "url": "https://jp.mercari.com/item/m66453453173"
     }
    ],
-   "avg": 4311,
+   "avg": 4310,
    "checked": "2026-11-26"
   },
   {
@@ -2332,6 +2716,11 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツアンコール 大空あかり オデットスワン パラレル",
+     "price": 44444,
+     "url": "https://jp.mercari.com/item/m63588446768"
+    },
+    {
      "title": "アイカツアンコール 大空あかり オデットスワン ER パラレル",
      "price": 43999,
      "url": "https://jp.mercari.com/item/m33147393991"
@@ -2340,14 +2729,9 @@
      "title": "アイカツ！アンコール オデットスワン パラレル 大空あかり",
      "price": 44000,
      "url": "https://jp.mercari.com/item/m88419255892"
-    },
-    {
-     "title": "アイカツ！アンコール オデットスワン PR パラレル",
-     "price": 43999,
-     "url": "https://jp.mercari.com/item/m90805202464"
     }
    ],
-   "avg": 43999,
+   "avg": 44148,
    "checked": "2026-11-26"
   },
   {
@@ -2358,6 +2742,11 @@
    "n": 3,
    "items": [
     {
+     "title": "K*A様 アイカツ！アンコール アイカツカード リルリボンストーリー パラレル",
+     "price": 9900,
+     "url": "https://jp.mercari.com/item/m46400730354"
+    },
+    {
      "title": "らき リルリボンストーリー パラレル アイカツアンコール",
      "price": 7999,
      "url": "https://jp.mercari.com/item/m12322657208"
@@ -2366,14 +2755,9 @@
      "title": "【美品】パラレル　リルリボンストーリーコーデ　アイカツアンコール　姫石らき",
      "price": 9299,
      "url": "https://jp.mercari.com/item/m51161474731"
-    },
-    {
-     "title": "アイカツアンコール ERパラレル リルリボンストーリー 姫石らき",
-     "price": 9333,
-     "url": "https://jp.mercari.com/item/m78132308154"
     }
    ],
-   "avg": 8877,
+   "avg": 9066,
    "checked": "2026-11-26"
   },
   {
@@ -2489,6 +2873,11 @@
    "n": 3,
    "items": [
     {
+     "title": "まじかるちいかわ ボンボンドロップシール 悪いバージョン",
+     "price": 800,
+     "url": "https://jp.mercari.com/item/m33846902474"
+    },
+    {
      "title": "まじかるちいかわ ボンボンドロップシール ジュエル",
      "price": 3444,
      "url": "https://jp.mercari.com/item/m53420399169"
@@ -2497,14 +2886,9 @@
      "title": "ちいかわ ボンボンドロップシール 4点 まじかるちいかわ",
      "price": 3399,
      "url": "https://jp.mercari.com/item/m18970838091"
-    },
-    {
-     "title": "まじかるちいかわ ボンボンドロップシール ジュエル",
-     "price": 3666,
-     "url": "https://jp.mercari.com/item/m90923057423"
     }
    ],
-   "avg": 3503,
+   "avg": 2548,
    "checked": "2026-11-26"
   },
   {
