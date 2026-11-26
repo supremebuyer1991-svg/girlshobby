@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 12:31",
+ "updated": "2026-11-26 17:23",
  "rule": "メルカリの売り切れ・新しい順から、1枚売りの直近3件の平均",
  "cards": [
   {
@@ -34,8 +34,15 @@
    "set": "tama-gotchi3",
    "name": "おやじっちスペーススタイル",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-06&status=sold_out&sort=created_time&order=desc",
-   "n": 0,
-   "items": [],
+   "n": 1,
+   "items": [
+    {
+     "title": "【TNGC03-06 おやじっちスペーススタイル (R レア) 】たまごっち にゅー! ごっちカード3",
+     "price": 980,
+     "url": "https://jp.mercari.com/item/2JTmfFPPoS7zx6UnJUbs95"
+    }
+   ],
+   "avg": 980,
    "checked": "2026-11-26"
   },
   {
@@ -588,8 +595,20 @@
    "set": "tama-gotchi2",
    "name": "みずのフィールド探検!",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-13&status=sold_out&sort=created_time&order=desc",
-   "n": 0,
-   "items": [],
+   "n": 2,
+   "items": [
+    {
+     "title": "【中古】アニメ系トレカ TNGC02-13[R]：みずのフィールド探検!",
+     "price": 300,
+     "url": "https://jp.mercari.com/item/2JVR5GvrdgZ8XXi4xUA9JT"
+    },
+    {
+     "title": "【TNGC02-13 みずのフィールド探検！ (R レア)】たまごっち にゅー! ごっちカード2",
+     "price": 880,
+     "url": "https://jp.mercari.com/item/2JNorC86MmBs69me4N7ERk"
+    }
+   ],
+   "avg": 590,
    "checked": "2026-11-26"
   },
   {
@@ -1565,22 +1584,22 @@
    "n": 3,
    "items": [
     {
+     "title": "まじかるちいかわ ボンボンドロップシール ジュエル",
+     "price": 3666,
+     "url": "https://jp.mercari.com/item/m90923057423"
+    },
+    {
+     "title": "まじかるちいかわ モモンガ　 ボンボンドロップシール",
+     "price": 850,
+     "url": "https://jp.mercari.com/item/m55022572104"
+    },
+    {
      "title": "【まじかるちいかわ】ボンボンドロップシール ジュエル (悪いバージョン)",
      "price": 750,
      "url": "https://jp.mercari.com/item/m70590457761"
-    },
-    {
-     "title": "ボンボンドロップシール まじかるちいかわ 正規品",
-     "price": 3222,
-     "url": "https://jp.mercari.com/item/m64331708738"
-    },
-    {
-     "title": "まじかるちいかわ　ジュエル　悪いバージョン　ボンボンドロップシール　正規品★",
-     "price": 1999,
-     "url": "https://jp.mercari.com/item/m57613166110"
     }
    ],
-   "avg": 1990,
+   "avg": 1755,
    "checked": "2026-11-26"
   },
   {
