@@ -65,7 +65,7 @@ def from_rakuten(it):
                   {"accessKey": key, "Referer": site + "/", "Origin": site})
     for x in json.loads(body).get("Items") or []:
         name = norm(x.get("itemName"))
-        if any(w in name for w in map(norm, NG)) or not all(norm(m) in name for m in it.get("must", [])):
+        if any(w in name for w in map(norm, NG)) or not all(any(norm(x) in name for x in m.split("|")) for m in it.get("must", [])):
             continue
         imgs = x.get("mediumImageUrls") or []
         u = imgs[0] if imgs else ""

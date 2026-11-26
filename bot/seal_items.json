@@ -1,8 +1,154 @@
 [
- {"id": "disney-sparklink", "page": "https://colyinc.com/sparklink-stars/news/goods/284/", "rk": "ボンボンドロップシール スパークリンク", "must": ["ボンボンドロップ", "スパークリンク"]},
- {"id": "perfectbook2", "page": "https://collabo-cafe.com/events/collabo/bonbon-drop-fanbook2-2026/", "rk": "ボンボンドロップシール パーフェクトBOOK2", "must": ["パーフェクト", "2"]},
- {"id": "jra", "page": "", "rk": "ボンボンドロップシール JRA", "must": ["ボンボンドロップ", "JRA"]},
- {"id": "magical-jewel", "page": "https://qlia.store/pages/chiikawa_magical", "rk": "ボンボンドロップシール まじかるちいかわ", "must": ["ボンボンドロップ", "まじかる"]},
- {"id": "tamamori30", "page": "https://joshinweb.jp/toy/35117/4582770024234.html", "rk": "たまもりしーるリフィル30th 初代たまごっちセット", "must": ["たまもり", "30th"]},
- {"id": "jumbo-sealdass", "page": "https://news.allabout.co.jp/articles/o/123215/", "rk": "たまごっち ジャンボシールダス", "must": ["ジャンボシールダス"]}
+ {
+  "id": "disney-sparklink",
+  "page": "https://colyinc.com/sparklink-stars/news/goods/284/",
+  "rk": "ボンボンドロップシール スパークリンク",
+  "must": [
+   "ボンボンドロップ",
+   "スパークリンク"
+  ]
+ },
+ {
+  "id": "perfectbook2",
+  "page": "https://collabo-cafe.com/events/collabo/bonbon-drop-fanbook2-2026/",
+  "rk": "ボンボンドロップシール パーフェクトBOOK2",
+  "must": [
+   "パーフェクト",
+   "2"
+  ]
+ },
+ {
+  "id": "jra",
+  "page": "",
+  "rk": "ボンボンドロップシール JRA",
+  "must": [
+   "ボンボンドロップ",
+   "JRA"
+  ]
+ },
+ {
+  "id": "magical-jewel",
+  "page": "https://qlia.store/pages/chiikawa_magical",
+  "rk": "ボンボンドロップシール まじかるちいかわ",
+  "must": [
+   "ボンボンドロップ",
+   "まじかる"
+  ]
+ },
+ {
+  "id": "tamamori30",
+  "page": "https://joshinweb.jp/toy/35117/4582770024234.html",
+  "rk": "たまもりしーるリフィル30th 初代たまごっちセット",
+  "must": [
+   "たまもり",
+   "30th"
+  ]
+ },
+ {
+  "id": "jumbo-sealdass",
+  "page": "https://news.allabout.co.jp/articles/o/123215/",
+  "rk": "たまごっち ジャンボシールダス",
+  "must": [
+   "ジャンボシールダス"
+  ]
+ },
+ {
+  "id": "onepiece-choppers",
+  "page": "https://one-piece.com/news/82941/index.html",
+  "rk": "ボンボンドロップシール チョッパー",
+  "must": [
+   "ボンボンドロップ",
+   "チョッパー|CHOPPER"
+  ]
+ },
+ {
+  "id": "mofusand-2",
+  "page": "",
+  "rk": "ボンボンドロップシール mofusand",
+  "must": [
+   "ボンボンドロップ",
+   "mofusand|モフサンド"
+  ]
+ },
+ {
+  "id": "chiikawa-sushi",
+  "page": "",
+  "rk": "ボンボンドロップシール ちいかわ寿司",
+  "must": [
+   "ボンボンドロップ",
+   "ちいかわ"
+  ]
+ },
+ {
+  "id": "okashi-chara",
+  "page": "",
+  "rk": "ボンボンドロップシール じゃがりこ",
+  "must": [
+   "ボンボンドロップ",
+   "じゃがりこ|コアラのマーチ"
+  ]
+ },
+ {
+  "id": "chocomin-4",
+  "page": "",
+  "rk": "ボンボンドロップシール ちょこみん",
+  "must": [
+   "ボンボンドロップ",
+   "ちょこみん"
+  ]
+ },
+ {
+  "id": "crayon-shin",
+  "page": "",
+  "rk": "ボンボンドロップシール クレヨンしんちゃん",
+  "must": [
+   "ボンボンドロップ",
+   "しんちゃん"
+  ]
+ },
+ {
+  "id": "nameko",
+  "page": "",
+  "rk": "ボンボンドロップシール なめこ",
+  "must": [
+   "ボンボンドロップ",
+   "なめこ"
+  ]
+ },
+ {
+  "id": "mikko",
+  "page": "",
+  "rk": "ボンボンドロップシール mikko",
+  "must": [
+   "ボンボンドロップ",
+   "mikko"
+  ]
+ },
+ {
+  "id": "sanrio-okinawa",
+  "page": "",
+  "rk": "ボンボンドロップシール サンリオ 沖縄",
+  "must": [
+   "ボンボンドロップ",
+   "沖縄"
+  ]
+ },
+ {
+  "id": "bluelock",
+  "page": "",
+  "rk": "ボンボンドロップシール ブルーロック",
+  "must": [
+   "ボンボンドロップ",
+   "ブルーロック"
+  ]
+ },
+ {
+  "id": "sakusakupanda",
+  "page": "",
+  "rk": "ボンボンドロップシール さくさくぱんだ",
+  "must": [
+   "ボンボンドロップ",
+   "さくさくぱんだ"
+  ]
+ }
 ]

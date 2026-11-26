@@ -120,7 +120,7 @@ def main():
             continue
         must = [norm(m) for m in it.get("must", [])]
         try:
-            got = search(tok, ver, it.get("rk") or sid, lambda t: all(m in norm(t) for m in must))
+            got = search(tok, ver, it.get("rk") or sid, lambda t: all(any(x in norm(t) for x in m.split("|")) for m in must))
         except Exception as e:
             print(f"[skip] {sid}: {e}", file=sys.stderr)
             got = None
