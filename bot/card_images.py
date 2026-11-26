@@ -91,7 +91,7 @@ def rakuten():
             print(f"[skip] {r['id']}: {e}", file=sys.stderr)
             time.sleep(5)
             continue
-        time.sleep(2.5)
+        time.sleep(3.5)              # 速すぎると楽天に断られる（429）
         hit = None
         for x in items:
             t = norm(x.get("itemName", ""))
@@ -107,7 +107,8 @@ def rakuten():
                 u = u.get("imageUrl", "")
             if u:
                 hit = {"img": re.sub(r"\?_ex=\d+x\d+", "", u) + "?_ex=300x300",
-                       "link": x.get("affiliateUrl") or x.get("itemUrl") or "", "credit": "楽天市場"}
+                       "link": x.get("affiliateUrl") or x.get("itemUrl") or "", "credit": "楽天市場",
+                       "title": x.get("itemName", "")[:80]}
                 break
         if hit:
             d[r["id"]] = hit
