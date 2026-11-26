@@ -27,7 +27,7 @@ SEALS = ROOT / "bot" / "seal_items.json"   # シールも同じやり方で相�
 OUT = ROOT / "site" / "souba.json"
 JST = timezone(timedelta(hours=9))
 TAKE = 3            # 直近何件で平均するか
-MAX_CARDS = 150     # 1回の実行で調べる上限（やりすぎ防止）
+MAX_CARDS = 260     # 1回の実行で調べる上限（やりすぎ防止）
 
 # この言葉がタイトルにあれば「1枚売り」ではないとみなして捨てる
 NG_WORDS = [
@@ -155,7 +155,7 @@ def main() -> int:
                 fail += 1
             (srows if c.get("seal") else rows).append(row)
             print(f"{c['id']} {c['name']}: {row.get('avg', '-')}円 ({row['n']}件)")
-            time.sleep(random.uniform(4, 8))
+            time.sleep(random.uniform(3, 6))
         browser.close()
 
     OUT.parent.mkdir(parents=True, exist_ok=True)

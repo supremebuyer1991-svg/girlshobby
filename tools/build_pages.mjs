@@ -36,7 +36,7 @@ const medal = n => `<span class="medal${n < 3 ? " m" + (n + 1) : ""}" aria-label
 const today = new Date(); const ymd = today.toISOString().slice(0, 10);
 const label = it => { if (!it.d) return "調べ中"; const p = it.d.split("-").map(Number); return p.length === 3 ? `${p[0]}年${p[1]}月${p[2]}日` : `${p[0]}年${p[1]}月${it.late ? "下旬" : ""}`; };
 const released = it => { if (!it.d) return true; const p = it.d.split("-").map(Number); const dt = new Date(p[0], p[1] - 1, p[2] || (it.late ? 21 : 1)); return dt <= today; };
-const mcCard = (sid, c) => (MC.cards || []).find(x => x.id === (c.code.startsWith("TNGC") ? c.code : sid + "-" + c.code) && x.avg) || null;
+const mcCard = (sid, c) => (MC.cards || []).find(x => x.id === (/^S?TNGC/.test(c.code) ? c.code : sid + "-" + c.code) && x.avg) || null;
 const mcSeal = id => (MC.seals || []).find(x => x.id === id && x.avg) || null;
 
 function page({ title, desc, url, depth, theme, body, ld }) {
@@ -93,13 +93,13 @@ const faqLd = qa => ({ "@context": "https://schema.org", "@type": "FAQPage", mai
 const cardList = [];
 for (const it of D.ITEMS) {
   const S = D.CARDS[it.id] || { total: it.kinds || 0, cards: [] };
-  const rows = S.cards.map(c => { const m = mcCard(it.id, c); return { ...c, m, val: m ? m.avg : (c.shop ? c.shop.p : 0) }; }).sort((a, b) => b.val - a.val);
+  const rows = S.cards.map(c => { const m = mcCard(it.id, c); return { ...c, m, val: m ? m.avg : 0 }; }).filter(c => c.m).sort((a, b) => b.val - a.val);  // メルカリで売れた記録があるカードだけ
   const topR = rows[0];
   const total = S.total || it.kinds || 0;
   const hasRank = rows.length > 0;
   const title = hasRank ? `${it.name} 相場ランキング【全${total || "？"}種・買取/メルカリ価格】` : `${it.name} 発売日・予約・相場【${label(it)}】`;
   const desc = hasRank
-    ? `${it.name}のシングルカード相場を高い順にランキング。いちばん高いのは${topR.code} ${topR.name}の${yen(topR.val)}。メルカリの直近の売れた値段とお店の買取・販売価格を${ymd}時点でまとめています。`
+    ? `${it.name}のシングルカード相場を高い順にランキング。いちばん高いのは${topR.code} ${topR.name}の${yen(topR.val)}。メルカリで実際に売れた直近の値段を${ymd}時点でまとめています。`
     : `${it.name}（${label(it)}発売${released(it) ? "" : "予定"}）の発売日・価格・予約できるお店・相場をまとめています。`;
   const pre = !released(it);
   // よくある質問（データにあることだけで答える）
@@ -127,7 +127,7 @@ ${im ? `<div class="gal">${im.images.map((u, k) => `<img src="../../${esc(u)}" a
 ${hasRank ? `<section class="sec"><h2 class="h"><span class="hi">${ic("crown")}</span><span class="tx">${esc(it.name)} シングル相場ランキング</span></h2>
 <p class="legend">メルカリで最近売れた1枚売りの平均（直近3件）があればそれを、なければお店の値段を使っています。値段の種類と出典はカードごとに書いています。</p>
 <div class="rank">${rows.map((c, n) => {
-    const q = c.code.startsWith("TNGC") ? c.code : it.name + " " + c.code + " " + c.name.split(" ")[0];
+    const q = /^S?TNGC/.test(c.code) ? c.code : it.name + " " + c.code + " " + c.name.split(" ")[0];
     const main = c.m ? `<b>${yen(c.m.avg)}</b><small><span class="kk メルカリ">メルカリ</span>直近${Number(c.m.n)}件平均</small>` : (c.shop ? `<b>${yen(c.shop.p)}</b><small><span class="kk ${esc(c.shop.k)}">${esc(c.shop.k)}</span>${esc(c.shop.src)}</small>` : "<b>－</b>");
     return `<div class="crow${n < 3 ? " top3" : ""}">${medal(n)}<div class="ph">${ic("star")}<img src="../../img/${encodeURIComponent(it.id)}/${encodeURIComponent(c.code)}.jpg" alt="${esc(c.code)} ${esc(c.name)}" loading="lazy" onerror="this.remove()"></div><div class="cb"><span class="code">${esc(c.code)}</span><p>${esc(c.name)}</p></div><div class="pr">${main}</div><a class="ml" href="${merc(q)}" rel="nofollow">メルカリで売れた値段を見る${ic("go")}</a></div>`;
   }).join("")}</div></section>` : ""}

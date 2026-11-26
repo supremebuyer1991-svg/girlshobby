@@ -67,10 +67,13 @@ SETS["aikatsu-encore1"] = {"total": 97, "prefix": "E1", "cards": AIKATSU1}
 # メルカリで相場を取るのは高いカードだけ（PR・ER・パラレル）。全部やるとロボットが時間切れになる
 AIKATSU_TRACK = lambda c: ("★" in c["code"]) or c["name"].split(" ")[-1].startswith(("PR","ER"))
 
+# ---- スクラッチカードダス ごっちカード（STNGC01・全80種のうちメルカリで見つかった型番）----
+SETS["tama-scratch"] = {"total": 80, "prefix": "STNGC01", "cards": [{"code": "STNGC01-01", "name": "まめっち30thスタイル SGR"}, {"code": "STNGC01-06", "name": "スーパーまめっち"}, {"code": "STNGC01-07", "name": "くちぱっちパティシエ GR"}, {"code": "STNGC01-08", "name": "ラブリっち動画配信やさん GR"}, {"code": "STNGC01-09", "name": "メロディっちスーパーモデル GR"}, {"code": "STNGC01-10", "name": "スクラっちカードけずるやさん GR"}, {"code": "STNGC01-11", "name": "まめっちアイドル R"}, {"code": "STNGC01-12", "name": "めめっちアイドル R"}, {"code": "STNGC01-13", "name": "ふらわっちアイドル R"}, {"code": "STNGC01-14", "name": "くちぱっちアイドル R"}, {"code": "STNGC01-15", "name": "みみっちアイドル R"}, {"code": "STNGC01-16", "name": "いちごっちアイドル R"}, {"code": "STNGC01-17", "name": "しましまっちアイドル R"}, {"code": "STNGC01-18", "name": "ポチっちアイドル R"}, {"code": "STNGC01-19", "name": "ござるっちアイドル R"}, {"code": "STNGC01-20", "name": "くろまめっちアイドル R"}, {"code": "STNGC01-21", "name": "ぴゅえるっちアイドル R"}, {"code": "STNGC01-22", "name": "やんぐまめっち＆やんぐみみっちアイドル R"}, {"code": "STNGC01-23", "name": "ねりあっちアイドル R"}, {"code": "STNGC01-24", "name": "まきこアイドル R"}, {"code": "STNGC01-25", "name": "みるくっちアイドル R"}, {"code": "STNGC01-26", "name": "りく・みず・そら・フィールドから集合 R"}, {"code": "STNGC01-27", "name": "もりフィールドから集合 R"}, {"code": "STNGC01-28", "name": "なんごく・こおりフィールドから集合 R"}, {"code": "STNGC01-29", "name": "コズミック星から集合 R"}, {"code": "STNGC01-30", "name": "パラダイスから大集合！！ R"}, {"code": "STNGC01-31", "name": "まめっちお天気やさん N"}, {"code": "STNGC01-32", "name": "まめっちアナウンサー N"}, {"code": "STNGC01-33", "name": "まめっち銀行員 N"}, {"code": "STNGC01-34", "name": "くちぱっちスーパーうんちくんやさん N"}, {"code": "STNGC01-35", "name": "くちぱっちお風呂やさん N"}, {"code": "STNGC01-36", "name": "くちぱっちお医者さん N"}, {"code": "STNGC01-37", "name": "めめっち時間やさん N"}, {"code": "STNGC01-38", "name": "めめっち花やさん N"}, {"code": "STNGC01-39", "name": "めめっちお風呂やさん N"}, {"code": "STNGC01-40", "name": "みみっちスタートやさん N"}, {"code": "STNGC01-41", "name": "みみっちアナウンサー N"}, {"code": "STNGC01-42", "name": "ふらわっち家来 N"}, {"code": "STNGC01-43", "name": "やったっち警察官 N"}, {"code": "STNGC01-44", "name": "ふらわっち幼稚園の先生 N"}, {"code": "STNGC01-45", "name": "しましまっち警察官 N"}, {"code": "STNGC01-46", "name": "おやじっち銀行員 N"}, {"code": "STNGC01-47", "name": "りんごっちかしこクラス N"}, {"code": "STNGC01-48", "name": "いちごっちオシャレクラス N"}, {"code": "STNGC01-49", "name": "ゆにまるっち修理やさん N"}, {"code": "STNGC01-50", "name": "たらこっちヘアメイクやさん N"}, {"code": "STNGC01-51", "name": "たまご姫アナウンサー N"}, {"code": "STNGC01-52", "name": "たまひこ王子花やさん N"}, {"code": "STNGC01-53", "name": "あしっち先生 N"}, {"code": "STNGC01-54", "name": "しりぷりっちお医者さん N"}, {"code": "STNGC01-55", "name": "わしきっちバンドマン N"}, {"code": "STNGC01-56", "name": "ぎんじろっちほうろうの旅人 N"}, {"code": "STNGC01-57", "name": "くりてんハートお届けやさん N"}, {"code": "STNGC01-58", "name": "ますくっちサッカー選手 N"}, {"code": "STNGC01-59", "name": "ゴッチマン体育の先生 N"}, {"code": "STNGC01-60", "name": "ジュリエっち宝石やさん N"}, {"code": "STNGC01-61", "name": "ゆめみっち幼稚園の先生 N"}, {"code": "STNGC01-62", "name": "もりりっちたまもりしーるやさん N"}, {"code": "STNGC01-63", "name": "キラリっちデザイナー N"}, {"code": "STNGC01-64", "name": "ハロー！みゃおっち N"}, {"code": "STNGC01-65", "name": "ハロー！いるかっち N"}, {"code": "STNGC01-66", "name": "ハロー！ほーほっち N"}, {"code": "STNGC01-67", "name": "ハロー！れさぱんっち N"}, {"code": "STNGC01-68", "name": "ハロー！おこじょっち N"}, {"code": "STNGC01-69", "name": "ハロー！ぱろろっち N"}, {"code": "STNGC01-70", "name": "ハロー！コズミっち N"}, {"code": "STNGC01-71", "name": "ドレッサー N"}, {"code": "STNGC01-72", "name": "レインボーじょうろ N"}, {"code": "STNGC01-73", "name": "オシャレ薬 N"}, {"code": "STNGC01-74", "name": "たいっち焼き N"}, {"code": "STNGC01-75", "name": "しょくぶつ N"}, {"code": "STNGC01-76", "name": "三角フラスコ N"}, {"code": "STNGC01-77", "name": "板チョコ N"}, {"code": "STNGC01-78", "name": "メロンパン N"}, {"code": "STNGC01-79", "name": "地球儀 N"}, {"code": "STNGC01-80", "name": "30周年お祝いケーキ N"}]}
+
 PRE_NAME = {"pre-wafer13":"プリキュアカードウエハース13","pre-wafer12":"プリキュアカードウエハース12","pre-wafer11":"プリキュアカードウエハース11"}
 
 WHO_RE = r"(.*?(?:っち|まきこ|くりてん|ビッグスマイル|クチパッチ))(.*)"
-ALL_WHO = sorted({(re.match(WHO_RE, c["name"]) or [None, c["name"]])[1].split("・")[0]
+ALL_WHO = sorted({(re.match(WHO_RE, re.sub(r"\s+(SGR|GR|R|N)$", "", c["name"])) or [None, c["name"]])[1].split("・")[0]
                   for sid, st in SETS.items() if sid.startswith("tama") for c in st["cards"]})
 
 def bot_rows():
@@ -86,17 +89,17 @@ def bot_rows():
                              "q":f"アイカツ アンコール {nm}"+(" パラレル" if par else ""),
                              "must":["アンコール",nm]+(["パラレル|★"] if par else []),
                              "ng":[] if par else ["パラレル","★"]})
-            elif c["code"].startswith("TNGC"):
+            elif re.match(r"S?TNGC", c["code"]):
                 # 型番を書かない出品も多いので、名前でも探す（2回目の検索）
-                n=c["name"]; m=re.match(WHO_RE,n)
+                n=re.sub(r"\s+(SGR|GR|R|N)$","",c["name"]); m=re.match(WHO_RE,n)
                 who,what=(m.group(1),m.group(2)) if m else (n,"")
                 key=next((k for k in ("ハッピー","スペース","よそおい","おさんぽ","発見","フィールド","探検") if k in what),what[:4])
                 season=[x for x in ("夏","春") if x in what]
                 must2=[who.split("・")[0]]+([key] if key else [])+season
                 w0=who.split("・")[0]
-                ng=[o for o in ALL_WHO if w0 in o and o!=w0]+["STNGC"]   # 「まめっち」で「くろまめっち」、スクラッチ版の型番を拾わない
+                ng=[o for o in ALL_WHO if w0 in o and o!=w0]+([] if c["code"].startswith("S") else ["STNGC"])   # 「まめっち」で「くろまめっち」、スクラッチ版の型番を拾わない
                 rows.append({"id":c["code"],"set":sid,"name":n,"q":c["code"],"must":[c["code"]],
-                             "q2":f"ごっちカード {who} {what}".strip(),"must2":["ごっち"]+must2,"ng":ng})
+                             "q2":(f"スクラッチ ごっちカード {who} {what}" if c["code"].startswith("S") else f"ごっちカード {who} {what}").strip(),"must2":["ごっち"]+must2+(["スクラッチ|STNGC"] if c["code"].startswith("S") else []),"ng":ng})
             else:
                 key=re.sub(r"\s*(HR|SSR|SR|R|N)$","",c["name"]).replace("キュア","").split("/")[0].strip()
                 rows.append({"id":f"{sid}-{c['code']}","set":sid,"name":f"{c['code']} {c['name']}",
