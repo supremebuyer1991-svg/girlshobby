@@ -298,6 +298,19 @@
    "img/aikatsu-file/product_1.jpg"
   ]
  },
+ "aikatsu-encore1": {
+  "source": "https://dcd.aikatsu.com/encore/",
+  "images": [
+   "img/aikatsu-encore1/product_1.webp",
+   "img/aikatsu-encore1/product_2.webp",
+   "img/aikatsu-encore1/product_3.webp",
+   "img/aikatsu-encore1/product_4.webp",
+   "img/aikatsu-encore1/product_5.webp",
+   "img/aikatsu-encore1/product_6.webp",
+   "img/aikatsu-encore1/product_7.webp",
+   "img/aikatsu-encore1/product_8.webp"
+  ]
+ },
  "tama-omisecchi": {
   "source": "https://item.rakuten.co.jp/premiumgarage/b-tmg-omise/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
   "images": [
