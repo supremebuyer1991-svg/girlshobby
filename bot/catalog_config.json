@@ -89,6 +89,33 @@
    "max": 40
   },
   {
+   "id": "niji-card",
+   "mode": "card",
+   "group": "niji",
+   "name": "にじなな（にじさんじカードゲーム）",
+   "keywords": [
+    "NIJISANJI 7 Colors Card Game",
+    "にじなな カード",
+    "にじさんじ カードゲーム ブースターパック",
+    "にじさんじ スターターデッキ"
+   ],
+   "must_any": [
+    "NIJISANJI",
+    "にじさんじ",
+    "にじなな"
+   ],
+   "also_any": [
+    "カード",
+    "パック",
+    "デッキ",
+    "スリーブ"
+   ],
+   "ng": [
+    "シングル"
+   ],
+   "max": 60
+  },
+  {
    "id": "card-goods",
    "mode": "card",
    "group": "all",
