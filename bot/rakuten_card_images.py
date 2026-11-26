@@ -22,6 +22,11 @@ IDX = ROOT / "site" / "img" / "index.json"
 ENDPOINT = "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701"
 UA = "Mozilla/5.0 (girlshobby card image bot)"
 NG = ("中古", "バラ売り", "空箱", "偽物", "類似", "互換", "スリーブ", "ローダー", "ファイル", "ホルダー")
+# 発送日の売り文句を付けた転売系の出品は、画像にも文字が入っていることが多いので使わない
+SHIP_NG = ("前日発送", "前日出荷", "当日発送", "当日出荷", "即日発送", "即日出荷", "即納", "予約前日", "発売日前日", "翌日発送", "あす楽",
+           # ポイント・送料などの宣伝文字が写真に入っているお店も外す
+           "ポイント", "倍", "クーポン", "送料無料", "送料込", "%off", "％off", "セール", "SALE", "特典", "最大", "限定価格", "お買い物マラソン", "スーパーSALE")
+BOOKS = "book"   # 楽天ブックスのお店コード（ここを最優先）
 ITEM_RE = re.compile(r'\{id:"([^"]+)"[^\n]*?\bname:"([^"]+)"')
 
 
@@ -47,12 +52,14 @@ def matches(want, title):
     return False
 
 
-def search(name):
+def search(name, shop=""):
     app, key = os.environ.get("RAKUTEN_APP_ID", "").strip(), os.environ.get("RAKUTEN_ACCESS_KEY", "").strip()
     site = (os.environ.get("SITE_URL") or "https://tcg-chusen.com").rstrip("/")
     keyword = re.sub(r"[（(][^）)]*[）)]", " ", name).strip()
     q = {"applicationId": app, "keyword": keyword, "format": "json", "formatVersion": 2,
          "hits": 30, "imageFlag": 1}
+    if shop:
+        q["shopCode"] = shop
     aff = os.environ.get("RAKUTEN_AFFILIATE_ID", "").strip()
     if aff:
         q["affiliateId"] = aff
@@ -64,7 +71,7 @@ def search(name):
     want = compact(name)
     for x in items:
         title = x.get("itemName", "")
-        if any(norm(w) in norm(title) for w in NG) or not matches(want, title):
+        if any(norm(w) in norm(title) for w in NG + SHIP_NG) or not matches(want, title):
             continue
         imgs = x.get("mediumImageUrls") or []
         urls = []
@@ -74,7 +81,7 @@ def search(name):
             if u:
                 urls.append(re.sub(r"\?_ex=\d+x\d+", "", u) + "?_ex=500x500")
         if urls:
-            return urls, x.get("affiliateUrl") or x.get("itemUrl") or ""
+            return urls, x.get("affiliateUrl") or x.get("itemUrl") or "", ("楽天ブックス" if shop == BOOKS else "楽天市場")
     return None
 
 
@@ -87,10 +94,13 @@ def main():
     start = html.index("const ITEMS=")
     items = dict(ITEM_RE.findall(html[start: html.index("];", start)]))   # カードの弾だけ（シールは別ロボット）
     for sid, name in items.items():
-        if idx.get(sid, {}).get("images") and idx[sid].get("credit") != "楽天市場":
+        if idx.get(sid, {}).get("images") and idx[sid].get("credit") not in ("楽天市場", "楽天ブックス"):
             continue                     # 公式の写真があるものは触らない
         try:
-            got = search(name)
+            got = search(name, BOOKS)              # まず楽天ブックス
+            if not got:
+                time.sleep(2.5)
+                got = search(name)                 # 無ければ楽天市場全体
         except Exception as e:
             print(f"[skip] {sid}: {e}", file=sys.stderr)
             got = None
@@ -98,9 +108,9 @@ def main():
         if not got:
             print(f"{sid}: 楽天でも見つからず")
             continue
-        urls, link = got
-        idx[sid] = {"source": link, "images": urls, "credit": "楽天市場"}
-        print(f"{sid}: 楽天から{len(urls)}枚")
+        urls, link, credit = got
+        idx[sid] = {"source": link, "images": urls, "credit": credit}
+        print(f"{sid}: {credit}から{len(urls)}枚")
     IDX.write_text(json.dumps(idx, ensure_ascii=False, indent=1), encoding="utf-8")
     return 0
 

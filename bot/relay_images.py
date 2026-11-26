@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE = "https://girlshobby-img.pages.dev/"
-SHOP = ("楽天市場", "Amazon")
+SHOP = ("楽天ブックス", "楽天市場", "Amazon")
 
 
 def get(name):

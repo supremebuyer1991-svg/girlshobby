@@ -51,13 +51,29 @@ def from_page(page):
     return urllib.parse.urljoin(page, m.group(1)), page
 
 
+import sys as _s; from pathlib import Path as _P; _s.path.insert(0, str(_P(__file__).resolve().parent))
+from rakuten_card_images import SHIP_NG  # noqa: E402  前日発送・ポイントなどの文字入り出品を外す
+
+
 def from_rakuten(it):
+    """楽天ブックス → 楽天市場 の順に探す"""
+    for shop in ("book", ""):
+        got = _rakuten(it, shop)
+        if got:
+            return got
+        time.sleep(2)
+    return None
+
+
+def _rakuten(it, shop):
     app, key = os.environ.get("RAKUTEN_APP_ID", "").strip(), os.environ.get("RAKUTEN_ACCESS_KEY", "").strip()
     if not (app and key):
         return None
     site = (os.environ.get("SITE_URL") or "https://tcg-chusen.com").rstrip("/")
     q = {"applicationId": app, "keyword": it["rk"], "format": "json", "formatVersion": 2,
          "hits": 20, "imageFlag": 1, "availability": 1}
+    if shop:
+        q["shopCode"] = shop
     aff = os.environ.get("RAKUTEN_AFFILIATE_ID", "").strip()
     if aff:
         q["affiliateId"] = aff
@@ -65,7 +81,7 @@ def from_rakuten(it):
                   {"accessKey": key, "Referer": site + "/", "Origin": site})
     for x in json.loads(body).get("Items") or []:
         name = norm(x.get("itemName"))
-        if any(w in name for w in map(norm, NG)) or not all(any(norm(x) in name for x in m.split("|")) for m in it.get("must", [])):
+        if any(w in name for w in map(norm, NG + SHIP_NG)) or not all(any(norm(x) in name for x in m.split("|")) for m in it.get("must", [])):
             continue
         imgs = x.get("mediumImageUrls") or []
         u = imgs[0] if imgs else ""
