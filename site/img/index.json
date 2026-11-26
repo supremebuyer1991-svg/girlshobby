@@ -414,5 +414,19 @@
    "https://m.media-amazon.com/images/I/51ycBwNXuyL._SL500_.jpg"
   ],
   "credit": "Amazon"
+ },
+ "niji-bp01": {
+  "source": "https://www.amazon.co.jp/dp/B0HP9YBCWF?tag=tcgchusen-22&linkCode=osi&th=1&psc=1",
+  "images": [
+   "https://m.media-amazon.com/images/I/51HsBBb5kGL._SL500_.jpg"
+  ],
+  "credit": "Amazon"
+ },
+ "niji-sd": {
+  "source": "https://www.amazon.co.jp/dp/B0HPRL76W2?tag=tcgchusen-22&linkCode=osi&th=1&psc=1",
+  "images": [
+   "https://m.media-amazon.com/images/I/41OYSMC8UlL._SL500_.jpg"
+  ],
+  "credit": "Amazon"
  }
 }
