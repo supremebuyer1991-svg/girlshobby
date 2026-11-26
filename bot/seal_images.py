@@ -71,9 +71,11 @@ def _rakuten(it, shop):
         return None
     site = (os.environ.get("SITE_URL") or "https://tcg-chusen.com").rstrip("/")
     q = {"applicationId": app, "keyword": it["rk"], "format": "json", "formatVersion": 2,
-         "hits": 20, "imageFlag": 1, "availability": 1}
+         "hits": 20, "imageFlag": 1}
     if shop:
-        q["shopCode"] = shop
+        q["shopCode"] = shop          # 楽天ブックスは在庫切れでも商品ページと写真はある
+    else:
+        q["availability"] = 1
     aff = os.environ.get("RAKUTEN_AFFILIATE_ID", "").strip()
     if aff:
         q["affiliateId"] = aff

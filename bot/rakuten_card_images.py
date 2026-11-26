@@ -69,6 +69,8 @@ def search(name, shop=""):
     with urllib.request.urlopen(req, timeout=30) as r:
         items = json.loads(r.read()).get("Items") or []
     want = compact(name)
+    if shop and os.environ.get("DEBUG_BOOKS"):
+        print(f"  [ブックス] {keyword}: {len(items)}件", [x.get("itemName", "")[:40] for x in items[:3]])
     for x in items:
         title = x.get("itemName", "")
         if any(norm(w) in norm(title) for w in NG + SHIP_NG) or not matches(want, title):
