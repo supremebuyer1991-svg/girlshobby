@@ -78,13 +78,14 @@ const urls = ["/"];
 const SERIES = [
   { slug: "precure-wafer", key: "プリキュアカードウエハース", t: "pre", title: "プリキュアカードウエハース 歴代一覧" },
   { slug: "sanrio-wafer", key: "サンリオキャラクターズウエハース", t: "sanrio", title: "サンリオキャラクターズ ウエハース 歴代一覧" },
+  { slug: "aikatsu-encore", key: "アイカツ！アンコール", t: "aikatsu", title: "アイカツ！アンコール 弾一覧・カードリスト・相場" },
   { slug: "gotchi-card", key: "たまごっちにゅー！ごっちカード", t: "tama", title: "たまごっち にゅー！ごっちカード 歴代一覧" },
 ];
-const skey = it => it.name.replace(/\s/g, "").replace(/（パック）$/, "").replace(/\d+$/, "");
+const skey = it => it.name.replace(/\s/g, "").replace(/（パック）$/, "").replace(/\d+弾?$/, "");
 const dkey = it => { if (!it.d) return "0000-00-00"; const p = it.d.split("-"); return p[0] + "-" + p[1] + "-" + (p[2] || (it.late ? "21" : "01")); };
 const seriesOf = it => SERIES.find(x => skey(it) === x.key) || null;
 const members = sr => D.ITEMS.filter(it => seriesOf(it) === sr).sort((a, b) => dannum(a) - dannum(b));
-const dannum = it => { const m = it.name.replace(/（パック）$/, "").match(/(\d+)$/); return m ? Number(m[1]) : 1; };
+const dannum = it => { const m = it.name.replace(/（パック）$/, "").match(/(\d+)弾?$/); return m ? Number(m[1]) : 1; };
 const faqHtml = qa => `<section class="sec"><h2 class="h"><span class="hi">${ic("info")}</span><span class="tx">よくある質問</span></h2><div class="rules">${qa.map(([q, a]) => `<details class="past" open><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("")}</div></section>`;
 const faqLd = qa => ({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: qa.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) });
 
@@ -182,7 +183,8 @@ for (const sr of SERIES) {
   const ms = members(sr); if (!ms.length) continue;
   const rel = ms.filter(released), up = ms.filter(x => !released(x));
   const first = ms[0], lastR = rel[rel.length - 1];
-  const title = `${sr.title}【第${dannum(first)}弾〜第${dannum(ms[ms.length - 1])}弾】発売日・種類数・相場まとめ`;
+  const rng = ms.length > 1 ? `第${dannum(first)}弾〜第${dannum(ms[ms.length - 1])}弾` : `第${dannum(first)}弾`;
+  const title = `${sr.title}【${rng}】発売日・種類数・相場まとめ`;
   const row = it => { const c = cardList.find(x => x.it === it); return `<a href="../../card/${esc(it.id)}/"><span>${esc(it.name)}<br><small>${esc(label(it))}${released(it) ? "発売" : "発売予定"}・全${esc(c && c.total || it.kinds || "？")}種${it.price ? "・" + esc(it.price) : ""}${c && c.topR ? "・最高 " + yen(c.topR.val) : ""}</small></span>${ic("go")}</a>`; };
   const qa = [[`${sr.key.replace("サンリオキャラクターズ", "サンリオキャラクターズ ")}は今まで何弾出ている？`, `${ymd}時点で、当サイトでは${rel.length}弾の発売を確認しています${up.length ? `（ほかに${up.length}弾が発売予定）` : ""}。最初の弾は${label(first)}発売です。`]];
   if (lastR) qa.push(["最新の弾は？", `発売済みでいちばん新しいのは${lastR.name}（${label(lastR)}発売）です。${up[0] ? `次は${up[0].name}が${label(up[0])}に発売予定です。` : ""}`]);

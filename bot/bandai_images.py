@@ -40,6 +40,11 @@ PAGES = {
     "sanrio-wafer11": "https://www.bandai.co.jp/candy/products/2025/4570117927096000.html",
     "sanrio-wafer12": "https://www.bandai.co.jp/candy/products/2026/4570117930065000.html",
     "sanrio-wafer13": "https://www.bandai.co.jp/candy/products/2027/4570117934155000.html",
+    # ↓アイカツ
+    "aikatsu-encore1": "https://dcd.aikatsu.com/encore/",
+    "aikatsu-phone": "https://toy.bandai.co.jp/ja/item/01_21043/",
+    "aikatsu-kuji": "https://1kuji.com/products/aikatsu8",
+    "aikatsu-file": "https://www.bandai.co.jp/catalog/item.php?jan_cd=4582770134674000",
     # まだURLが確認できていない弾: tama-gotchi1, tama-scratch, tama-gotchi2, tama-omisecchi, pre-wafer4/6/8, sanrio-wafer5/8
 }
 IMG_RE = re.compile(r"https://bandai-a\.akamaihd\.net/bc/img/model/xl/[0-9A-Za-z_]+\.(?:jpg|png)")
@@ -71,7 +76,7 @@ def main() -> int:
             continue
         title = re.search(r"<title>(.*?)</title>", html, re.S)
         title = title.group(1) if title else ""
-        want = "ウエハース" if "wafer" in sid else ("たまごっち" if sid.startswith("tama") else "")
+        want = "ウエハース" if "wafer" in sid else ("たまごっち" if sid.startswith("tama") else ("アイカツ" if sid.startswith("aikatsu") else ""))
         if want and want not in title:
             print(f"[skip] {sid}: ページの商品名が違う（{title[:40]}）", file=sys.stderr)
             continue

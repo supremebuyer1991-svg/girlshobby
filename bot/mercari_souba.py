@@ -34,7 +34,7 @@ NG_WORDS = [
     "まとめ", "セット", "BOX", "ボックス", "box", "コンプ", "大量", "引退",
     "以上", "種", "パック", "未開封品多数", "おまけ", "ファイル", "セミコンプ", "+", "＋", "&", "＆",
 ]
-CODE_RE = re.compile(r"TNGC\d{2}-\d{2}", re.I)
+CODE_RE = re.compile(r"TNGC\d{2}-\d{2}|E1-\d{2}", re.I)
 MULTI_RE = re.compile(r"([2-9２-９]|\d{2,})\s*枚")   # 「3枚」「10枚」は複数（「1枚」はOK）
 
 
@@ -43,10 +43,12 @@ def search_url(q: str) -> str:
             + "&status=sold_out&sort=created_time&order=desc")
 
 
-def is_single(title: str, must: list[str]) -> bool:
-    """カード1枚だけの出品かどうか"""
+def is_single(title: str, must: list[str], ng: list[str] = ()) -> bool:
+    """カード1枚だけの出品かどうか（must の「a|b」はどれか1つ入っていればOK、ng は入っていたらダメ）"""
     t = title.replace("　", " ")
-    if not all(m.lower() in t.lower() for m in must):
+    if not all(any(x.lower() in t.lower() for x in m.split("|")) for m in must):
+        return False
+    if any(w.lower() in t.lower() for w in ng):
         return False
     if any(w.lower() in t.lower() for w in NG_WORDS):
         return False
@@ -57,7 +59,7 @@ def is_single(title: str, must: list[str]) -> bool:
     return True
 
 
-def pick(items: list[dict], must: list[str]) -> list[dict]:
+def pick(items: list[dict], must: list[str], ng: list[str] = ()) -> list[dict]:
     """検索結果（新しい順）からシングル売りの直近TAKE件を返す"""
     out = []
     for it in items:
@@ -68,7 +70,7 @@ def pick(items: list[dict], must: list[str]) -> list[dict]:
             continue
         if price < 50:          # 送料にもならない値段は、ほぼ別物 or いたずら
             continue
-        if not is_single(title, must):
+        if not is_single(title, must, ng):
             continue
         out.append({"title": title, "price": price,
                     "url": "https://jp.mercari.com/item/" + str(it.get("id", ""))})
@@ -137,7 +139,7 @@ def main() -> int:
                     items = fetch_items(page, c["q"])
                 if not items:
                     raise RuntimeError("検索結果が取れなかった")
-                row = summarize(c, pick(items, c["must"]))
+                row = summarize(c, pick(items, c["must"], c.get("ng", [])))
                 row["checked"] = datetime.now(JST).strftime("%Y-%m-%d")
                 ok += 1
             except Exception as e:  # 取れなかったら前回の数字を残す

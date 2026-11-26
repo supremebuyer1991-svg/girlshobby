@@ -8,7 +8,7 @@ permissions:
 jobs:
   souba:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -46,7 +46,7 @@ jobs:
           git diff --cached --quiet || git commit -m "商品画像とシールニュースを更新"
           git pull --rebase -q origin main && git push
       - run: python bot/mercari_souba.py
-        timeout-minutes: 60
+        timeout-minutes: 90
       - name: 結果を保存
         run: |
           git add -A site
