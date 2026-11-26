@@ -1,0 +1,534 @@
+[
+ {
+  "code": "STNGC01-01",
+  "name": "まめっち30thスタイル",
+  "rarity": "SGR",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-06",
+  "name": "スーパーまめっち",
+  "rarity": "",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-07",
+  "name": "くちぱっちパティシエ",
+  "rarity": "GR",
+  "seen": 1,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-08",
+  "name": "ラブリっち動画配信やさん",
+  "rarity": "GR",
+  "seen": 1,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-09",
+  "name": "メロディっちスーパーモデル",
+  "rarity": "GR",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-10",
+  "name": "スクラっちカードけずるやさん",
+  "rarity": "GR",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-11",
+  "name": "まめっちアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-12",
+  "name": "めめっちアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-13",
+  "name": "ふわらっちアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-14",
+  "name": "くちぱっちアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-15",
+  "name": "みみっちアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-16",
+  "name": "いちごっちアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-17",
+  "name": "しましまっちアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-18",
+  "name": "ポチっちアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-19",
+  "name": "ござるっちアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-20",
+  "name": "くろまめっちアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-21",
+  "name": "ぴゅえるっちアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-22",
+  "name": "やんぐまめっち＆やんぐみみっちアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-23",
+  "name": "ねりあっちアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-24",
+  "name": "まきこアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-25",
+  "name": "みるくっちアイドル",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-26",
+  "name": "りく・みず・そら・フィールドから集合",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-27",
+  "name": "もりフィールドから集合",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-28",
+  "name": "なんごく・こおりフィールドから集合",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-29",
+  "name": "コズミック星から集合",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-30",
+  "name": "パラダイスから大集合！！",
+  "rarity": "R",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-31",
+  "name": "まめっちお天気やさん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-32",
+  "name": "まめっちアナウンサー",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-33",
+  "name": "まめっち銀行員",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-34",
+  "name": "くちぱっちスーパーうんちくんやさん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-35",
+  "name": "くちぱっちお風呂やさん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-36",
+  "name": "くちぱっちお医者さん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-37",
+  "name": "めめっち時間やさん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-38",
+  "name": "めめっち花やさん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-39",
+  "name": "めめっちお風呂やさん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-40",
+  "name": "みみっちスタートやさん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-41",
+  "name": "みみっちアナウンサー",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-42",
+  "name": "ふわらっち家来",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-43",
+  "name": "やったっち警察官",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-44",
+  "name": "ふわらっち幼稚園の先生",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-45",
+  "name": "しましまっち警察官",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-46",
+  "name": "おやじっち銀行員",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-47",
+  "name": "りんごっちかしこクラス",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-48",
+  "name": "いちごっちオシャレクラス",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-49",
+  "name": "ゆにまるっち修理やさん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-50",
+  "name": "たらこっちヘアメイクやさん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-51",
+  "name": "たまご姫アナウンサー",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-52",
+  "name": "たまひこ王子花やさん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-53",
+  "name": "あしっち先生",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-54",
+  "name": "しりぷりっちお医者さん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-55",
+  "name": "わしきっちバンドマン",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-56",
+  "name": "ぎんじろっちほうろうの旅人",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-57",
+  "name": "くりてんハートお届けやさん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-58",
+  "name": "ますくっちサッカー選手",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-59",
+  "name": "ゴッチマン体育の先生",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-60",
+  "name": "ジュリエっち宝石やさん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-61",
+  "name": "ゆめみっち幼稚園の先生",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-62",
+  "name": "もりりっちたまもりしーるやさん",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-63",
+  "name": "キラリっちデザイナー",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-64",
+  "name": "ハロー！みゃおっち",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-65",
+  "name": "ハロー！いるかっち",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-66",
+  "name": "ハロー！ほーほっち",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-67",
+  "name": "ハロー！れさぱんっち",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-68",
+  "name": "ハロー！おこじょっち",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-69",
+  "name": "ハロー！ぱろろっち",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-70",
+  "name": "ハロー！コズミっち",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-71",
+  "name": "ドレッサー",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-72",
+  "name": "レインボーじょうろ",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-73",
+  "name": "オシャレ薬",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-74",
+  "name": "たいっち焼き",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-75",
+  "name": "しょくぶつ",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-76",
+  "name": "三角フラスコ",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-77",
+  "name": "板チョコ",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-78",
+  "name": "メロンパン",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-79",
+  "name": "地球儀",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ },
+ {
+  "code": "STNGC01-80",
+  "name": "30周年お祝いケーキ",
+  "rarity": "N",
+  "seen": 2,
+  "alt": []
+ }
+]
