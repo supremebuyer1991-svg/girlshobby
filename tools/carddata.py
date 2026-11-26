@@ -94,7 +94,7 @@ def bot_rows():
                 season=[x for x in ("夏","春") if x in what]
                 must2=[who.split("・")[0]]+([key] if key else [])+season
                 w0=who.split("・")[0]
-                ng=[o for o in ALL_WHO if w0 in o and o!=w0]      # 「まめっち」で「くろまめっち」を拾わない
+                ng=[o for o in ALL_WHO if w0 in o and o!=w0]+["STNGC"]   # 「まめっち」で「くろまめっち」、スクラッチ版の型番を拾わない
                 rows.append({"id":c["code"],"set":sid,"name":n,"q":c["code"],"must":[c["code"]],
                              "q2":f"ごっちカード {who} {what}".strip(),"must2":["ごっち"]+must2,"ng":ng})
             else:
