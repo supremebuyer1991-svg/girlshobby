@@ -139,7 +139,14 @@ def main() -> int:
                     items = fetch_items(page, c["q"])
                 if not items:
                     raise RuntimeError("検索結果が取れなかった")
-                row = summarize(c, pick(items, c["must"], c.get("ng", [])))
+                picked = pick(items, c["must"], c.get("ng", []))
+                if len(picked) < TAKE and c.get("q2"):     # 足りなければ名前でもう1回探す
+                    time.sleep(random.uniform(3, 6))
+                    more = pick(fetch_items(page, c["q2"]), c["must2"], c.get("ng", []))
+                    seen = {x["url"] for x in picked}
+                    picked += [x for x in more if x["url"] not in seen]
+                    picked = picked[:TAKE]
+                row = summarize(c, picked)
                 row["checked"] = datetime.now(JST).strftime("%Y-%m-%d")
                 ok += 1
             except Exception as e:  # 取れなかったら前回の数字を残す

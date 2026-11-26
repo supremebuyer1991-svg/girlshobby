@@ -69,6 +69,10 @@ AIKATSU_TRACK = lambda c: ("★" in c["code"]) or c["name"].split(" ")[-1].start
 
 PRE_NAME = {"pre-wafer13":"プリキュアカードウエハース13","pre-wafer12":"プリキュアカードウエハース12","pre-wafer11":"プリキュアカードウエハース11"}
 
+WHO_RE = r"(.*?(?:っち|まきこ|くりてん|ビッグスマイル|クチパッチ))(.*)"
+ALL_WHO = sorted({(re.match(WHO_RE, c["name"]) or [None, c["name"]])[1].split("・")[0]
+                  for sid, st in SETS.items() if sid.startswith("tama") for c in st["cards"]})
+
 def bot_rows():
     rows=[]
     for sid,s in SETS.items():
@@ -83,7 +87,16 @@ def bot_rows():
                              "must":["アンコール",nm]+(["パラレル|★"] if par else []),
                              "ng":[] if par else ["パラレル","★"]})
             elif c["code"].startswith("TNGC"):
-                rows.append({"id":c["code"],"set":sid,"name":c["name"],"q":c["code"],"must":[c["code"]]})
+                # 型番を書かない出品も多いので、名前でも探す（2回目の検索）
+                n=c["name"]; m=re.match(WHO_RE,n)
+                who,what=(m.group(1),m.group(2)) if m else (n,"")
+                key=next((k for k in ("ハッピー","スペース","よそおい","おさんぽ","発見","フィールド","探検") if k in what),what[:4])
+                season=[x for x in ("夏","春") if x in what]
+                must2=[who.split("・")[0]]+([key] if key else [])+season
+                w0=who.split("・")[0]
+                ng=[o for o in ALL_WHO if w0 in o and o!=w0]      # 「まめっち」で「くろまめっち」を拾わない
+                rows.append({"id":c["code"],"set":sid,"name":n,"q":c["code"],"must":[c["code"]],
+                             "q2":f"ごっちカード {who} {what}".strip(),"must2":["ごっち"]+must2,"ng":ng})
             else:
                 key=re.sub(r"\s*(HR|SSR|SR|R|N)$","",c["name"]).replace("キュア","").split("/")[0].strip()
                 rows.append({"id":f"{sid}-{c['code']}","set":sid,"name":f"{c['code']} {c['name']}",
