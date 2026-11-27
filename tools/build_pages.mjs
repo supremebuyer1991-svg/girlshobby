@@ -48,6 +48,9 @@ function page({ title, desc, url, depth, theme, body, ld }) {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM3QZ0X5T1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-ZM3QZ0X5T1");
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href]");if(!a)return;var h=a.href;var m=/amazon\\.|amzn\\./.test(h)?"amazon":/rakuten\\.|r10\\.to/.test(h)?"rakuten":/mercari\\./.test(h)?"mercari":"";if(!m)return;gtag("event","affiliate_click",{mall:m,link_url:h,link_text:(a.innerText||"").slice(0,60),page_path:location.pathname+location.hash});},true);</script>
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest"><meta name="apple-mobile-web-app-title" content="ガールズホビー"><meta name="application-name" content="ガールズホビー"><meta name="theme-color" content="#e93e8c">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
