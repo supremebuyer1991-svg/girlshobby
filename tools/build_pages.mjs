@@ -258,7 +258,7 @@ if (shopCats.length) {
 
 // ===== 検索ワード別のまとめページ（例：ごっちカード 当たり／相場／買取／一覧） =====
 const TOPICS = [
-  { slug: "gotchi", name: "ごっちカード", alias: "たまごっちカード", full: "たまごっち にゅー！ごっちカード", t: "tama", ids: ["tama-gotchi3", "tama-gotchi2", "tama-scratch", "tama-gotchi1"] },
+  { slug: "gotchi", name: "ごっちカード", alias: "たまごっちカード", extra: "30周年スクラッチの当たりも", scratch: "tama-scratch", full: "たまごっち にゅー！ごっちカード", t: "tama", ids: ["tama-gotchi3", "tama-gotchi2", "tama-scratch", "tama-gotchi1"] },
   { slug: "aikatsu-card", name: "アイカツアンコール", alias: "アイカツカード", full: "アイカツ！アンコール", t: "aikatsu", ids: ["aikatsu-encore1"] },
 ];
 const topicPages = [];
@@ -267,17 +267,21 @@ for (const tp of TOPICS) {
   if (!its.length) continue;
   const all = [];
   for (const it of its) { const S = D.CARDS[it.id]; if (!S) continue; for (const c of S.cards) { const m = mcCard(it.id, c); all.push({ it, c, m, ci: CIMG[/^S?TNGC/.test(c.code) ? c.code : it.id + "-" + c.code] }); } }
-  const priced = all.filter(x => x.m).sort((a, b) => b.m.avg - a.m.avg);
+  const priced = all.filter(x => x.m && /^S?TNGC|^E\d/.test(x.c.code)).sort((a, b) => b.m.avg - a.m.avg);
   const total = all.length;
   const img = x => x.ci ? `<img src="${x.ci.img.startsWith("http") ? esc(x.ci.img) : "../../" + esc(x.ci.img)}" alt="${esc(x.c.code)} ${esc(x.c.name)}" loading="lazy" onerror="this.remove()">` : "";
   const rankRow = (x, n) => `<div class="crow${n < 3 ? " top3" : ""}">${medal(n)}<div class="ph">${ic("star")}${img(x)}</div><div class="cb"><span class="code">${esc(x.c.code)}</span><p>${esc(x.c.name)}</p><small>${esc(x.it.name)}</small></div><div class="pr"><b>${yen(x.m.avg)}</b><small><span class="kk メルカリ">メルカリ</span>直近${Number(x.m.n)}件平均</small></div><a class="ml" href="${merc(/^S?TNGC/.test(x.c.code) ? x.c.code : x.it.name + " " + x.c.name.split(" ")[0])}" rel="nofollow">メルカリで売れた値段を見る${ic("go")}</a></div>`;
   const danLinks = `<section class="sec"><h2 class="h"><span class="tx">${esc(tp.name)}の弾ごとのページ</span></h2><div class="links">${its.map(it => { const c = cardList.find(y => y.it === it); return `<a href="../../card/${esc(it.id)}/"><span>${esc(it.name)}<br><small>${esc(label(it))}発売・全${esc(c && c.total || it.kinds || "？")}種${c && c.topR ? "・最高 " + yen(c.topR.val) : ""}</small></span>${ic("go")}</a>`; }).join("")}</div></section>`;
   const sub = [["atari", "当たりランキング"], ["souba", "相場一覧"], ["kaitori", "買取・売るときの相場"], ["list", "カード一覧"]];
   const subNav = cur => `<div class="links">${sub.filter(([k]) => k !== cur).map(([k, l]) => `<a href="../${k}/"><span>${esc(tp.name)} ${l}</span>${ic("go")}</a>`).join("")}<a href="../"><span>${esc(tp.name)} まとめトップ</span>${ic("go")}</a></div>`;
+  const SP = tp.scratch ? all.filter(x => x.it.id === tp.scratch && !/^S?TNGC/.test(x.c.code)) : [];
+  const scratchBox = SP.length ? `<section class="sec"><h2 class="h"><span class="hi">${ic("star")}</span><span class="tx">たまごっち30周年 スクラッチカードの当たり相場</span></h2>
+<div class="sum"><p>30周年記念の「スクラッチカードダス たまごっち にゅー！ごっちカード」は、1パックに必ずスクラッチカードが1枚入っています（パック版330円）。けずって<b>「ちょ～大当たり！」</b>が出るとオリジナルデバイス（にゅー！ごっちカード特別ver.）、<b>「当たり！」</b>が出ると伝説のゴールドごっちカードがもらえます（応募が必要）。</p><p>当たりのスクラッチカードや賞品は、メルカリで高い値段で売れています。</p></div>
+<div class="rank">${SP.map(x => `<div class="crow"><div class="ph">${ic("star")}</div><div class="cb"><span class="code">${esc(x.c.code)}</span><p>${esc(x.c.name)}</p></div><div class="pr">${x.m ? `<b>${yen(x.m.avg)}</b><small><span class="kk メルカリ">メルカリ</span>直近${Number(x.m.n)}件平均</small>` : "<small>売れた記録を集計中</small>"}</div><a class="ml" href="${merc(x.c.q || x.c.name)}" rel="nofollow">メルカリで売れた値段を見る${ic("go")}</a></div>`).join("")}</div></section>` : "";
   const top3 = priced.slice(0, 3).map(x => `${x.c.name}（${yen(x.m.avg)}）`).join("、");
   const pages = {
-    atari: { h: `${tp.alias} 当たりランキング【${tp.name}全${its.length}弾・高額カードTOP${Math.min(priced.length, 30)}と値段】`, d: `${tp.alias}（${tp.full}）の当たりカード・高額カードを、メルカリで実際に売れた値段の高い順にランキング。当たりの値段は1位から${top3 || "集計中"}。${ymd}時点・毎朝更新。`,
-      body: `<div class="sum"><p>${esc(tp.full)}の全${its.length}弾から、メルカリで<b>1枚で実際に売れた値段</b>が高いカードを並べています。</p></div><div class="rank">${priced.slice(0, 30).map(rankRow).join("")}</div>` ,
+    atari: { h: `${tp.alias} 当たりランキング【${tp.name}全${its.length}弾・高額カードTOP${Math.min(priced.length, 30)}と値段${tp.extra ? "・" + tp.extra : ""}】`, d: `${tp.alias}（${tp.full}）の当たりカード・高額カードを、メルカリで実際に売れた値段の高い順にランキング。当たりの値段は1位から${top3 || "集計中"}。${ymd}時点・毎朝更新。`,
+      body: `${scratchBox}<div class="sum"><p>${esc(tp.full)}の全${its.length}弾から、メルカリで<b>1枚で実際に売れた値段</b>が高いカードを並べています。</p></div><div class="rank">${priced.slice(0, 30).map(rankRow).join("")}</div>` ,
       qa: [[`${tp.name}の当たりカードは？`, priced[0] ? `${ymd}時点でいちばん高いのは${priced[0].c.name}（${priced[0].c.code}）で、メルカリで売れた値段の平均は${yen(priced[0].m.avg)}です。2位以下は${priced.slice(1, 3).map(x => x.c.name + "（" + yen(x.m.avg) + "）").join("、") || "集計中"}。` : "集計中です。"]] },
     souba: { h: `${tp.alias} 相場一覧【${tp.name}全${its.length}弾・シングルの値段】`, d: `${tp.full}のシングルカード相場を弾ごとにまとめました。メルカリで実際に売れた1枚売りの直近3件の平均です（${ymd}時点）。`,
       body: its.map(it => { const xs = priced.filter(x => x.it === it); return xs.length ? `<section class="sec"><h2 class="h"><span class="tx">${esc(it.name)}（${xs.length}枚）</span></h2><div class="rank">${xs.map(rankRow).join("")}</div></section>` : ""; }).join(""),
@@ -297,12 +301,12 @@ for (const tp of TOPICS) {
       ld: [faqLd(pg.qa), { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "トップ", item: PUB ? PUB + "/" : undefined }, { "@type": "ListItem", position: 2, name: tp.name + "まとめ", item: PUB ? PUB + `/${tp.slug}/` : undefined }, { "@type": "ListItem", position: 3, name: pg.h }] }] }));
     urls.push(`/${tp.slug}/${k}/`);
   }
-  const hubT = `${tp.alias}（${tp.name}）相場・当たり・買取・一覧まとめ【${ymd}更新】`;
+  const hubT = `${tp.alias}（${tp.name}）相場・当たり・買取・一覧まとめ【${tp.extra ? tp.extra + "・" : ""}${ymd}更新】`;
   const qa = [[`${tp.name}の当たりは？`, pages.atari.qa[0][1]], [`${tp.name}の相場は？`, pages.souba.qa[0][1]], [`${tp.name}は全何種？`, pages.list.qa[0][1]]];
   write(`${tp.slug}/index.html`, page({ title: hubT + "｜ガールズホビー.com", desc: `${tp.full}（${tp.name}）の当たりカード・シングル相場・買取の目安・全カード一覧をまとめたページ。メルカリで実際に売れた値段を毎朝更新。`, url: `/${tp.slug}/`, depth: 1, theme: tp.t,
     body: `<p class="crumb"><a href="../">トップ</a> › ${esc(tp.name)}まとめ</p><div class="dan-h"><h1>${esc(hubT)}</h1><p class="legend">${esc(tp.full)}の情報をぜんぶまとめています</p></div>
 <div class="links">${sub.map(([k, l]) => `<a href="${k}/"><span>${esc(tp.name)} ${l}<br><small>${esc(pages[k].d.slice(0, 60))}…</small></span>${ic("go")}</a>`).join("")}</div>
-<section class="sec"><h2 class="h"><span class="hi">${ic("crown")}</span><span class="tx">当たりカード TOP5</span></h2><div class="rank">${priced.slice(0, 5).map((x, n) => rankRow(x, n).replace(/\.\.\/\.\.\/img/g, "../img")).join("")}</div></section>
+${scratchBox}<section class="sec"><h2 class="h"><span class="hi">${ic("crown")}</span><span class="tx">当たりカード TOP5</span></h2><div class="rank">${priced.slice(0, 5).map((x, n) => rankRow(x, n).replace(/\.\.\/\.\.\/img/g, "../img")).join("")}</div></section>
 ${danLinks.replace(/\.\.\/\.\.\/card/g, "../card")}${faqHtml(qa)}`, ld: [faqLd(qa)] }));
   urls.push(`/${tp.slug}/`);
   topicPages.push(tp);
