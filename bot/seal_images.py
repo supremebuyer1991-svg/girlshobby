@@ -74,8 +74,7 @@ def _rakuten(it, shop):
          "hits": 20, "imageFlag": 1}
     if shop:
         q["shopCode"] = shop          # 楽天ブックスは在庫切れでも商品ページと写真はある
-    else:
-        q["availability"] = 1
+    # 写真がほしいだけなので、売り切れの出品も対象にする（シールはほとんど売り切れのため）
     aff = os.environ.get("RAKUTEN_AFFILIATE_ID", "").strip()
     if aff:
         q["affiliateId"] = aff

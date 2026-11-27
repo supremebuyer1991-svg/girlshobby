@@ -171,6 +171,19 @@ def main() -> int:
         "cards": rows,
         "seals": srows,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
+    # 相場の推移（1日1回、カードごとに平均を記録。直近120日ぶん）
+    HIST = ROOT / "site" / "souba_hist.json"
+    try:
+        hist = json.loads(HIST.read_text(encoding="utf-8")) if HIST.exists() else {}
+    except Exception:
+        hist = {}
+    today = datetime.now(JST).strftime("%Y-%m-%d")
+    for r in rows + srows:
+        if r.get("avg"):
+            h = [x for x in hist.get(r["id"], []) if x[0] != today]
+            h.append([today, r["avg"], r["n"]])
+            hist[r["id"]] = h[-120:]
+    HIST.write_text(json.dumps(hist, ensure_ascii=False), encoding="utf-8")
     print(f"done: 成功{ok} / 失敗{fail}")
     # 全部失敗したらエラーで知らせる（メルカリに弾かれた合図）
     return 1 if (cards or seals) and ok == 0 else 0

@@ -89,7 +89,22 @@ SET_WHO = {sid: sorted({(re.match(WHO_RE, re.sub(r"\s+(SGR|GR|R|N)$", "", c["nam
 
 AK_NAMES = sorted({c["name"].split(" ")[0] for c in AIKATSU1})
 
+def _tngc_pairs():
+    out={}
+    for sid,s in SETS.items():
+        for c in s["cards"]:
+            if re.match(r"TNGC", c.get("code","")):
+                n=re.sub(r"\s+(SGR|GR|R|N)$","",c["name"]); m=re.match(WHO_RE,n)
+                who,what=(m.group(1),m.group(2)) if m else (n,"")
+                for k in ("ハッピー","スペース","よそおい","おさんぽ","発見","フィールド","探検"):
+                    if k in what: break
+                else: k=what[:4]
+                out.setdefault(who.split("・")[0],set()).update({k, what[:4]})
+    return out
+
 def bot_rows():
+    global TNGC_PAIRS
+    TNGC_PAIRS=_tngc_pairs()
     rows=[]
     for sid,s in SETS.items():
         for c in s["cards"]:
@@ -115,8 +130,13 @@ def bot_rows():
                 w0=who.split("・")[0]
                 ng=[o for o in ALL_WHO if w0 in o and o!=w0]+([] if c["code"].startswith("S") else ["STNGC"])
                 ng+=[o for o in ALL_WHO if o!=w0 and o not in w0 and w0 not in o and len(o)>=3]   # ほかのキャラ名入り＝何枚かまとめて売っている   # 「まめっち」で「くろまめっち」、スクラッチ版の型番を拾わない
+                sc=c["code"].startswith("S")
+                # スクラッチ版は「にゅー！ごっちカード」とだけ書いて売られることが多い。
+                # ほかの弾に同じキャラ＋同じ職業のカードが無ければ、「スクラッチ」と書いてなくても同じカードとみなす
+                clash=sc and (TNGC_PAIRS.get(w0, set()) & {key}) or (sc and not key)
+                need=(["スクラッチ|STNGC|30th|30周年"] if clash else [])
                 rows.append({"id":c["code"],"set":sid,"name":n,"q":c["code"],"must":[c["code"]],
-                             "q2":(f"スクラッチ ごっちカード {who} {what}" if c["code"].startswith("S") else f"ごっちカード {who} {what}").strip(),"must2":["ごっち"]+must2+(["スクラッチ|STNGC"] if c["code"].startswith("S") else []),"ng":ng})
+                             "q2":(f"ごっちカード {who} {what}").strip(),"must2":["ごっち"]+must2+need,"ng":ng})
             else:
                 key=re.sub(r"\s*(HR|SSR|SR|R|N)$","",c["name"]).replace("キュア","").split("/")[0].strip()
                 rows.append({"id":f"{sid}-{c['code']}","set":sid,"name":f"{c['code']} {c['name']}",

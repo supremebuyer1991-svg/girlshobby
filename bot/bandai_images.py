@@ -47,11 +47,17 @@ PAGES = {
     "aikatsu-kuji": "https://1kuji.com/products/aikatsu8",
     "aikatsu-file": "https://www.bandai.co.jp/catalog/item.php?jan_cd=4582770134674000",
     "chiikawa-wafer2": "https://www.bandai.co.jp/candy/products/2025/4570117926594000.html",
+    # ↓メーカーのプレスリリース（その商品の発表ページなので代表画像を使ってよい）
+    "aipri-verse4": "https://prtimes.jp/main/html/rd/p/000000363.000009185.html",
     # まだURLが確認できていない弾: tama-gotchi1, tama-scratch, tama-gotchi2, tama-omisecchi, pre-wafer4/6/8, sanrio-wafer5/8
 }
 IMG_RE = re.compile(r"https://bandai-a\.akamaihd\.net/bc/img/model/(?:xl|b)/[0-9A-Za-z_]+\.(?:jpg|png)")
 # 代表画像（og:image）を使ってよいページ（そのページ＝その商品だけの公式ページ）
-OG_OK = {"aikatsu-kuji"}
+OG_OK = {"aikatsu-kuji", "aipri-verse4"}
+# ページを開かず、メーカー発表の商品画像をそのまま使う商品（出典ページ, 画像URL）
+KN = "https://cdn.kyodonewsprwire.jp/prwfile/release/M000076/202610057308/"
+DIRECT = {"niji-sleeve": ("https://kyodonewsprwire.jp/release/202610057308", [KN + f for f in (
+    "_prw_PI17lg_hocv9dz3.jpg", "_prw_PI16lg_zVMwERc7.jpg", "_prw_PI18lg_j8H01S07.jpg", "_prw_PI19lg_D27l7O1M.jpg")])}
 # 公式のカード画像をそのまま使う弾（アイカツ！アンコール公式カードリストの当たりカード）
 AK = "https://dcd.aikatsu.com/encore/images/cardlist/card/"
 EXTRA = {"aikatsu-encore1": [AK + c + ".webp" for c in (
@@ -74,23 +80,23 @@ def main() -> int:
     idx_file = IMG / "index.json"
     if idx_file.exists():
         index = json.loads(idx_file.read_text(encoding="utf-8"))
-    for old in [k for k in index if k not in PAGES]:   # 一覧から外した弾は写真も外す
+    for old in [k for k in index if k not in PAGES and k not in DIRECT]:   # 一覧から外した弾は写真も外す
         index.pop(old)
-    for sid, page in PAGES.items():
+    for sid, page in list(PAGES.items()) + [(k, v[0]) for k, v in DIRECT.items()]:
         try:
-            html = get(page).decode("utf-8", "replace")
+            html = "" if sid in DIRECT else get(page).decode("utf-8", "replace")
         except Exception as e:
             print(f"[skip] {sid}: ページが開けない {e}", file=sys.stderr)
             continue
         title = re.search(r"<title>(.*?)</title>", html, re.S)
         title = title.group(1) if title else ""
         want = "ウエハース" if "wafer" in sid else ("たまごっち" if sid.startswith("tama") else ("アイカツ" if sid.startswith("aikatsu") else ""))
-        if want and want not in title:
+        if want and want not in title and sid not in DIRECT:
             print(f"[skip] {sid}: ページの商品名が違う（{title[:40]}）", file=sys.stderr)
             continue
         found = IMG_RE.findall(html) + [
             u if u.startswith("http") else "https://www.bandai.co.jp" + u for u in CANDY_RE.findall(html)]
-        urls = (EXTRA.get(sid) or list(dict.fromkeys(found)))[:MAX_IMAGES]   # 重複を消して順番そのまま
+        urls = (DIRECT.get(sid, ("", []))[1] or EXTRA.get(sid) or list(dict.fromkeys(found)))[:MAX_IMAGES]   # 重複を消して順番そのまま
         if not urls and sid in OG_OK:
             m = OG_RE.search(html)
             if m:

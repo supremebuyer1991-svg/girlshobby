@@ -65,6 +65,13 @@ def main():
             print("通販カタログを取り込み:", {c["id"]: len(c["items"]) for c in cat["categories"]})
     except Exception as e:
         print(f"[skip] 通販カタログが取れなかった: {e}", file=sys.stderr)
+    try:
+        hb = get("hobby.json")
+        if hb.get("lotteries") or hb.get("kaitori"):
+            (ROOT / "site/hobby.json").write_text(json.dumps(hb, ensure_ascii=False, indent=1), encoding="utf-8")
+            print("抽選・買取情報を取り込み:", len(hb.get("lotteries", [])), "件・", len(hb.get("kaitori", [])), "件")
+    except Exception as e:
+        print(f"[skip] 抽選・買取情報が取れなかった: {e}", file=sys.stderr)
     return 0
 
 

@@ -20,6 +20,9 @@ let CAT = { categories: [] };
 try { CAT = JSON.parse(fs.readFileSync(path.join(SITE, "catalog.json"), "utf8")); } catch {}
 let CIMG = {};
 try { CIMG = JSON.parse(fs.readFileSync(path.join(SITE, "img", "cards.json"), "utf8")); } catch {}
+let HIST = {}, HB = { lotteries: [], kaitori: [] };
+try { HIST = JSON.parse(fs.readFileSync(path.join(SITE, "souba_hist.json"), "utf8")); } catch {}
+try { HB = JSON.parse(fs.readFileSync(path.join(SITE, "hobby.json"), "utf8")); } catch {}
 let IMGS = {}, SIMGS = {};
 try { IMGS = JSON.parse(fs.readFileSync(path.join(SITE, "img/index.json"), "utf8")); } catch {}
 try { SIMGS = JSON.parse(fs.readFileSync(path.join(SITE, "img/seal/index.json"), "utf8")); } catch {}
@@ -315,11 +318,90 @@ ${danLinks.replace(/\.\.\/\.\.\/card/g, "../card")}${faqHtml(qa)}`, ld: [faqLd(q
   topicPages.push(tp);
 }
 
+
+// ===== カード1枚ずつのページ（メルカリで3件以上売れていて、300円以上のカードだけ。うすいページは作らない） =====
+const cslug = code => code.replace(/★/g, "-p").replace(/[^0-9A-Za-z-]/g, "").toLowerCase();
+const singlePages = [];
+for (const it of D.ITEMS) {
+  const S = D.CARDS[it.id]; if (!S) continue;
+  for (const c of S.cards) {
+    if (!/^S?TNGC|^E\d/.test(c.code)) continue;
+    const m = mcCard(it.id, c);
+    if (!m || m.n < 3 || m.avg < 300) continue;
+    const id = /^S?TNGC/.test(c.code) ? c.code : it.id + "-" + c.code;
+    const ci = CIMG[id], h = (HIST[id] || []).slice(-30), slug = cslug(c.code);
+    const nm = c.name.split(" ")[0], rar = (c.name.match(/\b(SGR|GR|PR|ER|R|N)\b/) || [""])[0];
+    const sib = S.cards.map(x => ({ x, mm: mcCard(it.id, x) })).filter(o => o.mm && o.x !== c).sort((a, b) => b.mm.avg - a.mm.avg);
+    const rankNo = S.cards.map(x => mcCard(it.id, x)).filter(Boolean).sort((a, b) => b.avg - a.avg).indexOf(m) + 1;
+    const title = `${nm}${rar ? " " + rar : ""}${c.code.endsWith("★") ? " パラレル" : ""}（${c.code.replace("★", "")}）の値段・相場【${it.name.replace(/（.*?）|\(.*?\)/g, "")}】`;
+    const hiLo = h.length > 1 ? (() => { const vs = h.map(x => x[1]); return `<p>${h[0][0]}からの値動き：いちばん高い ${yen(Math.max(...vs))}／いちばん安い ${yen(Math.min(...vs))}</p>`; })() : "";
+    const qa = [[`${nm}${rar ? "（" + rar + "）" : ""}の値段はいくら？`, `${ymd}時点で、メルカリで1枚で実際に売れた直近${m.n}件の平均は${yen(m.avg)}です（${m.items.map(x => yen(x.price)).join("・")}）。`],
+      [`${nm}は当たり？`, `${it.name}の中で、売れた値段が${rankNo}番目に高いカードです${rankNo <= 5 ? "（当たりの部類）" : ""}。`]];
+    const body = `<p class="crumb"><a href="../../../">トップ</a> › <a href="../../">カードの相場一覧</a> › <a href="../">${esc(it.name)}</a> › ${esc(nm)}</p>
+<div class="dan-h"><h1>${esc(title)}</h1><p class="legend">最終更新：${ymd}・毎朝自動更新</p></div>
+${ci ? `<div class="gal"><img src="${ci.img.startsWith("http") ? esc(ci.img) : "../../../" + esc(ci.img)}" alt="${esc(c.code)} ${esc(nm)}" loading="lazy"></div><p class="gal-cap">画像出典：<a href="${esc(ci.link)}" rel="nofollow sponsored">${esc(ci.credit)}</a></p>` : ""}
+<div class="sum"><p><b>相場：${yen(m.avg)}</b>（メルカリで1枚で売れた直近${m.n}件の平均）</p><p>売れた値段：${m.items.map(x => `<a href="${esc(x.url)}" rel="nofollow">${yen(x.price)}</a>`).join("・")}</p>${hiLo}<p>型番：${esc(c.code.replace("★", ""))}${c.code.endsWith("★") ? "（パラレル）" : ""}・${esc(it.name)}の中で${rankNo}番目に高いカード</p></div>
+${h.length > 1 ? `<section class="sec"><h2 class="h"><span class="tx">相場の推移</span></h2><div class="rank">${h.slice().reverse().map(x => `<div class="crow"><div class="cb"><p>${esc(x[0])}</p></div><div class="pr"><b>${yen(x[1])}</b><small>${Number(x[2])}件平均</small></div></div>`).join("")}</div></section>` : ""}
+<div class="shopbox"><div class="sub-btns"><a class="btn mc" href="${merc(/^S?TNGC/.test(c.code) ? c.code : it.name + " " + nm)}" rel="nofollow">メルカリで売れた値段を見る</a><a class="btn rk" href="${rkm(nm + " " + (it.name.split(" ")[0]))}" rel="nofollow sponsored">楽天市場でさがす</a></div></div>
+<section class="sec"><h2 class="h"><span class="tx">同じ弾の高いカード</span></h2><div class="links">${sib.slice(0, 5).map(o => { const sl = cslug(o.x.code); const has = o.mm.n >= 3 && o.mm.avg >= 300; return `<a href="${has ? "../" + sl + "/" : "../#"}"><span>${esc(o.x.name.split(" ")[0])}<br><small>${esc(o.x.code)}・${yen(o.mm.avg)}</small></span>${ic("go")}</a>`; }).join("")}<a href="../"><span>${esc(it.name)} 当たり・相場ランキング</span>${ic("go")}</a>${TOPIC_OF[it.id] ? `<a href="../../../${TOPIC_OF[it.id][0]}/atari/"><span>${TOPIC_OF[it.id][1]} 当たりランキング（全弾）</span>${ic("go")}</a>` : ""}</div></section>
+${faqHtml(qa)}`;
+    write(`card/${it.id}/${slug}/index.html`, page({ title: title + "｜ガールズホビー.com", desc: `${it.name}の${nm}（${c.code.replace("★", "")}${c.code.endsWith("★") ? "・パラレル" : ""}）の値段。メルカリで1枚で実際に売れた直近の平均は${yen(m.avg)}（${ymd}時点）。毎朝更新。`, url: `/card/${it.id}/${slug}/`, depth: 3, theme: it.t, body, ld: [faqLd(qa)] }));
+    urls.push(`/card/${it.id}/${slug}/`);
+    singlePages.push({ it, c, slug });
+  }
+}
+
+// ===== ボンボンドロップシール 再販・抽選・どこで売ってる（1ページにまとめる） =====
+{
+  const isB = x => /ボンボンドロップ|ボンドロ/.test((x.product || x.name || "") + (x.series || ""));
+  const lots = (HB.lotteries || []).filter(isB);
+  const now = new Date();
+  const open = lots.filter(x => !x.end || new Date(x.end) >= now), done = lots.filter(x => x.end && new Date(x.end) < now);
+  const kindJ = k => ({ lottery: "抽選", first_come: "先着", release: "発売", resale: "再販" }[k] || "お知らせ");
+  const dt = v => v ? String(v).slice(0, 16).replace("T", " ") : "";
+  const lrow = x => `<div class="crow"><div class="cb"><span class="code">${esc(kindJ(x.kind))}・${esc(x.store || "")}</span><p>${esc(x.product)}</p><small>${x.start ? "開始 " + esc(dt(x.start)) + "　" : ""}${x.end ? "締切 " + esc(dt(x.end)) : ""}${x.announce ? "　発表 " + esc(dt(x.announce)) : ""}</small>${x.conditions ? `<small>${esc(x.conditions)}</small>` : ""}</div>${x.url ? `<a class="ml" href="${esc(x.url)}" rel="nofollow">くわしく見る${ic("go")}</a>` : ""}</div>`;
+  const bs = D.SEALS.filter(isB).sort((a, b) => dkey(b).localeCompare(dkey(a)));
+  const stock = ((CAT.categories || []).find(c => c.id === "bonbon-drop") || { items: [] }).items.filter(x => x.available).slice(0, 12);
+  const qa = [["ボンボンドロップシールはどこで売ってる？", "ロフト・ハンズ・文具店・雑貨店・キャラクターショップなどで売られていますが、人気で品切れが多いです。通販（楽天市場・Amazon）でも在庫があることがあります。新作や再販はお店の抽選になることも多いので、このページで抽選・再販の情報をチェックしてください。"],
+    ["ボンボンドロップシールの再販はいつ？", open.length ? `${ymd}時点で受付中・予定の抽選や発売は${open.length}件あります（${open.slice(0, 3).map(x => x.store + "「" + x.product + "」").join("、")}）。` : `${ymd}時点で受付中の抽選・再販情報はありません。新しい情報が出しだい毎朝このページを更新します。`],
+    ["ボンボンドロップシールの値段は？", "ふつうは1シート440円前後（コラボ商品は550円など）です。人気のものはフリマで定価より高く売れていることがあります。"]];
+  write("bonbon/index.html", page({ title: `ボンボンドロップシール 再販・抽選・どこで売ってる【${ymd}更新】｜ガールズホビー.com`,
+    desc: `ボンボンドロップシール（ボンドロ）の再販・抽選・先着販売の情報と、どこで売ってるか、新作の発売日、通販の在庫をまとめました。毎朝更新。`, url: "/bonbon/", depth: 1, theme: "seal",
+    body: `<p class="crumb"><a href="../">トップ</a> › ボンボンドロップシール 再販・抽選</p><div class="dan-h"><h1>ボンボンドロップシール 再販・抽選・どこで売ってる</h1><p class="legend">最終更新：${ymd}・毎朝自動更新</p></div>
+<section class="sec"><h2 class="h"><span class="hi">${ic("sparkle")}</span><span class="tx">受付中・これからの抽選／再販（${open.length}件）</span></h2>${open.length ? `<div class="rank">${open.map(lrow).join("")}</div>` : `<div class="sum"><p>いま受付中の抽選・再販はありません。見つけしだいここに載せます。</p></div>`}</section>
+<section class="sec"><h2 class="h"><span class="tx">新作・発売予定のボンボンドロップシール</span></h2><div class="links">${bs.slice(0, 15).map(x => `<a href="../seal/${esc(x.id)}/"><span>${esc(x.name)}<br><small>${esc(label(x))}発売${x.price ? "・" + esc(x.price) : ""}</small></span>${ic("go")}</a>`).join("")}</div></section>
+${stock.length ? `<section class="sec"><h2 class="h"><span class="tx">いま通販で在庫があるボンボンドロップシール</span></h2><div class="links">${stock.map(x => `<a href="${esc(x.url)}" rel="nofollow sponsored"><span>${esc(x.name.slice(0, 60))}<br><small>${x.price ? yen(x.price) : ""}・${esc(x.shop)}</small></span>${ic("go")}</a>`).join("")}<a href="../shop/bonbon-drop/"><span>ボンボンドロップシールの通販一覧（${((CAT.categories || []).find(c => c.id === "bonbon-drop") || { items: [] }).items.length}商品）</span>${ic("go")}</a></div></section>` : ""}
+${done.length ? `<section class="sec"><h2 class="h"><span class="tx">終わった抽選・販売（参考）</span></h2><div class="rank">${done.slice(0, 10).map(lrow).join("")}</div></section>` : ""}
+${faqHtml(qa)}`, ld: [faqLd(qa)] }));
+  urls.push("/bonbon/");
+}
+
+// ===== たまごっち本体 発売・再販・抽選・買取価格（1ページ） =====
+{
+  const isT = x => /たまごっち|Tamagotchi/.test((x.product || "") + (x.series || ""));
+  const lots = (HB.lotteries || []).filter(isT);
+  const kai = (HB.kaitori || []).slice().sort((a, b) => b.price - a.price);
+  const byName = {}; for (const k of kai) { const key = k.jan || k.name; (byName[key] = byName[key] || []).push(k); }
+  const krow = Object.values(byName).map(v => v.sort((a, b) => b.price - a.price)).sort((a, b) => b[0].price - a[0].price);
+  const dev = ((CAT.categories || []).find(c => c.id === "tama-device") || { items: [] }).items.filter(x => x.available).slice(0, 12);
+  const qa = [["たまごっち本体の買取価格は？", krow.length ? `${ymd}時点のお店の買取表では、${krow.slice(0, 3).map(v => v[0].name.replace(/BANDAI\s*/, "") + "が" + yen(v[0].price) + "（" + v[0].shop + "）").join("、")}です。` : "集計中です。"],
+    ["たまごっちの抽選や再販はある？", lots.length ? `${ymd}時点で${lots.length}件の販売・抽選情報があります（${lots.slice(0, 2).map(x => x.store + "「" + x.product + "」").join("、")}）。` : "いまは見つかっていません。見つけしだい載せます。"]];
+  write("tamagotchi/index.html", page({ title: `たまごっち本体 買取価格・再販・抽選まとめ（たまごっちパラダイス・ユニ・30周年）【${ymd}更新】｜ガールズホビー.com`,
+    desc: `たまごっちパラダイス・たまごっちユニなど、たまごっち本体の買取価格（お店の買取表）と、再販・抽選・限定グッズの情報をまとめました。たまごっち30周年の関連商品も。毎日更新。`, url: "/tamagotchi/", depth: 1, theme: "tama",
+    body: `<p class="crumb"><a href="../">トップ</a> › たまごっち本体</p><div class="dan-h"><h1>たまごっち本体 買取価格・再販・抽選まとめ</h1><p class="legend">最終更新：${ymd}・たまごっち30周年の関連商品もまとめています</p></div>
+${krow.length ? `<section class="sec"><h2 class="h"><span class="hi">${ic("crown")}</span><span class="tx">たまごっち本体の買取価格（お店の買取表）</span></h2><p class="legend">新品・未開封の買取の上限価格です。状態やお店の在庫で変わるので、売る前に必ずお店で確認してください。</p><div class="rank">${krow.map(v => `<div class="crow"><div class="cb"><p>${esc(v[0].name)}</p><small>${v.map(k => esc(k.shop) + " " + yen(k.price)).join("・")}（${esc(v[0].at)}時点）</small></div><div class="pr"><b>${yen(v[0].price)}</b><small>いちばん高いお店</small></div></div>`).join("")}</div></section>` : ""}
+${lots.length ? `<section class="sec"><h2 class="h"><span class="tx">たまごっちの販売・抽選・限定グッズ</span></h2><div class="links">${lots.map(x => `<a href="${esc(x.url || "#")}" rel="nofollow"><span>${esc(x.product)}<br><small>${esc(x.store || "")}${x.price ? "・" + esc(x.price) : ""}${x.end ? "・締切 " + esc(String(x.end).slice(0, 10)) : ""}</small></span>${ic("go")}</a>`).join("")}</div></section>` : ""}
+${dev.length ? `<section class="sec"><h2 class="h"><span class="tx">通販で買えるたまごっち本体</span></h2><div class="links">${dev.map(x => `<a href="${esc(x.url)}" rel="nofollow sponsored"><span>${esc(x.name.slice(0, 60))}<br><small>${x.price ? yen(x.price) : ""}・${esc(x.shop)}</small></span>${ic("go")}</a>`).join("")}</div></section>` : ""}
+<section class="sec"><div class="links"><a href="../gotchi/"><span>たまごっちカード（ごっちカード）相場・当たり・買取まとめ</span>${ic("go")}</a><a href="../gotchi/atari/"><span>たまごっちカード 当たりランキング</span>${ic("go")}</a></div></section>
+${faqHtml(qa)}`, ld: [faqLd(qa)] }));
+  urls.push("/tamagotchi/");
+}
+
 // ===== トップページ（index.html）に、検索エンジンがたどれるリンク一覧を入れる =====
 {
   const idxF = path.join(SITE, "index.html");
   let idx = fs.readFileSync(idxF, "utf8");
-  const links = `<nav class="seo-links" aria-label="ページ一覧"><p><b>まとめ：</b>${topicPages.map(t => `<a href="${t.slug}/">${esc(t.name)} 相場・当たり・買取・一覧</a>　<a href="${t.slug}/atari/">${esc(t.name)} 当たりランキング</a>　<a href="${t.slug}/souba/">${esc(t.name)} 相場一覧</a>`).join("　")}</p><p><b>シリーズ：</b>${SERIES.map(x => `<a href="series/${x.slug}/">${esc(x.title)}</a>`).join("　")}</p>
+  const links = `<nav class="seo-links" aria-label="ページ一覧"><p><b>まとめ：</b><a href="bonbon/">ボンボンドロップシール 再販・抽選</a>　<a href="tamagotchi/">たまごっち本体 買取価格・再販・抽選</a>　${topicPages.map(t => `<a href="${t.slug}/">${esc(t.name)} 相場・当たり・買取・一覧</a>　<a href="${t.slug}/atari/">${esc(t.name)} 当たりランキング</a>　<a href="${t.slug}/souba/">${esc(t.name)} 相場一覧</a>`).join("　")}</p><p><b>シリーズ：</b>${SERIES.map(x => `<a href="series/${x.slug}/">${esc(x.title)}</a>`).join("　")}</p>
 <p><b>弾ごとの相場：</b>${cardList.map(x => `<a href="card/${esc(x.it.id)}/">${esc(x.it.name)}</a>`).join("　")}</p>
 <p><b>シール：</b>${sealList.map(x => `<a href="seal/${esc(x.it.id)}/">${esc(x.it.name)}</a>`).join("　")}</p>
 <p><b>発売カレンダー：</b>${recentMonths.slice().reverse().map(m => `<a href="calendar/${m}/">${m.slice(0, 4)}年${Number(m.slice(5))}月</a>`).join("　")}</p></nav>`;
