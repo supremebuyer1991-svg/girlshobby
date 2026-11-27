@@ -704,7 +704,7 @@ function hot(){
   ${later.length?`<div class="tk-stub"><p>その次の発売予定</p>${later.map(l=>`<a href="#dan-${esc(l.id)}">${thumb(cpic(l.id),"s")}<span class="dt">${esc(l.label)}</span><span class="nm">${esc(l.name)}</span></a>`).join("")}</div>`:""}</article>`;
  }else left=`<article class="ticket"><div class="tk-main np"><p class="tk-lbl">次の発売まで</p><h2>いま決まっている新作はありません</h2><div class="tk-meta">新しい情報が出たらここに載ります。</div></div></article>`;
  const right=`<div class="newbox"><h2>${ic("sparkle")}新しく出たカード</h2>${fresh.filter(i=>i.d).map(i=>{const p=i.d.split("-");
-  return `<a class="mini t-${esc(i.t)}" href="#dan-${esc(i.id)}"><div class="d">${Number(p[1])}月<b>${p[2]?Number(p[2]):(i.late?"下旬":"－")}</b></div>${thumb(cpic(i.id),"",i.name)}<div class="bd"><p>${esc(i.name)}</p><small>${esc(i.st)}・全${esc(i.kinds??"？")}種</small></div>${ic("go")}</a>`}).join("")||'<p class="note">まだありません</p>'}</div>`;
+  return `<a class="mini t-${esc(i.t)}" href="#dan-${esc(i.id)}"><div class="d">${Number(p[1])}月<b>${p[2]?Number(p[2]):(i.late?"下旬":"－")}</b></div>${thumb(cpic(i.id),"",i.name)}<div class="bd"><p>${esc(i.name)}</p><small>${esc(i.st)}${i.kinds?"・全"+esc(i.kinds)+"種":""}</small></div>${ic("go")}</a>`}).join("")||'<p class="note">まだありません</p>'}</div>`;
  $("#hot").innerHTML=left+right;
 }
 const top=i=>i.mk?Math.max(...i.mk.map(m=>m.p)):0;
