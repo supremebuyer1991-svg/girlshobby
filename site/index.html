@@ -16,7 +16,7 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
 <meta name="description" content="たまごっち・プリキュア・サンリオなど女の子に人気のトレカ・カード付きお菓子と、ボンボンドロップなどのシールの発売日・予約・抽選・相場をまとめてチェック。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&display=swap" rel="stylesheet">
 <style>
 /* コンセプト: 「シール帳＆コレクションファイル」
    ・作品ごとにテーマカラーが変わる（すべて=いちごピンク／たまごっち=ミント／プリキュア=すみれ／サンリオ=そらいろ）
@@ -344,6 +344,84 @@ footer p{margin:.4em 0}
  .spk{animation:kira 2.6s ease-in-out infinite}.spk.b{animation-delay:1.1s}
  @keyframes kira{0%,100%{transform:scale(1) rotate(0);opacity:1}50%{transform:scale(.55) rotate(25deg);opacity:.45}}
 }
+
+/* ===== 2026-11-28 すっきりデザイン（文字・メニューを小さく、飾りを減らす） ===== */
+body{font:400 15px/1.7 "Noto Sans JP","Hiragino Sans","Hiragino Kaku Gothic ProN",sans-serif;background-image:none}
+h1,h2,h3{font-weight:700;letter-spacing:.01em}
+header.top{background:var(--card);color:var(--ink);padding:10px 0 6px;border-bottom:1px solid var(--rule)}
+header.top .theme{background:var(--ac-soft);color:var(--ac-ink);min-height:34px;font-size:12px}
+.brand b{font-size:19px;color:var(--ac-ink)}
+.brand small{font-size:11px;font-weight:500;color:var(--sub)}
+.brand svg{width:34px;height:34px}
+.modebar{background:var(--card);padding:4px 0 8px}
+.modebar .mode{background:var(--bg);border-radius:12px;padding:3px;min-height:0;box-shadow:none}
+.modebar .mode button{min-height:34px;font-size:14px;font-weight:700;border-radius:10px;box-shadow:none}
+.modebar .mode button[aria-pressed=true]{background:var(--card);color:var(--ac-ink);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.modebar .mode button[aria-pressed=false]{background:transparent;color:var(--sub)}
+.tabbar{background:var(--card);padding:6px 0;border-bottom:1px solid var(--rule);box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.tabbar::after{display:none}
+nav.tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}
+nav.tabs button{flex-direction:row;gap:3px;min-height:30px;padding:0 4px;border-radius:999px;background:var(--bg);color:var(--ink);border:1px solid var(--rule);font:600 12px/1 "Noto Sans JP",sans-serif;box-shadow:none;white-space:nowrap}
+nav.tabs button .ic{display:none}
+nav.tabs button .ti{font-size:12px;gap:2px;white-space:nowrap}
+nav.tabs button .cnt{font-size:10px;font-weight:600;opacity:.6}
+nav.tabs button[aria-selected=true]{background:var(--ac);color:#fff;border-color:var(--ac);box-shadow:none}
+@media(min-width:560px){nav.tabs{gap:8px}nav.tabs button{font-size:13px;min-height:34px}nav.tabs button .ti{font-size:13px}}
+h2.h{font-size:18px;gap:8px}
+h2.h .hi{width:26px;height:26px;border-radius:8px;transform:none;box-shadow:none}
+h2.h .hi .ic{width:15px;height:15px}
+h2.h span.tx{text-decoration:none}
+.ticket{background:var(--card);color:var(--ink);border:1px solid var(--rule);border-top:4px solid var(--ac);border-radius:16px;box-shadow:0 4px 18px rgba(0,0,0,.08)}
+.ticket .spk,.ticket::before,.ticket::after,.tk-main::before,.tk-main::after,.tk-stub::before,.tk-stub::after{display:none}
+.tk-main{display:grid;grid-template-columns:54px minmax(0,1fr) 64px;column-gap:12px;row-gap:2px;padding:12px 14px;align-items:start;border-radius:16px 16px 0 0}
+.tk-main.np{grid-template-columns:54px minmax(0,1fr)}
+.tk-lbl{grid-column:1/-1;padding-right:0;margin-bottom:6px;font:600 12px/1.3 "Noto Sans JP",sans-serif}
+.tk-lbl .pill{padding:1px 8px;font-size:11px}
+.tk-main h2{grid-column:2;grid-row:2;font-size:15px;line-height:1.45;margin:0;color:var(--ink)}
+.tk-row{display:contents}
+.flip{grid-column:1;grid-row:2/4;transform:none;margin:0;width:54px;min-width:0;height:auto;padding:0 0 4px;border-radius:10px;box-shadow:0 1px 0 var(--rule);border:1px solid var(--rule)}
+.flip .flip-top{font-size:10px;padding:1px 0;border-radius:9px 9px 0 0}
+.flip .flip-top::before,.flip .flip-top::after{display:none}
+.flip b{font-size:24px;line-height:1.1}
+.flip .flip-u{font-size:10px}
+.tk-meta{grid-column:2/-1;grid-row:3;display:flex;flex-wrap:wrap;gap:2px 10px;font-size:12px;font-weight:500;color:var(--sub);margin-top:4px}
+.tk-meta br,.tk-meta .tag.st{display:none}
+.tk-meta .when,.tk-meta span{font-size:12px;font-weight:600;line-height:1.5}
+.tk-pic{grid-column:3;grid-row:2/4}
+.tk-cta{grid-column:1/-1;margin-top:10px}
+.tk-cta .btn.lemon{min-height:36px;font-size:13px;width:100%;border-radius:10px;box-shadow:none;background:var(--ac);color:#fff}
+.tk-stub{border-top:1px dashed var(--rule);padding:8px 14px 10px;color:var(--ink)}
+.tk-stub p{font-size:11px;margin:0 0 4px;color:var(--sub);font-weight:600}
+.tk-stub a{gap:8px;padding:4px 0;min-height:0;color:var(--ink);font-size:12px;font-weight:500;text-decoration:none}
+.tk-stub a .dt{background:var(--ac-soft);color:var(--ac-ink);font-size:11px;padding:1px 6px;border-radius:6px;font-weight:600}
+.tk-stub a .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}
+.thumb{width:48px;height:48px;flex:none;overflow:hidden;font-size:0;object-fit:contain;background:#fff;border:1px solid var(--rule);border-radius:8px}
+.thumb.s{width:30px;height:30px;border-radius:6px}
+.thumb.m{width:64px;height:64px}
+.thumb.ph{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;background:var(--ac-soft);color:var(--ac-ink);border:0}
+.thumb.ph .ic{width:18px;height:18px}.thumb.ph small{font-size:8px;line-height:1;font-weight:600}
+.thumb.s.ph .ic{width:13px;height:13px}.thumb.s.ph small{display:none}
+.newbox{border:1px solid var(--rule);border-radius:16px;box-shadow:none;padding:12px 14px}
+.newbox h2{font-size:15px;margin:0 0 6px}
+.mini{display:flex;align-items:center;gap:10px;padding:8px 0;min-height:0}
+.mini .d{width:44px;min-width:44px;height:auto;padding:3px 0;border-radius:8px;font-size:10px;line-height:1.2}
+.mini .d b{font-size:16px;display:block}
+.mini .bd{flex:1}
+.mini .bd p{margin:0;font-size:13px;font-weight:600;line-height:1.4;word-break:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mini .bd small{font-size:11px}
+.rank{gap:0;border:1px solid var(--rule);border-radius:14px;overflow:hidden;background:var(--card)}
+.rk-row,.rk-row.top3{border:0;border-bottom:1px solid var(--rule);border-radius:0;box-shadow:none;padding:10px 12px;margin:0;background:transparent}
+.rk-row .p{font-size:16px;font-weight:700;color:var(--ac-ink)}
+.medal{width:24px;height:24px;font-size:12px;box-shadow:none}
+.kkl{border:1px solid var(--rule);border-radius:12px;font-size:13px;padding:8px 12px}
+.dan-h h1{font-size:22px}
+nav.tabs.six button{min-height:30px}
+.dcard{border:1px solid var(--rule);border-radius:14px;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.dcard b{font-size:14px;line-height:1.45}
+.dcard small{font-size:12px}
+.bnav{border-top:1px solid var(--rule);box-shadow:0 -2px 10px rgba(0,0,0,.05)}
+.bnav button{min-height:50px;font-size:11px;font-weight:500}
+.bnav button .ic{width:21px;height:21px}
 </style>
 </head>
 <body>
@@ -606,6 +684,9 @@ function tabs(){
  $("#tabs").innerHTML=TITLES.map(x=>{const n=x.id==="all"?all.length:all.filter(i=>i.t===x.id).length;
   return `<button role="tab" data-t="${esc(x.id)}" aria-selected="${x.id===tab}"><span class="ti">${ic(TICON[x.id]||"star")}<span class="cnt">${n}</span></span><span>${esc(x.n)}</span></button>`}).join("");
 }
+function cpic(id){const v=IMGS&&IMGS[id];return v&&v.images&&v.images[0]||""}
+function spic(id){const v=SIMGS&&SIMGS[id];return v&&v.file||""}
+function thumb(u,cls,alt){return u?`<img class="thumb ${cls}" src="${esc(u)}" alt="${esc(alt||"")}" loading="lazy">`:`<span class="thumb ph ${cls}" aria-hidden="true">${ic("sparkle")}<small>写真準備中</small></span>`}
 function hot(){
  const pool=all.filter(i=>tab==="all"||i.t===tab);
  const futs=pool.filter(i=>i.cls==="pre").sort((a,b)=>a.date-b.date);const fut=futs[0],later=futs.slice(1,3);
@@ -618,11 +699,12 @@ function hot(){
   <h2>${esc(fut.name)}</h2>
   <div class="tk-row"><div class="flip" role="img" aria-label="あと${days}日${fut.exact?"":"くらい"}"><span class="flip-top">あと</span><b>${days}</b><span class="flip-u">${fut.exact?"日":"日くらい"}</span></div>
   <div class="tk-meta"><span class="when">${esc(fut.label)}<br>発売予定</span><span class="tag st ${fut.cls}">${esc(fut.st)}</span>${fut.price?`<span>${esc(fut.price)}</span>`:""}</div></div>
+  <div class="tk-pic">${thumb(cpic(fut.id),"m",fut.name)}</div>
   <div class="tk-cta"><a class="btn lemon" href="#dan-${esc(fut.id)}" data-shops="1">${ic("bag")}予約できるお店を見る${ic("go")}</a></div></div>
-  ${later.length?`<div class="tk-stub"><p>その次の発売予定</p>${later.map(l=>`<a href="#dan-${esc(l.id)}"><span class="dt">${esc(l.label)}</span><span class="nm">${esc(l.name)}</span></a>`).join("")}</div>`:""}</article>`;
- }else left=`<article class="ticket"><div class="tk-main"><p class="tk-lbl">次の発売まで</p><h2>いま決まっている新作はありません</h2><div class="tk-meta">新しい情報が出たらここに載ります。</div></div></article>`;
+  ${later.length?`<div class="tk-stub"><p>その次の発売予定</p>${later.map(l=>`<a href="#dan-${esc(l.id)}">${thumb(cpic(l.id),"s")}<span class="dt">${esc(l.label)}</span><span class="nm">${esc(l.name)}</span></a>`).join("")}</div>`:""}</article>`;
+ }else left=`<article class="ticket"><div class="tk-main np"><p class="tk-lbl">次の発売まで</p><h2>いま決まっている新作はありません</h2><div class="tk-meta">新しい情報が出たらここに載ります。</div></div></article>`;
  const right=`<div class="newbox"><h2>${ic("sparkle")}新しく出たカード</h2>${fresh.filter(i=>i.d).map(i=>{const p=i.d.split("-");
-  return `<a class="mini t-${esc(i.t)}" href="#dan-${esc(i.id)}"><div class="d">${Number(p[1])}月<b>${p[2]?Number(p[2]):(i.late?"下旬":"－")}</b></div><div class="bd"><p>${esc(i.name)}</p><small>${esc(i.st)}・全${esc(i.kinds??"？")}種</small></div>${ic("go")}</a>`}).join("")||'<p class="note">まだありません</p>'}</div>`;
+  return `<a class="mini t-${esc(i.t)}" href="#dan-${esc(i.id)}"><div class="d">${Number(p[1])}月<b>${p[2]?Number(p[2]):(i.late?"下旬":"－")}</b></div>${thumb(cpic(i.id),"",i.name)}<div class="bd"><p>${esc(i.name)}</p><small>${esc(i.st)}・全${esc(i.kinds??"？")}種</small></div>${ic("go")}</a>`}).join("")||'<p class="note">まだありません</p>'}</div>`;
  $("#hot").innerHTML=left+right;
 }
 const top=i=>i.mk?Math.max(...i.mk.map(m=>m.p)):0;
@@ -768,9 +850,10 @@ function sealHome(){
   <p class="tk-lbl">次のシール発売まで<span class="pill">${ic(SICON[fut.t]||"star")}${esc(sname(fut.t))}</span></p><h2>${esc(fut.name)}</h2>
   <div class="tk-row"><div class="flip" role="img" aria-label="あと${days}日${fut.exact?"":"くらい"}"><span class="flip-top">あと</span><b>${days}</b><span class="flip-u">${fut.exact?"日":"日くらい"}</span></div>
   <div class="tk-meta"><span class="when">${esc(fut.label)}<br>発売予定</span><span class="tag st ${fut.cls}">${esc(fut.st)}</span>${fut.price?`<span>${esc(fut.price)}</span>`:""}</div></div>
+  <div class="tk-pic">${thumb(spic(fut.id),"m",fut.name)}</div>
   <div class="tk-cta"><a class="btn lemon" href="#seal-${esc(fut.id)}">${ic("bag")}${fut.book||fut.pre?"予約できるお店を見る":"くわしく見る"}${ic("go")}</a></div></div></article>`}
  const crossT=stab==="tama"||stab==="sanrio"||stab==="chiikawa";
- $("#shome").innerHTML=`<section class="hot">${tk||'<article class="ticket t-seal"><div class="tk-main"><p class="tk-lbl">次のシール発売まで</p><h2>いま決まっている新作はありません</h2></div></article>'}</section>
+ $("#shome").innerHTML=`<section class="hot">${tk||'<article class="ticket t-seal"><div class="tk-main np"><p class="tk-lbl">次のシール発売まで</p><h2>いま決まっている新作はありません</h2></div></article>'}</section>
  <section class="sec" id="sec-slot"><h2 class="h"><span class="hi">${ic("bag")}</span><span class="tx">シールの抽選（${openL.length}件 受付中・受付前）</span></h2>
  <p class="legend">公式のお店・メーカーが発表した抽選だけを載せています。応募は各公式ページから。</p>
  <div class="lots">${openL.map(lotCard).join("")||'<div class="empty">いま受付中の抽選はありません。新しい抽選が出たらここに出ます。</div>'}</div>
@@ -818,7 +901,7 @@ function chrome(){
 }
 function render(){dans();hot();list();rank();mc();cal();const ss=$("#sec-shop");if(ss)ss.innerHTML=shopSec("card",tab);route(false)}
 window.addEventListener("hashchange",()=>route(true));
-try{fetch("img/index.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j){IMGS=j;dans();route(false)}}).catch(()=>{})}catch(e){}
+try{fetch("img/index.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j){IMGS=j;dans();hot();route(false)}}).catch(()=>{})}catch(e){}
 // シールのニュース欄は使わない（2026-11-26 オーナー判断）
 try{fetch("catalog.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j){CAT=j;render()}}).catch(()=>{})}catch(e){}
 try{fetch("img/seal/index.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).then(j=>{if(j){SIMGS=j;route(false)}}).catch(()=>{})}catch(e){}
