@@ -332,6 +332,21 @@
    "img/chiikawa-wafer2/product_7.jpg"
   ]
  },
+ "aipri-verse4": {
+  "source": "https://prtimes.jp/main/html/rd/p/000000363.000009185.html",
+  "images": [
+   "img/aipri-verse4/product_1.jpg"
+  ]
+ },
+ "niji-sleeve": {
+  "source": "https://kyodonewsprwire.jp/release/202610057308",
+  "images": [
+   "img/niji-sleeve/product_1.jpg",
+   "img/niji-sleeve/product_2.jpg",
+   "img/niji-sleeve/product_3.jpg",
+   "img/niji-sleeve/product_4.jpg"
+  ]
+ },
  "tama-omisecchi": {
   "source": "https://item.rakuten.co.jp/premiumgarage/b-tmg-omise/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
   "images": [
