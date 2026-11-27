@@ -312,10 +312,11 @@
   ]
  },
  "aikatsu-phone": {
-  "source": "https://item.rakuten.co.jp/edion/4582770085907/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
+  "source": "https://item.rakuten.co.jp/netbaby/4582770085907/?rafcid=wsc_i_is_pk_VDcZK07nm8vCCzoUSaOyiOTpyAbMDttgH9TayaQSNWl",
   "images": [
-   "https://thumbnail.image.rakuten.co.jp/@0_mall/edion/cabinet/goods/ll/img_632/4582770085907_1.jpg?_ex=500x500",
-   "https://thumbnail.image.rakuten.co.jp/@0_mall/edion/cabinet/goods/ll/img_632/4582770085907_2.jpg?_ex=500x500"
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/907/4582770085907.jpg?_ex=500x500",
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/907/4582770085907-2.jpg?_ex=500x500",
+   "https://thumbnail.image.rakuten.co.jp/@0_mall/netbaby/cabinet/907/4582770085907-3.jpg?_ex=500x500"
   ],
   "credit": "楽天市場"
  },
@@ -428,17 +429,18 @@
   "credit": "Amazon"
  },
  "niji-bp01": {
-  "source": "https://www.amazon.co.jp/dp/B0HP9YBCWF?tag=tcgchusen-22&linkCode=osi&th=1&psc=1",
+  "source": "https://www.amazon.co.jp/dp/B0HSB1XZG2?tag=tcgchusen-22&linkCode=osi&th=1&psc=1",
   "images": [
-   "https://m.media-amazon.com/images/I/51HsBBb5kGL._SL500_.jpg"
+   "https://m.media-amazon.com/images/I/41OdhnBLq5L._SL500_.jpg",
+   "https://m.media-amazon.com/images/I/41lSjMrA2HL._SL500_.jpg"
   ],
   "credit": "Amazon"
  },
  "niji-sd": {
-  "source": "https://www.amazon.co.jp/dp/B0HS9R4Z7W?tag=tcgchusen-22&linkCode=osi&th=1&psc=1",
+  "source": "https://www.amazon.co.jp/dp/B0HS9TL44F?tag=tcgchusen-22&linkCode=osi&th=1&psc=1",
   "images": [
-   "https://m.media-amazon.com/images/I/41MjC3pvAeL._SL500_.jpg",
-   "https://m.media-amazon.com/images/I/41Rpro09VmL._SL500_.jpg"
+   "https://m.media-amazon.com/images/I/41e8o3JiMWL._SL500_.jpg",
+   "https://m.media-amazon.com/images/I/419sxLeoxLL._SL500_.jpg"
   ],
   "credit": "Amazon"
  },
