@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26 23:56",
+ "updated": "2026-11-27 13:17",
  "rule": "メルカリの売り切れ・新しい順から、1枚売りの直近3件の平均",
  "cards": [
   {
@@ -29,7 +29,7 @@
     }
    ],
    "avg": 442,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-03",
@@ -58,7 +58,7 @@
     }
    ],
    "avg": 333,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-05",
@@ -87,7 +87,7 @@
     }
    ],
    "avg": 533,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-06",
@@ -116,7 +116,7 @@
     }
    ],
    "avg": 333,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-08",
@@ -161,7 +161,7 @@
     }
    ],
    "avg": 422,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-12",
@@ -190,7 +190,7 @@
     }
    ],
    "avg": 307,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-13",
@@ -213,14 +213,8 @@
    "set": "tama-gotchi3",
    "name": "まめっち夏のよそおい",
    "search": "https://jp.mercari.com/search?keyword=TNGC03-16&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 1,
    "items": [
-    {
-     "title": "【匿名配送】にゅー！ごっちカード3｜GRみみっち　Nまめっち夏のよそおい",
-     "price": 600,
-     "status": "ITEM_STATUS_SOLD_OUT",
-     "url": "https://jp.mercari.com/item/m53247220021"
-    },
     {
      "title": "にゅー！ごっちカード3 まめっち夏のよそおい N",
      "price": 300,
@@ -228,8 +222,8 @@
      "url": "https://jp.mercari.com/item/m73556687020"
     }
    ],
-   "avg": 450,
-   "checked": "2026-11-26"
+   "avg": 300,
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-17",
@@ -238,7 +232,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-17&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-18",
@@ -247,7 +241,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-18&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-19",
@@ -264,7 +258,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-20",
@@ -281,7 +275,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-21&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-22",
@@ -310,7 +304,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-23",
@@ -327,7 +321,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-24&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-25",
@@ -336,7 +330,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-25&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-26",
@@ -361,7 +355,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-28&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-29",
@@ -370,7 +364,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-29&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-30",
@@ -387,7 +381,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-31&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-32",
@@ -436,7 +430,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-37",
@@ -445,7 +439,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-37&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-38",
@@ -454,7 +448,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-38&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-39",
@@ -483,7 +477,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-40",
@@ -492,7 +486,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-40&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-41",
@@ -501,7 +495,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-41&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-42",
@@ -510,7 +504,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC03-42&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC03-43",
@@ -563,7 +557,7 @@
     }
    ],
    "avg": 746,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-04",
@@ -592,7 +586,7 @@
     }
    ],
    "avg": 543,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-05",
@@ -621,7 +615,7 @@
     }
    ],
    "avg": 478,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-06",
@@ -650,7 +644,7 @@
     }
    ],
    "avg": 365,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-07",
@@ -679,7 +673,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-08",
@@ -716,7 +710,7 @@
     }
    ],
    "avg": 317,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-12",
@@ -739,7 +733,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-13",
@@ -756,15 +750,30 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-14",
    "set": "tama-gotchi2",
    "name": "そらのフィールド探検!",
    "search": "https://jp.mercari.com/search?keyword=TNGC02-14&status=sold_out&sort=created_time&order=desc",
-   "n": 0,
-   "items": []
+   "n": 2,
+   "items": [
+    {
+     "title": "【たまごっち】にゅーごっちカード2　そらのフィールド探検　TNGC02-14R",
+     "price": 300,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m24793324373"
+    },
+    {
+     "title": "たまごっち　にゅー!ごっちカード2　そらのフィールド探検!",
+     "price": 300,
+     "status": "ITEM_STATUS_SOLD_OUT",
+     "url": "https://jp.mercari.com/item/m25741937064"
+    }
+   ],
+   "avg": 300,
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-15",
@@ -773,7 +782,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-15&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-16",
@@ -814,7 +823,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-20&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-21",
@@ -823,7 +832,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-21&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-22",
@@ -832,7 +841,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-22&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-23",
@@ -849,7 +858,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-24",
@@ -858,7 +867,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-24&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-25",
@@ -867,7 +876,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-25&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-26",
@@ -876,7 +885,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-26&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-27",
@@ -907,7 +916,7 @@
     }
    ],
    "avg": 316,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-29",
@@ -930,7 +939,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-30",
@@ -947,7 +956,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-31",
@@ -980,7 +989,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-34",
@@ -1003,7 +1012,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-35",
@@ -1012,7 +1021,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-35&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-36",
@@ -1021,7 +1030,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-36&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-37",
@@ -1038,7 +1047,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-38&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-39",
@@ -1047,7 +1056,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-39&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-40",
@@ -1064,7 +1073,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-41&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-42",
@@ -1073,7 +1082,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC02-42&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC02-43",
@@ -1126,7 +1135,7 @@
     }
    ],
    "avg": 311,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "TNGC01-21",
@@ -1135,7 +1144,7 @@
    "search": "https://jp.mercari.com/search?keyword=TNGC01-21&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer13-No.25",
@@ -1164,7 +1173,7 @@
     }
    ],
    "avg": 1889,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer12-No.23",
@@ -1193,7 +1202,7 @@
     }
    ],
    "avg": 1755,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer12-No.21",
@@ -1222,7 +1231,7 @@
     }
    ],
    "avg": 2111,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer12-No.22",
@@ -1251,7 +1260,7 @@
     }
    ],
    "avg": 1076,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer12-No.24",
@@ -1280,7 +1289,7 @@
     }
    ],
    "avg": 683,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer12-No.27",
@@ -1309,7 +1318,7 @@
     }
    ],
    "avg": 563,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer12-No.18",
@@ -1326,7 +1335,7 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B912%20No.09%20%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%83%AB%E3%83%9F%E3%83%8A%E3%82%B9/%E4%B9%9D%E6%9D%A1%E3%81%B2%E3%81%8B%E3%82%8A&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer11-No.26",
@@ -1355,7 +1364,7 @@
     }
    ],
    "avg": 1814,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer11-No.27",
@@ -1384,7 +1393,7 @@
     }
    ],
    "avg": 1459,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer11-No.22",
@@ -1413,7 +1422,7 @@
     }
    ],
    "avg": 432,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer11-No.23",
@@ -1442,7 +1451,7 @@
     }
    ],
    "avg": 855,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer11-No.24",
@@ -1465,7 +1474,7 @@
     }
    ],
    "avg": 760,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer11-No.21",
@@ -1482,7 +1491,7 @@
     }
    ],
    "avg": 400,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer11-No.17",
@@ -1491,7 +1500,7 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%83%97%E3%83%AA%E3%82%AD%E3%83%A5%E3%82%A2%E3%82%AB%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%83%8F%E3%83%BC%E3%82%B911%20No.17%20You&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "pre-wafer11-No.14",
@@ -1516,7 +1525,7 @@
     }
    ],
    "avg": 999,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-01",
@@ -1526,26 +1535,26 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツ アンコール オーロラキスキャミソール　PR 星宮いちご",
-     "price": 1400,
+     "title": "アイカツ アンコール オーロラキスキャミソール Angely Sugar",
+     "price": 1499,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m98827026462"
-    },
-    {
-     "title": "アイカツ アンコール PR オーロラキスキャミソール 星宮いちご",
-     "price": 1299,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m49892504585"
+     "url": "https://jp.mercari.com/item/m38791118488"
     },
     {
      "title": "アイカツ　アイカツアンコール PR　オーロラキスキャミソール　いちご",
-     "price": 1511,
+     "price": 1499,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m42061695405"
+     "url": "https://jp.mercari.com/item/m82239955395"
+    },
+    {
+     "title": "アイカツ アンコール カード オーロラキスキャミソール",
+     "price": 1222,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m94215448864"
     }
    ],
-   "avg": 1403,
-   "checked": "2026-11-26"
+   "avg": 1407,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-02",
@@ -1555,26 +1564,26 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツ！アンコール オーロラキスドレープスカート 　②",
+     "title": "アイカツ アンコール 星宮いちご オーロラキスドレープスカート",
      "price": 1333,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m70210980261"
+     "url": "https://jp.mercari.com/item/m40949082817"
     },
     {
-     "title": "アイカツ！アンコール オーロラキスドレープスカート",
-     "price": 1333,
+     "title": "アイカツアンコール オーロラキスドレープスカート プレミアムレア",
+     "price": 1390,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m81683345460"
+     "url": "https://jp.mercari.com/item/m71596922276"
     },
     {
-     "title": "アイカツ！ アンコール オーロラキスドレープスカート プレミアム レア",
+     "title": "アイカツ ！アンコール　オーロラキスドレープスカート E1-02 PR",
      "price": 1333,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m63872158347"
+     "url": "https://jp.mercari.com/item/m87104766566"
     }
    ],
-   "avg": 1333,
-   "checked": "2026-11-26"
+   "avg": 1352,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-03",
@@ -1584,26 +1593,26 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツ！ アンコール オーロラキスバレエシューズ PR",
-     "price": 1255,
+     "title": "アイカツアンコール オーロラキスバレエシューズ 星宮いちご",
+     "price": 1111,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m27294861486"
+     "url": "https://jp.mercari.com/item/m31545838977"
     },
     {
-     "title": "④アイカツアンコール オーロラキスバレエシューズ 星宮いちご プレミアムレア",
-     "price": 1299,
+     "title": "アイカツアンコール　アイカツカード　オーロラキスバレエシューズ　PR いちご",
+     "price": 1550,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m22853470367"
+     "url": "https://jp.mercari.com/item/m14372805429"
     },
     {
-     "title": "アイカツ　アンコール　オーロラキスバレエシューズ　星宮いちご",
-     "price": 1299,
+     "title": "アイカツアンコール 星宮いちご オーロラキスバレエシューズ",
+     "price": 1277,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m46829388374"
+     "url": "https://jp.mercari.com/item/m95037714569"
     }
    ],
-   "avg": 1284,
-   "checked": "2026-11-26"
+   "avg": 1313,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-04",
@@ -1613,26 +1622,26 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツ！アンコール オーロラキスリボン E1-04 PR",
-     "price": 1799,
+     "title": "⑥　アイカツアンコール　星宮いちご　オーロラキスリボン　プレミアムレア",
+     "price": 1499,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m20963646058"
+     "url": "https://jp.mercari.com/item/m30520077493"
     },
     {
-     "title": "アイカツ アンコール オーロラキスリボン　PR 星宮いちご",
-     "price": 1400,
+     "title": "アイカツ！ アンコール　オーロラキスリボン E1-04 PR",
+     "price": 1250,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m29301057292"
+     "url": "https://jp.mercari.com/item/m26989682874"
     },
     {
-     "title": "アイカツ アンコール 星宮いちご オーロラキスリボン PRカード",
-     "price": 1333,
+     "title": "オーロラキスリボン　アイカツアンコール",
+     "price": 1555,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m61545990139"
+     "url": "https://jp.mercari.com/item/m70186877689"
     }
    ],
-   "avg": 1511,
-   "checked": "2026-11-26"
+   "avg": 1435,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-30",
@@ -1642,26 +1651,26 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツアンコール　オデットスワン",
-     "price": 440,
+     "title": "アイカツアンコール ER 大空あかり オデットスワンコーデ",
+     "price": 399,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m89417976888"
+     "url": "https://jp.mercari.com/item/m66238171206"
     },
     {
-     "title": "アイカツ　アンコール　オデットスワン　大空あかり ER",
-     "price": 555,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m21484147952"
-    },
-    {
-     "title": "大空あかり　アイカツアンコール　オデットスワン　アンコールレア",
+     "title": "アイカツアンコール オデットスワンコーデ ER ①",
      "price": 444,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m55193830421"
+     "url": "https://jp.mercari.com/item/m56438234211"
+    },
+    {
+     "title": "アイカツ！アンコール 大空あかり オデットスワン ER 1枚",
+     "price": 370,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m96301994587"
     }
    ],
-   "avg": 480,
-   "checked": "2026-11-26"
+   "avg": 404,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-31",
@@ -1670,6 +1679,12 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84%20%E3%82%A2%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%AB%20%E3%83%AA%E3%83%AB%E3%83%AA%E3%83%9C%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC&status=sold_out&sort=created_time&order=desc",
    "n": 3,
    "items": [
+    {
+     "title": "アイカツアンコール リルリボンストーリー フルコーデ 姫石らき",
+     "price": 300,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m44971661187"
+    },
     {
      "title": "アイカツアンコール アイカツカード リルリボンストーリー",
      "price": 1199,
@@ -1681,16 +1696,10 @@
      "price": 300,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m76474089450"
-    },
-    {
-     "title": "アイカツアンコール リルリボンストーリー ER 姫石らき",
-     "price": 300,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m97330689985"
     }
    ],
    "avg": 600,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-32",
@@ -1699,6 +1708,12 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84%20%E3%82%A2%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%AB%20%E3%82%AA%E3%83%BC%E3%83%AD%E3%83%A9%E3%83%9A%E3%82%AC%E3%82%B5%E3%82%B9&status=sold_out&sort=created_time&order=desc",
    "n": 3,
    "items": [
+    {
+     "title": "④ アイカツ アンコール カード ハナ オーロラペガサス er アンコールレア",
+     "price": 300,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m76750918404"
+    },
     {
      "title": "アイカツ アンコール ハナ オーロラペガサス ER",
      "price": 300,
@@ -1710,16 +1725,10 @@
      "price": 300,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m64797136142"
-    },
-    {
-     "title": "アイカツ アンコール カード ハナ オーロラペガサス er アンコールレア",
-     "price": 300,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m14120895039"
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-33",
@@ -1729,26 +1738,26 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツアンコール 天の川コズミックワンショルダー PR",
+     "price": 711,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m45894509926"
+    },
+    {
+     "title": "アイカツ！アンコール 天の川コズミックワンショルダー",
+     "price": 700,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m34611971863"
+    },
+    {
      "title": "アイカツアンコール　カード　天の川コズミックワンショルダー　スカート　プレミアム",
      "price": 1222,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m38091863631"
-    },
-    {
-     "title": "アイカツアンコール PR 天の川コズミックワンショルダー",
-     "price": 600,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m68660109864"
-    },
-    {
-     "title": "アイカツアンコール 天の川コズミックワンショルダー PR",
-     "price": 700,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m56498825751"
     }
    ],
-   "avg": 841,
-   "checked": "2026-11-26"
+   "avg": 878,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-34",
@@ -1758,26 +1767,26 @@
    "n": 3,
    "items": [
     {
-     "title": "【選べるN / Rつき】アイカツアンコール！ 天の川コズミックスカート PR",
-     "price": 700,
+     "title": "アイカツ アンコール 天の川コズミックスカート FUTURING GIRL",
+     "price": 650,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m46972732559"
+     "url": "https://jp.mercari.com/item/m33852764167"
     },
     {
-     "title": "アイカツアンコール　PR 天の川コズミックスカート　霧矢あおい",
-     "price": 666,
+     "title": "アイカツアンコール 天の川コズミックスカート プレミアムレア",
+     "price": 650,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m84603095206"
+     "url": "https://jp.mercari.com/item/m72707616018"
     },
     {
-     "title": "アイカツ　アイカツアンコール　カード　天の川コズミックスカート　あおい",
-     "price": 644,
+     "title": "アイカツアンコール霧矢あおい天の川コズミックスカート",
+     "price": 4100,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m80025041909"
+     "url": "https://jp.mercari.com/item/m16560052875"
     }
    ],
-   "avg": 670,
-   "checked": "2026-11-26"
+   "avg": 1800,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-35",
@@ -1787,26 +1796,26 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツ アンコール オデッスワンコーデ ER 天の川コズミックブーツ PR",
-     "price": 1100,
+     "title": "アイカツ アンコール 天の川コズミックブーツ 霧矢あおい PR",
+     "price": 555,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m70453763187"
+     "url": "https://jp.mercari.com/item/m15788012442"
     },
     {
-     "title": "アイカツアンコール　PR　天の川コズミックブーツ",
+     "title": "④アイカツ！アンコール 天の川コズミックブーツ PR 霧矢あおい",
+     "price": 599,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m26172007714"
+    },
+    {
+     "title": "アイカツアンコール 天の川コズミックブーツ PR 霧矢あおい",
      "price": 600,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m46229622331"
-    },
-    {
-     "title": "アイカツ アンコール 天の川コズミックブーツ",
-     "price": 580,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m70208837091"
+     "url": "https://jp.mercari.com/item/m63328628552"
     }
    ],
-   "avg": 760,
-   "checked": "2026-11-26"
+   "avg": 585,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-36",
@@ -1816,43 +1825,55 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツ！アンコール 天の川コズミックカチューシャ 霧矢あおい",
+     "title": "アイカツアンコール 天の川コズミックカチューシャ　アクセサリー",
+     "price": 555,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m77776154619"
+    },
+    {
+     "title": "アイカツ！ アンコール　天の川コズミックカチューシャ",
      "price": 600,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m95917042776"
+     "url": "https://jp.mercari.com/item/m92285822907"
     },
     {
-     "title": "アイカツアンコール　天の川コズミックカチューシャ　霧矢あおい",
-     "price": 599,
+     "title": "アイカツアンコール 天の川コズミックカチューシャ 霧矢あおい",
+     "price": 600,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m28949365047"
-    },
-    {
-     "title": "アイカツアンコール 天の川コズミックカチューシャ PR　霧矢あおい",
-     "price": 630,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m75058550461"
+     "url": "https://jp.mercari.com/item/m93597906588"
     }
    ],
-   "avg": 610,
-   "checked": "2026-11-26"
+   "avg": 585,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-50",
    "set": "aikatsu-encore1",
    "name": "E1-50 ドリームエミネンス ER",
    "search": "https://jp.mercari.com/search?keyword=%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84%20%E3%82%A2%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%AB%20%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%A8%E3%83%9F%E3%83%8D%E3%83%B3%E3%82%B9&status=sold_out&sort=created_time&order=desc",
-   "n": 1,
+   "n": 3,
    "items": [
     {
-     "title": "アイカツアンコール ドリームエミネンス",
+     "title": "アイカツアンコール ドリームエミネンス ER 音城ノエル",
      "price": 300,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m67301822423"
+     "url": "https://jp.mercari.com/item/m15065965674"
+    },
+    {
+     "title": "アイカツ！アンコール ドリームエミネンス ER フルコーデ 音城ノエル",
+     "price": 300,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m36733583933"
+    },
+    {
+     "title": "アイカツアンコール アンコールレアERドリームエミネンス オーロラペガサ",
+     "price": 377,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m79204025260"
     }
    ],
-   "avg": 300,
-   "checked": "2026-11-26"
+   "avg": 326,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-51",
@@ -1862,26 +1883,26 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツ アンコール　レジェンダリールージュドレス　橋本環奈　PR",
+     "price": 399,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m58097504856"
+    },
+    {
+     "title": "アイカツアンコール レジェンダリールージュドレス PR",
+     "price": 400,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m10165264337"
+    },
+    {
      "title": "アイカツアンコール　レジェンダリールージュドレス　橋本環奈",
      "price": 333,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m71954789226"
-    },
-    {
-     "title": "アイカツ アンコール　レジェンダリールージュドレス　橋本環奈　PR",
-     "price": 400,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m77155367117"
-    },
-    {
-     "title": "アイカツアンコール レジェンダリールージュドレス E1-51 PR",
-     "price": 399,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m64748264661"
     }
    ],
    "avg": 377,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-52",
@@ -1890,6 +1911,12 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84%20%E3%82%A2%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%AB%20%E3%83%AC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%80%E3%83%AA%E3%83%BC%E3%83%AB%E3%83%BC%E3%82%B8%E3%83%A5%E3%83%91%E3%83%B3%E3%83%97%E3%82%B9&status=sold_out&sort=created_time&order=desc",
    "n": 3,
    "items": [
+    {
+     "title": "アイカツ！アンコール レジェンダリールージュパンプス",
+     "price": 350,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m90232693668"
+    },
     {
      "title": "アイカツアンコール レジェンダリールージュパンプス 橋本環奈",
      "price": 400,
@@ -1901,16 +1928,10 @@
      "price": 399,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m61028997578"
-    },
-    {
-     "title": "アイカツ！アンコール レジェンダリールージュパンプス PR",
-     "price": 399,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m19911731658"
     }
    ],
-   "avg": 399,
-   "checked": "2026-11-26"
+   "avg": 383,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-71",
@@ -1920,26 +1941,26 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツ アイカツアンコール サンシャインスターウェイトップス カチューシャ",
-     "price": 1099,
+     "title": "アイカツアンコール　サンシャインスターウェイトップス　星宮いちご　E1-71PR",
+     "price": 500,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m64735380181"
+     "url": "https://jp.mercari.com/item/m45093925971"
     },
     {
-     "title": "アイカツアンコール　PR　サンシャインスターウェイトップス",
-     "price": 600,
+     "title": "アイカツ　アンコール　サンシャインスターウェイトップス",
+     "price": 599,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m87311931898"
+     "url": "https://jp.mercari.com/item/m53102031088"
     },
     {
-     "title": "アイカツ アイカツアンコール サンシャインスターウェイトップス スカート",
-     "price": 999,
+     "title": "アイカツ！アンコール　サンシャインスターウェイトップス　星宮いちご",
+     "price": 499,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m75796010776"
+     "url": "https://jp.mercari.com/item/m26824937885"
     }
    ],
-   "avg": 899,
-   "checked": "2026-11-26"
+   "avg": 533,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-72",
@@ -1949,26 +1970,26 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツ！アンコール　サンシャインスターウェイスカート",
+     "price": 500,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m83366205572"
+    },
+    {
      "title": "アイカツ！アンコール サンシャインスターウェイスカート",
      "price": 555,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m56379031072"
     },
     {
-     "title": "アイカツ！アンコール　サンシャインスターウェイスカート・カチューシャ",
-     "price": 1000,
+     "title": "アイカツ！アンコール サンシャインスターウェイスカート PR 星宮いちご",
+     "price": 650,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m72853346618"
-    },
-    {
-     "title": "アイカツ！アンコール カード サンシャインスターウェイスカート",
-     "price": 911,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m53345092540"
+     "url": "https://jp.mercari.com/item/m11984005798"
     }
    ],
-   "avg": 822,
-   "checked": "2026-11-26"
+   "avg": 568,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-73",
@@ -1997,7 +2018,7 @@
     }
    ],
    "avg": 512,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-74",
@@ -2026,7 +2047,7 @@
     }
    ],
    "avg": 888,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-75",
@@ -2035,6 +2056,12 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84%20%E3%82%A2%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%AB%20%E3%82%B5%E3%83%B3%E3%83%A9%E3%82%A4%E3%82%BA%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%88%E3%83%83%E3%83%97%E3%82%B9&status=sold_out&sort=created_time&order=desc",
    "n": 3,
    "items": [
+    {
+     "title": "アイカツ！アンコール　サンライズスターウェイトップス",
+     "price": 400,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m36549130157"
+    },
     {
      "title": "アイカツ！　アンコール　カード　霧矢あおい　サンライズスターウェイトップス②",
      "price": 450,
@@ -2046,16 +2073,10 @@
      "price": 860,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m84428053848"
-    },
-    {
-     "title": "アイカツアンコール カード サンライズスターウェイトップス ソレイユ 霧矢あおい",
-     "price": 499,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m50618450050"
     }
    ],
-   "avg": 603,
-   "checked": "2026-11-26"
+   "avg": 570,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-76",
@@ -2077,14 +2098,14 @@
      "url": "https://jp.mercari.com/item/m56250338468"
     },
     {
-     "title": "アイカツアンコール カード サンライズスターウェイスカート PR",
+     "title": "ア*ナ様 アイカツアンコール サンライズスターウェイスカート",
      "price": 400,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m88412962057"
+     "url": "https://jp.mercari.com/item/m53239908547"
     }
    ],
    "avg": 427,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-77",
@@ -2094,26 +2115,26 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツアンコール PR サンライズスターウェイシューズ 霧矢あおい ソレイユ",
-     "price": 444,
+     "title": "アイカツアンコール カード サンライズスターウェイシューズ",
+     "price": 439,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m15921903080"
+     "url": "https://jp.mercari.com/item/m37173907937"
     },
     {
-     "title": "アイカツアンコール サンライズスターウェイシューズ PR 霧矢あおい",
-     "price": 400,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m11137532946"
-    },
-    {
-     "title": "サンライズスターウェイシューズ　アイカツ　アンコール　霧矢あおい　Soleil",
+     "title": "【匿名配送】アイカツ！アンコール サンライズスターウェイシューズ",
      "price": 499,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m47097832672"
+     "url": "https://jp.mercari.com/item/m60011674681"
+    },
+    {
+     "title": "アイカツアンコール カード サンライズスターウェイシューズ",
+     "price": 455,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m37526629252"
     }
    ],
-   "avg": 448,
-   "checked": "2026-11-26"
+   "avg": 464,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-78",
@@ -2122,6 +2143,12 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84%20%E3%82%A2%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%AB%20%E3%82%B5%E3%83%B3%E3%83%A9%E3%82%A4%E3%82%BA%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%AB%E3%83%81%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A3&status=sold_out&sort=created_time&order=desc",
    "n": 3,
    "items": [
+    {
+     "title": "アイカツアンコール　サンライズスターウェイカチューシャ",
+     "price": 420,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m96362669315"
+    },
     {
      "title": "サンライズスターウェイカチューシャ　アイカツ　アイカツカード　アイカツアンコール",
      "price": 411,
@@ -2133,16 +2160,10 @@
      "price": 333,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m58183731928"
-    },
-    {
-     "title": "アイカツアンコール カード サンライズスターウェイカチューシャ",
-     "price": 455,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m15100670944"
     }
    ],
-   "avg": 400,
-   "checked": "2026-11-26"
+   "avg": 388,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-79",
@@ -2151,7 +2172,7 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84%20%E3%82%A2%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%AB%20%E3%82%B5%E3%83%B3%E3%82%BB%E3%83%83%E3%83%88%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%A6%E3%82%A7%E3%82%A4%E3%83%88%E3%83%83%E3%83%97%E3%82%B9&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-80",
@@ -2160,7 +2181,7 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84%20%E3%82%A2%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%AB%20%E3%82%B5%E3%83%B3%E3%82%BB%E3%83%83%E3%83%88%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%88&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-81",
@@ -2169,7 +2190,7 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84%20%E3%82%A2%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%AB%20%E3%82%B5%E3%83%B3%E3%82%BB%E3%83%83%E3%83%88%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-82",
@@ -2178,7 +2199,7 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84%20%E3%82%A2%E3%83%B3%E3%82%B3%E3%83%BC%E3%83%AB%20%E3%82%B5%E3%83%B3%E3%82%BB%E3%83%83%E3%83%88%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%A6%E3%82%A7%E3%82%A4%E3%82%AB%E3%83%81%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A3&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-01★",
@@ -2188,26 +2209,26 @@
    "n": 3,
    "items": [
     {
-     "title": "め*ぃ様 アイカツ アンコール パラレル 星宮いちご オーロラキスキャミソール",
-     "price": 11000,
+     "title": "アイカツアンコール オーロラキスキャミソール 星宮いちご パラレル　トップス",
+     "price": 9999,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m71027892365"
+     "url": "https://jp.mercari.com/item/m10911815135"
     },
     {
-     "title": "星宮いちご パラレル オーロラキスキャミソール アイカツ アンコール",
-     "price": 11280,
+     "title": "アイカツ アンコール オーロラキスキャミソール PR 星宮いちご パラレル",
+     "price": 9500,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m76827149481"
+     "url": "https://jp.mercari.com/item/m84776238751"
     },
     {
-     "title": "アイカツ！アンコール オーロラキスキャミソール 星宮いちご パラレル",
-     "price": 11000,
+     "title": "アイカツ アンコール オーロラキスキャミソール PR 星宮いちご パラレル",
+     "price": 9999,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m52595821327"
+     "url": "https://jp.mercari.com/item/m97104890283"
     }
    ],
-   "avg": 11093,
-   "checked": "2026-11-26"
+   "avg": 9833,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-02★",
@@ -2217,26 +2238,26 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツ アンコール　 オーロラキスドレープスカート パラレル　いちご",
-     "price": 8880,
+     "title": "アイカツ アンコール オーロラキスドレープスカート PR★ パラレル 美品",
+     "price": 8999,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m87616380674"
+     "url": "https://jp.mercari.com/item/m47797550880"
+    },
+    {
+     "title": "アイカツアンコール　オーロラキスドレープスカート　星宮いちご　パラレル　PR⭐︎",
+     "price": 9000,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m62647622019"
     },
     {
      "title": "アイカツ　アンコール　オーロラキスドレープスカート　パラレル　星宮いちご",
      "price": 8999,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m66870623488"
-    },
-    {
-     "title": "アイカツ アンコール オーロラキスドレープスカート パラレル",
-     "price": 9000,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m53869298326"
+     "url": "https://jp.mercari.com/item/m49991707580"
     }
    ],
-   "avg": 8960,
-   "checked": "2026-11-26"
+   "avg": 8999,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-03★",
@@ -2265,7 +2286,7 @@
     }
    ],
    "avg": 8912,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-04★",
@@ -2275,26 +2296,26 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツ！アンコール オーロラキスリボン PR パラレル",
-     "price": 10333,
+     "title": "アイカツ アンコール オーロラキスリボン プレミアムレア パラレル カード",
+     "price": 10999,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m28499445323"
+     "url": "https://jp.mercari.com/item/m53866183670"
+    },
+    {
+     "title": "アイカツ！アンコール オーロラキスリボン パラレル 星宮いちご",
+     "price": 10500,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m26599463092"
     },
     {
      "title": "アイカツ！アンコール オーロラキスリボン パラレル",
-     "price": 10333,
+     "price": 10999,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m57384197762"
-    },
-    {
-     "title": "オーロラキスリボン　アイカツ アイカツアンコール　星宮いちご　パラレル　PR",
-     "price": 10500,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m82172306807"
+     "url": "https://jp.mercari.com/item/m69717253936"
     }
    ],
-   "avg": 10389,
-   "checked": "2026-11-26"
+   "avg": 10833,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-33★",
@@ -2323,7 +2344,7 @@
     }
    ],
    "avg": 4581,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-34★",
@@ -2333,26 +2354,26 @@
    "n": 3,
    "items": [
     {
-     "title": "アイカツ! アンコール 天の川コズミックスカート　ワンショルダー パラレル PR",
-     "price": 8500,
+     "title": "アイカツ アンコール 天の川コズミックスカート PR★ パラレル",
+     "price": 3999,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m41216700899"
+     "url": "https://jp.mercari.com/item/m70381550967"
     },
     {
-     "title": "天の川コズミックスカート　パラレル　霧矢あおい　アイカツアンコール",
-     "price": 4222,
+     "title": "アイカツ！アンコール あおい 天の川コズミックスカート パラレル",
+     "price": 4250,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m26077464971"
+     "url": "https://jp.mercari.com/item/m69962341410"
     },
     {
      "title": "アイカツアンコール　天の川コズミックスカート　パラレル",
      "price": 4222,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m31761431389"
+     "url": "https://jp.mercari.com/item/m98926430594"
     }
    ],
-   "avg": 5648,
-   "checked": "2026-11-26"
+   "avg": 4157,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-35★",
@@ -2381,7 +2402,7 @@
     }
    ],
    "avg": 4248,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-36★",
@@ -2391,26 +2412,26 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツアンコール 天の川コズミックカチューシャ パラレル 霧矢あおい",
+     "price": 4222,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m44086236382"
+    },
+    {
+     "title": "アイカツ アンコール 天の川コズミックカチューシャ 霧矢あおい パラレル",
+     "price": 4333,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m32032197713"
+    },
+    {
      "title": "アイカツアンコール 天の川コズミックカチューシャ E1-36 PR パラレル",
      "price": 4100,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m31492685262"
-    },
-    {
-     "title": "アイカツ アンコール パラレル 天の川コズミックカチューシャ 霧矢あおい カード",
-     "price": 4499,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m87320760129"
-    },
-    {
-     "title": "アイカツアンコール 天の川コズミックカチューシャ E1-36 PR パラレル",
-     "price": 4299,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m39479309848"
     }
    ],
-   "avg": 4299,
-   "checked": "2026-11-26"
+   "avg": 4218,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-30★",
@@ -2420,26 +2441,26 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツアンコール オデットスワン パラレル 大空あかり",
+     "price": 46666,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m92660833603"
+    },
+    {
+     "title": "アイカツ！アンコール オデットスワン PR パラレル　②",
+     "price": 46666,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m12100134617"
+    },
+    {
      "title": "アイカツ！アンコール オデットスワン 大空あかり ER パラレル",
      "price": 40000,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m33637884511"
-    },
-    {
-     "title": "アイカツアンコール 大空あかり オデットスワン パラレル",
-     "price": 44444,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m63588446768"
-    },
-    {
-     "title": "アイカツアンコール 大空あかり オデットスワン ER パラレル",
-     "price": 43999,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m33147393991"
     }
    ],
-   "avg": 42814,
-   "checked": "2026-11-26"
+   "avg": 44444,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-31★",
@@ -2449,26 +2470,26 @@
    "n": 3,
    "items": [
     {
-     "title": "そら様　アイカツ アンコール リルリボンストーリー E1-31 ER パラレル",
-     "price": 9500,
+     "title": "アイカツ アンコール リルリボンストーリー パラレル 姫石らき ER",
+     "price": 9666,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m22602093746"
+     "url": "https://jp.mercari.com/item/m42417895264"
     },
     {
-     "title": "K*A様 アイカツ！アンコール アイカツカード リルリボンストーリー パラレル",
-     "price": 9900,
+     "title": "アイカツアンコール ER パラレル リルリボンストーリー 姫石らき",
+     "price": 8999,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m46400730354"
+     "url": "https://jp.mercari.com/item/m77000371672"
     },
     {
-     "title": "らき リルリボンストーリー パラレル アイカツアンコール",
-     "price": 7999,
+     "title": "アイカツ！アンコール リルリボンストーリー パラレル 姫石らき ER 本日限定",
+     "price": 9555,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m12322657208"
+     "url": "https://jp.mercari.com/item/m45367857037"
     }
    ],
-   "avg": 9133,
-   "checked": "2026-11-26"
+   "avg": 9407,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-32★",
@@ -2478,26 +2499,26 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツ アンコール オーロラペガサス パラレル ハナ",
+     "price": 7400,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m35194036930"
+    },
+    {
+     "title": "アイカツ アンコール オーロラペガサス パラレル ハナ",
+     "price": 7400,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m58890373655"
+    },
+    {
      "title": "アイカツアンコール　オーロラペガサス パラレル",
      "price": 7700,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m72056628921"
-    },
-    {
-     "title": "オーロラペガサス アイカツカード アンコール パラレル",
-     "price": 6886,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m33458835530"
-    },
-    {
-     "title": "アイカツ アンコール オーロラペガサス パラレル ハナ",
-     "price": 7200,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m35129301049"
     }
    ],
-   "avg": 7262,
-   "checked": "2026-11-26"
+   "avg": 7500,
+   "checked": "2026-11-27"
   },
   {
    "id": "aikatsu-encore1-E1-50★",
@@ -2507,49 +2528,55 @@
    "n": 3,
    "items": [
     {
+     "title": "アイカツ！アンコール　ドリームエミネンスコーデ　音城ノエル　パラレル",
+     "price": 9444,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m53997525340"
+    },
+    {
      "title": "アイカツアンコール ドリームエミネンス パラレル",
      "price": 8499,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m55798535519"
     },
     {
-     "title": "アイカツアンコール 音城ノエル ドリームエミネンス ER パラレル 状態A",
-     "price": 8000,
+     "title": "アイカツ アンコール　ドリームエミネンス パラレル　サイン",
+     "price": 8999,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m50749648061"
-    },
-    {
-     "title": "アイカツ　アンコール　 音城ノエル ドリームエミネンス パラレル",
-     "price": 7800,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m78195328714"
+     "url": "https://jp.mercari.com/item/m20270602301"
     }
    ],
-   "avg": 8100,
-   "checked": "2026-11-26"
+   "avg": 8981,
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-01",
    "set": "tama-scratch",
    "name": "まめっち30thスタイル",
    "search": "https://jp.mercari.com/search?keyword=STNGC01-01&status=sold_out&sort=created_time&order=desc",
-   "n": 2,
+   "n": 3,
    "items": [
+    {
+     "title": "たまごっち　ごっちカード　スクラッチ付き　まめっち　30thスタイル",
+     "price": 1110,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m25993508802"
+    },
+    {
+     "title": "スクラッチカードダス たまごっち にゅー! ごっちカード まめっち30th",
+     "price": 2977,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m59613703564"
+    },
     {
      "title": "マ*場様 にゅー！ごっちカード スクラッチカードダス SGR まめっち30thス",
      "price": 1111,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m25276755620"
-    },
-    {
-     "title": "にゅー！ごっちカード スクラッチカードダス SGR まめっち30thスタイル",
-     "price": 1399,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m76622650286"
     }
    ],
-   "avg": 1255,
-   "checked": "2026-11-26"
+   "avg": 1733,
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-06",
@@ -2558,7 +2585,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-06&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-07",
@@ -2567,7 +2594,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-07&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-08",
@@ -2579,12 +2606,12 @@
     {
      "title": "スクラッチカードダス にゅー！ごっちカード ラブリっち動画配信やさん",
      "price": 355,
-     "status": "ITEM_STATUS_TRADING",
+     "status": "ITEM_STATUS_SOLD_OUT",
      "url": "https://jp.mercari.com/item/m60095466424"
     }
    ],
    "avg": 355,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-09",
@@ -2593,7 +2620,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-09&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-10",
@@ -2622,7 +2649,7 @@
     }
    ],
    "avg": 398,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-11",
@@ -2631,7 +2658,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-11&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-12",
@@ -2648,7 +2675,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-13",
@@ -2665,7 +2692,7 @@
     }
    ],
    "avg": 399,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-14",
@@ -2674,7 +2701,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-14&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-15",
@@ -2683,7 +2710,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-15&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-16",
@@ -2692,7 +2719,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-16&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-17",
@@ -2725,7 +2752,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-20&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-21",
@@ -2742,7 +2769,7 @@
     }
    ],
    "avg": 499,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-22",
@@ -2751,7 +2778,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-22&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-23",
@@ -2768,7 +2795,7 @@
     }
    ],
    "avg": 333,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-24",
@@ -2785,7 +2812,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-25",
@@ -2802,7 +2829,7 @@
     }
    ],
    "avg": 550,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-26",
@@ -2811,7 +2838,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-26&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-27",
@@ -2820,7 +2847,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-27&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-28",
@@ -2829,7 +2856,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-28&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-29",
@@ -2846,7 +2873,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-30&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-31",
@@ -2855,7 +2882,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-31&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-32",
@@ -2872,7 +2899,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-33&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-34",
@@ -2881,7 +2908,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-34&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-35",
@@ -2890,7 +2917,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-35&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-36",
@@ -2899,7 +2926,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-36&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-37",
@@ -2916,7 +2943,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-38&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-39",
@@ -2925,7 +2952,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-39&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-40",
@@ -2934,7 +2961,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-40&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-41",
@@ -2983,7 +3010,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-46&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-47",
@@ -2992,7 +3019,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-47&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-48",
@@ -3017,7 +3044,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-50&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-51",
@@ -3026,7 +3053,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-51&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-52",
@@ -3035,7 +3062,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-52&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-53",
@@ -3060,7 +3087,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-55&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-56",
@@ -3069,7 +3096,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-56&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-57",
@@ -3078,7 +3105,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-57&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-58",
@@ -3111,7 +3138,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-61&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-62",
@@ -3136,7 +3163,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-64&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-65",
@@ -3153,7 +3180,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-66&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-67",
@@ -3194,7 +3221,7 @@
     }
    ],
    "avg": 399,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-71",
@@ -3219,7 +3246,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-73&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-74",
@@ -3228,7 +3255,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-74&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-75",
@@ -3237,7 +3264,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-75&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-76",
@@ -3254,7 +3281,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-77&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-78",
@@ -3263,7 +3290,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-78&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "STNGC01-79",
@@ -3280,7 +3307,7 @@
    "search": "https://jp.mercari.com/search?keyword=STNGC01-80&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   }
  ],
  "seals": [
@@ -3291,7 +3318,7 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%83%9C%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B7%E3%83%BC%E3%83%AB%20%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%B3%E3%82%AF&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "perfectbook2",
@@ -3300,7 +3327,7 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%83%9C%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B7%E3%83%BC%E3%83%AB%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88BOOK2&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "jra",
@@ -3309,6 +3336,12 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%83%9C%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B7%E3%83%BC%E3%83%AB%20JRA&status=sold_out&sort=created_time&order=desc",
    "n": 3,
    "items": [
+    {
+     "title": "JRA ボンボンドロップシール",
+     "price": 1100,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m25854003128"
+    },
     {
      "title": "JRA ボンボンドロップシール",
      "price": 1150,
@@ -3320,16 +3353,10 @@
      "price": 1199,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m33825620273"
-    },
-    {
-     "title": "JRA ボンボンドロップシール 競馬場限定",
-     "price": 1160,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m92157824297"
     }
    ],
-   "avg": 1170,
-   "checked": "2026-11-26"
+   "avg": 1150,
+   "checked": "2026-11-27"
   },
   {
    "id": "magical-jewel",
@@ -3339,26 +3366,26 @@
    "n": 3,
    "items": [
     {
+     "title": "まじかるちいかわ ボンボンドロップシール ジュエル",
+     "price": 3400,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m53845106670"
+    },
+    {
      "title": "超まじかるちいかわ ボンボンドロップシール",
      "price": 900,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m55036870448"
     },
     {
-     "title": "まじかるちいかわ ボンボンドロップシール 悪いバージョン",
-     "price": 800,
+     "title": "まじかるちいかわ ボンボンドロップシール ボンドロ",
+     "price": 980,
      "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m33846902474"
-    },
-    {
-     "title": "まじかるちいかわ ボンボンドロップシール ジュエル",
-     "price": 3444,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m53420399169"
+     "url": "https://jp.mercari.com/item/m59711155649"
     }
    ],
-   "avg": 1715,
-   "checked": "2026-11-26"
+   "avg": 1760,
+   "checked": "2026-11-27"
   },
   {
    "id": "tamamori30",
@@ -3381,7 +3408,7 @@
     }
    ],
    "avg": 824,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "jumbo-sealdass",
@@ -3390,6 +3417,12 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%81%9F%E3%81%BE%E3%81%94%E3%81%A3%E3%81%A1%20%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%9C%E3%82%B7%E3%83%BC%E3%83%AB%E3%83%80%E3%82%B9&status=sold_out&sort=created_time&order=desc",
    "n": 3,
    "items": [
+    {
+     "title": "たまごっち ジャンボシールダス2",
+     "price": 500,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m67883739954"
+    },
     {
      "title": "たまごっち ジャンボシールダス",
      "price": 300,
@@ -3401,16 +3434,10 @@
      "price": 300,
      "status": "ITEM_STATUS_SOLD_OUT",
      "url": "https://jp.mercari.com/item/m94646883542"
-    },
-    {
-     "title": "たまごっち ジャンボシールダス デザイン:3 ガチャガチャ",
-     "price": 333,
-     "status": "ITEM_STATUS_SOLD_OUT",
-     "url": "https://jp.mercari.com/item/m21693854638"
     }
    ],
-   "avg": 311,
-   "checked": "2026-11-26"
+   "avg": 367,
+   "checked": "2026-11-27"
   },
   {
    "id": "onepiece-choppers",
@@ -3419,7 +3446,7 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%83%9C%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B7%E3%83%BC%E3%83%AB%20%E3%83%81%E3%83%A7%E3%83%83%E3%83%91%E3%83%BC&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "mofusand-2",
@@ -3448,7 +3475,7 @@
     }
    ],
    "avg": 610,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "chiikawa-sushi",
@@ -3457,6 +3484,12 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%83%9C%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B7%E3%83%BC%E3%83%AB%20%E3%81%A1%E3%81%84%E3%81%8B%E3%82%8F%E5%AF%BF%E5%8F%B8&status=sold_out&sort=created_time&order=desc",
    "n": 3,
    "items": [
+    {
+     "title": "ちいかわらんど　ちいかわ寿司　Chiikawa Baby ボンボンドロップシール",
+     "price": 2700,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m65470442475"
+    },
     {
      "title": "ちいかわ寿司 baby ボンボンドロップシール",
      "price": 2222,
@@ -3468,16 +3501,10 @@
      "price": 1200,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m85798190333"
-    },
-    {
-     "title": "ちいかわらんど　ちいかわ寿司　Chiikawa Baby ボンボンドロップシール",
-     "price": 2700,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m79184099250"
     }
    ],
    "avg": 2041,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "okashi-chara",
@@ -3493,20 +3520,20 @@
      "url": "https://jp.mercari.com/item/m90968574838"
     },
     {
+     "title": "ボンボンドロップシール じゃがりこ",
+     "price": 539,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m28661367178"
+    },
+    {
      "title": "ボンボンドロップシール じゃがりこ お菓子　新品未開封",
      "price": 555,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m31667551750"
-    },
-    {
-     "title": "ボンボンドロップシール　ペコちゃん　じゃがりこ　コアラのマーチ　クッピーラムネ",
-     "price": 660,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m20755390612"
     }
    ],
-   "avg": 588,
-   "checked": "2026-11-26"
+   "avg": 548,
+   "checked": "2026-11-27"
   },
   {
    "id": "chocomin-4",
@@ -3535,7 +3562,7 @@
     }
    ],
    "avg": 765,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "crayon-shin",
@@ -3564,7 +3591,7 @@
     }
    ],
    "avg": 983,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "nameko",
@@ -3593,7 +3620,7 @@
     }
    ],
    "avg": 2690,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "mikko",
@@ -3610,7 +3637,7 @@
     }
    ],
    "avg": 300,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "sanrio-okinawa",
@@ -3619,6 +3646,12 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%83%9C%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B7%E3%83%BC%E3%83%AB%20%E3%82%B5%E3%83%B3%E3%83%AA%E3%82%AA%20%E6%B2%96%E7%B8%84&status=sold_out&sort=created_time&order=desc",
    "n": 3,
    "items": [
+    {
+     "title": "沖縄限定　ボンボンドロップ　シール　サンリオ",
+     "price": 1000,
+     "status": "ITEM_STATUS_TRADING",
+     "url": "https://jp.mercari.com/item/m21350291322"
+    },
     {
      "title": "サンリオキャラクターズ 沖縄限定 ボンボンドロップシール",
      "price": 1199,
@@ -3630,16 +3663,10 @@
      "price": 1000,
      "status": "ITEM_STATUS_TRADING",
      "url": "https://jp.mercari.com/item/m28287326873"
-    },
-    {
-     "title": "沖縄限定　サンリオキャラクターズ ボンボンドロップシール",
-     "price": 1250,
-     "status": "ITEM_STATUS_TRADING",
-     "url": "https://jp.mercari.com/item/m94927285511"
     }
    ],
-   "avg": 1150,
-   "checked": "2026-11-26"
+   "avg": 1066,
+   "checked": "2026-11-27"
   },
   {
    "id": "bluelock",
@@ -3656,7 +3683,7 @@
     }
    ],
    "avg": 400,
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   },
   {
    "id": "sakusakupanda",
@@ -3665,7 +3692,7 @@
    "search": "https://jp.mercari.com/search?keyword=%E3%83%9C%E3%83%B3%E3%83%9C%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B7%E3%83%BC%E3%83%AB%20%E3%81%95%E3%81%8F%E3%81%95%E3%81%8F%E3%81%B1%E3%82%93%E3%81%A0&status=sold_out&sort=created_time&order=desc",
    "n": 0,
    "items": [],
-   "checked": "2026-11-26"
+   "checked": "2026-11-27"
   }
  ]
 }
