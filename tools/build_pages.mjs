@@ -258,8 +258,8 @@ if (shopCats.length) {
 
 // ===== 検索ワード別のまとめページ（例：ごっちカード 当たり／相場／買取／一覧） =====
 const TOPICS = [
-  { slug: "gotchi", name: "ごっちカード", full: "たまごっち にゅー！ごっちカード", t: "tama", ids: ["tama-gotchi3", "tama-gotchi2", "tama-scratch", "tama-gotchi1"] },
-  { slug: "aikatsu-card", name: "アイカツアンコール", full: "アイカツ！アンコール", t: "aikatsu", ids: ["aikatsu-encore1"] },
+  { slug: "gotchi", name: "ごっちカード", alias: "たまごっちカード", full: "たまごっち にゅー！ごっちカード", t: "tama", ids: ["tama-gotchi3", "tama-gotchi2", "tama-scratch", "tama-gotchi1"] },
+  { slug: "aikatsu-card", name: "アイカツアンコール", alias: "アイカツカード", full: "アイカツ！アンコール", t: "aikatsu", ids: ["aikatsu-encore1"] },
 ];
 const topicPages = [];
 for (const tp of TOPICS) {
@@ -276,18 +276,18 @@ for (const tp of TOPICS) {
   const subNav = cur => `<div class="links">${sub.filter(([k]) => k !== cur).map(([k, l]) => `<a href="../${k}/"><span>${esc(tp.name)} ${l}</span>${ic("go")}</a>`).join("")}<a href="../"><span>${esc(tp.name)} まとめトップ</span>${ic("go")}</a></div>`;
   const top3 = priced.slice(0, 3).map(x => `${x.c.name}（${yen(x.m.avg)}）`).join("、");
   const pages = {
-    atari: { h: `${tp.name} 当たりランキング【高額カードTOP${Math.min(priced.length, 30)}】`, d: `${tp.full}の当たりカード（高額カード）を、メルカリで実際に売れた値段の高い順にランキング。1位は${top3 || "集計中"}。${ymd}時点。`,
+    atari: { h: `${tp.alias} 当たりランキング【${tp.name}全${its.length}弾・高額カードTOP${Math.min(priced.length, 30)}と値段】`, d: `${tp.alias}（${tp.full}）の当たりカード・高額カードを、メルカリで実際に売れた値段の高い順にランキング。当たりの値段は1位から${top3 || "集計中"}。${ymd}時点・毎朝更新。`,
       body: `<div class="sum"><p>${esc(tp.full)}の全${its.length}弾から、メルカリで<b>1枚で実際に売れた値段</b>が高いカードを並べています。</p></div><div class="rank">${priced.slice(0, 30).map(rankRow).join("")}</div>` ,
       qa: [[`${tp.name}の当たりカードは？`, priced[0] ? `${ymd}時点でいちばん高いのは${priced[0].c.name}（${priced[0].c.code}）で、メルカリで売れた値段の平均は${yen(priced[0].m.avg)}です。2位以下は${priced.slice(1, 3).map(x => x.c.name + "（" + yen(x.m.avg) + "）").join("、") || "集計中"}。` : "集計中です。"]] },
-    souba: { h: `${tp.name} 相場一覧【全${its.length}弾・シングル価格】`, d: `${tp.full}のシングルカード相場を弾ごとにまとめました。メルカリで実際に売れた1枚売りの直近3件の平均です（${ymd}時点）。`,
+    souba: { h: `${tp.alias} 相場一覧【${tp.name}全${its.length}弾・シングルの値段】`, d: `${tp.full}のシングルカード相場を弾ごとにまとめました。メルカリで実際に売れた1枚売りの直近3件の平均です（${ymd}時点）。`,
       body: its.map(it => { const xs = priced.filter(x => x.it === it); return xs.length ? `<section class="sec"><h2 class="h"><span class="tx">${esc(it.name)}（${xs.length}枚）</span></h2><div class="rank">${xs.map(rankRow).join("")}</div></section>` : ""; }).join(""),
       qa: [[`${tp.name}の相場はどうやって決めてる？`, "メルカリで売り切れになった（実際に売れた）個人の1枚売りから、直近3件の値段を平均しています。まとめ売り・お店の出品・鑑定品は入れていません。毎朝自動で更新しています。"]] },
-    kaitori: { h: `${tp.name} 買取相場・高く売るコツ【${ymd}】`, d: `${tp.full}を売るといくらになる？メルカリで実際に売れた値段をもとに、高く売れるカードと売るときのコツをまとめました。`,
+    kaitori: { h: `${tp.alias} 買取価格・相場【${tp.name}・高く売るコツ】`, d: `${tp.full}を売るといくらになる？メルカリで実際に売れた値段をもとに、高く売れるカードと売るときのコツをまとめました。`,
       body: `<div class="sum"><p>カードショップの買取価格は、ふつうフリマで売れる値段より安くなります。下の値段は<b>メルカリで実際に1枚で売れた値段</b>なので、「手元のカードがいくらで売れそうか」の目安にしてください。</p></div>
 <section class="sec"><h2 class="h"><span class="tx">高く売れるカード TOP10</span></h2><div class="rank">${priced.slice(0, 10).map(rankRow).join("")}</div></section>
 <section class="sec"><h2 class="h"><span class="tx">高く売るコツ</span></h2><div class="sum"><p>・値段が高いカードは、まとめずに<b>1枚ずつ</b>出すほうが高く売れやすいです。</p><p>・タイトルに<b>型番（${esc(all[0] ? all[0].c.code : "")}など）とカード名</b>を書くと、探している人に見つけてもらいやすくなります。</p><p>・出たらすぐスリーブに入れて、キズや折れを防ぎましょう。</p><p>・ショップの買取は手軽ですが、フリマより安いことが多いです。</p></div></section>`,
       qa: [[`${tp.name}の買取価格はいくら？`, `お店によって違いますが、フリマで売れる値段より安くなることが多いです。参考に、メルカリで実際に売れた値段は${top3 || "集計中"}です（${ymd}時点）。`]] },
-    list: { h: `${tp.name} 一覧【全${its.length}弾・${total}種のカードリスト】`, d: `${tp.full}の全カード一覧（型番・カード名）と、わかっている相場をまとめました。${its.map(x => x.name).join("・")}。`,
+    list: { h: `${tp.alias} 一覧【${tp.name}全${its.length}弾・${total}種のカードリスト】`, d: `${tp.full}の全カード一覧（型番・カード名）と、わかっている相場をまとめました。${its.map(x => x.name).join("・")}。`,
       body: its.map(it => { const xs = all.filter(x => x.it === it); return xs.length ? `<section class="sec"><h2 class="h"><span class="tx">${esc(it.name)}（${xs.length}種）</span></h2><div class="rank">${xs.map((x, n) => `<div class="crow"><div class="ph">${ic("star")}${img(x)}</div><div class="cb"><span class="code">${esc(x.c.code)}</span><p>${esc(x.c.name)}</p></div><div class="pr">${x.m ? `<b>${yen(x.m.avg)}</b><small>メルカリ平均</small>` : "<small>売れた記録なし</small>"}</div></div>`).join("")}</div></section>` : ""; }).join(""),
       qa: [[`${tp.name}は全部で何種類？`, `当サイトで確認できているのは全${its.length}弾・${total}種です（${its.map(x => x.name + " " + ((D.CARDS[x.id] || {}).cards || []).length + "種").join("、")}）。`]] },
   };
@@ -297,7 +297,7 @@ for (const tp of TOPICS) {
       ld: [faqLd(pg.qa), { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "トップ", item: PUB ? PUB + "/" : undefined }, { "@type": "ListItem", position: 2, name: tp.name + "まとめ", item: PUB ? PUB + `/${tp.slug}/` : undefined }, { "@type": "ListItem", position: 3, name: pg.h }] }] }));
     urls.push(`/${tp.slug}/${k}/`);
   }
-  const hubT = `${tp.name} 相場・当たり・買取・一覧まとめ【${ymd}更新】`;
+  const hubT = `${tp.alias}（${tp.name}）相場・当たり・買取・一覧まとめ【${ymd}更新】`;
   const qa = [[`${tp.name}の当たりは？`, pages.atari.qa[0][1]], [`${tp.name}の相場は？`, pages.souba.qa[0][1]], [`${tp.name}は全何種？`, pages.list.qa[0][1]]];
   write(`${tp.slug}/index.html`, page({ title: hubT + "｜ガールズホビー.com", desc: `${tp.full}（${tp.name}）の当たりカード・シングル相場・買取の目安・全カード一覧をまとめたページ。メルカリで実際に売れた値段を毎朝更新。`, url: `/${tp.slug}/`, depth: 1, theme: tp.t,
     body: `<p class="crumb"><a href="../">トップ</a> › ${esc(tp.name)}まとめ</p><div class="dan-h"><h1>${esc(hubT)}</h1><p class="legend">${esc(tp.full)}の情報をぜんぶまとめています</p></div>
