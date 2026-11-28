@@ -54,7 +54,7 @@ function page({ title, desc, url, depth, theme, body, ld }) {
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM3QZ0X5T1"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-ZM3QZ0X5T1");
 document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href]");if(!a)return;var h=a.href;var m=/amazon\\.|amzn\\./.test(h)?"amazon":/rakuten\\.|r10\\.to/.test(h)?"rakuten":/mercari\\./.test(h)?"mercari":"";if(!m)return;gtag("event","affiliate_click",{mall:m,link_url:h,link_text:(a.innerText||"").slice(0,60),page_path:location.pathname+location.hash});},true);</script>
-<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest"><meta name="apple-mobile-web-app-title" content="ガールズホビー"><meta name="application-name" content="ガールズホビー"><meta name="theme-color" content="#e93e8c">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"><link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png"><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png"><link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest"><meta name="apple-mobile-web-app-title" content="ガールズホビー"><meta name="application-name" content="ガールズホビー"><meta name="theme-color" content="#e93e8c">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 ${PUB ? `<link rel="canonical" href="${esc(PUB + url)}">` : ""}
@@ -70,7 +70,7 @@ ${ld ? `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\
 </head>
 <body>
 ${sprite}
-<header class="top"><div class="wrap toprow"><a class="brand" href="${up}"><span><b>ガールズホビー.com</b><small>女の子に人気のカード・シールの発売日・相場・抽選まとめ</small></span></a></div></header>
+<header class="top"><div class="wrap toprow"><a class="brand" href="${up}"><img class="brand-logo" src="/logo-face.png" width="40" height="40" alt=""><span><b>ガールズホビー.com</b><small>女の子に人気のカード・シールの発売日・相場・抽選まとめ</small></span></a></div></header>
 <main class="wrap">${body}</main>
 <footer><div class="wrap">
 <p>当サイトは楽天アフィリエイト・Amazonアソシエイトを利用しています。リンク先で購入されると、当サイトに紹介料が入ることがあります。</p>
