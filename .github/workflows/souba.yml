@@ -5,6 +5,9 @@ on:
   workflow_dispatch: {}       # Actionsタブの「Run workflow」で手動実行もできる
 permissions:
   contents: write
+concurrency:
+  group: souba
+  cancel-in-progress: false
 jobs:
   souba:
     runs-on: ubuntu-latest
@@ -44,11 +47,11 @@ jobs:
           git config user.email "souba-bot@users.noreply.github.com"
           git add -A site
           git diff --cached --quiet || git commit -m "商品画像とシールニュースを更新"
-          git pull --rebase -q origin main && git push
+          git pull --rebase -X theirs -q origin main && git push
       - run: python bot/mercari_souba.py
         timeout-minutes: 120
       - name: 結果を保存
         run: |
           git add -A site
           git diff --cached --quiet || git commit -m "相場を更新"
-          git pull --rebase -q origin main && git push
+          git pull --rebase -X theirs -q origin main && git push
