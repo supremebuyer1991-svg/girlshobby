@@ -1,0 +1,218 @@
+{
+ "lotteries": [
+  {
+   "product": "たまごっち カスタムキーリング",
+   "series": "たまごっち",
+   "store": "セブン-イレブン",
+   "kind": "first_come",
+   "start": "2026-11-23",
+   "end": null,
+   "announce": null,
+   "method": "店頭",
+   "conditions": "セブン-イレブン限定販売（全8種）",
+   "price": "418円",
+   "url": "https://www.inside-games.jp/article/2026/11/23/191420.html",
+   "channel": "store"
+  },
+  {
+   "product": "ちいかわクリスマスマーケット限定グッズ（一部商品）",
+   "series": "ちいかわクリスマスマーケット",
+   "store": "ちいかわぽけっとグッズストア",
+   "kind": "first_come",
+   "start": "2026-11-24T11:00:00+09:00",
+   "end": null,
+   "announce": null,
+   "method": "Web",
+   "conditions": null,
+   "price": null,
+   "url": "https://chiikawamarket.jp/",
+   "channel": "online",
+   "facts": []
+  },
+  {
+   "product": "一番くじ Tamagotchi ～夜空で発見！？12星座とたまごっち～",
+   "series": "Tamagotchi",
+   "store": "BANDAI SPIRITS",
+   "kind": "release",
+   "start": null,
+   "end": "2026-11-21",
+   "announce": null,
+   "method": "店頭",
+   "conditions": null,
+   "price": null,
+   "url": "https://1kuji.com/products/tamagotchi6",
+   "channel": "store",
+   "facts": [
+    "店頭販売のみで、オンライン販売の記載はない",
+    "2026年11月21日(土)より発売予定（時刻の記載なし）",
+    "日本全国のコンビニ・書店・ホビーショップなどで販売（一番くじ全体の説明）"
+   ]
+  },
+  {
+   "product": "ボンボンドロップシール各種（ちいかわ・サンリオ・ナルミヤ・しずくちゃん 全22種）",
+   "series": "ボンボンドロップシール",
+   "store": "ロフトネットストア",
+   "kind": "lottery",
+   "start": "2026-11-16T12:00:00+09:00",
+   "end": "2026-11-19T23:59:00+09:00",
+   "announce": "2026-11-25T12:00:00+09:00",
+   "method": "Web",
+   "conditions": "会員登録が必要（ブラウザから応募）。商品ごとに1人1回まで。当選後は購入可能期間内に購入手続き（クレジットカード決済）が必要。",
+   "price": null,
+   "url": "https://www.loft.co.jp/store/r/rlo000011/",
+   "channel": "online",
+   "facts": [
+    "抽選参加には会員登録が必要（11/9よりロフト会員へ移行、7iD利用者は初回のみ引継ぎが必要）",
+    "応募はロフトアプリではなくブラウザから行う",
+    "抽選応募は商品ごとにお一人様1回まで",
+    "当選後は購入可能期間内に購入手続きの完了が必要",
+    "当選発表は11月25日(水) 12時ごろ",
+    "当選購入時の支払いはクレジットカード決済"
+   ]
+  },
+  {
+   "product": "EXILE TRIBE ボンボンドロップシール（全7種）",
+   "series": "EXILE TRIBE",
+   "store": "EXILE TRIBE STATION TOKYO / OSAKA / ONLINE STORE",
+   "kind": "release",
+   "start": "2026-11-20T12:00:00+09:00",
+   "end": "2026-11-20T12:00:00+09:00",
+   "announce": null,
+   "method": "Web/店頭",
+   "conditions": null,
+   "price": "800円（税込）",
+   "url": "https://www.exiletribestation.jp/item/detail/1_5_10126120104_1/1114",
+   "channel": "online",
+   "facts": [
+    "全7種、各800円（税込）",
+    "東京・大阪・オンラインは12:00、横浜は11:00から",
+    "横浜はby Tree Village YOKOHAMAで販売",
+    "発売後の在庫・入店方法・購入制限は各販売先に確認",
+    "11/15時点で公式通販は「COMING SOON」表示",
+    "素材はPVC（公式商品ページ記載）"
+   ]
+  },
+  {
+   "product": "EXILE TRIBE ボンボンドロップシール EXILE･EXILE THE SECOND",
+   "series": "EXILE TRIBE",
+   "store": "EXILE TRIBE STATION",
+   "kind": "release",
+   "start": "2026-11-20T12:00:00+09:00",
+   "end": "2026-11-20",
+   "announce": null,
+   "method": "Web/店頭",
+   "conditions": null,
+   "price": "800円（税込）",
+   "url": "https://www.exiletribestation.jp/item/detail/1_2_10126120102_1/1100",
+   "channel": "online",
+   "facts": [
+    "全7種、各800円（税込）",
+    "横浜（by Tree Village YOKOHAMA）は11:00から販売",
+    "素材はPVC（公式商品ページ記載）",
+    "全7種を1枚ずつ買うと商品代金は5,600円（送料等は別途）",
+    "11/15時点の公式通販は「COMING SOON」表示",
+    "在庫・入店方法・購入制限は各販売先の最新案内を確認"
+   ]
+  }
+ ],
+ "kaitori": [
+  {
+   "shop": "家電市場",
+   "name": "Tamagotchi Paradise [White Glacier]",
+   "jan": "4582770015775",
+   "price": 5000,
+   "at": "2026-11-28"
+  },
+  {
+   "shop": "家電市場",
+   "name": "BANDAI たまごっちパラダイス Tamagotchi Paradise - Blue Water",
+   "jan": "4582769733352",
+   "price": 4600,
+   "at": "2026-11-28"
+  },
+  {
+   "shop": "家電市場",
+   "name": "BANDAI たまごっちパラダイス Tamagotchi Paradise - Jade Forest",
+   "jan": "4582769806223",
+   "price": 4000,
+   "at": "2026-11-28"
+  },
+  {
+   "shop": "家電市場",
+   "name": "BANDAI たまごっちパラダイス Tamagotchi Paradise - Pink Land",
+   "jan": "4582769733345",
+   "price": 3800,
+   "at": "2026-11-28"
+  },
+  {
+   "shop": "家電市場",
+   "name": "BANDAI たまごっちパラダイス Tamagotchi Paradise - Purple Sky",
+   "jan": "4582769733369",
+   "price": 3800,
+   "at": "2026-11-28"
+  },
+  {
+   "shop": "家電市場",
+   "name": "BANDAI たまごっちパラダイス Tamagotchi Paradise - Purple Sky 竹下☆ぱらだいす＆しなこスペシャルセット",
+   "jan": "4582769808258",
+   "price": 9700,
+   "at": "2026-11-28"
+  },
+  {
+   "shop": "家電市場",
+   "name": "たまごっち ユニ (Tamagotchi Uni) Prism White プリズムホワイト",
+   "jan": "4582769904455",
+   "price": 12000,
+   "at": "2026-11-28"
+  },
+  {
+   "shop": "家電市場",
+   "name": "たまごっち ユニ (Tamagotchi Uni) Aurora Pink オーロラピンク",
+   "jan": "4582769904431",
+   "price": 11200,
+   "at": "2026-11-28"
+  },
+  {
+   "shop": "SY買取センター",
+   "name": "たまごっちのプチプチおみせっち おまちど~さま! Nintendo Switch 2 Edition",
+   "jan": "4573608182387",
+   "price": 3550,
+   "at": "2026-11-27"
+  },
+  {
+   "shop": "ケータイゴッド",
+   "name": "たまごっちパラダイス Tamagotchi Paradise - Blue Water",
+   "jan": "4582769733352",
+   "price": 3000,
+   "at": "2026-11-28"
+  },
+  {
+   "shop": "ケータイゴッド",
+   "name": "たまごっちパラダイス Tamagotchi Paradise -Purple Sky",
+   "jan": "4582769733369",
+   "price": 3000,
+   "at": "2026-11-28"
+  },
+  {
+   "shop": "ケータイゴッド",
+   "name": "たまごっちパラダイス Tamagotchi Paradise - Pink Land",
+   "jan": "4582769733345",
+   "price": 3000,
+   "at": "2026-11-28"
+  },
+  {
+   "shop": "ケータイゴッド",
+   "name": "たまごっちパラダイス Tamagotchi Paradise -Jade Forest",
+   "jan": "4582769806223",
+   "price": 3000,
+   "at": "2026-11-28"
+  },
+  {
+   "shop": "ケータイゴッド",
+   "name": "たまごっちパラダイス Tamagotchi Paradise -Purple Sky 竹下☆ぱらだいす＆しなこスペシャルセット",
+   "jan": "4582769808258",
+   "price": 7000,
+   "at": "2026-11-28"
+  }
+ ]
+}
